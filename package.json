@@ -16,9 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "runtests": "react-scripts test",
-    "eject": "react-scripts eject",
-    "test": "jest --forceExit"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
