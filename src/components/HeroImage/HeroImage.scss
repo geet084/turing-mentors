@@ -1,0 +1,25 @@
+.hero-image {
+  width: 100vw;
+}
+
+.hero-image-bar {
+  display: flex;
+  margin-top: -3px;
+}
+
+.hero-image-bar div {
+  height: 1.25vh;
+  width: 33.33%;
+}
+
+.color-left {
+  background-color: #f9ae06;
+}
+
+.color-mid {
+  background-color: #ef3852;
+}
+
+.color-right {
+  background-color: #12f1fc;
+}
