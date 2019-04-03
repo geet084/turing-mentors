@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 export class Display extends Component {
   render() {
     return (
-      <div>Display</div>
+      <main className="display">
+        <div>Mentee</div>
+        <div>Mentor</div>
+      </main>
     )
   }
 }

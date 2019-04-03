@@ -8,7 +8,7 @@ export const Nav = () => {
         <img className="logo" src={logo} alt="turing logo" />
       </div>
       <p className="hamburger">
-        <i class="fas fa-bars"></i>
+        <i className="fas fa-bars"></i>
       </p>
       <ul className="links">
         <li>Home</li>
