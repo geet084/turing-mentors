@@ -1,21 +1,22 @@
 import React from 'react';
 import logo from '../../images/t-logo.png'
+import { Link, NavLink } from 'react-router-dom';
 
 export const Nav = () => {
   return (
     <nav className="nav">
-      <div>
+      <Link to='/'>
         <img className="logo" src={logo} alt="turing logo" />
-      </div>
+      </Link>
       <p className="hamburger">
         <i className="fas fa-bars"></i>
       </p>
-      <ul className="links">
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact Us</li>
-        <li>Contribute</li>
-      </ul>
+      <div className="links">
+        <NavLink to='/'>Home</NavLink>
+        <NavLink to='/about'>About</NavLink>
+        <NavLink to='contact'>Contact Us</NavLink>
+        <NavLink to='contribute'>Contribute</NavLink>
+      </div>
     </nav>
   )
 }

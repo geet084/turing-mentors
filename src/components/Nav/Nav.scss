@@ -20,8 +20,9 @@
   justify-content: space-around;
 }
 
-.links li {
+.links a {
   margin: 0 10px;
+  text-decoration: none;
   color: #5f5f5f;
   font-weight: 600;
   &:hover {
@@ -37,15 +38,32 @@
   color: #5f5f5f;
 }
 
-@media screen and (max-width: 480px) {
-  .links li {
+@media screen and (max-width: 520px) {
+  .links a:first-child {
     display: none;
   }
+}
+
+@media screen and (max-width: 455px) {
+  .links a:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .links a {
+    display: none;
+  }
+  
   .hamburger {
     display: unset;
     position: absolute;
     top: 25px;
     right: 24px;
     cursor: pointer;
+    &:hover {
+      color: #12f1fc;
+      cursor: pointer;
+    }
   }
 }

@@ -19,13 +19,15 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <div>
+        <Link
+          to="/"
+        >
           <img
             alt="turing logo"
             className="logo"
             src="t-logo.png"
           />
-        </div>,
+        </Link>,
         <p
           className="hamburger"
         >
@@ -33,22 +35,30 @@ ShallowWrapper {
             className="fas fa-bars"
           />
         </p>,
-        <ul
+        <div
           className="links"
         >
-          <li>
+          <NavLink
+            to="/"
+          >
             Home
-          </li>
-          <li>
+          </NavLink>
+          <NavLink
+            to="/about"
+          >
             About
-          </li>
-          <li>
+          </NavLink>
+          <NavLink
+            to="contact"
+          >
             Contact Us
-          </li>
-          <li>
+          </NavLink>
+          <NavLink
+            to="contribute"
+          >
             Contribute
-          </li>
-        </ul>,
+          </NavLink>
+        </div>,
       ],
       "className": "nav",
     },
@@ -57,13 +67,14 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
           "children": <img
             alt="turing logo"
             className="logo"
             src="t-logo.png"
           />,
+          "to": "/",
         },
         "ref": null,
         "rendered": Object {
@@ -79,7 +90,7 @@ ShallowWrapper {
           "rendered": null,
           "type": "img",
         },
-        "type": "div",
+        "type": [Function],
       },
       Object {
         "instance": null,
@@ -111,18 +122,26 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <li>
+            <NavLink
+              to="/"
+            >
               Home
-            </li>,
-            <li>
+            </NavLink>,
+            <NavLink
+              to="/about"
+            >
               About
-            </li>,
-            <li>
+            </NavLink>,
+            <NavLink
+              to="contact"
+            >
               Contact Us
-            </li>,
-            <li>
+            </NavLink>,
+            <NavLink
+              to="contribute"
+            >
               Contribute
-            </li>,
+            </NavLink>,
           ],
           "className": "links",
         },
@@ -131,49 +150,53 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
               "children": "Home",
+              "to": "/",
             },
             "ref": null,
             "rendered": "Home",
-            "type": "li",
+            "type": [Function],
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
               "children": "About",
+              "to": "/about",
             },
             "ref": null,
             "rendered": "About",
-            "type": "li",
+            "type": [Function],
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
               "children": "Contact Us",
+              "to": "contact",
             },
             "ref": null,
             "rendered": "Contact Us",
-            "type": "li",
+            "type": [Function],
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
               "children": "Contribute",
+              "to": "contribute",
             },
             "ref": null,
             "rendered": "Contribute",
-            "type": "li",
+            "type": [Function],
           },
         ],
-        "type": "ul",
+        "type": "div",
       },
     ],
     "type": "nav",
@@ -185,13 +208,15 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <div>
+          <Link
+            to="/"
+          >
             <img
               alt="turing logo"
               className="logo"
               src="t-logo.png"
             />
-          </div>,
+          </Link>,
           <p
             className="hamburger"
           >
@@ -199,22 +224,30 @@ ShallowWrapper {
               className="fas fa-bars"
             />
           </p>,
-          <ul
+          <div
             className="links"
           >
-            <li>
+            <NavLink
+              to="/"
+            >
               Home
-            </li>
-            <li>
+            </NavLink>
+            <NavLink
+              to="/about"
+            >
               About
-            </li>
-            <li>
+            </NavLink>
+            <NavLink
+              to="contact"
+            >
               Contact Us
-            </li>
-            <li>
+            </NavLink>
+            <NavLink
+              to="contribute"
+            >
               Contribute
-            </li>
-          </ul>,
+            </NavLink>
+          </div>,
         ],
         "className": "nav",
       },
@@ -223,13 +256,14 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
             "children": <img
               alt="turing logo"
               className="logo"
               src="t-logo.png"
             />,
+            "to": "/",
           },
           "ref": null,
           "rendered": Object {
@@ -245,7 +279,7 @@ ShallowWrapper {
             "rendered": null,
             "type": "img",
           },
-          "type": "div",
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -277,18 +311,26 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <li>
+              <NavLink
+                to="/"
+              >
                 Home
-              </li>,
-              <li>
+              </NavLink>,
+              <NavLink
+                to="/about"
+              >
                 About
-              </li>,
-              <li>
+              </NavLink>,
+              <NavLink
+                to="contact"
+              >
                 Contact Us
-              </li>,
-              <li>
+              </NavLink>,
+              <NavLink
+                to="contribute"
+              >
                 Contribute
-              </li>,
+              </NavLink>,
             ],
             "className": "links",
           },
@@ -297,49 +339,53 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
                 "children": "Home",
+                "to": "/",
               },
               "ref": null,
               "rendered": "Home",
-              "type": "li",
+              "type": [Function],
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
                 "children": "About",
+                "to": "/about",
               },
               "ref": null,
               "rendered": "About",
-              "type": "li",
+              "type": [Function],
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
                 "children": "Contact Us",
+                "to": "contact",
               },
               "ref": null,
               "rendered": "Contact Us",
-              "type": "li",
+              "type": [Function],
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
                 "children": "Contribute",
+                "to": "contribute",
               },
               "ref": null,
               "rendered": "Contribute",
-              "type": "li",
+              "type": [Function],
             },
           ],
-          "type": "ul",
+          "type": "div",
         },
       ],
       "type": "nav",
