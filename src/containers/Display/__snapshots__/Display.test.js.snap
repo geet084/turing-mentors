@@ -25,12 +25,17 @@ ShallowWrapper {
           path="/"
         />
         <Route
+          component={[Function]}
+          exact={true}
           path="/mentor"
-          render={[Function]}
         />
         <Route
+          component={[Function]}
+          exact={true}
           path="/mentee"
-          render={[Function]}
+        />
+        <Route
+          component={[Function]}
         />
       </Switch>,
       "className": "display",
@@ -48,12 +53,17 @@ ShallowWrapper {
             path="/"
           />,
           <Route
+            component={[Function]}
+            exact={true}
             path="/mentor"
-            render={[Function]}
           />,
           <Route
+            component={[Function]}
+            exact={true}
             path="/mentee"
-            render={[Function]}
+          />,
+          <Route
+            component={[Function]}
           />,
         ],
       },
@@ -77,8 +87,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "component": [Function],
+            "exact": true,
             "path": "/mentor",
-            "render": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -89,8 +100,20 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "component": [Function],
+            "exact": true,
             "path": "/mentee",
-            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -114,12 +137,17 @@ ShallowWrapper {
             path="/"
           />
           <Route
+            component={[Function]}
+            exact={true}
             path="/mentor"
-            render={[Function]}
           />
           <Route
+            component={[Function]}
+            exact={true}
             path="/mentee"
-            render={[Function]}
+          />
+          <Route
+            component={[Function]}
           />
         </Switch>,
         "className": "display",
@@ -137,12 +165,17 @@ ShallowWrapper {
               path="/"
             />,
             <Route
+              component={[Function]}
+              exact={true}
               path="/mentor"
-              render={[Function]}
             />,
             <Route
+              component={[Function]}
+              exact={true}
               path="/mentee"
-              render={[Function]}
+            />,
+            <Route
+              component={[Function]}
             />,
           ],
         },
@@ -166,8 +199,9 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
+              "component": [Function],
+              "exact": true,
               "path": "/mentor",
-              "render": [Function],
             },
             "ref": null,
             "rendered": null,
@@ -178,8 +212,20 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
+              "component": [Function],
+              "exact": true,
               "path": "/mentee",
-              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
             },
             "ref": null,
             "rendered": null,
