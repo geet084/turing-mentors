@@ -1,16 +1,4 @@
 .display {
   display: flex;
   justify-content: center;
-  padding: 30px;
-}
-
-.display div {
-  color: grey;
-  font-size: 2.25rem;
-  margin: 0 25px;
-  &:hover {
-    margin-bottom: -5px;
-    border-bottom: 5px solid #12f1fc;
-    cursor: pointer;
-  }
 }
