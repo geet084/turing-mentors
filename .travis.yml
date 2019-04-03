@@ -1,14 +1,8 @@
 language: node_js
 node_js:
 - node
-# services:
-# - postgresql
 before_script:
 - npm run test
-# before_script:
-# - psql -c 'create database projects_test;' -U postgres
-# - npm run migrate-test
-# - npm run seed-test
 notifications:
   email: false
 deploy:
@@ -16,7 +10,4 @@ deploy:
   api_key:
     secure: cb3XF0AzuFY2vo5yWyl4yvgwa7RxT3ZTloMvhPLrW6zjlrG/bbMWWORfBDCm7snfQMMHSW897E6rgaKqyItx0MgbYYk9meHh/NoqNlQLM1nVcLGaPKqoIQESrmT5WMJYLBahWOKrAunCryG/w29tUiLs2H+zxxavdHIurIYtZ55jf9CzUIxPRZ7SjcMQoV6oLv/LpTln6i2/wSjZC+MOaz8eO5tpD9G5TWOQ/CeyQJOF0pK29zXYnCgqKZ6NPqZL8JufCKq4PhBGX5+3zdm+rUqZgdVbZehPqCbc0UiMuicIW/ipeGyBmBgajcPtLQG7vqMO/AER23pWvZquUC0AJE7qoZdpHyJXggV/tFwTUB3nJ1MwQlhVoup2uGf3p6ma0fCZ1Sbio/7ISe2DBB+QPtjg4uzLeI3vpeuyh26qBsi3MMxVzmX2H8LEVZI39TSezNd+bkbgwd5tm2Xa6Aq+wIV0YzsmcdBBu/ypmSl9UT6h9Iw7wmp/9m3xdbQMWfXo8IoyUQEn7UCeS7kLQ4PJCJAP3kMJcaa3kTupQVAVG8rpd+IxFp/wImexU6AU50P9N0ThOt0BKi69/rtGUpc6+csOgGcYpt9EhvzfXxPTjWCYuzdBJXvHcyQ7949VwxnctEWJSj1wXJC9HQM80AhM2YvaCqi7RdIc8wJpfuEoB4Q=
   app: turing-mentors
-  # run:
-  # - knex migrate:latest
-  # - knex seed:run
   skip_cleanup: true
