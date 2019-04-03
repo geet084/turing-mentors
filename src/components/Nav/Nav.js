@@ -7,6 +7,9 @@ export const Nav = () => {
       <div>
         <img className="logo" src={logo} alt="turing logo" />
       </div>
+      <p className="hamburger">
+        <i class="fas fa-bars"></i>
+      </p>
       <ul className="links">
         <li>Home</li>
         <li>About</li>

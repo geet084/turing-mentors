@@ -8,6 +8,9 @@
 .logo {
   width: 85px;
   height: 85px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .links {
@@ -24,5 +27,24 @@
   &:hover {
     margin-bottom: -3px;
     border-bottom: 3px solid #12f1fc;
+  }
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  color: #5f5f5f;
+}
+
+@media screen and (max-width: 480px) {
+  .links li {
+    display: none;
+  }
+  .hamburger {
+    display: unset;
+    position: absolute;
+    top: 25px;
+    right: 24px;
+    cursor: pointer;
   }
 }
