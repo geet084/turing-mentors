@@ -10,6 +10,11 @@ export class UserBackground extends Component {
     this.props.updateUserInfo([this.state, 'userSchedule']);
   }
 
+  goBack = (e) => {
+    e.preventDefault();
+    this.props.updateUserInfo([this.state, 'userBio']);
+  }
+
   handleChange = ({ target }) => {
     this.setState({ [target.name]: target.value })
   }
@@ -30,6 +35,7 @@ export class UserBackground extends Component {
             value={background}
             onChange={this.handleChange} />
         </form>
+        <button className="next-btn" onClick={this.goBack}>Back</button>
         <button className="next-btn" onClick={this.submitForm}>Next</button>
         <span className="pages">3 of 4</span>
       </div>
