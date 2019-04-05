@@ -13,6 +13,11 @@ export class UserBio extends Component {
     this.props.updateUserInfo([this.state, 'userBackground']);
   }
 
+  goBack = (e) => {
+    e.preventDefault();
+    this.props.updateUserInfo([this.state, 'userInfo']);
+  }
+
   handleChange = ({ target }) => {
     this.setState({ [target.name]: target.value })
   }
@@ -27,6 +32,7 @@ export class UserBio extends Component {
             <CreateInput field="email" text="Email Address" value={email} handleChange={this.handleChange} max="28" />
             <CreateInput field="phone" text="Phone Number" value={phone} handleChange={this.handleChange} max="12" />
         </form>
+        <button className="next-btn" onClick={this.goBack}>Back</button>
         <button className="next-btn" onClick={this.submitForm}>Next</button>
         <span className="pages">2 of 4</span>
       </div>
