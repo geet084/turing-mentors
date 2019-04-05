@@ -3,6 +3,7 @@ import UserInfo from '../../components/UserInfo/UserInfo';
 import UserBio from '../../components/UserBio/UserBio';
 import UserBackground from '../../components/UserBackground/UserBackground';
 import UserSchedule from '../../components/UserSchedule/UserSchedule';
+import { Link } from 'react-router-dom';
 
 export class Mentee extends Component {
   state = {
@@ -31,7 +32,7 @@ export class Mentee extends Component {
         {currentSection === 'userBio' && <UserBio updateUserInfo={this.updateUserInfo} />}
         {currentSection === 'userBackground' && <UserBackground updateUserInfo={this.updateUserInfo} />}
         {currentSection === 'userSchedule' && <UserSchedule updateUserInfo={this.updateUserInfo} />}
-        {this.state.currentSection === 'complete' && <div><h1>ALL DONE</h1></div>}
+        {this.state.currentSection === 'complete' && <div><h1>Thank you!</h1><Link to='/'>Return Home</Link> </div>}
       </div>
     )
   }
