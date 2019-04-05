@@ -18,10 +18,34 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "MENTEE FORM HERE",
+      "children": Array [
+        <UserInfo
+          updateUserInfo={[Function]}
+        />,
+        false,
+        false,
+        false,
+        false,
+      ],
     },
     "ref": null,
-    "rendered": "MENTEE FORM HERE",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "updateUserInfo": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      false,
+      false,
+      false,
+      false,
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -30,10 +54,34 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "MENTEE FORM HERE",
+        "children": Array [
+          <UserInfo
+            updateUserInfo={[Function]}
+          />,
+          false,
+          false,
+          false,
+          false,
+        ],
       },
       "ref": null,
-      "rendered": "MENTEE FORM HERE",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "updateUserInfo": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        false,
+        false,
+        false,
+        false,
+      ],
       "type": "div",
     },
   ],
