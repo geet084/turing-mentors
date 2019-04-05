@@ -3,7 +3,7 @@
 exports[`Mentee should have match the correct snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Mentee />,
+  Symbol(enzyme.__unrendered__): <Connect(Mentee) />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -16,73 +16,59 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
-      "children": Array [
-        <UserInfo
-          updateUserInfo={[Function]}
-        />,
-        false,
-        false,
-        false,
-        false,
-      ],
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "updateUserInfo": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "_calculateChangedBits": null,
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": [Circular],
         },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": null,
+        "_currentValue2": null,
+        "_threadCount": 0,
       },
-      false,
-      false,
-      false,
-      false,
-    ],
-    "type": "div",
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
-        "children": Array [
-          <UserInfo
-            updateUserInfo={[Function]}
-          />,
-          false,
-          false,
-          false,
-          false,
-        ],
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "updateUserInfo": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "_calculateChangedBits": null,
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": [Circular],
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
           },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": null,
+          "_currentValue2": null,
+          "_threadCount": 0,
         },
-        false,
-        false,
-        false,
-        false,
-      ],
-      "type": "div",
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {

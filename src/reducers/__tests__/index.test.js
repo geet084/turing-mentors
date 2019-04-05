@@ -8,6 +8,7 @@ describe('rootReducer', () => {
     let expected = {
       isLoading: true,
       error: '',
+      form: {},
     };
 
     expect(store.getState()).toEqual(expected);
