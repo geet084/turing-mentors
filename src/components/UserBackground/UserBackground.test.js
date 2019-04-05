@@ -1,12 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import NotFound from './NotFound';
+import UserBackground from './UserBackground';
 
-describe('NotFound', () => {
+describe('UserBackground', () => {
   let wrapper;
-
   it('should match the correct snapshot', () => {
-    wrapper = shallow(<NotFound />);
+    wrapper = shallow(<UserBackground />);
     expect(wrapper).toMatchSnapshot();
   });
 });
