@@ -4,20 +4,26 @@ import UserBio from '../../components/UserBio/UserBio';
 import UserBackground from '../../components/UserBackground/UserBackground';
 import UserSchedule from '../../components/UserSchedule/UserSchedule';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { updateForm } from '../../actions';
 
-export class Mentee extends Component {
+class Mentee extends Component {
   state = {
     userInfo: {},
     userBio: {},
+    userBackground: {},
     userSchedule: {},
     currentSection: 'userInfo',
+    // currentSection: 'userSchedule',
   }
 
   updateUserInfo = (info) => {
     const updatedSection = this.state.currentSection;
     const currentSection = info.pop();
+    const data = info.pop()
 
-    this.setState({ [updatedSection]: info.pop(), currentSection })
+    this.setState({ [updatedSection]: data, currentSection })
+    this.props.updateForm({ ...this.props.form, ...data })
   }
 
   submitForm = (e) => {
@@ -38,4 +44,12 @@ export class Mentee extends Component {
   }
 }
 
-export default Mentee;
+export const mapStateToProps = (state) => ({
+  form: state.form,
+})
+
+export const mapDispatchToProps = (dispatch) => ({
+  updateForm: (form) => dispatch(updateForm(form)),
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(Mentee);
