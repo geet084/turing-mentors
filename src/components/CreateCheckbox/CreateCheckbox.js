@@ -4,16 +4,15 @@ export class CreateCheckbox extends Component {
 
   render() {
     return (
-      <div>
-        <label>
-          {this.props.name}
-          <input
-            type="checkbox"
-            name={this.props.field}
-            value={this.props.value}
-            onChange={this.props.checkBoxes}
-          />
-        </label>
+      <div className="checkboxes">
+        <input
+          type="checkbox"
+          id={this.props.value}
+          name={this.props.field}
+          value={this.props.value}
+          onChange={this.props.checkBoxes}
+        />
+        <label htmlFor={this.props.value}>{this.props.name}</label>
       </div>
     )
   }
