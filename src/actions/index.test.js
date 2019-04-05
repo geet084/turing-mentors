@@ -16,4 +16,17 @@ describe('actions', () => {
     const result = actions.hasErrored(message);
     expect(result).toEqual(expected);
   })
+
+  it('should update the form with currently entered information', () => {
+    const form = { firstName: 'the first name', lastName: 'the last name' };
+    const expected = {
+      type: 'UPDATE_FORM',
+      form: {
+        firstName: 'the first name',
+        lastName: 'the last name'
+      }
+    }
+    const result = actions.updateForm(form);
+    expect(result).toEqual(expected);
+  })
 })

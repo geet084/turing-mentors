@@ -32,6 +32,7 @@ class Mentee extends Component {
 
   render() {
     const { currentSection } = this.state;
+    console.log(this.props.form)
     return (
       <div>
         {currentSection === 'userInfo' && <UserInfo updateUserInfo={this.updateUserInfo} />}
