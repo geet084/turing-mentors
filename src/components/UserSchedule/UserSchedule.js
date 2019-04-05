@@ -17,6 +17,11 @@ export class UserSchedule extends Component {
     this.props.updateUserInfo([this.state, 'complete']);
   }
 
+  goBack = (e) => {
+    e.preventDefault();
+    this.props.updateUserInfo([this.state, 'userBackground']);
+  }
+
   checkBoxes = ({ target }) => {
     let incomingClick = target.value.split('')
     let updatedState = [...this.state[target.name]];
@@ -47,23 +52,25 @@ export class UserSchedule extends Component {
     const checkBoxes = daysOfWeek.map((day, dayIndex) => {
       return (
         <div className="schedule" key={day}>
-          <CreateCheckbox key={day} field={`time${day}`} name={day} value={dayIndex} checkBoxes={this.checkBoxes} />
+          <p className="pages">{`${day}`}</p>
           {
             apptTimes.map((time, timeIndex) => {
-              return <CreateCheckbox key={time} field={`time${day}`} name={time} value={'' + dayIndex + (timeIndex + 1)} checkBoxes={this.checkBoxes} />
+              return <CreateCheckbox key={time} field={`time${day}`} name={time} value={'' + dayIndex + timeIndex} checkBoxes={this.checkBoxes} />
             })
           }
         </div>
       )
     })
+    console.log(this.state)
 
     return (
-      <div>
+      <div className="form-page">
         <form className="schedule-form" onSubmit={this.submitForm} autoComplete='off'>
           <span className="pages"> Availability info:</span>
           {checkBoxes}
         </form>
-        <button className="next-btn" onClick={this.submitForm}>Next</button>
+        <button className="next-btn" onClick={this.goBack}>Back</button>
+        <button className="next-btn" onClick={this.submitForm}>Submit</button>
         <span className="pages">4 of 4</span>
       </div>
     )
