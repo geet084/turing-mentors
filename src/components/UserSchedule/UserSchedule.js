@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
+import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
 
 export class UserSchedule extends Component {
   state = {
-    availability: [],
-    monTime: '',
-    tueTime: '',
-    wedTime: '',
-    thuTime: '',
-    friTime: '',
-    satTime: '',
-    sunTime: '',
+    timeMon: [],
+    timeTue: [],
+    timeWed: [],
+    timeThu: [],
+    timeFri: [],
+    timeSat: [],
+    timeSun: [],
   }
 
   submitForm = (e) => {
@@ -18,12 +18,16 @@ export class UserSchedule extends Component {
   }
 
   checkBoxes = ({ target }) => {
-    const state = this.state[target.name];
-    const value = parseInt(target.value);
-    let updatedState;
-
-    if (state.includes(value)) updatedState = state.filter(prop => prop !== value)
-    else updatedState = [...state, value]
+    let incomingClick = target.value.split('')
+    let updatedState = [...this.state[target.name]];
+    let newValue = parseInt(incomingClick.pop())
+    
+    if (!updatedState.includes(newValue)) {
+      updatedState.push(newValue)
+    } else {
+      let index = updatedState.indexOf(newValue)
+      updatedState.splice(index, 1)
+    }
 
     this.setState({ [target.name]: updatedState.sort() })
   }
@@ -37,101 +41,30 @@ export class UserSchedule extends Component {
   }
 
   render() {
+    const daysOfWeek = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+    const apptTimes = ['Morning', 'Lunch', 'Afternoon', 'Evening'];
+
+    const checkBoxes = daysOfWeek.map((day, dayIndex) => {
+      return (
+        <div className="schedule" key={day}>
+          <CreateCheckbox key={day} field={`time${day}`} name={day} value={dayIndex} checkBoxes={this.checkBoxes} />
+          {
+            apptTimes.map((time, timeIndex) => {
+              return <CreateCheckbox key={time} field={`time${day}`} name={time} value={'' + dayIndex + (timeIndex + 1)} checkBoxes={this.checkBoxes} />
+            })
+          }
+        </div>
+      )
+    })
+
     return (
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
-
-          <label> Availabilty:
-          <br />
-            <div>
-              <label> Mon
-            <input type="checkbox" name='availability' value={0} onChange={this.checkBoxes} /></label>
-              <select name="monTime" value={this.state.monTime} onChange={this.time}>
-                <option value="def">select</option>
-                <option value="800">8:00</option>
-                <option value="830">8:30</option>
-                <option value="900">9:00</option>
-                <option value="930">9:30</option>
-                <option value="1000">10:00</option>
-              </select>
-            </div>
-            <br />
-            <div>
-
-              <label> Tue<input type="checkbox" name='availability' value={1} onChange={this.checkBoxes} /></label>
-              <select name="tueTime" value={this.state.tueTime} onChange={this.time}>
-                <option value="def">select</option>
-                <option value="800">8:00</option>
-                <option value="830">8:30</option>
-                <option value="900">9:00</option>
-                <option value="930">9:30</option>
-                <option value="1000">10:00</option>
-              </select>
-            </div>
-            <br />
-            <div>
-              <label> Wed<input type="checkbox" name='availability' value={2} onChange={this.checkBoxes} /></label>
-              <select name="wedTime" value={this.state.wedTime} onChange={this.time}>
-                <option value="def">select</option>
-                <option value="800">8:00</option>
-                <option value="830">8:30</option>
-                <option value="900">9:00</option>
-                <option value="930">9:30</option>
-                <option value="1000">10:00</option>
-              </select>
-            </div>
-            <br />
-            <div>
-              <label> Thu<input type="checkbox" name='availability' value={3} onChange={this.checkBoxes} /></label>
-              <select name="thuTime" value={this.state.thuTime} onChange={this.time}>
-                <option value="def">select</option>
-                <option value="800">8:00</option>
-                <option value="830">8:30</option>
-                <option value="900">9:00</option>
-                <option value="930">9:30</option>
-                <option value="1000">10:00</option>
-              </select>
-            </div>
-            <br />
-            <div>
-              <label> Fri<input type="checkbox" name='availability' value={4} onChange={this.checkBoxes} /></label>
-              <select name="friTime" value={this.state.friTime} onChange={this.time}>
-                <option value="def">select</option>
-                <option value="800">8:00</option>
-                <option value="830">8:30</option>
-                <option value="900">9:00</option>
-                <option value="930">9:30</option>
-                <option value="1000">10:00</option>
-              </select>
-            </div>
-            <br />
-            <div>
-              <label> Sat<input type="checkbox" name='availability' value={5} onChange={this.checkBoxes} /></label>
-              <select name="satTime" value={this.state.satTime} onChange={this.time}>
-                <option value="def">select</option>
-                <option value="800">8:00</option>
-                <option value="830">8:30</option>
-                <option value="900">9:00</option>
-                <option value="930">9:30</option>
-                <option value="1000">10:00</option>
-              </select>
-            </div>
-            <br />
-            <div>
-              <label> Sun<input type="checkbox" name='availability' value={6} onChange={this.checkBoxes} /></label>
-              <select name="sunTime" value={this.state.sunTime} onChange={this.time}>
-                <option value="def">select</option>
-                <option value="800">8:00</option>
-                <option value="830">8:30</option>
-                <option value="900">9:00</option>
-                <option value="930">9:30</option>
-                <option value="1000">10:00</option>
-              </select>
-            </div>
-          </label>
+          <span className="pages"> Availability info:</span>
+          {checkBoxes}
         </form>
-        <button onClick={this.submitForm}>Next</button>
-        <p>3 of 3</p>
+        <button className="next-btn" onClick={this.submitForm}>Next</button>
+        <span className="pages">4 of 4</span>
       </div>
     )
   }
