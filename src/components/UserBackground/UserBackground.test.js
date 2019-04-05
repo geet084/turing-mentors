@@ -26,4 +26,18 @@ describe('UserBackground', () => {
     wrapper.find('.bg-info').simulate('change', mockEvent);
     expect(wrapper.state()).toEqual(expected);
   });
+
+  it.skip('should go back a page when the back button is clicked', () => {
+    const mockEvent = { preventDefault: () => { } }
+
+    wrapper.find('.prev-btn').simulate('click', mockEvent);
+    expect(wrapper.updateUserInfo).toHaveBeenCalled()
+  });
+
+  it.skip('should go to the page when the next button is clicked', () => {
+    const mockEvent = { preventDefault: () => { } }
+
+    wrapper.find('.next-btn').simulate('click', mockEvent);
+    expect(wrapper.updateUserInfo).toHaveBeenCalled()
+  });
 });
