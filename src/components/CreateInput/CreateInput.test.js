@@ -4,15 +4,16 @@ import CreateInput from './CreateInput';
 
 describe('CreateInput', () => {
   let wrapper;
-  const mockProps = {
-    field: 'field',
-    text: 'someText',
-    value: 'someValue',
-    max: '99',
-    handleChange: jest.fn()
-  }
-  
-  it('should have match the correct snapshot', () => {
+ 
+  it('should match the snapshot', () => {
+    const mockProps = {
+      field: 'field',
+      text: 'someText',
+      value: 'someValue',
+      max: '99',
+      handleChange: jest.fn()
+    }
+
     wrapper = shallow(<CreateInput {...mockProps} />);
     expect(wrapper).toMatchSnapshot();
   });

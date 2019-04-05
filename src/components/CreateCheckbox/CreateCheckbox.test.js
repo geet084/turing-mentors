@@ -11,7 +11,7 @@ describe('CreateCheckbox', () => {
     checkBoxes: jest.fn()
   }
 
-  it('should have match the correct snapshot', () => {
+  it('should match the correct snapshot', () => {
     wrapper = shallow(<CreateCheckbox {...mockProps}/>);
     expect(wrapper).toMatchSnapshot();
   });
