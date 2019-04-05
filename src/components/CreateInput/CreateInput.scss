@@ -1,12 +1,10 @@
-
 :focus{
   outline: none;
 }
 
 .input-box{
-  // float: left; 
-  width: 95%; 
-  margin: 30px 13%; 
+  width: 70%; 
+  margin: 20px 2% 20px 14%;
   position: relative;
 }
 
@@ -37,7 +35,9 @@ input[type="text"]{
 
 .input-effect:focus ~ .focus-border, 
 .has-content.input-effect ~ .focus-border {
-  width: 100%; transition: 0.4s; left: 0;
+  width: 100%; 
+  transition: 0.4s; 
+  left: 0;
 }
 
 .input-effect ~ label{

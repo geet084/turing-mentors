@@ -37,11 +37,11 @@ export class UserInfo extends Component {
     return (
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
-          <CreateInput field="firstName" text="First Name" value={firstName} handleChange={this.handleChange}  max="28" />
+          <span className="pages"> User info:</span>
+          <CreateInput field="firstName" text="First Name" value={firstName} handleChange={this.handleChange} max="28" />
           <CreateInput field="lastName" text="Last Name" value={lastName} handleChange={this.handleChange} max="28" />
 
-          <div className="input-box">
-            Identities:
+          <div className="check-box">
             {
               identities.map((identity, i) => (
                 <CreateCheckbox key={i} field="identities" name={identity} value={i} checkBoxes={this.checkBoxes} />
@@ -52,8 +52,8 @@ export class UserInfo extends Component {
           <CreateInput field="cohort" text="Cohort (ex: 1406FE)" value={cohort} handleChange={this.handleChange} max='6' />
         </form>
         <div className="input-box">
-          <button onClick={this.submitForm}>Next</button>
-          <p>1 of 3</p>
+          <button className="next-btn" onClick={this.submitForm}>Next</button>
+          <span className="pages">1 of 4</span>
         </div>
       </div>
     )
