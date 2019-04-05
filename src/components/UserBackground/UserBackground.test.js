@@ -4,8 +4,26 @@ import UserBackground from './UserBackground';
 
 describe('UserBackground', () => {
   let wrapper;
+  const mockProps = {
+    updateUserInfo: jest.fn()
+  };
+
+  beforeEach(() => {
+    wrapper = shallow(<UserBackground {...mockProps} />);
+
+  });
+
   it('should match the correct snapshot', () => {
-    wrapper = shallow(<UserBackground />);
     expect(wrapper).toMatchSnapshot();
+  });
+
+  it('should register a change when the input is typed in', () => {
+    const mockEvent = { target: { value: 'new info', name: 'background' } };
+    const expected = {
+      background: 'new info'
+    };
+
+    wrapper.find('.bg-info').simulate('change', mockEvent);
+    expect(wrapper.state()).toEqual(expected);
   });
 });

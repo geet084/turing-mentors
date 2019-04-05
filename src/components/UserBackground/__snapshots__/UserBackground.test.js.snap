@@ -3,7 +3,9 @@
 exports[`UserBackground should match the correct snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <UserBackground />,
+  Symbol(enzyme.__unrendered__): <UserBackground
+    updateUserInfo={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -40,7 +42,7 @@ ShallowWrapper {
           />
         </form>,
         <button
-          className="next-btn"
+          className="prev-btn"
           onClick={[Function]}
         >
           Back
@@ -126,7 +128,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Back",
-          "className": "next-btn",
+          "className": "prev-btn",
           "onClick": [Function],
         },
         "ref": null,
@@ -189,7 +191,7 @@ ShallowWrapper {
             />
           </form>,
           <button
-            className="next-btn"
+            className="prev-btn"
             onClick={[Function]}
           >
             Back
@@ -275,7 +277,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Back",
-            "className": "next-btn",
+            "className": "prev-btn",
             "onClick": [Function],
           },
           "ref": null,

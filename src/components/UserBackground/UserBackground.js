@@ -35,7 +35,7 @@ export class UserBackground extends Component {
             value={background}
             onChange={this.handleChange} />
         </form>
-        <button className="next-btn" onClick={this.goBack}>Back</button>
+        <button className="prev-btn" onClick={this.goBack}>Back</button>
         <button className="next-btn" onClick={this.submitForm}>Next</button>
         <span className="pages">3 of 4</span>
       </div>
