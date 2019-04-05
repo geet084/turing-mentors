@@ -23,9 +23,9 @@ export class UserBackground extends Component {
           <textarea
             className="bg-info"
             type="text"
-            placeholder="Please tell us a bit about yourself"
+            placeholder="Tell us a bit about yourself"
             name='background'
-            rows="20"
+            rows="18"
             cols="30"
             value={background}
             onChange={this.handleChange} />

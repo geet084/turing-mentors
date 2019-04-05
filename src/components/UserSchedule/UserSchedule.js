@@ -59,7 +59,7 @@ export class UserSchedule extends Component {
 
     return (
       <div>
-        <form onSubmit={this.submitForm} autoComplete='off'>
+        <form className="schedule-form" onSubmit={this.submitForm} autoComplete='off'>
           <span className="pages"> Availability info:</span>
           {checkBoxes}
         </form>
