@@ -5,9 +5,11 @@ import { Link, NavLink } from 'react-router-dom';
 export const Nav = () => {
   return (
     <nav className="nav">
-      <Link to='/'>
-        <img className="logo" src={logo} alt="turing logo" />
-      </Link>
+      <div className="logo-container">
+        <Link to='/'>
+          <img className="logo" src={logo} alt="turing logo" />
+        </Link>
+      </div>
       <p className="hamburger">
         <i className="fas fa-bars"></i>
       </p>
