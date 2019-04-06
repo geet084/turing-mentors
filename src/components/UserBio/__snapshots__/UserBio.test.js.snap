@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserBio should match the correct snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserBio
+    updateUserInfo={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          autoComplete="off"
+          onSubmit={[Function]}
+        >
+          <span
+            className="pages"
+          >
+             Contact info:
+          </span>
+          <CreateInput
+            field="slack"
+            handleChange={[Function]}
+            max="28"
+            text="Slack Handle"
+            value=""
+          />
+          <CreateInput
+            field="email"
+            handleChange={[Function]}
+            max="28"
+            text="Email Address"
+            value=""
+          />
+          <CreateInput
+            field="phone"
+            handleChange={[Function]}
+            max="12"
+            text="Phone Number"
+            value=""
+          />
+        </form>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Back
+        </button>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Next
+        </button>,
+        <span
+          className="pages"
+        >
+          2 of 4
+        </span>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "autoComplete": "off",
+          "children": Array [
+            <span
+              className="pages"
+            >
+               Contact info:
+            </span>,
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />,
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />,
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " Contact info:",
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": " Contact info:",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "slack",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Slack Handle",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "email",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Email Address",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "phone",
+              "handleChange": [Function],
+              "max": "12",
+              "text": "Phone Number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Back",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Back",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Next",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Next",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "2 of 4",
+          "className": "pages",
+        },
+        "ref": null,
+        "rendered": "2 of 4",
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            autoComplete="off"
+            onSubmit={[Function]}
+          >
+            <span
+              className="pages"
+            >
+               Contact info:
+            </span>
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />
+          </form>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Back
+          </button>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Next
+          </button>,
+          <span
+            className="pages"
+          >
+            2 of 4
+          </span>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "autoComplete": "off",
+            "children": Array [
+              <span
+                className="pages"
+              >
+                 Contact info:
+              </span>,
+              <CreateInput
+                field="slack"
+                handleChange={[Function]}
+                max="28"
+                text="Slack Handle"
+                value=""
+              />,
+              <CreateInput
+                field="email"
+                handleChange={[Function]}
+                max="28"
+                text="Email Address"
+                value=""
+              />,
+              <CreateInput
+                field="phone"
+                handleChange={[Function]}
+                max="12"
+                text="Phone Number"
+                value=""
+              />,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " Contact info:",
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": " Contact info:",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "slack",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Slack Handle",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "email",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Email Address",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "phone",
+                "handleChange": [Function],
+                "max": "12",
+                "text": "Phone Number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Back",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Back",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Next",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Next",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "2 of 4",
+            "className": "pages",
+          },
+          "ref": null,
+          "rendered": "2 of 4",
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
