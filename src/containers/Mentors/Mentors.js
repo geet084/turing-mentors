@@ -10,15 +10,15 @@ export class Mentors extends Component {
     const corsPrefix = 'https://cors-anywhere.herokuapp.com/';
     const root = 'https://sheltered-beach-23653.herokuapp.com';
     const path = '/api/v1/mentors?location=all';
-    // const url = process.env.REACT_APP_BACKEND_URL + path
+    // TODO: what is the best way to use env vars with a rails backend?
     const url = corsPrefix + root + path
     this.props.getMentors(url);
   }
 
   render() {
     const { mentors } = this.props;
-    const mentorList = mentors.map((mentor, i) => {
-      return <MentorCard key={i} {...mentor.attributes} />
+    const mentorList = mentors.map(mentor => {
+      return <MentorCard key={mentor.id} id={mentor.id} {...mentor.attributes} />
     });
 
     const breakpointColumnsObj = {
