@@ -48,20 +48,14 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeMon"
-              name="Lunch"
+              name="Afternoon"
               value="01"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeMon"
-              name="Afternoon"
-              value="02"
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="timeMon"
               name="Evening"
-              value="03"
+              value="02"
             />
           </div>
           <div
@@ -81,20 +75,14 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeTue"
-              name="Lunch"
+              name="Afternoon"
               value="11"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeTue"
-              name="Afternoon"
-              value="12"
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="timeTue"
               name="Evening"
-              value="13"
+              value="12"
             />
           </div>
           <div
@@ -114,20 +102,14 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeWed"
-              name="Lunch"
+              name="Afternoon"
               value="21"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeWed"
-              name="Afternoon"
-              value="22"
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="timeWed"
               name="Evening"
-              value="23"
+              value="22"
             />
           </div>
           <div
@@ -147,20 +129,14 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeThu"
-              name="Lunch"
+              name="Afternoon"
               value="31"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeThu"
-              name="Afternoon"
-              value="32"
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="timeThu"
               name="Evening"
-              value="33"
+              value="32"
             />
           </div>
           <div
@@ -180,20 +156,14 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeFri"
-              name="Lunch"
+              name="Afternoon"
               value="41"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeFri"
-              name="Afternoon"
-              value="42"
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="timeFri"
               name="Evening"
-              value="43"
+              value="42"
             />
           </div>
           <div
@@ -213,20 +183,14 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeSat"
-              name="Lunch"
+              name="Afternoon"
               value="51"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeSat"
-              name="Afternoon"
-              value="52"
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="timeSat"
               name="Evening"
-              value="53"
+              value="52"
             />
           </div>
           <div
@@ -246,20 +210,14 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeSun"
-              name="Lunch"
+              name="Afternoon"
               value="61"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="timeSun"
-              name="Afternoon"
-              value="62"
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="timeSun"
               name="Evening"
-              value="63"
+              value="62"
             />
           </div>
         </form>,
@@ -315,20 +273,14 @@ ShallowWrapper {
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeMon"
-                  name="Lunch"
+                  name="Afternoon"
                   value="01"
                 />
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeMon"
-                  name="Afternoon"
-                  value="02"
-                />
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="timeMon"
                   name="Evening"
-                  value="03"
+                  value="02"
                 />
               </div>,
               <div
@@ -348,20 +300,14 @@ ShallowWrapper {
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeTue"
-                  name="Lunch"
+                  name="Afternoon"
                   value="11"
                 />
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeTue"
-                  name="Afternoon"
-                  value="12"
-                />
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="timeTue"
                   name="Evening"
-                  value="13"
+                  value="12"
                 />
               </div>,
               <div
@@ -381,20 +327,14 @@ ShallowWrapper {
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeWed"
-                  name="Lunch"
+                  name="Afternoon"
                   value="21"
                 />
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeWed"
-                  name="Afternoon"
-                  value="22"
-                />
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="timeWed"
                   name="Evening"
-                  value="23"
+                  value="22"
                 />
               </div>,
               <div
@@ -414,20 +354,14 @@ ShallowWrapper {
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeThu"
-                  name="Lunch"
+                  name="Afternoon"
                   value="31"
                 />
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeThu"
-                  name="Afternoon"
-                  value="32"
-                />
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="timeThu"
                   name="Evening"
-                  value="33"
+                  value="32"
                 />
               </div>,
               <div
@@ -447,20 +381,14 @@ ShallowWrapper {
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeFri"
-                  name="Lunch"
+                  name="Afternoon"
                   value="41"
                 />
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeFri"
-                  name="Afternoon"
-                  value="42"
-                />
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="timeFri"
                   name="Evening"
-                  value="43"
+                  value="42"
                 />
               </div>,
               <div
@@ -480,20 +408,14 @@ ShallowWrapper {
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeSat"
-                  name="Lunch"
+                  name="Afternoon"
                   value="51"
                 />
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeSat"
-                  name="Afternoon"
-                  value="52"
-                />
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="timeSat"
                   name="Evening"
-                  value="53"
+                  value="52"
                 />
               </div>,
               <div
@@ -513,20 +435,14 @@ ShallowWrapper {
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeSun"
-                  name="Lunch"
+                  name="Afternoon"
                   value="61"
                 />
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="timeSun"
-                  name="Afternoon"
-                  value="62"
-                />
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="timeSun"
                   name="Evening"
-                  value="63"
+                  value="62"
                 />
               </div>,
             ],
@@ -569,20 +485,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeMon"
-                    name="Lunch"
+                    name="Afternoon"
                     value="01"
                   />,
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeMon"
-                    name="Afternoon"
-                    value="02"
-                  />,
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeMon"
                     name="Evening"
-                    value="03"
+                    value="02"
                   />,
                 ],
               ],
@@ -618,27 +528,13 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "Lunch",
-                "nodeType": "class",
-                "props": Object {
-                  "checkBoxes": [Function],
-                  "field": "timeMon",
-                  "name": "Lunch",
-                  "value": "01",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
                 "key": "Afternoon",
                 "nodeType": "class",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "timeMon",
                   "name": "Afternoon",
-                  "value": "02",
+                  "value": "01",
                 },
                 "ref": null,
                 "rendered": null,
@@ -652,7 +548,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "timeMon",
                   "name": "Evening",
-                  "value": "03",
+                  "value": "02",
                 },
                 "ref": null,
                 "rendered": null,
@@ -682,20 +578,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeTue"
-                    name="Lunch"
+                    name="Afternoon"
                     value="11"
                   />,
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeTue"
-                    name="Afternoon"
-                    value="12"
-                  />,
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeTue"
                     name="Evening"
-                    value="13"
+                    value="12"
                   />,
                 ],
               ],
@@ -731,27 +621,13 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "Lunch",
-                "nodeType": "class",
-                "props": Object {
-                  "checkBoxes": [Function],
-                  "field": "timeTue",
-                  "name": "Lunch",
-                  "value": "11",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
                 "key": "Afternoon",
                 "nodeType": "class",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "timeTue",
                   "name": "Afternoon",
-                  "value": "12",
+                  "value": "11",
                 },
                 "ref": null,
                 "rendered": null,
@@ -765,7 +641,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "timeTue",
                   "name": "Evening",
-                  "value": "13",
+                  "value": "12",
                 },
                 "ref": null,
                 "rendered": null,
@@ -795,20 +671,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeWed"
-                    name="Lunch"
+                    name="Afternoon"
                     value="21"
                   />,
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeWed"
-                    name="Afternoon"
-                    value="22"
-                  />,
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeWed"
                     name="Evening"
-                    value="23"
+                    value="22"
                   />,
                 ],
               ],
@@ -844,27 +714,13 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "Lunch",
-                "nodeType": "class",
-                "props": Object {
-                  "checkBoxes": [Function],
-                  "field": "timeWed",
-                  "name": "Lunch",
-                  "value": "21",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
                 "key": "Afternoon",
                 "nodeType": "class",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "timeWed",
                   "name": "Afternoon",
-                  "value": "22",
+                  "value": "21",
                 },
                 "ref": null,
                 "rendered": null,
@@ -878,7 +734,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "timeWed",
                   "name": "Evening",
-                  "value": "23",
+                  "value": "22",
                 },
                 "ref": null,
                 "rendered": null,
@@ -908,20 +764,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeThu"
-                    name="Lunch"
+                    name="Afternoon"
                     value="31"
                   />,
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeThu"
-                    name="Afternoon"
-                    value="32"
-                  />,
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeThu"
                     name="Evening"
-                    value="33"
+                    value="32"
                   />,
                 ],
               ],
@@ -957,27 +807,13 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "Lunch",
-                "nodeType": "class",
-                "props": Object {
-                  "checkBoxes": [Function],
-                  "field": "timeThu",
-                  "name": "Lunch",
-                  "value": "31",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
                 "key": "Afternoon",
                 "nodeType": "class",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "timeThu",
                   "name": "Afternoon",
-                  "value": "32",
+                  "value": "31",
                 },
                 "ref": null,
                 "rendered": null,
@@ -991,7 +827,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "timeThu",
                   "name": "Evening",
-                  "value": "33",
+                  "value": "32",
                 },
                 "ref": null,
                 "rendered": null,
@@ -1021,20 +857,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeFri"
-                    name="Lunch"
+                    name="Afternoon"
                     value="41"
                   />,
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeFri"
-                    name="Afternoon"
-                    value="42"
-                  />,
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeFri"
                     name="Evening"
-                    value="43"
+                    value="42"
                   />,
                 ],
               ],
@@ -1070,27 +900,13 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "Lunch",
-                "nodeType": "class",
-                "props": Object {
-                  "checkBoxes": [Function],
-                  "field": "timeFri",
-                  "name": "Lunch",
-                  "value": "41",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
                 "key": "Afternoon",
                 "nodeType": "class",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "timeFri",
                   "name": "Afternoon",
-                  "value": "42",
+                  "value": "41",
                 },
                 "ref": null,
                 "rendered": null,
@@ -1104,7 +920,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "timeFri",
                   "name": "Evening",
-                  "value": "43",
+                  "value": "42",
                 },
                 "ref": null,
                 "rendered": null,
@@ -1134,20 +950,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeSat"
-                    name="Lunch"
+                    name="Afternoon"
                     value="51"
                   />,
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeSat"
-                    name="Afternoon"
-                    value="52"
-                  />,
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeSat"
                     name="Evening"
-                    value="53"
+                    value="52"
                   />,
                 ],
               ],
@@ -1183,27 +993,13 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "Lunch",
-                "nodeType": "class",
-                "props": Object {
-                  "checkBoxes": [Function],
-                  "field": "timeSat",
-                  "name": "Lunch",
-                  "value": "51",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
                 "key": "Afternoon",
                 "nodeType": "class",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "timeSat",
                   "name": "Afternoon",
-                  "value": "52",
+                  "value": "51",
                 },
                 "ref": null,
                 "rendered": null,
@@ -1217,7 +1013,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "timeSat",
                   "name": "Evening",
-                  "value": "53",
+                  "value": "52",
                 },
                 "ref": null,
                 "rendered": null,
@@ -1247,20 +1043,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeSun"
-                    name="Lunch"
+                    name="Afternoon"
                     value="61"
                   />,
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeSun"
-                    name="Afternoon"
-                    value="62"
-                  />,
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeSun"
                     name="Evening"
-                    value="63"
+                    value="62"
                   />,
                 ],
               ],
@@ -1296,27 +1086,13 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "Lunch",
-                "nodeType": "class",
-                "props": Object {
-                  "checkBoxes": [Function],
-                  "field": "timeSun",
-                  "name": "Lunch",
-                  "value": "61",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
                 "key": "Afternoon",
                 "nodeType": "class",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "timeSun",
                   "name": "Afternoon",
-                  "value": "62",
+                  "value": "61",
                 },
                 "ref": null,
                 "rendered": null,
@@ -1330,7 +1106,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "timeSun",
                   "name": "Evening",
-                  "value": "63",
+                  "value": "62",
                 },
                 "ref": null,
                 "rendered": null,
@@ -1417,20 +1193,14 @@ ShallowWrapper {
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeMon"
-                name="Lunch"
+                name="Afternoon"
                 value="01"
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeMon"
-                name="Afternoon"
-                value="02"
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="timeMon"
                 name="Evening"
-                value="03"
+                value="02"
               />
             </div>
             <div
@@ -1450,20 +1220,14 @@ ShallowWrapper {
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeTue"
-                name="Lunch"
+                name="Afternoon"
                 value="11"
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeTue"
-                name="Afternoon"
-                value="12"
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="timeTue"
                 name="Evening"
-                value="13"
+                value="12"
               />
             </div>
             <div
@@ -1483,20 +1247,14 @@ ShallowWrapper {
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeWed"
-                name="Lunch"
+                name="Afternoon"
                 value="21"
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeWed"
-                name="Afternoon"
-                value="22"
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="timeWed"
                 name="Evening"
-                value="23"
+                value="22"
               />
             </div>
             <div
@@ -1516,20 +1274,14 @@ ShallowWrapper {
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeThu"
-                name="Lunch"
+                name="Afternoon"
                 value="31"
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeThu"
-                name="Afternoon"
-                value="32"
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="timeThu"
                 name="Evening"
-                value="33"
+                value="32"
               />
             </div>
             <div
@@ -1549,20 +1301,14 @@ ShallowWrapper {
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeFri"
-                name="Lunch"
+                name="Afternoon"
                 value="41"
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeFri"
-                name="Afternoon"
-                value="42"
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="timeFri"
                 name="Evening"
-                value="43"
+                value="42"
               />
             </div>
             <div
@@ -1582,20 +1328,14 @@ ShallowWrapper {
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeSat"
-                name="Lunch"
+                name="Afternoon"
                 value="51"
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeSat"
-                name="Afternoon"
-                value="52"
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="timeSat"
                 name="Evening"
-                value="53"
+                value="52"
               />
             </div>
             <div
@@ -1615,20 +1355,14 @@ ShallowWrapper {
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeSun"
-                name="Lunch"
+                name="Afternoon"
                 value="61"
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="timeSun"
-                name="Afternoon"
-                value="62"
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="timeSun"
                 name="Evening"
-                value="63"
+                value="62"
               />
             </div>
           </form>,
@@ -1684,20 +1418,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeMon"
-                    name="Lunch"
+                    name="Afternoon"
                     value="01"
                   />
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeMon"
-                    name="Afternoon"
-                    value="02"
-                  />
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeMon"
                     name="Evening"
-                    value="03"
+                    value="02"
                   />
                 </div>,
                 <div
@@ -1717,20 +1445,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeTue"
-                    name="Lunch"
+                    name="Afternoon"
                     value="11"
                   />
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeTue"
-                    name="Afternoon"
-                    value="12"
-                  />
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeTue"
                     name="Evening"
-                    value="13"
+                    value="12"
                   />
                 </div>,
                 <div
@@ -1750,20 +1472,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeWed"
-                    name="Lunch"
+                    name="Afternoon"
                     value="21"
                   />
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeWed"
-                    name="Afternoon"
-                    value="22"
-                  />
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeWed"
                     name="Evening"
-                    value="23"
+                    value="22"
                   />
                 </div>,
                 <div
@@ -1783,20 +1499,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeThu"
-                    name="Lunch"
+                    name="Afternoon"
                     value="31"
                   />
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeThu"
-                    name="Afternoon"
-                    value="32"
-                  />
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeThu"
                     name="Evening"
-                    value="33"
+                    value="32"
                   />
                 </div>,
                 <div
@@ -1816,20 +1526,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeFri"
-                    name="Lunch"
+                    name="Afternoon"
                     value="41"
                   />
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeFri"
-                    name="Afternoon"
-                    value="42"
-                  />
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeFri"
                     name="Evening"
-                    value="43"
+                    value="42"
                   />
                 </div>,
                 <div
@@ -1849,20 +1553,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeSat"
-                    name="Lunch"
+                    name="Afternoon"
                     value="51"
                   />
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeSat"
-                    name="Afternoon"
-                    value="52"
-                  />
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeSat"
                     name="Evening"
-                    value="53"
+                    value="52"
                   />
                 </div>,
                 <div
@@ -1882,20 +1580,14 @@ ShallowWrapper {
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeSun"
-                    name="Lunch"
+                    name="Afternoon"
                     value="61"
                   />
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="timeSun"
-                    name="Afternoon"
-                    value="62"
-                  />
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="timeSun"
                     name="Evening"
-                    value="63"
+                    value="62"
                   />
                 </div>,
               ],
@@ -1938,20 +1630,14 @@ ShallowWrapper {
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeMon"
-                      name="Lunch"
+                      name="Afternoon"
                       value="01"
                     />,
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeMon"
-                      name="Afternoon"
-                      value="02"
-                    />,
-                    <CreateCheckbox
-                      checkBoxes={[Function]}
-                      field="timeMon"
                       name="Evening"
-                      value="03"
+                      value="02"
                     />,
                   ],
                 ],
@@ -1987,27 +1673,13 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "Lunch",
-                  "nodeType": "class",
-                  "props": Object {
-                    "checkBoxes": [Function],
-                    "field": "timeMon",
-                    "name": "Lunch",
-                    "value": "01",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
                   "key": "Afternoon",
                   "nodeType": "class",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "timeMon",
                     "name": "Afternoon",
-                    "value": "02",
+                    "value": "01",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2021,7 +1693,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "timeMon",
                     "name": "Evening",
-                    "value": "03",
+                    "value": "02",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2051,20 +1723,14 @@ ShallowWrapper {
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeTue"
-                      name="Lunch"
+                      name="Afternoon"
                       value="11"
                     />,
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeTue"
-                      name="Afternoon"
-                      value="12"
-                    />,
-                    <CreateCheckbox
-                      checkBoxes={[Function]}
-                      field="timeTue"
                       name="Evening"
-                      value="13"
+                      value="12"
                     />,
                   ],
                 ],
@@ -2100,27 +1766,13 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "Lunch",
-                  "nodeType": "class",
-                  "props": Object {
-                    "checkBoxes": [Function],
-                    "field": "timeTue",
-                    "name": "Lunch",
-                    "value": "11",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
                   "key": "Afternoon",
                   "nodeType": "class",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "timeTue",
                     "name": "Afternoon",
-                    "value": "12",
+                    "value": "11",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2134,7 +1786,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "timeTue",
                     "name": "Evening",
-                    "value": "13",
+                    "value": "12",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2164,20 +1816,14 @@ ShallowWrapper {
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeWed"
-                      name="Lunch"
+                      name="Afternoon"
                       value="21"
                     />,
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeWed"
-                      name="Afternoon"
-                      value="22"
-                    />,
-                    <CreateCheckbox
-                      checkBoxes={[Function]}
-                      field="timeWed"
                       name="Evening"
-                      value="23"
+                      value="22"
                     />,
                   ],
                 ],
@@ -2213,27 +1859,13 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "Lunch",
-                  "nodeType": "class",
-                  "props": Object {
-                    "checkBoxes": [Function],
-                    "field": "timeWed",
-                    "name": "Lunch",
-                    "value": "21",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
                   "key": "Afternoon",
                   "nodeType": "class",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "timeWed",
                     "name": "Afternoon",
-                    "value": "22",
+                    "value": "21",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2247,7 +1879,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "timeWed",
                     "name": "Evening",
-                    "value": "23",
+                    "value": "22",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2277,20 +1909,14 @@ ShallowWrapper {
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeThu"
-                      name="Lunch"
+                      name="Afternoon"
                       value="31"
                     />,
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeThu"
-                      name="Afternoon"
-                      value="32"
-                    />,
-                    <CreateCheckbox
-                      checkBoxes={[Function]}
-                      field="timeThu"
                       name="Evening"
-                      value="33"
+                      value="32"
                     />,
                   ],
                 ],
@@ -2326,27 +1952,13 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "Lunch",
-                  "nodeType": "class",
-                  "props": Object {
-                    "checkBoxes": [Function],
-                    "field": "timeThu",
-                    "name": "Lunch",
-                    "value": "31",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
                   "key": "Afternoon",
                   "nodeType": "class",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "timeThu",
                     "name": "Afternoon",
-                    "value": "32",
+                    "value": "31",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2360,7 +1972,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "timeThu",
                     "name": "Evening",
-                    "value": "33",
+                    "value": "32",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2390,20 +2002,14 @@ ShallowWrapper {
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeFri"
-                      name="Lunch"
+                      name="Afternoon"
                       value="41"
                     />,
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeFri"
-                      name="Afternoon"
-                      value="42"
-                    />,
-                    <CreateCheckbox
-                      checkBoxes={[Function]}
-                      field="timeFri"
                       name="Evening"
-                      value="43"
+                      value="42"
                     />,
                   ],
                 ],
@@ -2439,27 +2045,13 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "Lunch",
-                  "nodeType": "class",
-                  "props": Object {
-                    "checkBoxes": [Function],
-                    "field": "timeFri",
-                    "name": "Lunch",
-                    "value": "41",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
                   "key": "Afternoon",
                   "nodeType": "class",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "timeFri",
                     "name": "Afternoon",
-                    "value": "42",
+                    "value": "41",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2473,7 +2065,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "timeFri",
                     "name": "Evening",
-                    "value": "43",
+                    "value": "42",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2503,20 +2095,14 @@ ShallowWrapper {
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeSat"
-                      name="Lunch"
+                      name="Afternoon"
                       value="51"
                     />,
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeSat"
-                      name="Afternoon"
-                      value="52"
-                    />,
-                    <CreateCheckbox
-                      checkBoxes={[Function]}
-                      field="timeSat"
                       name="Evening"
-                      value="53"
+                      value="52"
                     />,
                   ],
                 ],
@@ -2552,27 +2138,13 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "Lunch",
-                  "nodeType": "class",
-                  "props": Object {
-                    "checkBoxes": [Function],
-                    "field": "timeSat",
-                    "name": "Lunch",
-                    "value": "51",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
                   "key": "Afternoon",
                   "nodeType": "class",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "timeSat",
                     "name": "Afternoon",
-                    "value": "52",
+                    "value": "51",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2586,7 +2158,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "timeSat",
                     "name": "Evening",
-                    "value": "53",
+                    "value": "52",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2616,20 +2188,14 @@ ShallowWrapper {
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeSun"
-                      name="Lunch"
+                      name="Afternoon"
                       value="61"
                     />,
                     <CreateCheckbox
                       checkBoxes={[Function]}
                       field="timeSun"
-                      name="Afternoon"
-                      value="62"
-                    />,
-                    <CreateCheckbox
-                      checkBoxes={[Function]}
-                      field="timeSun"
                       name="Evening"
-                      value="63"
+                      value="62"
                     />,
                   ],
                 ],
@@ -2665,27 +2231,13 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "Lunch",
-                  "nodeType": "class",
-                  "props": Object {
-                    "checkBoxes": [Function],
-                    "field": "timeSun",
-                    "name": "Lunch",
-                    "value": "61",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
                   "key": "Afternoon",
                   "nodeType": "class",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "timeSun",
                     "name": "Afternoon",
-                    "value": "62",
+                    "value": "61",
                   },
                   "ref": null,
                   "rendered": null,
@@ -2699,7 +2251,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "timeSun",
                     "name": "Evening",
-                    "value": "63",
+                    "value": "62",
                   },
                   "ref": null,
                   "rendered": null,
