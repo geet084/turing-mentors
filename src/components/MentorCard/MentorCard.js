@@ -10,9 +10,12 @@ export class MentorCard extends Component {
           <span className="loc">
             {location}
           </span>
-          <span className="lang">
-            {tech_skills[0]}
-          </span>
+          {
+            tech_skills &&
+            <span className="lang">
+              {tech_skills[0]}
+            </span>
+          }
         </div>
       </div>
     )
