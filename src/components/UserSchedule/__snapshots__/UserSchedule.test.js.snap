@@ -1,0 +1,2781 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserSchedule should match the correct snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserSchedule
+    updateUserInfo={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          autoComplete="off"
+          className="schedule-form"
+          onSubmit={[Function]}
+        >
+          <span
+            className="pages"
+          >
+             Availability info:
+          </span>
+          <div
+            className="schedule"
+          >
+            <p
+              className="pages"
+            >
+              Mon
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeMon"
+              name="Morning"
+              value="00"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeMon"
+              name="Lunch"
+              value="01"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeMon"
+              name="Afternoon"
+              value="02"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeMon"
+              name="Evening"
+              value="03"
+            />
+          </div>
+          <div
+            className="schedule"
+          >
+            <p
+              className="pages"
+            >
+              Tue
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeTue"
+              name="Morning"
+              value="10"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeTue"
+              name="Lunch"
+              value="11"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeTue"
+              name="Afternoon"
+              value="12"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeTue"
+              name="Evening"
+              value="13"
+            />
+          </div>
+          <div
+            className="schedule"
+          >
+            <p
+              className="pages"
+            >
+              Wed
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeWed"
+              name="Morning"
+              value="20"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeWed"
+              name="Lunch"
+              value="21"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeWed"
+              name="Afternoon"
+              value="22"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeWed"
+              name="Evening"
+              value="23"
+            />
+          </div>
+          <div
+            className="schedule"
+          >
+            <p
+              className="pages"
+            >
+              Thu
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeThu"
+              name="Morning"
+              value="30"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeThu"
+              name="Lunch"
+              value="31"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeThu"
+              name="Afternoon"
+              value="32"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeThu"
+              name="Evening"
+              value="33"
+            />
+          </div>
+          <div
+            className="schedule"
+          >
+            <p
+              className="pages"
+            >
+              Fri
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeFri"
+              name="Morning"
+              value="40"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeFri"
+              name="Lunch"
+              value="41"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeFri"
+              name="Afternoon"
+              value="42"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeFri"
+              name="Evening"
+              value="43"
+            />
+          </div>
+          <div
+            className="schedule"
+          >
+            <p
+              className="pages"
+            >
+              Sat
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeSat"
+              name="Morning"
+              value="50"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeSat"
+              name="Lunch"
+              value="51"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeSat"
+              name="Afternoon"
+              value="52"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeSat"
+              name="Evening"
+              value="53"
+            />
+          </div>
+          <div
+            className="schedule"
+          >
+            <p
+              className="pages"
+            >
+              Sun
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeSun"
+              name="Morning"
+              value="60"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeSun"
+              name="Lunch"
+              value="61"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeSun"
+              name="Afternoon"
+              value="62"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="timeSun"
+              name="Evening"
+              value="63"
+            />
+          </div>
+        </form>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Back
+        </button>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Submit
+        </button>,
+        <span
+          className="pages"
+        >
+          4 of 4
+        </span>,
+      ],
+      "className": "form-page",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "autoComplete": "off",
+          "children": Array [
+            <span
+              className="pages"
+            >
+               Availability info:
+            </span>,
+            Array [
+              <div
+                className="schedule"
+              >
+                <p
+                  className="pages"
+                >
+                  Mon
+                </p>
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeMon"
+                  name="Morning"
+                  value="00"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeMon"
+                  name="Lunch"
+                  value="01"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeMon"
+                  name="Afternoon"
+                  value="02"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeMon"
+                  name="Evening"
+                  value="03"
+                />
+              </div>,
+              <div
+                className="schedule"
+              >
+                <p
+                  className="pages"
+                >
+                  Tue
+                </p>
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeTue"
+                  name="Morning"
+                  value="10"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeTue"
+                  name="Lunch"
+                  value="11"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeTue"
+                  name="Afternoon"
+                  value="12"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeTue"
+                  name="Evening"
+                  value="13"
+                />
+              </div>,
+              <div
+                className="schedule"
+              >
+                <p
+                  className="pages"
+                >
+                  Wed
+                </p>
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeWed"
+                  name="Morning"
+                  value="20"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeWed"
+                  name="Lunch"
+                  value="21"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeWed"
+                  name="Afternoon"
+                  value="22"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeWed"
+                  name="Evening"
+                  value="23"
+                />
+              </div>,
+              <div
+                className="schedule"
+              >
+                <p
+                  className="pages"
+                >
+                  Thu
+                </p>
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeThu"
+                  name="Morning"
+                  value="30"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeThu"
+                  name="Lunch"
+                  value="31"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeThu"
+                  name="Afternoon"
+                  value="32"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeThu"
+                  name="Evening"
+                  value="33"
+                />
+              </div>,
+              <div
+                className="schedule"
+              >
+                <p
+                  className="pages"
+                >
+                  Fri
+                </p>
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeFri"
+                  name="Morning"
+                  value="40"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeFri"
+                  name="Lunch"
+                  value="41"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeFri"
+                  name="Afternoon"
+                  value="42"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeFri"
+                  name="Evening"
+                  value="43"
+                />
+              </div>,
+              <div
+                className="schedule"
+              >
+                <p
+                  className="pages"
+                >
+                  Sat
+                </p>
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeSat"
+                  name="Morning"
+                  value="50"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeSat"
+                  name="Lunch"
+                  value="51"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeSat"
+                  name="Afternoon"
+                  value="52"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeSat"
+                  name="Evening"
+                  value="53"
+                />
+              </div>,
+              <div
+                className="schedule"
+              >
+                <p
+                  className="pages"
+                >
+                  Sun
+                </p>
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeSun"
+                  name="Morning"
+                  value="60"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeSun"
+                  name="Lunch"
+                  value="61"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeSun"
+                  name="Afternoon"
+                  value="62"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="timeSun"
+                  name="Evening"
+                  value="63"
+                />
+              </div>,
+            ],
+          ],
+          "className": "schedule-form",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " Availability info:",
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": " Availability info:",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "Mon",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="pages"
+                >
+                  Mon
+                </p>,
+                Array [
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeMon"
+                    name="Morning"
+                    value="00"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeMon"
+                    name="Lunch"
+                    value="01"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeMon"
+                    name="Afternoon"
+                    value="02"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeMon"
+                    name="Evening"
+                    value="03"
+                  />,
+                ],
+              ],
+              "className": "schedule",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Mon",
+                  "className": "pages",
+                },
+                "ref": null,
+                "rendered": "Mon",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "Morning",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeMon",
+                  "name": "Morning",
+                  "value": "00",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Lunch",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeMon",
+                  "name": "Lunch",
+                  "value": "01",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Afternoon",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeMon",
+                  "name": "Afternoon",
+                  "value": "02",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Evening",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeMon",
+                  "name": "Evening",
+                  "value": "03",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "Tue",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="pages"
+                >
+                  Tue
+                </p>,
+                Array [
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeTue"
+                    name="Morning"
+                    value="10"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeTue"
+                    name="Lunch"
+                    value="11"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeTue"
+                    name="Afternoon"
+                    value="12"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeTue"
+                    name="Evening"
+                    value="13"
+                  />,
+                ],
+              ],
+              "className": "schedule",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Tue",
+                  "className": "pages",
+                },
+                "ref": null,
+                "rendered": "Tue",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "Morning",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeTue",
+                  "name": "Morning",
+                  "value": "10",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Lunch",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeTue",
+                  "name": "Lunch",
+                  "value": "11",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Afternoon",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeTue",
+                  "name": "Afternoon",
+                  "value": "12",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Evening",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeTue",
+                  "name": "Evening",
+                  "value": "13",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "Wed",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="pages"
+                >
+                  Wed
+                </p>,
+                Array [
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeWed"
+                    name="Morning"
+                    value="20"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeWed"
+                    name="Lunch"
+                    value="21"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeWed"
+                    name="Afternoon"
+                    value="22"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeWed"
+                    name="Evening"
+                    value="23"
+                  />,
+                ],
+              ],
+              "className": "schedule",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Wed",
+                  "className": "pages",
+                },
+                "ref": null,
+                "rendered": "Wed",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "Morning",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeWed",
+                  "name": "Morning",
+                  "value": "20",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Lunch",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeWed",
+                  "name": "Lunch",
+                  "value": "21",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Afternoon",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeWed",
+                  "name": "Afternoon",
+                  "value": "22",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Evening",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeWed",
+                  "name": "Evening",
+                  "value": "23",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "Thu",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="pages"
+                >
+                  Thu
+                </p>,
+                Array [
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeThu"
+                    name="Morning"
+                    value="30"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeThu"
+                    name="Lunch"
+                    value="31"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeThu"
+                    name="Afternoon"
+                    value="32"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeThu"
+                    name="Evening"
+                    value="33"
+                  />,
+                ],
+              ],
+              "className": "schedule",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Thu",
+                  "className": "pages",
+                },
+                "ref": null,
+                "rendered": "Thu",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "Morning",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeThu",
+                  "name": "Morning",
+                  "value": "30",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Lunch",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeThu",
+                  "name": "Lunch",
+                  "value": "31",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Afternoon",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeThu",
+                  "name": "Afternoon",
+                  "value": "32",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Evening",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeThu",
+                  "name": "Evening",
+                  "value": "33",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "Fri",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="pages"
+                >
+                  Fri
+                </p>,
+                Array [
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeFri"
+                    name="Morning"
+                    value="40"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeFri"
+                    name="Lunch"
+                    value="41"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeFri"
+                    name="Afternoon"
+                    value="42"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeFri"
+                    name="Evening"
+                    value="43"
+                  />,
+                ],
+              ],
+              "className": "schedule",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Fri",
+                  "className": "pages",
+                },
+                "ref": null,
+                "rendered": "Fri",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "Morning",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeFri",
+                  "name": "Morning",
+                  "value": "40",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Lunch",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeFri",
+                  "name": "Lunch",
+                  "value": "41",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Afternoon",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeFri",
+                  "name": "Afternoon",
+                  "value": "42",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Evening",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeFri",
+                  "name": "Evening",
+                  "value": "43",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "Sat",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="pages"
+                >
+                  Sat
+                </p>,
+                Array [
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSat"
+                    name="Morning"
+                    value="50"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSat"
+                    name="Lunch"
+                    value="51"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSat"
+                    name="Afternoon"
+                    value="52"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSat"
+                    name="Evening"
+                    value="53"
+                  />,
+                ],
+              ],
+              "className": "schedule",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sat",
+                  "className": "pages",
+                },
+                "ref": null,
+                "rendered": "Sat",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "Morning",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeSat",
+                  "name": "Morning",
+                  "value": "50",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Lunch",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeSat",
+                  "name": "Lunch",
+                  "value": "51",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Afternoon",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeSat",
+                  "name": "Afternoon",
+                  "value": "52",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Evening",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeSat",
+                  "name": "Evening",
+                  "value": "53",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "Sun",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="pages"
+                >
+                  Sun
+                </p>,
+                Array [
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSun"
+                    name="Morning"
+                    value="60"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSun"
+                    name="Lunch"
+                    value="61"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSun"
+                    name="Afternoon"
+                    value="62"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSun"
+                    name="Evening"
+                    value="63"
+                  />,
+                ],
+              ],
+              "className": "schedule",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sun",
+                  "className": "pages",
+                },
+                "ref": null,
+                "rendered": "Sun",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "Morning",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeSun",
+                  "name": "Morning",
+                  "value": "60",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Lunch",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeSun",
+                  "name": "Lunch",
+                  "value": "61",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Afternoon",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeSun",
+                  "name": "Afternoon",
+                  "value": "62",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "Evening",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "timeSun",
+                  "name": "Evening",
+                  "value": "63",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Back",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Back",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Submit",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Submit",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "4 of 4",
+          "className": "pages",
+        },
+        "ref": null,
+        "rendered": "4 of 4",
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            autoComplete="off"
+            className="schedule-form"
+            onSubmit={[Function]}
+          >
+            <span
+              className="pages"
+            >
+               Availability info:
+            </span>
+            <div
+              className="schedule"
+            >
+              <p
+                className="pages"
+              >
+                Mon
+              </p>
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeMon"
+                name="Morning"
+                value="00"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeMon"
+                name="Lunch"
+                value="01"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeMon"
+                name="Afternoon"
+                value="02"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeMon"
+                name="Evening"
+                value="03"
+              />
+            </div>
+            <div
+              className="schedule"
+            >
+              <p
+                className="pages"
+              >
+                Tue
+              </p>
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeTue"
+                name="Morning"
+                value="10"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeTue"
+                name="Lunch"
+                value="11"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeTue"
+                name="Afternoon"
+                value="12"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeTue"
+                name="Evening"
+                value="13"
+              />
+            </div>
+            <div
+              className="schedule"
+            >
+              <p
+                className="pages"
+              >
+                Wed
+              </p>
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeWed"
+                name="Morning"
+                value="20"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeWed"
+                name="Lunch"
+                value="21"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeWed"
+                name="Afternoon"
+                value="22"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeWed"
+                name="Evening"
+                value="23"
+              />
+            </div>
+            <div
+              className="schedule"
+            >
+              <p
+                className="pages"
+              >
+                Thu
+              </p>
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeThu"
+                name="Morning"
+                value="30"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeThu"
+                name="Lunch"
+                value="31"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeThu"
+                name="Afternoon"
+                value="32"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeThu"
+                name="Evening"
+                value="33"
+              />
+            </div>
+            <div
+              className="schedule"
+            >
+              <p
+                className="pages"
+              >
+                Fri
+              </p>
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeFri"
+                name="Morning"
+                value="40"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeFri"
+                name="Lunch"
+                value="41"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeFri"
+                name="Afternoon"
+                value="42"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeFri"
+                name="Evening"
+                value="43"
+              />
+            </div>
+            <div
+              className="schedule"
+            >
+              <p
+                className="pages"
+              >
+                Sat
+              </p>
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeSat"
+                name="Morning"
+                value="50"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeSat"
+                name="Lunch"
+                value="51"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeSat"
+                name="Afternoon"
+                value="52"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeSat"
+                name="Evening"
+                value="53"
+              />
+            </div>
+            <div
+              className="schedule"
+            >
+              <p
+                className="pages"
+              >
+                Sun
+              </p>
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeSun"
+                name="Morning"
+                value="60"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeSun"
+                name="Lunch"
+                value="61"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeSun"
+                name="Afternoon"
+                value="62"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="timeSun"
+                name="Evening"
+                value="63"
+              />
+            </div>
+          </form>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Back
+          </button>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Submit
+          </button>,
+          <span
+            className="pages"
+          >
+            4 of 4
+          </span>,
+        ],
+        "className": "form-page",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "autoComplete": "off",
+            "children": Array [
+              <span
+                className="pages"
+              >
+                 Availability info:
+              </span>,
+              Array [
+                <div
+                  className="schedule"
+                >
+                  <p
+                    className="pages"
+                  >
+                    Mon
+                  </p>
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeMon"
+                    name="Morning"
+                    value="00"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeMon"
+                    name="Lunch"
+                    value="01"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeMon"
+                    name="Afternoon"
+                    value="02"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeMon"
+                    name="Evening"
+                    value="03"
+                  />
+                </div>,
+                <div
+                  className="schedule"
+                >
+                  <p
+                    className="pages"
+                  >
+                    Tue
+                  </p>
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeTue"
+                    name="Morning"
+                    value="10"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeTue"
+                    name="Lunch"
+                    value="11"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeTue"
+                    name="Afternoon"
+                    value="12"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeTue"
+                    name="Evening"
+                    value="13"
+                  />
+                </div>,
+                <div
+                  className="schedule"
+                >
+                  <p
+                    className="pages"
+                  >
+                    Wed
+                  </p>
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeWed"
+                    name="Morning"
+                    value="20"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeWed"
+                    name="Lunch"
+                    value="21"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeWed"
+                    name="Afternoon"
+                    value="22"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeWed"
+                    name="Evening"
+                    value="23"
+                  />
+                </div>,
+                <div
+                  className="schedule"
+                >
+                  <p
+                    className="pages"
+                  >
+                    Thu
+                  </p>
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeThu"
+                    name="Morning"
+                    value="30"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeThu"
+                    name="Lunch"
+                    value="31"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeThu"
+                    name="Afternoon"
+                    value="32"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeThu"
+                    name="Evening"
+                    value="33"
+                  />
+                </div>,
+                <div
+                  className="schedule"
+                >
+                  <p
+                    className="pages"
+                  >
+                    Fri
+                  </p>
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeFri"
+                    name="Morning"
+                    value="40"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeFri"
+                    name="Lunch"
+                    value="41"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeFri"
+                    name="Afternoon"
+                    value="42"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeFri"
+                    name="Evening"
+                    value="43"
+                  />
+                </div>,
+                <div
+                  className="schedule"
+                >
+                  <p
+                    className="pages"
+                  >
+                    Sat
+                  </p>
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSat"
+                    name="Morning"
+                    value="50"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSat"
+                    name="Lunch"
+                    value="51"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSat"
+                    name="Afternoon"
+                    value="52"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSat"
+                    name="Evening"
+                    value="53"
+                  />
+                </div>,
+                <div
+                  className="schedule"
+                >
+                  <p
+                    className="pages"
+                  >
+                    Sun
+                  </p>
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSun"
+                    name="Morning"
+                    value="60"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSun"
+                    name="Lunch"
+                    value="61"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSun"
+                    name="Afternoon"
+                    value="62"
+                  />
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="timeSun"
+                    name="Evening"
+                    value="63"
+                  />
+                </div>,
+              ],
+            ],
+            "className": "schedule-form",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " Availability info:",
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": " Availability info:",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "Mon",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="pages"
+                  >
+                    Mon
+                  </p>,
+                  Array [
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeMon"
+                      name="Morning"
+                      value="00"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeMon"
+                      name="Lunch"
+                      value="01"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeMon"
+                      name="Afternoon"
+                      value="02"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeMon"
+                      name="Evening"
+                      value="03"
+                    />,
+                  ],
+                ],
+                "className": "schedule",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Mon",
+                    "className": "pages",
+                  },
+                  "ref": null,
+                  "rendered": "Mon",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Morning",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeMon",
+                    "name": "Morning",
+                    "value": "00",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Lunch",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeMon",
+                    "name": "Lunch",
+                    "value": "01",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Afternoon",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeMon",
+                    "name": "Afternoon",
+                    "value": "02",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Evening",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeMon",
+                    "name": "Evening",
+                    "value": "03",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "Tue",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="pages"
+                  >
+                    Tue
+                  </p>,
+                  Array [
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeTue"
+                      name="Morning"
+                      value="10"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeTue"
+                      name="Lunch"
+                      value="11"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeTue"
+                      name="Afternoon"
+                      value="12"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeTue"
+                      name="Evening"
+                      value="13"
+                    />,
+                  ],
+                ],
+                "className": "schedule",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Tue",
+                    "className": "pages",
+                  },
+                  "ref": null,
+                  "rendered": "Tue",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Morning",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeTue",
+                    "name": "Morning",
+                    "value": "10",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Lunch",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeTue",
+                    "name": "Lunch",
+                    "value": "11",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Afternoon",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeTue",
+                    "name": "Afternoon",
+                    "value": "12",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Evening",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeTue",
+                    "name": "Evening",
+                    "value": "13",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "Wed",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="pages"
+                  >
+                    Wed
+                  </p>,
+                  Array [
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeWed"
+                      name="Morning"
+                      value="20"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeWed"
+                      name="Lunch"
+                      value="21"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeWed"
+                      name="Afternoon"
+                      value="22"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeWed"
+                      name="Evening"
+                      value="23"
+                    />,
+                  ],
+                ],
+                "className": "schedule",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Wed",
+                    "className": "pages",
+                  },
+                  "ref": null,
+                  "rendered": "Wed",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Morning",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeWed",
+                    "name": "Morning",
+                    "value": "20",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Lunch",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeWed",
+                    "name": "Lunch",
+                    "value": "21",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Afternoon",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeWed",
+                    "name": "Afternoon",
+                    "value": "22",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Evening",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeWed",
+                    "name": "Evening",
+                    "value": "23",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "Thu",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="pages"
+                  >
+                    Thu
+                  </p>,
+                  Array [
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeThu"
+                      name="Morning"
+                      value="30"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeThu"
+                      name="Lunch"
+                      value="31"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeThu"
+                      name="Afternoon"
+                      value="32"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeThu"
+                      name="Evening"
+                      value="33"
+                    />,
+                  ],
+                ],
+                "className": "schedule",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Thu",
+                    "className": "pages",
+                  },
+                  "ref": null,
+                  "rendered": "Thu",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Morning",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeThu",
+                    "name": "Morning",
+                    "value": "30",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Lunch",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeThu",
+                    "name": "Lunch",
+                    "value": "31",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Afternoon",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeThu",
+                    "name": "Afternoon",
+                    "value": "32",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Evening",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeThu",
+                    "name": "Evening",
+                    "value": "33",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "Fri",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="pages"
+                  >
+                    Fri
+                  </p>,
+                  Array [
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeFri"
+                      name="Morning"
+                      value="40"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeFri"
+                      name="Lunch"
+                      value="41"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeFri"
+                      name="Afternoon"
+                      value="42"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeFri"
+                      name="Evening"
+                      value="43"
+                    />,
+                  ],
+                ],
+                "className": "schedule",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Fri",
+                    "className": "pages",
+                  },
+                  "ref": null,
+                  "rendered": "Fri",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Morning",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeFri",
+                    "name": "Morning",
+                    "value": "40",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Lunch",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeFri",
+                    "name": "Lunch",
+                    "value": "41",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Afternoon",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeFri",
+                    "name": "Afternoon",
+                    "value": "42",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Evening",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeFri",
+                    "name": "Evening",
+                    "value": "43",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "Sat",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="pages"
+                  >
+                    Sat
+                  </p>,
+                  Array [
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeSat"
+                      name="Morning"
+                      value="50"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeSat"
+                      name="Lunch"
+                      value="51"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeSat"
+                      name="Afternoon"
+                      value="52"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeSat"
+                      name="Evening"
+                      value="53"
+                    />,
+                  ],
+                ],
+                "className": "schedule",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sat",
+                    "className": "pages",
+                  },
+                  "ref": null,
+                  "rendered": "Sat",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Morning",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeSat",
+                    "name": "Morning",
+                    "value": "50",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Lunch",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeSat",
+                    "name": "Lunch",
+                    "value": "51",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Afternoon",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeSat",
+                    "name": "Afternoon",
+                    "value": "52",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Evening",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeSat",
+                    "name": "Evening",
+                    "value": "53",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "Sun",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="pages"
+                  >
+                    Sun
+                  </p>,
+                  Array [
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeSun"
+                      name="Morning"
+                      value="60"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeSun"
+                      name="Lunch"
+                      value="61"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeSun"
+                      name="Afternoon"
+                      value="62"
+                    />,
+                    <CreateCheckbox
+                      checkBoxes={[Function]}
+                      field="timeSun"
+                      name="Evening"
+                      value="63"
+                    />,
+                  ],
+                ],
+                "className": "schedule",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sun",
+                    "className": "pages",
+                  },
+                  "ref": null,
+                  "rendered": "Sun",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Morning",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeSun",
+                    "name": "Morning",
+                    "value": "60",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Lunch",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeSun",
+                    "name": "Lunch",
+                    "value": "61",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Afternoon",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeSun",
+                    "name": "Afternoon",
+                    "value": "62",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Evening",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "timeSun",
+                    "name": "Evening",
+                    "value": "63",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Back",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Back",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Submit",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Submit",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "4 of 4",
+            "className": "pages",
+          },
+          "ref": null,
+          "rendered": "4 of 4",
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

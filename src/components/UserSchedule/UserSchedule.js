@@ -61,7 +61,6 @@ export class UserSchedule extends Component {
         </div>
       )
     })
-    console.log(this.state)
 
     return (
       <div className="form-page">
