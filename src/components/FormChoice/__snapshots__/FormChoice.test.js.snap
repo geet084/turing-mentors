@@ -19,18 +19,28 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Link
-          className="form-link"
-          to="/mentee"
-        >
-          Mentee
-        </Link>,
-        <Link
-          className="form-link"
-          to="/mentor"
-        >
-          Mentor
-        </Link>,
+        <div>
+          <Link
+            className="form-link"
+            to="/mentors"
+          >
+            Show Mentors
+          </Link>
+        </div>,
+        <div>
+          <Link
+            className="form-link"
+            to="/mentee"
+          >
+            Mentee
+          </Link>
+          <Link
+            className="form-link"
+            to="/mentor"
+          >
+            Mentor
+          </Link>
+        </div>,
       ],
       "className": "form-choice",
     },
@@ -39,28 +49,81 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "children": "Mentee",
-          "className": "form-link",
-          "to": "/mentee",
+          "children": <Link
+            className="form-link"
+            to="/mentors"
+          >
+            Show Mentors
+          </Link>,
         },
         "ref": null,
-        "rendered": "Mentee",
-        "type": [Function],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Show Mentors",
+            "className": "form-link",
+            "to": "/mentors",
+          },
+          "ref": null,
+          "rendered": "Show Mentors",
+          "type": [Function],
+        },
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "children": "Mentor",
-          "className": "form-link",
-          "to": "/mentor",
+          "children": Array [
+            <Link
+              className="form-link"
+              to="/mentee"
+            >
+              Mentee
+            </Link>,
+            <Link
+              className="form-link"
+              to="/mentor"
+            >
+              Mentor
+            </Link>,
+          ],
         },
         "ref": null,
-        "rendered": "Mentor",
-        "type": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Mentee",
+              "className": "form-link",
+              "to": "/mentee",
+            },
+            "ref": null,
+            "rendered": "Mentee",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Mentor",
+              "className": "form-link",
+              "to": "/mentor",
+            },
+            "ref": null,
+            "rendered": "Mentor",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
       },
     ],
     "type": "div",
@@ -72,18 +135,28 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Link
-            className="form-link"
-            to="/mentee"
-          >
-            Mentee
-          </Link>,
-          <Link
-            className="form-link"
-            to="/mentor"
-          >
-            Mentor
-          </Link>,
+          <div>
+            <Link
+              className="form-link"
+              to="/mentors"
+            >
+              Show Mentors
+            </Link>
+          </div>,
+          <div>
+            <Link
+              className="form-link"
+              to="/mentee"
+            >
+              Mentee
+            </Link>
+            <Link
+              className="form-link"
+              to="/mentor"
+            >
+              Mentor
+            </Link>
+          </div>,
         ],
         "className": "form-choice",
       },
@@ -92,28 +165,81 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "children": "Mentee",
-            "className": "form-link",
-            "to": "/mentee",
+            "children": <Link
+              className="form-link"
+              to="/mentors"
+            >
+              Show Mentors
+            </Link>,
           },
           "ref": null,
-          "rendered": "Mentee",
-          "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Show Mentors",
+              "className": "form-link",
+              "to": "/mentors",
+            },
+            "ref": null,
+            "rendered": "Show Mentors",
+            "type": [Function],
+          },
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "children": "Mentor",
-            "className": "form-link",
-            "to": "/mentor",
+            "children": Array [
+              <Link
+                className="form-link"
+                to="/mentee"
+              >
+                Mentee
+              </Link>,
+              <Link
+                className="form-link"
+                to="/mentor"
+              >
+                Mentor
+              </Link>,
+            ],
           },
           "ref": null,
-          "rendered": "Mentor",
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Mentee",
+                "className": "form-link",
+                "to": "/mentee",
+              },
+              "ref": null,
+              "rendered": "Mentee",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Mentor",
+                "className": "form-link",
+                "to": "/mentor",
+              },
+              "ref": null,
+              "rendered": "Mentor",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",
