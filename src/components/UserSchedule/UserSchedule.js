@@ -3,13 +3,15 @@ import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
 
 export class UserSchedule extends Component {
   state = {
-    timeMon: [],
-    timeTue: [],
-    timeWed: [],
-    timeThu: [],
-    timeFri: [],
-    timeSat: [],
-    timeSun: [],
+    availability: {
+      0: [false, false, false],
+      1: [false, false, false],
+      2: [false, false, false],
+      3: [false, false, false],
+      4: [false, false, false],
+      5: [false, false, false],
+      6: [false, false, false],
+    }
   }
 
   submitForm = (e) => {
@@ -24,17 +26,16 @@ export class UserSchedule extends Component {
 
   checkBoxes = ({ target }) => {
     let incomingClick = target.value.split('')
-    let updatedState = [...this.state[target.name]];
-    let newValue = parseInt(incomingClick.pop())
+    let timeBlock = parseInt(incomingClick.pop())
+    let weekDay = parseInt(incomingClick.pop())
+    let stateToUpdate = this.state.availability[weekDay].map((avail, i) => {
+      if (i === timeBlock) return !avail
+      else return avail
+    })
+    const updatedState = this.state.availability;
+    updatedState[weekDay] = stateToUpdate
     
-    if (!updatedState.includes(newValue)) {
-      updatedState.push(newValue)
-    } else {
-      let index = updatedState.indexOf(newValue)
-      updatedState.splice(index, 1)
-    }
-
-    this.setState({ [target.name]: updatedState.sort() })
+    this.setState({ availability: updatedState })
   }
 
   handleChange = ({ target }) => {
@@ -47,7 +48,7 @@ export class UserSchedule extends Component {
 
   render() {
     const daysOfWeek = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
-    const apptTimes = ['Morning', 'Lunch', 'Afternoon', 'Evening'];
+    const apptTimes = ['Morning', 'Afternoon', 'Evening'];
 
     const checkBoxes = daysOfWeek.map((day, dayIndex) => {
       return (
