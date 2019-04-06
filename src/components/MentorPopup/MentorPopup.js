@@ -10,7 +10,7 @@ export class MentorPopup extends Component {
         <p>{this.props.location}</p>
         <p>{this.props.cohort}</p>
         <p>{this.props.background}</p>
-        <p>{this.props.tech_skills[0]}</p>
+        <p>{this.props.tech_skills && this.props.tech_skills[0]}</p>
         <Link to='/mentors'>GO BACK</Link>
       </div>
     )

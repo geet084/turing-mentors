@@ -45,6 +45,10 @@ ShallowWrapper {
           path="/mentors"
         />
         <Route
+          path="/mentors/:id"
+          render={[Function]}
+        />
+        <Route
           component={[Function]}
           exact={true}
           path="/mentor"
@@ -91,6 +95,10 @@ ShallowWrapper {
             component={[Function]}
             exact={true}
             path="/mentors"
+          />,
+          <Route
+            path="/mentors/:id"
+            render={[Function]}
           />,
           <Route
             component={[Function]}
@@ -179,6 +187,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "path": "/mentors/:id",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
             "component": [Function],
             "exact": true,
             "path": "/mentor",
@@ -249,6 +269,10 @@ ShallowWrapper {
             path="/mentors"
           />
           <Route
+            path="/mentors/:id"
+            render={[Function]}
+          />
+          <Route
             component={[Function]}
             exact={true}
             path="/mentor"
@@ -295,6 +319,10 @@ ShallowWrapper {
               component={[Function]}
               exact={true}
               path="/mentors"
+            />,
+            <Route
+              path="/mentors/:id"
+              render={[Function]}
             />,
             <Route
               component={[Function]}
@@ -373,6 +401,18 @@ ShallowWrapper {
               "component": [Function],
               "exact": true,
               "path": "/mentors",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "path": "/mentors/:id",
+              "render": [Function],
             },
             "ref": null,
             "rendered": null,
