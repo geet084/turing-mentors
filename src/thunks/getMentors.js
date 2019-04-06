@@ -3,7 +3,7 @@ import { isLoading, hasErrored, getMentorsSuccess } from '../actions';
 export const getMentors = (url) => {
   return async (dispatch) => {
     try {
-      dispatch(isLoading(false));
+      dispatch(isLoading(true));
       const response = await fetch(url);
       if (!response.ok) {
         throw Error(response.statusText);
