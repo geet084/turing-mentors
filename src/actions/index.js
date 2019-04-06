@@ -11,4 +11,9 @@ export const hasErrored = (message) => ({
 export const updateForm = (form) => ({
   type: 'UPDATE_FORM',
   form
-})
+});
+
+export const getMentorsSuccess = (mentors) => ({
+  type: 'GET_MENTORS_SUCCESS',
+  mentors
+});
