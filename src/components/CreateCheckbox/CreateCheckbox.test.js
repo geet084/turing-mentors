@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import CreateCheckbox from './CreateCheckbox';
+import { CreateCheckbox } from './CreateCheckbox';
 
 describe('CreateCheckbox', () => {
   let wrapper;
@@ -12,7 +12,7 @@ describe('CreateCheckbox', () => {
   }
 
   it('should match the correct snapshot', () => {
-    wrapper = shallow(<CreateCheckbox {...mockProps}/>);
+    wrapper = shallow(<CreateCheckbox {...mockProps} />);
     expect(wrapper).toMatchSnapshot();
   });
 });

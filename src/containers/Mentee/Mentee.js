@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { updateForm } from '../../actions';
 
-class Mentee extends Component {
+export class Mentee extends Component {
   state = {
     userInfo: {},
     userBio: {},
@@ -32,7 +32,6 @@ class Mentee extends Component {
 
   render() {
     const { currentSection } = this.state;
-    console.log(this.props.form)
     return (
       <div>
         {currentSection === 'userInfo' && <UserInfo updateUserInfo={this.updateUserInfo} />}

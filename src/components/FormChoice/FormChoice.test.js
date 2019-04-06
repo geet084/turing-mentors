@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import FormChoice from './FormChoice';
+import { FormChoice } from './FormChoice';
 
 describe('FormChoice', () => {
   let wrapper;

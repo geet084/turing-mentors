@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import CreateInput from './CreateInput';
+import { CreateInput } from './CreateInput';
 
 describe('CreateInput', () => {
   let wrapper;
- 
+
   it('should match the snapshot', () => {
     const mockProps = {
       field: 'field',

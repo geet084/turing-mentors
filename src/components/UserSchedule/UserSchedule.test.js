@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import UserSchedule from './UserSchedule';
+import { UserSchedule } from './UserSchedule';
 
 describe('UserSchedule', () => {
   let wrapper;
