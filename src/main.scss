@@ -1,7 +1,6 @@
 @import './containers/App/App.scss';
 @import './components/HeroImage/HeroImage.scss';
 @import './components/Nav/Nav.scss';
-@import './containers/Display/Display.scss';
 @import './components/FormChoice/FormChoice.scss';
 @import './components/NotFound/NotFound.scss';
 @import './components/UserInfo/UserInfo.scss';
@@ -9,7 +8,8 @@
 @import './components/CreateCheckbox/CreateCheckbox.scss';
 @import './components/UserBackground/UserBackground.scss';
 @import './components/UserSchedule/UserSchedule.scss';
-
+@import './containers/Mentors/Mentors.scss';
+@import './components/MentorCard/MentorCard.scss';
 body {
   margin: 0;
   padding: 0;
