@@ -9,6 +9,7 @@ describe('rootReducer', () => {
       isLoading: true,
       error: '',
       form: {},
+      mentors: [],
     };
 
     expect(store.getState()).toEqual(expected);
