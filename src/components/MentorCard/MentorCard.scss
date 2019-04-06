@@ -1,0 +1,27 @@
+.mentors-card {
+  box-shadow: 8px 9px 12px -11px rgb(72, 70, 72);
+  margin: 15px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  align-items: center;
+  border-radius: 15px;
+  p, span {
+    margin: 10px;
+  }
+}
+
+.loc-lang {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .loc {
+    width: 65%;
+    color: green;
+  }
+  .lang {
+    width: 35%;
+    color: red;
+  }
+}
