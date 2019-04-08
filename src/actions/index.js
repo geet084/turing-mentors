@@ -17,3 +17,8 @@ export const getMentorsSuccess = (mentors) => ({
   type: 'GET_MENTORS_SUCCESS',
   mentors
 });
+
+export const slackSuccess = (message) => ({
+  type: 'SLACK_SUCCESS',
+  message
+})
