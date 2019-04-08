@@ -49,4 +49,17 @@ describe('actions', () => {
       expect(result).toEqual(expected);
     });
   });
+
+  describe('slackSuccess', () => {
+    it('should get mentors from the database matching provided params', () => {
+      const message = 'a message to post';
+      const expected = {
+        type: 'SLACK_SUCCESS',
+        message: 'a message to post'
+      };
+
+      const result = actions.slackSuccess(message);
+      expect(result).toEqual(expected);
+    });
+  });
 });
