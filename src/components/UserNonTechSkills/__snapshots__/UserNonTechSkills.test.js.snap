@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserTechSkills should match the correct snapshot 1`] = `
+exports[`UserNonTechSkills should match the correct snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <UserTechSkills
+  Symbol(enzyme.__unrendered__): <UserNonTechSkills
     updateUserInfo={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -22,7 +22,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h2>
-          tech skills checkboxes here
+          NON tech skills checkboxes here
         </h2>,
         <button
           className="next-btn"
@@ -34,12 +34,12 @@ ShallowWrapper {
           className="next-btn"
           onClick={[Function]}
         >
-          Next
+          Submit
         </button>,
         <span
           className="pages"
         >
-          5 of 
+          6 of 
           4
         </span>,
       ],
@@ -52,10 +52,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "tech skills checkboxes here",
+          "children": "NON tech skills checkboxes here",
         },
         "ref": null,
-        "rendered": "tech skills checkboxes here",
+        "rendered": "NON tech skills checkboxes here",
         "type": "h2",
       },
       Object {
@@ -76,12 +76,12 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Next",
+          "children": "Submit",
           "className": "next-btn",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": "Next",
+        "rendered": "Submit",
         "type": "button",
       },
       Object {
@@ -90,14 +90,14 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "5 of ",
+            "6 of ",
             "4",
           ],
           "className": "pages",
         },
         "ref": null,
         "rendered": Array [
-          "5 of ",
+          "6 of ",
           "4",
         ],
         "type": "span",
@@ -113,7 +113,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h2>
-            tech skills checkboxes here
+            NON tech skills checkboxes here
           </h2>,
           <button
             className="next-btn"
@@ -125,12 +125,12 @@ ShallowWrapper {
             className="next-btn"
             onClick={[Function]}
           >
-            Next
+            Submit
           </button>,
           <span
             className="pages"
           >
-            5 of 
+            6 of 
             4
           </span>,
         ],
@@ -143,10 +143,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "tech skills checkboxes here",
+            "children": "NON tech skills checkboxes here",
           },
           "ref": null,
-          "rendered": "tech skills checkboxes here",
+          "rendered": "NON tech skills checkboxes here",
           "type": "h2",
         },
         Object {
@@ -167,12 +167,12 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Next",
+            "children": "Submit",
             "className": "next-btn",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": "Next",
+          "rendered": "Submit",
           "type": "button",
         },
         Object {
@@ -181,14 +181,14 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "5 of ",
+              "6 of ",
               "4",
             ],
             "className": "pages",
           },
           "ref": null,
           "rendered": Array [
-            "5 of ",
+            "6 of ",
             "4",
           ],
           "type": "span",

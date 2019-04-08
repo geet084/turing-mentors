@@ -4,6 +4,7 @@ import UserBio from '../../components/UserBio/UserBio';
 import UserBackground from '../../components/UserBackground/UserBackground';
 import UserSchedule from '../../components/UserSchedule/UserSchedule';
 import UserTechSkills from '../../components/UserTechSkills/UserTechSkills';
+import UserNonTechSkills from '../../components/UserNonTechSkills/UserNonTechSkills';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { updateForm } from '../../actions';
@@ -15,6 +16,7 @@ export class Form extends Component {
     userBackground: {},
     userSchedule: {},
     userTechSkills: {},
+    userNonTechSkills: {},
     currentSection: 'userInfo',
     // currentSection: 'userSchedule',
   }
@@ -40,6 +42,7 @@ export class Form extends Component {
     const userBackground = currentSection === 'userBackground';
     const userSchedule = currentSection === 'userSchedule';
     const userTechSkills = currentSection === 'userTechSkills'
+    const userNonTechSkills = currentSection === 'userNonTechSkills'
     const complete = currentSection === 'complete';
     const user = mentor ? 'Mentor' : 'Mentee';
 
@@ -50,6 +53,7 @@ export class Form extends Component {
         {userBackground && <UserBackground updateUserInfo={this.updateUserInfo} user={user} />}
         {userSchedule && <UserSchedule updateUserInfo={this.updateUserInfo} user={user} />}
         {mentor && userTechSkills && <UserTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
+        {mentor && userNonTechSkills && <UserNonTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
         {complete && <div><h1>Thank you!</h1><Link to='/'>Return Home</Link> </div>}
       </div>
     )
