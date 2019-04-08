@@ -3,7 +3,16 @@
 exports[`MentorPopup should match the correct snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <MentorPopup />,
+  Symbol(enzyme.__unrendered__): <MentorPopup
+    id={1}
+    name="some name"
+    sendMessage={[MockFunction]}
+    tech_skills={
+      Array [
+        "skill",
+      ]
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -20,11 +29,15 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         "mentor popup page",
+        <p>
+          some name
+        </p>,
         <p />,
         <p />,
         <p />,
-        <p />,
-        <p />,
+        <p>
+          skill
+        </p>,
         <div>
           <textarea
             className="bg-info"
@@ -54,10 +67,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": "some name",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "some name",
         "type": "p",
       },
       Object {
@@ -76,10 +89,16 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": Array [
+            undefined,
+            undefined,
+          ],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          undefined,
+          undefined,
+        ],
         "type": "p",
       },
       Object {
@@ -98,10 +117,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": "skill",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "skill",
         "type": "p",
       },
       Object {
@@ -170,11 +189,15 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           "mentor popup page",
+          <p>
+            some name
+          </p>,
           <p />,
           <p />,
           <p />,
-          <p />,
-          <p />,
+          <p>
+            skill
+          </p>,
           <div>
             <textarea
               className="bg-info"
@@ -204,10 +227,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": "some name",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "some name",
           "type": "p",
         },
         Object {
@@ -226,10 +249,16 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": Array [
+              undefined,
+              undefined,
+            ],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            undefined,
+            undefined,
+          ],
           "type": "p",
         },
         Object {
@@ -248,10 +277,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": "skill",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "skill",
           "type": "p",
         },
         Object {

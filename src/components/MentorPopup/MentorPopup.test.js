@@ -4,9 +4,36 @@ import { shallow } from 'enzyme';
 
 describe('MentorPopup', () => {
   let wrapper;
+  let mockProps = {
+    id: 1,
+    name: 'some name',
+    tech_skills: ['skill'],
+    sendMessage: jest.fn(),
+  };
+
+  beforeEach(() => {
+    wrapper = shallow(<MentorPopup {...mockProps} />);
+  });
 
   it('should match the correct snapshot', () => {
-    wrapper = shallow(<MentorPopup />)
-    expect(wrapper).toMatchSnapshot()
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('should handle change of the slack message input', () => {
+    const mockEvent = { target: { value: 'new message' } };
+
+    wrapper.find('.bg-info').simulate('change', mockEvent);
+
+    expect(wrapper.state()).toEqual({ text: 'new message' });
+  });
+
+  it('should handle submitting the new slack message', () => {
+    const mockEvent = { target: { value: 'new message' } };
+    const mockMessage = 'To user: anonymous -- message: new message';
+
+    wrapper.find('.bg-info').simulate('change', mockEvent);
+    wrapper.find('button').simulate('click');
+    expect(wrapper.state()).toEqual({ text: '' });
+    expect(mockProps.sendMessage).toHaveBeenCalledWith(mockMessage);
   });
 });
