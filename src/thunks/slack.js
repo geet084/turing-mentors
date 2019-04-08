@@ -1,4 +1,4 @@
-import { isLoading, hasErrored, slackSuccess } from '../actions';
+import { isLoading, hasErrored } from '../actions';
 
 export const slack = (url, text) => {
   return async (dispatch) => {
@@ -14,8 +14,6 @@ export const slack = (url, text) => {
         throw Error(response.statusText);
       }
       dispatch(isLoading(false));
-      const results = await response.json();
-      dispatch(slackSuccess(results.data));
     } catch (error) {
       dispatch(hasErrored(error.message));
       dispatch(isLoading(false));
