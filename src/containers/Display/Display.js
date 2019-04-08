@@ -9,8 +9,15 @@ import MentorPopup from '../../components/MentorPopup/MentorPopup';
 import Form from '../Form/Form';
 import NotFound from '../../components/NotFound/NotFound';
 import { connect } from 'react-redux';
+import { slack } from '../../thunks/slack';
 
 export class Display extends Component {
+  sendMessage = (message) => {
+    const cors = 'https://cors-anywhere.herokuapp.com/'
+    const url = 'https://hooks.slack.com/services/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'
+    this.props.sendSlack(cors + url, message)
+  }
+  
   render() {
     return (
       <main className="display">
@@ -24,7 +31,7 @@ export class Display extends Component {
             const { id } = match.params;
             const mentor = this.props.mentors.find(mentor => mentor.id === id);
 
-            if (mentor) return <MentorPopup id={mentor.id} {...mentor.attributes} />
+            if (mentor) return <MentorPopup id={mentor.id} {...mentor.attributes} sendMessage={this.sendMessage}/>
             else return <NotFound />
           }} />
           <Route exact path='/mentor' component={Form} />
@@ -40,4 +47,8 @@ export const mapStateToProps = (state) => ({
   mentors: state.mentors,
 })
 
-export default connect(mapStateToProps)(Display);
+export const mapDispatchToProps = (dispatch) => ({
+  sendSlack: (url, message) => dispatch(slack(url, message)),
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(Display);
