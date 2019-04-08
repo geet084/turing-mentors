@@ -1,9 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Mentors should have match the correct snapshot 1`] = `
+exports[`Mentors initial should have match the correct snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Connect(Mentors) />,
+  Symbol(enzyme.__unrendered__): <Mentors
+    getMentors={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "https://cors-anywhere.herokuapp.com/https://sheltered-beach-23653.herokuapp.com/api/v1/mentors?location=all",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    mentors={
+      Array [
+        Object {
+          "first_name": "first",
+          "id": 1,
+        },
+        Object {
+          "first_name": "second",
+          "id": 2,
+        },
+      ]
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -16,59 +44,191 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "host",
     "props": Object {
-      "children": [Function],
+      "children": <MasonryComponent
+        breakpointCols={
+          Object {
+            "1100": 3,
+            "500": 1,
+            "700": 2,
+            "default": 4,
+          }
+        }
+        className="mentors-grid"
+        columnClassName="mentors-grid_column"
+        disableImagesLoaded={false}
+        elementType="div"
+        enableResizableChildren={false}
+        imagesLoadedOptions={Object {}}
+        onLayoutComplete={[Function]}
+        onRemoveComplete={[Function]}
+        options={Object {}}
+        updateOnEachImageLoad={false}
+      >
+        <MentorCard
+          id={1}
+        />
+        <MentorCard
+          id={2}
+        />
+      </MasonryComponent>,
+      "className": "mentors-container",
     },
     "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "_calculateChangedBits": null,
-      "_context": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "_context": [Circular],
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "breakpointCols": Object {
+          "1100": 3,
+          "500": 1,
+          "700": 2,
+          "default": 4,
         },
-        "_calculateChangedBits": null,
-        "_currentRenderer": null,
-        "_currentRenderer2": null,
-        "_currentValue": null,
-        "_currentValue2": null,
-        "_threadCount": 0,
+        "children": Array [
+          <MentorCard
+            id={1}
+          />,
+          <MentorCard
+            id={2}
+          />,
+        ],
+        "className": "mentors-grid",
+        "columnClassName": "mentors-grid_column",
+        "disableImagesLoaded": false,
+        "elementType": "div",
+        "enableResizableChildren": false,
+        "imagesLoadedOptions": Object {},
+        "onLayoutComplete": [Function],
+        "onRemoveComplete": [Function],
+        "options": Object {},
+        "updateOnEachImageLoad": false,
       },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "id": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "id": 2,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
     },
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "host",
       "props": Object {
-        "children": [Function],
+        "children": <MasonryComponent
+          breakpointCols={
+            Object {
+              "1100": 3,
+              "500": 1,
+              "700": 2,
+              "default": 4,
+            }
+          }
+          className="mentors-grid"
+          columnClassName="mentors-grid_column"
+          disableImagesLoaded={false}
+          elementType="div"
+          enableResizableChildren={false}
+          imagesLoadedOptions={Object {}}
+          onLayoutComplete={[Function]}
+          onRemoveComplete={[Function]}
+          options={Object {}}
+          updateOnEachImageLoad={false}
+        >
+          <MentorCard
+            id={1}
+          />
+          <MentorCard
+            id={2}
+          />
+        </MasonryComponent>,
+        "className": "mentors-container",
       },
       "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "_calculateChangedBits": null,
-        "_context": Object {
-          "$$typeof": Symbol(react.context),
-          "Consumer": [Circular],
-          "Provider": Object {
-            "$$typeof": Symbol(react.provider),
-            "_context": [Circular],
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "breakpointCols": Object {
+            "1100": 3,
+            "500": 1,
+            "700": 2,
+            "default": 4,
           },
-          "_calculateChangedBits": null,
-          "_currentRenderer": null,
-          "_currentRenderer2": null,
-          "_currentValue": null,
-          "_currentValue2": null,
-          "_threadCount": 0,
+          "children": Array [
+            <MentorCard
+              id={1}
+            />,
+            <MentorCard
+              id={2}
+            />,
+          ],
+          "className": "mentors-grid",
+          "columnClassName": "mentors-grid_column",
+          "disableImagesLoaded": false,
+          "elementType": "div",
+          "enableResizableChildren": false,
+          "imagesLoadedOptions": Object {},
+          "onLayoutComplete": [Function],
+          "onRemoveComplete": [Function],
+          "options": Object {},
+          "updateOnEachImageLoad": false,
         },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "id": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "id": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
       },
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {
