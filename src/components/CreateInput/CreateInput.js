@@ -2,25 +2,18 @@ import React, { Component } from 'react';
 
 export class CreateInput extends Component {
 
-  adjust = ({ target }) => {
-    if (this.props.value) {
-      target.classList.add('has-content')
-    } else {
-      target.classList.remove('has-content')
-    }
-  }
-
   render() {
+    const classes = this.props.value ? 'input-effect has-content' : 'input-effect';
+
     return (
       <div className="input-box">
         <input
-          className="input-effect"
+          className={classes}
           type="text"
           placeholder=""
           maxLength={this.props.max}
           name={this.props.field}
           onChange={this.props.handleChange}
-          onBlur={this.adjust}
         />
         <label>{this.props.text}</label>
         <span className="focus-border"></span>
