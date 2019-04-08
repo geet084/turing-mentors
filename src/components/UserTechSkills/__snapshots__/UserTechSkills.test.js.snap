@@ -21,9 +21,67 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
-          tech skills checkboxes here
-        </h2>,
+        <p
+          className="pages"
+        >
+          Mentor Tech skills
+        </p>,
+        <form>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="Ruby"
+            name="Ruby"
+            value={0}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="JavaScript"
+            name="JavaScript"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="Python"
+            name="Python"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="Java"
+            name="Java"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="Elixer"
+            name="Elixer"
+            value={4}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="C"
+            name="C"
+            value={5}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="PHP"
+            name="PHP"
+            value={6}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="Swift"
+            name="Swift"
+            value={7}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="SQL"
+            name="SQL"
+            value={8}
+          />
+        </form>,
         <button
           className="next-btn"
           onClick={[Function]}
@@ -52,11 +110,205 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "tech skills checkboxes here",
+          "children": "Mentor Tech skills",
+          "className": "pages",
         },
         "ref": null,
-        "rendered": "tech skills checkboxes here",
-        "type": "h2",
+        "rendered": "Mentor Tech skills",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Ruby"
+              name="Ruby"
+              value={0}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="JavaScript"
+              name="JavaScript"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Python"
+              name="Python"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Java"
+              name="Java"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Elixer"
+              name="Elixer"
+              value={4}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="C"
+              name="C"
+              value={5}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="PHP"
+              name="PHP"
+              value={6}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Swift"
+              name="Swift"
+              value={7}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="SQL"
+              name="SQL"
+              value={8}
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Ruby",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "Ruby",
+              "name": "Ruby",
+              "value": 0,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "JavaScript",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "JavaScript",
+              "name": "JavaScript",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Python",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "Python",
+              "name": "Python",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Java",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "Java",
+              "name": "Java",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Elixer",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "Elixer",
+              "name": "Elixer",
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "C",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "C",
+              "name": "C",
+              "value": 5,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "PHP",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "PHP",
+              "name": "PHP",
+              "value": 6,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Swift",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "Swift",
+              "name": "Swift",
+              "value": 7,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "SQL",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "SQL",
+              "name": "SQL",
+              "value": 8,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "form",
       },
       Object {
         "instance": null,
@@ -112,9 +364,67 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
-            tech skills checkboxes here
-          </h2>,
+          <p
+            className="pages"
+          >
+            Mentor Tech skills
+          </p>,
+          <form>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Ruby"
+              name="Ruby"
+              value={0}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="JavaScript"
+              name="JavaScript"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Python"
+              name="Python"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Java"
+              name="Java"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Elixer"
+              name="Elixer"
+              value={4}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="C"
+              name="C"
+              value={5}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="PHP"
+              name="PHP"
+              value={6}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Swift"
+              name="Swift"
+              value={7}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="SQL"
+              name="SQL"
+              value={8}
+            />
+          </form>,
           <button
             className="next-btn"
             onClick={[Function]}
@@ -143,11 +453,205 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "tech skills checkboxes here",
+            "children": "Mentor Tech skills",
+            "className": "pages",
           },
           "ref": null,
-          "rendered": "tech skills checkboxes here",
-          "type": "h2",
+          "rendered": "Mentor Tech skills",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="Ruby"
+                name="Ruby"
+                value={0}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="JavaScript"
+                name="JavaScript"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="Python"
+                name="Python"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="Java"
+                name="Java"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="Elixer"
+                name="Elixer"
+                value={4}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="C"
+                name="C"
+                value={5}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="PHP"
+                name="PHP"
+                value={6}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="Swift"
+                name="Swift"
+                value={7}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="SQL"
+                name="SQL"
+                value={8}
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Ruby",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "Ruby",
+                "name": "Ruby",
+                "value": 0,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "JavaScript",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "JavaScript",
+                "name": "JavaScript",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Python",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "Python",
+                "name": "Python",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Java",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "Java",
+                "name": "Java",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Elixer",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "Elixer",
+                "name": "Elixer",
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "C",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "C",
+                "name": "C",
+                "value": 5,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "PHP",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "PHP",
+                "name": "PHP",
+                "value": 6,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Swift",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "Swift",
+                "name": "Swift",
+                "value": 7,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "SQL",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "SQL",
+                "name": "SQL",
+                "value": 8,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
         },
         Object {
           "instance": null,

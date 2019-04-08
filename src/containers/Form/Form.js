@@ -18,7 +18,6 @@ export class Form extends Component {
     userTechSkills: {},
     userNonTechSkills: {},
     currentSection: 'userInfo',
-    // currentSection: 'userSchedule',
   }
 
   updateUserInfo = (info) => {

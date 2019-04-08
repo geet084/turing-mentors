@@ -45,7 +45,7 @@ export class UserInfo extends Component {
   }
 
   render() {
-    const { firstName, lastName, cohort, current_job } = this.state;
+    const { first_name, last_name, cohort, current_job } = this.state;
     const identities = ['Male', 'Female', 'Non-Binary'];
     const mentor = this.props.user === 'Mentor';
     
@@ -53,8 +53,8 @@ export class UserInfo extends Component {
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
           <span className="pages">{this.props.user} User info:</span>
-          <CreateInput field="firstName" text="First Name" value={firstName} handleChange={this.handleChange} max="28" />
-          <CreateInput field="lastName" text="Last Name" value={lastName} handleChange={this.handleChange} max="28" />
+          <CreateInput field="first_name" text="First Name" value={first_name} handleChange={this.handleChange} max="28" />
+          <CreateInput field="last_name" text="Last Name" value={last_name} handleChange={this.handleChange} max="28" />
 
           <div className="check-box">
             {

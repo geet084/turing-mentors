@@ -21,9 +21,49 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
-          NON tech skills checkboxes here
-        </h2>,
+        <p
+          className="pages"
+        >
+          Mentor NON Tech skills
+        </p>,
+        <form>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="StressManagement"
+            name="StressManagement"
+            value={0}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="PublicSpeaking"
+            name="PublicSpeaking"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="Resumes"
+            name="Resumes"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="Technical_Interview"
+            name="Technical_Interview"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="Parenting"
+            name="Parenting"
+            value={4}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="Wellness"
+            name="Wellness"
+            value={5}
+          />
+        </form>,
         <button
           className="next-btn"
           onClick={[Function]}
@@ -52,11 +92,145 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "NON tech skills checkboxes here",
+          "children": "Mentor NON Tech skills",
+          "className": "pages",
         },
         "ref": null,
-        "rendered": "NON tech skills checkboxes here",
-        "type": "h2",
+        "rendered": "Mentor NON Tech skills",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="StressManagement"
+              name="StressManagement"
+              value={0}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="PublicSpeaking"
+              name="PublicSpeaking"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Resumes"
+              name="Resumes"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Technical_Interview"
+              name="Technical_Interview"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Parenting"
+              name="Parenting"
+              value={4}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Wellness"
+              name="Wellness"
+              value={5}
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "StressManagement",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "StressManagement",
+              "name": "StressManagement",
+              "value": 0,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "PublicSpeaking",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "PublicSpeaking",
+              "name": "PublicSpeaking",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Resumes",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "Resumes",
+              "name": "Resumes",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Technical_Interview",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "Technical_Interview",
+              "name": "Technical_Interview",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Parenting",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "Parenting",
+              "name": "Parenting",
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Wellness",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "Wellness",
+              "name": "Wellness",
+              "value": 5,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "form",
       },
       Object {
         "instance": null,
@@ -112,9 +286,49 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
-            NON tech skills checkboxes here
-          </h2>,
+          <p
+            className="pages"
+          >
+            Mentor NON Tech skills
+          </p>,
+          <form>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="StressManagement"
+              name="StressManagement"
+              value={0}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="PublicSpeaking"
+              name="PublicSpeaking"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Resumes"
+              name="Resumes"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Technical_Interview"
+              name="Technical_Interview"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Parenting"
+              name="Parenting"
+              value={4}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="Wellness"
+              name="Wellness"
+              value={5}
+            />
+          </form>,
           <button
             className="next-btn"
             onClick={[Function]}
@@ -143,11 +357,145 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "NON tech skills checkboxes here",
+            "children": "Mentor NON Tech skills",
+            "className": "pages",
           },
           "ref": null,
-          "rendered": "NON tech skills checkboxes here",
-          "type": "h2",
+          "rendered": "Mentor NON Tech skills",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="StressManagement"
+                name="StressManagement"
+                value={0}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="PublicSpeaking"
+                name="PublicSpeaking"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="Resumes"
+                name="Resumes"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="Technical_Interview"
+                name="Technical_Interview"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="Parenting"
+                name="Parenting"
+                value={4}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="Wellness"
+                name="Wellness"
+                value={5}
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "StressManagement",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "StressManagement",
+                "name": "StressManagement",
+                "value": 0,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "PublicSpeaking",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "PublicSpeaking",
+                "name": "PublicSpeaking",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Resumes",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "Resumes",
+                "name": "Resumes",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Technical_Interview",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "Technical_Interview",
+                "name": "Technical_Interview",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Parenting",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "Parenting",
+                "name": "Parenting",
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Wellness",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "Wellness",
+                "name": "Wellness",
+                "value": 5,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
         },
         Object {
           "instance": null,

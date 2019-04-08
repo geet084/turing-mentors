@@ -31,16 +31,18 @@ ShallowWrapper {
              User info:
           </span>
           <CreateInput
-            field="firstName"
+            field="first_name"
             handleChange={[Function]}
             max="28"
             text="First Name"
+            value=""
           />
           <CreateInput
-            field="lastName"
+            field="last_name"
             handleChange={[Function]}
             max="28"
             text="Last Name"
+            value=""
           />
           <div
             className="check-box"
@@ -126,16 +128,18 @@ ShallowWrapper {
                User info:
             </span>,
             <CreateInput
-              field="firstName"
+              field="first_name"
               handleChange={[Function]}
               max="28"
               text="First Name"
+              value=""
             />,
             <CreateInput
-              field="lastName"
+              field="last_name"
               handleChange={[Function]}
               max="28"
               text="Last Name"
+              value=""
             />,
             <div
               className="check-box"
@@ -208,11 +212,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "field": "firstName",
+              "field": "first_name",
               "handleChange": [Function],
               "max": "28",
               "text": "First Name",
-              "value": undefined,
+              "value": "",
             },
             "ref": null,
             "rendered": null,
@@ -223,11 +227,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "field": "lastName",
+              "field": "last_name",
               "handleChange": [Function],
               "max": "28",
               "text": "Last Name",
-              "value": undefined,
+              "value": "",
             },
             "ref": null,
             "rendered": null,
@@ -484,16 +488,18 @@ ShallowWrapper {
                User info:
             </span>
             <CreateInput
-              field="firstName"
+              field="first_name"
               handleChange={[Function]}
               max="28"
               text="First Name"
+              value=""
             />
             <CreateInput
-              field="lastName"
+              field="last_name"
               handleChange={[Function]}
               max="28"
               text="Last Name"
+              value=""
             />
             <div
               className="check-box"
@@ -579,16 +585,18 @@ ShallowWrapper {
                  User info:
               </span>,
               <CreateInput
-                field="firstName"
+                field="first_name"
                 handleChange={[Function]}
                 max="28"
                 text="First Name"
+                value=""
               />,
               <CreateInput
-                field="lastName"
+                field="last_name"
                 handleChange={[Function]}
                 max="28"
                 text="Last Name"
+                value=""
               />,
               <div
                 className="check-box"
@@ -661,11 +669,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "field": "firstName",
+                "field": "first_name",
                 "handleChange": [Function],
                 "max": "28",
                 "text": "First Name",
-                "value": undefined,
+                "value": "",
               },
               "ref": null,
               "rendered": null,
@@ -676,11 +684,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "field": "lastName",
+                "field": "last_name",
                 "handleChange": [Function],
                 "max": "28",
                 "text": "Last Name",
-                "value": undefined,
+                "value": "",
               },
               "ref": null,
               "rendered": null,
