@@ -105,7 +105,8 @@ ShallowWrapper {
           <span
             className="pages"
           >
-            1 of 4
+            1 of 
+            4
           </span>
         </div>,
       ],
@@ -189,11 +190,17 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": " User info:",
+              "children": Array [
+                undefined,
+                " User info:",
+              ],
               "className": "pages",
             },
             "ref": null,
-            "rendered": " User info:",
+            "rendered": Array [
+              undefined,
+              " User info:",
+            ],
             "type": "span",
           },
           Object {
@@ -400,7 +407,8 @@ ShallowWrapper {
             <span
               className="pages"
             >
-              1 of 4
+              1 of 
+              4
             </span>,
           ],
           "className": "input-box",
@@ -440,11 +448,17 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "1 of 4",
+              "children": Array [
+                "1 of ",
+                "4",
+              ],
               "className": "pages",
             },
             "ref": null,
-            "rendered": "1 of 4",
+            "rendered": Array [
+              "1 of ",
+              "4",
+            ],
             "type": "span",
           },
         ],
@@ -544,7 +558,8 @@ ShallowWrapper {
             <span
               className="pages"
             >
-              1 of 4
+              1 of 
+              4
             </span>
           </div>,
         ],
@@ -628,11 +643,17 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": " User info:",
+                "children": Array [
+                  undefined,
+                  " User info:",
+                ],
                 "className": "pages",
               },
               "ref": null,
-              "rendered": " User info:",
+              "rendered": Array [
+                undefined,
+                " User info:",
+              ],
               "type": "span",
             },
             Object {
@@ -839,7 +860,8 @@ ShallowWrapper {
               <span
                 className="pages"
               >
-                1 of 4
+                1 of 
+                4
               </span>,
             ],
             "className": "input-box",
@@ -879,11 +901,17 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "1 of 4",
+                "children": Array [
+                  "1 of ",
+                  "4",
+                ],
                 "className": "pages",
               },
               "ref": null,
-              "rendered": "1 of 4",
+              "rendered": Array [
+                "1 of ",
+                "4",
+              ],
               "type": "span",
             },
           ],

@@ -4,10 +4,9 @@ import About from '../../components/About/About';
 import Contact from '../../components/Contact/Contact';
 import Contribute from '../../components/Contribute/Contribute';
 import FormChoice from '../../components/FormChoice/FormChoice';
-import Mentor from '../Mentor/Mentor';
 import Mentors from '../Mentors/Mentors';
 import MentorPopup from '../../components/MentorPopup/MentorPopup';
-import Mentee from '../Mentee/Mentee';
+import Form from '../Form/Form';
 import NotFound from '../../components/NotFound/NotFound';
 import { connect } from 'react-redux';
 
@@ -28,8 +27,8 @@ export class Display extends Component {
             if (mentor) return <MentorPopup id={mentor.id} {...mentor.attributes} />
             else return <NotFound />
           }} />
-          <Route exact path='/mentor' component={Mentor} />
-          <Route exact path='/mentee' component={Mentee} />
+          <Route exact path='/mentor' component={Form} />
+          <Route exact path='/mentee' component={Form} />
           <Route component={NotFound} />
         </Switch>
       </main>

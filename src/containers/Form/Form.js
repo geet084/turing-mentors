@@ -3,16 +3,18 @@ import UserInfo from '../../components/UserInfo/UserInfo';
 import UserBio from '../../components/UserBio/UserBio';
 import UserBackground from '../../components/UserBackground/UserBackground';
 import UserSchedule from '../../components/UserSchedule/UserSchedule';
+import UserTechSkills from '../../components/UserTechSkills/UserTechSkills';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { updateForm } from '../../actions';
 
-export class Mentee extends Component {
+export class Form extends Component {
   state = {
     userInfo: {},
     userBio: {},
     userBackground: {},
     userSchedule: {},
+    userTechSkills: {},
     currentSection: 'userInfo',
     // currentSection: 'userSchedule',
   }
@@ -32,13 +34,23 @@ export class Mentee extends Component {
 
   render() {
     const { currentSection } = this.state;
+    const mentor = this.props.location.pathname === '/mentor';
+    const userInfo = currentSection === 'userInfo';
+    const userBio = currentSection === 'userBio';
+    const userBackground = currentSection === 'userBackground';
+    const userSchedule = currentSection === 'userSchedule';
+    const userTechSkills = currentSection === 'userTechSkills'
+    const complete = currentSection === 'complete';
+    const user = mentor ? 'Mentor' : 'Mentee';
+
     return (
       <div>
-        {currentSection === 'userInfo' && <UserInfo updateUserInfo={this.updateUserInfo} />}
-        {currentSection === 'userBio' && <UserBio updateUserInfo={this.updateUserInfo} />}
-        {currentSection === 'userBackground' && <UserBackground updateUserInfo={this.updateUserInfo} />}
-        {currentSection === 'userSchedule' && <UserSchedule updateUserInfo={this.updateUserInfo} />}
-        {this.state.currentSection === 'complete' && <div><h1>Thank you!</h1><Link to='/'>Return Home</Link> </div>}
+        {userInfo && <UserInfo updateUserInfo={this.updateUserInfo} user={user} />}
+        {userBio && <UserBio updateUserInfo={this.updateUserInfo} user={user} />}
+        {userBackground && <UserBackground updateUserInfo={this.updateUserInfo} user={user} />}
+        {userSchedule && <UserSchedule updateUserInfo={this.updateUserInfo} user={user} />}
+        {mentor && userTechSkills && <UserTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
+        {complete && <div><h1>Thank you!</h1><Link to='/'>Return Home</Link> </div>}
       </div>
     )
   }
@@ -52,4 +64,4 @@ export const mapDispatchToProps = (dispatch) => ({
   updateForm: (form) => dispatch(updateForm(form)),
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(Mentee);
+export default connect(mapStateToProps, mapDispatchToProps)(Form);

@@ -21,10 +21,12 @@ export class UserBackground extends Component {
 
   render() {
     const { background } = this.state;
+    const mentor = this.props.user === 'Mentor';
+
     return (
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
-          <span className="pages"> Background info:</span>
+          <span className="pages">{this.props.user} Background info:</span>
           <textarea
             className="bg-info"
             type="text"
@@ -37,7 +39,7 @@ export class UserBackground extends Component {
         </form>
         <button className="prev-btn" onClick={this.goBack}>Back</button>
         <button className="next-btn" onClick={this.submitForm}>Next</button>
-        <span className="pages">3 of 4</span>
+        <span className="pages">3 of {mentor ? '6' : '4'}</span>
       </div>
     )
   }

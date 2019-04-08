@@ -1,9 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Mentee snapshots should have match a page four snapshot 1`] = `
+exports[`Form snapshots should have match a page four snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Mentee />,
+  Symbol(enzyme.__unrendered__): <Form
+    location={
+      Object {
+        "pathname": "/mentor",
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -23,6 +29,7 @@ ShallowWrapper {
         false,
         false,
         false,
+        false,
         <div>
           <h1>
             Thank you!
@@ -38,6 +45,7 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
+      false,
       false,
       false,
       false,
@@ -102,6 +110,7 @@ ShallowWrapper {
           false,
           false,
           false,
+          false,
           <div>
             <h1>
               Thank you!
@@ -117,6 +126,7 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
+        false,
         false,
         false,
         false,
@@ -198,10 +208,16 @@ ShallowWrapper {
 }
 `;
 
-exports[`Mentee snapshots should have match a page one snapshot(default) 1`] = `
+exports[`Form snapshots should have match a page one snapshot(default) 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Mentee />,
+  Symbol(enzyme.__unrendered__): <Form
+    location={
+      Object {
+        "pathname": "/mentor",
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -219,7 +235,9 @@ ShallowWrapper {
       "children": Array [
         <UserInfo
           updateUserInfo={[Function]}
+          user="Mentor"
         />,
+        false,
         false,
         false,
         false,
@@ -234,11 +252,13 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "updateUserInfo": [Function],
+          "user": "Mentor",
         },
         "ref": null,
         "rendered": null,
         "type": [Function],
       },
+      false,
       false,
       false,
       false,
@@ -255,7 +275,9 @@ ShallowWrapper {
         "children": Array [
           <UserInfo
             updateUserInfo={[Function]}
+            user="Mentor"
           />,
+          false,
           false,
           false,
           false,
@@ -270,11 +292,13 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "updateUserInfo": [Function],
+            "user": "Mentor",
           },
           "ref": null,
           "rendered": null,
           "type": [Function],
         },
+        false,
         false,
         false,
         false,
@@ -310,10 +334,16 @@ ShallowWrapper {
 }
 `;
 
-exports[`Mentee snapshots should have match a page three snapshot 1`] = `
+exports[`Form snapshots should have match a page three snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Mentee />,
+  Symbol(enzyme.__unrendered__): <Form
+    location={
+      Object {
+        "pathname": "/mentor",
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -334,7 +364,9 @@ ShallowWrapper {
         false,
         <UserSchedule
           updateUserInfo={[Function]}
+          user="Mentor"
         />,
+        false,
         false,
       ],
     },
@@ -349,11 +381,13 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "updateUserInfo": [Function],
+          "user": "Mentor",
         },
         "ref": null,
         "rendered": null,
         "type": [Function],
       },
+      false,
       false,
     ],
     "type": "div",
@@ -370,7 +404,9 @@ ShallowWrapper {
           false,
           <UserSchedule
             updateUserInfo={[Function]}
+            user="Mentor"
           />,
+          false,
           false,
         ],
       },
@@ -385,11 +421,13 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "updateUserInfo": [Function],
+            "user": "Mentor",
           },
           "ref": null,
           "rendered": null,
           "type": [Function],
         },
+        false,
         false,
       ],
       "type": "div",
@@ -422,10 +460,16 @@ ShallowWrapper {
 }
 `;
 
-exports[`Mentee snapshots should have match a page two snapshot 1`] = `
+exports[`Form snapshots should have match a page two snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Mentee />,
+  Symbol(enzyme.__unrendered__): <Form
+    location={
+      Object {
+        "pathname": "/mentor",
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -444,7 +488,9 @@ ShallowWrapper {
         false,
         <UserBio
           updateUserInfo={[Function]}
+          user="Mentor"
         />,
+        false,
         false,
         false,
         false,
@@ -459,11 +505,13 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "updateUserInfo": [Function],
+          "user": "Mentor",
         },
         "ref": null,
         "rendered": null,
         "type": [Function],
       },
+      false,
       false,
       false,
       false,
@@ -480,7 +528,9 @@ ShallowWrapper {
           false,
           <UserBio
             updateUserInfo={[Function]}
+            user="Mentor"
           />,
+          false,
           false,
           false,
           false,
@@ -495,11 +545,13 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "updateUserInfo": [Function],
+            "user": "Mentor",
           },
           "ref": null,
           "rendered": null,
           "type": [Function],
         },
+        false,
         false,
         false,
         false,
@@ -534,10 +586,16 @@ ShallowWrapper {
 }
 `;
 
-exports[`Mentee snapshots should have match a page two snapshot 2`] = `
+exports[`Form snapshots should have match a page two snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Mentee />,
+  Symbol(enzyme.__unrendered__): <Form
+    location={
+      Object {
+        "pathname": "/mentor",
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -557,7 +615,9 @@ ShallowWrapper {
         false,
         <UserBackground
           updateUserInfo={[Function]}
+          user="Mentor"
         />,
+        false,
         false,
         false,
       ],
@@ -572,11 +632,13 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "updateUserInfo": [Function],
+          "user": "Mentor",
         },
         "ref": null,
         "rendered": null,
         "type": [Function],
       },
+      false,
       false,
       false,
     ],
@@ -593,7 +655,9 @@ ShallowWrapper {
           false,
           <UserBackground
             updateUserInfo={[Function]}
+            user="Mentor"
           />,
+          false,
           false,
           false,
         ],
@@ -608,11 +672,13 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "updateUserInfo": [Function],
+            "user": "Mentor",
           },
           "ref": null,
           "rendered": null,
           "type": [Function],
         },
+        false,
         false,
         false,
       ],

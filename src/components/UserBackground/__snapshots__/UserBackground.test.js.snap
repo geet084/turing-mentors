@@ -56,7 +56,8 @@ ShallowWrapper {
         <span
           className="pages"
         >
-          3 of 4
+          3 of 
+          4
         </span>,
       ],
     },
@@ -94,11 +95,17 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": " Background info:",
+              "children": Array [
+                undefined,
+                " Background info:",
+              ],
               "className": "pages",
             },
             "ref": null,
-            "rendered": " Background info:",
+            "rendered": Array [
+              undefined,
+              " Background info:",
+            ],
             "type": "span",
           },
           Object {
@@ -153,11 +160,17 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "3 of 4",
+          "children": Array [
+            "3 of ",
+            "4",
+          ],
           "className": "pages",
         },
         "ref": null,
-        "rendered": "3 of 4",
+        "rendered": Array [
+          "3 of ",
+          "4",
+        ],
         "type": "span",
       },
     ],
@@ -205,7 +218,8 @@ ShallowWrapper {
           <span
             className="pages"
           >
-            3 of 4
+            3 of 
+            4
           </span>,
         ],
       },
@@ -243,11 +257,17 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": " Background info:",
+                "children": Array [
+                  undefined,
+                  " Background info:",
+                ],
                 "className": "pages",
               },
               "ref": null,
-              "rendered": " Background info:",
+              "rendered": Array [
+                undefined,
+                " Background info:",
+              ],
               "type": "span",
             },
             Object {
@@ -302,11 +322,17 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "3 of 4",
+            "children": Array [
+              "3 of ",
+              "4",
+            ],
             "className": "pages",
           },
           "ref": null,
-          "rendered": "3 of 4",
+          "rendered": Array [
+            "3 of ",
+            "4",
+          ],
           "type": "span",
         },
       ],

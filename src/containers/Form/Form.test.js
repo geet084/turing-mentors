@@ -1,14 +1,19 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Mentee, mapStateToProps, mapDispatchToProps } from './Mentee';
+import { Form, mapStateToProps, mapDispatchToProps } from './Form';
 import { updateForm } from '../../actions';
 
-describe('Mentee', () => {
+describe('Form', () => {
   let wrapper;
+  let mockProps = {
+    location: {
+      pathname: '/mentor'
+    }
+  }
 
   describe('snapshots', () => {
     beforeEach(() => {
-      wrapper = shallow(<Mentee />);
+      wrapper = shallow(<Form {...mockProps}/>);
     });
 
     it('should have match a page one snapshot(default)', () => {

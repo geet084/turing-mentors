@@ -16,7 +16,11 @@ export class UserSchedule extends Component {
 
   submitForm = (e) => {
     e.preventDefault();
-    this.props.updateUserInfo([this.state, 'complete']);
+    if (this.props.user === 'Mentee') {
+      this.props.updateUserInfo([this.state, 'complete']);
+    } else {
+      this.props.updateUserInfo([this.state, 'userTechSkills']);
+    }
   }
 
   goBack = (e) => {
@@ -62,16 +66,17 @@ export class UserSchedule extends Component {
         </div>
       )
     })
+    const mentor = this.props.user === 'Mentor'
 
     return (
       <div className="form-page">
         <form className="schedule-form" onSubmit={this.submitForm} autoComplete='off'>
-          <span className="pages"> Availability info:</span>
+          <span className="pages">{this.props.user} Availability info:</span>
           {checkBoxes}
         </form>
         <button className="next-btn" onClick={this.goBack}>Back</button>
-        <button className="next-btn" onClick={this.submitForm}>Submit</button>
-        <span className="pages">4 of 4</span>
+        <button className="next-btn" onClick={this.submitForm}>{mentor ? 'Next' : 'Submit'}</button>
+        <span className="pages">4 of {mentor ? '6' : '4'}</span>
       </div>
     )
   }
