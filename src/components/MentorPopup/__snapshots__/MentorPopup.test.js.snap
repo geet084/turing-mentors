@@ -25,6 +25,20 @@ ShallowWrapper {
         <p />,
         <p />,
         <p />,
+        <div>
+          <textarea
+            className="bg-info"
+            name="text"
+            onChange={[Function]}
+            placeholder="send slack message"
+            value=""
+          />
+        </div>,
+        <button
+          onClick={[Function]}
+        >
+          Submit
+        </button>,
         <Link
           to="/mentors"
         >
@@ -93,6 +107,49 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <textarea
+            className="bg-info"
+            name="text"
+            onChange={[Function]}
+            placeholder="send slack message"
+            value=""
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "bg-info",
+            "name": "text",
+            "onChange": [Function],
+            "placeholder": "send slack message",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "textarea",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Submit",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Submit",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": "GO BACK",
@@ -118,6 +175,20 @@ ShallowWrapper {
           <p />,
           <p />,
           <p />,
+          <div>
+            <textarea
+              className="bg-info"
+              name="text"
+              onChange={[Function]}
+              placeholder="send slack message"
+              value=""
+            />
+          </div>,
+          <button
+            onClick={[Function]}
+          >
+            Submit
+          </button>,
           <Link
             to="/mentors"
           >
@@ -182,6 +253,49 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <textarea
+              className="bg-info"
+              name="text"
+              onChange={[Function]}
+              placeholder="send slack message"
+              value=""
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "bg-info",
+              "name": "text",
+              "onChange": [Function],
+              "placeholder": "send slack message",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Submit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Submit",
+          "type": "button",
         },
         Object {
           "instance": null,
