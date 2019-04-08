@@ -31,8 +31,6 @@ export class UserInfo extends Component {
   updateProgram = ({ target }) => {
     const { name, value } = target;
 
-    if(value)
-    
     this.setState({ [name]: value })
   }
 
@@ -65,7 +63,7 @@ export class UserInfo extends Component {
           </div>
           <div>
             <CreateInput field="cohort" text="Cohort (ex: 1406)" value={cohort} handleChange={this.updateCohort} max='4' />
-            <CreateCheckbox field="program" name={'BE'} value={'BE'} checkBoxes={this.updateProgram} />
+            <CreateCheckbox className="aa" field="program" name={'BE'} value={'BE'} checkBoxes={this.updateProgram} />
             <CreateCheckbox field="program" name={'FE'} value={'FE'} checkBoxes={this.updateProgram} />
           </div>
         </form>

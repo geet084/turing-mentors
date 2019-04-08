@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserInfo should match the correct snapshot 1`] = `
+exports[`UserInfo initial state & snapshot should match the correct snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <UserInfo
@@ -76,6 +76,7 @@ ShallowWrapper {
             />
             <CreateCheckbox
               checkBoxes={[Function]}
+              className="aa"
               field="program"
               name="BE"
               value="BE"
@@ -173,6 +174,7 @@ ShallowWrapper {
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
+                className="aa"
                 field="program"
                 name="BE"
                 value="BE"
@@ -326,6 +328,7 @@ ShallowWrapper {
                 />,
                 <CreateCheckbox
                   checkBoxes={[Function]}
+                  className="aa"
                   field="program"
                   name="BE"
                   value="BE"
@@ -361,6 +364,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "checkBoxes": [Function],
+                  "className": "aa",
                   "field": "program",
                   "name": "BE",
                   "value": "BE",
@@ -533,6 +537,7 @@ ShallowWrapper {
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
+                className="aa"
                 field="program"
                 name="BE"
                 value="BE"
@@ -630,6 +635,7 @@ ShallowWrapper {
                 />
                 <CreateCheckbox
                   checkBoxes={[Function]}
+                  className="aa"
                   field="program"
                   name="BE"
                   value="BE"
@@ -783,6 +789,7 @@ ShallowWrapper {
                   />,
                   <CreateCheckbox
                     checkBoxes={[Function]}
+                    className="aa"
                     field="program"
                     name="BE"
                     value="BE"
@@ -818,6 +825,7 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "checkBoxes": [Function],
+                    "className": "aa",
                     "field": "program",
                     "name": "BE",
                     "value": "BE",
