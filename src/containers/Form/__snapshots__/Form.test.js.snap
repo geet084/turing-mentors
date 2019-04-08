@@ -1,5 +1,136 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Form snapshots should have match a page five snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Form
+    location={
+      Object {
+        "pathname": "/mentor",
+      }
+    }
+    updateForm={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        false,
+        false,
+        false,
+        false,
+        <UserTechSkills
+          updateUserInfo={[Function]}
+          user="Mentor"
+        />,
+        false,
+        false,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "updateUserInfo": [Function],
+          "user": "Mentor",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      false,
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          false,
+          false,
+          false,
+          false,
+          <UserTechSkills
+            updateUserInfo={[Function]}
+            user="Mentor"
+          />,
+          false,
+          false,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "updateUserInfo": [Function],
+            "user": "Mentor",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        false,
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
 exports[`Form snapshots should have match a page four snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
@@ -9,6 +140,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -212,7 +344,138 @@ ShallowWrapper {
 }
 `;
 
-exports[`Form snapshots should have match a page one snapshot(default) 1`] = `
+exports[`Form snapshots should have match a page one snapshot(default) for mentee 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Form
+    location={
+      Object {
+        "pathname": "/mentee",
+      }
+    }
+    updateForm={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <UserInfo
+          updateUserInfo={[Function]}
+          user="Mentee"
+        />,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "updateUserInfo": [Function],
+          "user": "Mentee",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <UserInfo
+            updateUserInfo={[Function]}
+            user="Mentee"
+          />,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "updateUserInfo": [Function],
+            "user": "Mentee",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Form snapshots should have match a page one snapshot(default) for mentor 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Form
@@ -221,6 +484,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -342,6 +606,137 @@ ShallowWrapper {
 }
 `;
 
+exports[`Form snapshots should have match a page six snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Form
+    location={
+      Object {
+        "pathname": "/mentor",
+      }
+    }
+    updateForm={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        false,
+        false,
+        false,
+        false,
+        false,
+        <UserNonTechSkills
+          updateUserInfo={[Function]}
+          user="Mentor"
+        />,
+        false,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "updateUserInfo": [Function],
+          "user": "Mentor",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          false,
+          false,
+          false,
+          false,
+          false,
+          <UserNonTechSkills
+            updateUserInfo={[Function]}
+            user="Mentor"
+          />,
+          false,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "updateUserInfo": [Function],
+            "user": "Mentor",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
 exports[`Form snapshots should have match a page three snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
@@ -351,6 +746,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -481,6 +877,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -611,6 +1008,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],

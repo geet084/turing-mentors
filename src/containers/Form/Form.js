@@ -31,6 +31,15 @@ export class Form extends Component {
 
   submitForm = (e) => {
     e.preventDefault();
+    this.setState({
+      userInfo: {},
+      userBio: {},
+      userBackground: {},
+      userSchedule: {},
+      userTechSkills: {},
+      userNonTechSkills: {},
+      currentSection: 'userInfo',
+    });
   }
 
   render() {

@@ -5,18 +5,27 @@ import { updateForm } from '../../actions';
 
 describe('Form', () => {
   let wrapper;
-  let mockProps = {
-    location: {
-      pathname: '/mentor'
-    }
-  }
+  let mockProps;
+
+  beforeEach(() => {
+    mockProps = {
+      location: {
+        pathname: '/mentor'
+      },
+      updateForm: jest.fn(),
+    };
+
+    wrapper = shallow(<Form {...mockProps} />);
+  });
 
   describe('snapshots', () => {
-    beforeEach(() => {
-      wrapper = shallow(<Form {...mockProps}/>);
+    it('should have match a page one snapshot(default) for mentor', () => {
+      expect(wrapper).toMatchSnapshot();
     });
 
-    it('should have match a page one snapshot(default)', () => {
+    it('should have match a page one snapshot(default) for mentee', () => {
+      wrapper.setProps({ location: { pathname: '/mentee' } })
+
       expect(wrapper).toMatchSnapshot();
     });
 
@@ -38,6 +47,78 @@ describe('Form', () => {
     it('should have match a page four snapshot', () => {
       wrapper.setState({ currentSection: 'complete' });
       expect(wrapper).toMatchSnapshot();
+    });
+
+    it('should have match a page five snapshot', () => {
+      wrapper.setState({ currentSection: 'userTechSkills' });
+
+      expect(wrapper).toMatchSnapshot();
+    });
+
+    it('should have match a page six snapshot', () => {
+      wrapper.setState({ currentSection: 'userNonTechSkills' });
+      expect(wrapper).toMatchSnapshot();
+    });
+  });
+
+  describe('default state', () => {
+    it('should have a default state', () => {
+      const mockState = {
+        userInfo: {},
+        userBio: {},
+        userBackground: {},
+        userSchedule: {},
+        userTechSkills: {},
+        userNonTechSkills: {},
+        currentSection: 'userInfo',
+      };
+
+      expect(wrapper.state()).toEqual(mockState)
+    });
+  });
+
+  describe('updateUserInfo', () => {
+    it('should update user info', () => {
+      const expected = {
+        userInfo: {
+          first_name: 'first name',
+          last_name: 'last name',
+          identities: [1],
+          cohort: 1810,
+          program: 'FE',
+          current_job: 'student',
+        },
+        userBio: {},
+        userBackground: {},
+        userSchedule: {},
+        userTechSkills: {},
+        userNonTechSkills: {},
+        currentSection: 'userBio',
+      };
+      const mockInfo = [expected.userInfo, 'userBio'];
+
+      wrapper.instance().updateUserInfo(mockInfo);
+
+      expect(wrapper.state()).toEqual(expected);
+    });
+  });
+
+  describe('submitForm', () => {
+    it('should', () => {
+      const mockEvent = { preventDefault: () => { } };
+      const expected = {
+        userInfo: {},
+        userBio: {},
+        userBackground: {},
+        userSchedule: {},
+        userTechSkills: {},
+        userNonTechSkills: {},
+        currentSection: 'userInfo',
+      };
+
+      wrapper.instance().submitForm(mockEvent);
+
+      expect(wrapper.state()).toEqual(expected);
     });
   });
 
