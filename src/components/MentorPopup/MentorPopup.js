@@ -11,7 +11,7 @@ export class MentorPopup extends Component {
   }
 
   handleSubmit = () => {
-    const message = `To user: anonymous -- message: ${this.state.text}`
+    const message = `${this.props.contact_details.slack}: ${this.state.text}`
     this.setState({ text: '' })
     this.props.sendMessage(message)
   }
