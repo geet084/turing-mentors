@@ -46,102 +46,15 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <MasonryComponent
-        breakpointCols={
-          Object {
-            "1100": 3,
-            "500": 1,
-            "700": 2,
-            "default": 4,
-          }
-        }
-        className="mentors-grid"
-        columnClassName="mentors-grid_column"
-        disableImagesLoaded={false}
-        elementType="div"
-        enableResizableChildren={false}
-        imagesLoadedOptions={Object {}}
-        onLayoutComplete={[Function]}
-        onRemoveComplete={[Function]}
-        options={Object {}}
-        updateOnEachImageLoad={false}
-      >
-        <MentorCard
-          id={1}
-        />
-        <MentorCard
-          id={2}
-        />
-      </MasonryComponent>,
-      "className": "mentors-container",
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "breakpointCols": Object {
-          "1100": 3,
-          "500": 1,
-          "700": 2,
-          "default": 4,
-        },
-        "children": Array [
-          <MentorCard
-            id={1}
-          />,
-          <MentorCard
-            id={2}
-          />,
-        ],
-        "className": "mentors-grid",
-        "columnClassName": "mentors-grid_column",
-        "disableImagesLoaded": false,
-        "elementType": "div",
-        "enableResizableChildren": false,
-        "imagesLoadedOptions": Object {},
-        "onLayoutComplete": [Function],
-        "onRemoveComplete": [Function],
-        "options": Object {},
-        "updateOnEachImageLoad": false,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": "1",
-          "nodeType": "class",
-          "props": Object {
-            "id": 1,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "2",
-          "nodeType": "class",
-          "props": Object {
-            "id": 2,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <MasonryComponent
+      "children": Array [
+        <MentorControls
+          denver={false}
+          handleChange={[Function]}
+          javascript={false}
+          remote={false}
+          ruby={false}
+        />,
+        <MasonryComponent
           breakpointCols={
             Object {
               "1100": 3,
@@ -168,10 +81,27 @@ ShallowWrapper {
             id={2}
           />
         </MasonryComponent>,
-        "className": "mentors-container",
+      ],
+      "className": "mentors-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "denver": false,
+          "handleChange": [Function],
+          "javascript": false,
+          "remote": false,
+          "ruby": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
       },
-      "ref": null,
-      "rendered": Object {
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
@@ -228,6 +158,128 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <MentorControls
+            denver={false}
+            handleChange={[Function]}
+            javascript={false}
+            remote={false}
+            ruby={false}
+          />,
+          <MasonryComponent
+            breakpointCols={
+              Object {
+                "1100": 3,
+                "500": 1,
+                "700": 2,
+                "default": 4,
+              }
+            }
+            className="mentors-grid"
+            columnClassName="mentors-grid_column"
+            disableImagesLoaded={false}
+            elementType="div"
+            enableResizableChildren={false}
+            imagesLoadedOptions={Object {}}
+            onLayoutComplete={[Function]}
+            onRemoveComplete={[Function]}
+            options={Object {}}
+            updateOnEachImageLoad={false}
+          >
+            <MentorCard
+              id={1}
+            />
+            <MentorCard
+              id={2}
+            />
+          </MasonryComponent>,
+        ],
+        "className": "mentors-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "denver": false,
+            "handleChange": [Function],
+            "javascript": false,
+            "remote": false,
+            "ruby": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "breakpointCols": Object {
+              "1100": 3,
+              "500": 1,
+              "700": 2,
+              "default": 4,
+            },
+            "children": Array [
+              <MentorCard
+                id={1}
+              />,
+              <MentorCard
+                id={2}
+              />,
+            ],
+            "className": "mentors-grid",
+            "columnClassName": "mentors-grid_column",
+            "disableImagesLoaded": false,
+            "elementType": "div",
+            "enableResizableChildren": false,
+            "imagesLoadedOptions": Object {},
+            "onLayoutComplete": [Function],
+            "onRemoveComplete": [Function],
+            "options": Object {},
+            "updateOnEachImageLoad": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "id": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "id": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],
