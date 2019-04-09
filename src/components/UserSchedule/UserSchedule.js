@@ -38,7 +38,7 @@ export class UserSchedule extends Component {
     })
     const updatedState = this.state.availability;
     updatedState[weekDay] = stateToUpdate
-    
+
     this.setState({ availability: updatedState })
   }
 
@@ -57,12 +57,15 @@ export class UserSchedule extends Component {
     const checkBoxes = daysOfWeek.map((day, dayIndex) => {
       return (
         <div className="schedule" key={day}>
-          <p className="pages">{`${day}`}</p>
-          {
-            apptTimes.map((time, timeIndex) => {
-              return <CreateCheckbox key={time} field={`time${day}`} name={time} value={'' + dayIndex + timeIndex} checkBoxes={this.checkBoxes} />
-            })
-          }
+          <span className="pages">{`${day}`}</span>
+          <span>
+
+            {
+              apptTimes.map((time, timeIndex) => {
+                return <CreateCheckbox key={time} field={`time${day}`} name={time} value={'' + dayIndex + timeIndex} checkBoxes={this.checkBoxes} />
+              })
+            }
+          </span>
         </div>
       )
     })
