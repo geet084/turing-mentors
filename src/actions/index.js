@@ -21,4 +21,9 @@ export const getMentorsSuccess = (mentors) => ({
 export const slackSuccess = (message) => ({
   type: 'SLACK_SUCCESS',
   message
-})
+});
+
+export const postFormSuccess = (form) => ({
+  type: 'POST_FORM_SUCCESS',
+  form
+});
