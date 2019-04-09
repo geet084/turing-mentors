@@ -3,17 +3,7 @@ import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
 
 export class UserTechSkills extends Component {
   state = {
-    techSkills: {
-      Ruby: false,
-      JavaScript: false,
-      Python: false,
-      Java: false,
-      Elixer: false,
-      C: false,
-      PHP: false,
-      Swift: false,
-      SQL: false,
-    }
+    tech_skills: [],
   }
 
   submitForm = (e) => {
@@ -27,17 +17,20 @@ export class UserTechSkills extends Component {
   }
 
   checkBoxes = ({ target }) => {
-    let techSkills = { ...this.state.techSkills };
-    techSkills[target.name] = !techSkills[target.name]
+    let skills = [...this.state.tech_skills]
+    let updatedState;
 
-    this.setState({ techSkills })
+    if (skills.includes(target.value)) updatedState = skills.filter(skill => skill !== target.value)
+    else updatedState = [...skills, target.value]
+
+    this.setState({ tech_skills: updatedState })
   }
 
   render() {
     const mentor = this.props.user === 'Mentor';
-    const { techSkills } = this.state;
-    const checkBoxes = Object.keys(techSkills).map((skill, index) => {
-      return <CreateCheckbox key={skill} field={skill} name={skill} value={index} checkBoxes={this.checkBoxes} />
+    const tech_skills = ['ruby', 'javascript', 'python', 'java', 'elixer', 'c', 'php', 'swift', 'sql']
+    const checkBoxes = tech_skills.map((skill, index) => {
+      return <CreateCheckbox key={skill} field={skill} name={skill} value={index + 1} checkBoxes={this.checkBoxes} />
     })
 
     return (
