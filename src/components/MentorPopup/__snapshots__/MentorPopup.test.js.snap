@@ -28,15 +28,23 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        "mentor popup page",
         <p>
-          some name
+           
         </p>,
         <p />,
         <p />,
         <p />,
+        <p />,
+        <div />,
+        <div>
+          <p>
+            Tech skillz: 
+            skill
+          </p>
+        </div>,
+        <div />,
         <p>
-          skill
+          ...availabilities here...
         </p>,
         <div>
           <textarea
@@ -61,16 +69,25 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
-      "mentor popup page",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "some name",
+          "children": Array [
+            undefined,
+            " ",
+            undefined,
+            undefined,
+          ],
         },
         "ref": null,
-        "rendered": "some name",
+        "rendered": Array [
+          undefined,
+          " ",
+          undefined,
+          undefined,
+        ],
         "type": "p",
       },
       Object {
@@ -117,10 +134,77 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "skill",
+          "children": undefined,
         },
         "ref": null,
-        "rendered": "skill",
+        "rendered": null,
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              Tech skillz: 
+              skill
+            </p>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Tech skillz: ",
+                "skill",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Tech skillz: ",
+              "skill",
+            ],
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "...availabilities here...",
+        },
+        "ref": null,
+        "rendered": "...availabilities here...",
         "type": "p",
       },
       Object {
@@ -188,15 +272,23 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          "mentor popup page",
           <p>
-            some name
+             
           </p>,
           <p />,
           <p />,
           <p />,
+          <p />,
+          <div />,
+          <div>
+            <p>
+              Tech skillz: 
+              skill
+            </p>
+          </div>,
+          <div />,
           <p>
-            skill
+            ...availabilities here...
           </p>,
           <div>
             <textarea
@@ -221,16 +313,25 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        "mentor popup page",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "some name",
+            "children": Array [
+              undefined,
+              " ",
+              undefined,
+              undefined,
+            ],
           },
           "ref": null,
-          "rendered": "some name",
+          "rendered": Array [
+            undefined,
+            " ",
+            undefined,
+            undefined,
+          ],
           "type": "p",
         },
         Object {
@@ -277,10 +378,77 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "skill",
+            "children": undefined,
           },
           "ref": null,
-          "rendered": "skill",
+          "rendered": null,
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                Tech skillz: 
+                skill
+              </p>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Tech skillz: ",
+                  "skill",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Tech skillz: ",
+                "skill",
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "...availabilities here...",
+          },
+          "ref": null,
+          "rendered": "...availabilities here...",
           "type": "p",
         },
         Object {

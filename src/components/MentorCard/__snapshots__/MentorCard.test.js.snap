@@ -21,7 +21,9 @@ ShallowWrapper {
       "children": <div
         className="mentors-card"
       >
-        <p />
+        <p>
+           
+        </p>
         <div
           className="loc-lang"
         >
@@ -39,7 +41,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <p />,
+          <p>
+             
+          </p>,
           <div
             className="loc-lang"
           >
@@ -57,10 +61,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": Array [
+              undefined,
+              " ",
+              undefined,
+            ],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            undefined,
+            " ",
+            undefined,
+          ],
           "type": "p",
         },
         Object {
@@ -108,7 +120,9 @@ ShallowWrapper {
         "children": <div
           className="mentors-card"
         >
-          <p />
+          <p>
+             
+          </p>
           <div
             className="loc-lang"
           >
@@ -126,7 +140,9 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <p />,
+            <p>
+               
+            </p>,
             <div
               className="loc-lang"
             >
@@ -144,10 +160,18 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": Array [
+                undefined,
+                " ",
+                undefined,
+              ],
             },
             "ref": null,
-            "rendered": null,
+            "rendered": Array [
+              undefined,
+              " ",
+              undefined,
+            ],
             "type": "p",
           },
           Object {
@@ -237,7 +261,9 @@ ShallowWrapper {
       "children": <div
         className="mentors-card"
       >
-        <p />
+        <p>
+           
+        </p>
         <div
           className="loc-lang"
         >
@@ -260,7 +286,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <p />,
+          <p>
+             
+          </p>,
           <div
             className="loc-lang"
           >
@@ -283,10 +311,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": Array [
+              undefined,
+              " ",
+              undefined,
+            ],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            undefined,
+            " ",
+            undefined,
+          ],
           "type": "p",
         },
         Object {
@@ -349,7 +385,9 @@ ShallowWrapper {
         "children": <div
           className="mentors-card"
         >
-          <p />
+          <p>
+             
+          </p>
           <div
             className="loc-lang"
           >
@@ -372,7 +410,9 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <p />,
+            <p>
+               
+            </p>,
             <div
               className="loc-lang"
             >
@@ -395,10 +435,18 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": Array [
+                undefined,
+                " ",
+                undefined,
+              ],
             },
             "ref": null,
-            "rendered": null,
+            "rendered": Array [
+              undefined,
+              " ",
+              undefined,
+            ],
             "type": "p",
           },
           Object {

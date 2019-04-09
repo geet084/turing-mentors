@@ -17,16 +17,28 @@ export class MentorPopup extends Component {
   }
 
   render() {
-    const { name, location, cohort, program, background, tech_skills } = this.props;
+    const { first_name, last_name, identities, location, cohort, program, current_job, contact_details, background, tech_skills, non_tech_skills } = this.props;
 
     return (
       <div>
-        mentor popup page
-        <p>{name}</p>
+        <p>
+          {first_name} {last_name}
+          {identities && identities.map(id => <span key={id}> {id} </span>)}
+        </p>
         <p>{location}</p>
         <p>{cohort}{program}</p>
+        <p>{current_job}</p>
         <p>{background}</p>
-        <p>{tech_skills && tech_skills[0]}</p>
+        <div>
+          {contact_details && Object.keys(contact_details).map(detail => <p key={detail}>{detail}: {contact_details[detail]}</p>)}
+        </div>
+        <div>
+          {tech_skills && Object.keys(tech_skills).map(skill => <p key={skill}>Tech skillz: {tech_skills[skill]}</p>)}
+        </div>
+        <div>
+          {non_tech_skills && Object.keys(non_tech_skills).map(skill => <p key={skill}>NON-Tech skillz: {non_tech_skills[skill]}</p>)}
+        </div>
+        <p>...availabilities here...</p>
         <div>
           <textarea
             className="bg-info"
