@@ -3,9 +3,11 @@ import React, { Component } from 'react';
 export class Contribute extends Component {
   render() {
     return (
-      <div>
-        <h2>Contribute page</h2>
-        <p>Turing mentors contribution...</p>
+      <div className="link-content pages">
+        <h2>Want to contribute?</h2>
+        <p>Please send questions to:</p>
+        <h4>BE: <a href="#">Ricardo Ledesma</a></h4>
+        <h4>FE: <a href="#">Travis Gee</a></h4>
       </div>
     )
   }
