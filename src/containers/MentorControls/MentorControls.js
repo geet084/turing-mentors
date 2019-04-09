@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export class MentorControls extends Component {
   render() {
     const { handleChange, javascript, ruby, denver, remote } = this.props;
-  
+    
     return (
       <div>
         <input type="checkbox" onClick={handleChange} name="javascript" />JS
