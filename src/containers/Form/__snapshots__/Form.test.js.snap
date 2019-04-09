@@ -9,6 +9,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    sendForm={[MockFunction]}
     updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -140,6 +141,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    sendForm={[MockFunction]}
     updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -168,6 +170,7 @@ ShallowWrapper {
             Thank you!
           </h1>
           <Link
+            onClick={[Function]}
             to="/"
           >
             Return Home
@@ -194,6 +197,7 @@ ShallowWrapper {
               Thank you!
             </h1>,
             <Link
+              onClick={[Function]}
               to="/"
             >
               Return Home
@@ -220,6 +224,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "children": "Return Home",
+              "onClick": [Function],
               "to": "/",
             },
             "ref": null,
@@ -251,6 +256,7 @@ ShallowWrapper {
               Thank you!
             </h1>
             <Link
+              onClick={[Function]}
               to="/"
             >
               Return Home
@@ -277,6 +283,7 @@ ShallowWrapper {
                 Thank you!
               </h1>,
               <Link
+                onClick={[Function]}
                 to="/"
               >
                 Return Home
@@ -303,6 +310,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": "Return Home",
+                "onClick": [Function],
                 "to": "/",
               },
               "ref": null,
@@ -353,6 +361,7 @@ ShallowWrapper {
         "pathname": "/mentee",
       }
     }
+    sendForm={[MockFunction]}
     updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -484,6 +493,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    sendForm={[MockFunction]}
     updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -615,6 +625,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    sendForm={[MockFunction]}
     updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -746,6 +757,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    sendForm={[MockFunction]}
     updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -877,6 +889,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    sendForm={[MockFunction]}
     updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -1008,6 +1021,7 @@ ShallowWrapper {
         "pathname": "/mentor",
       }
     }
+    sendForm={[MockFunction]}
     updateForm={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {

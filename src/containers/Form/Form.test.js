@@ -13,6 +13,7 @@ describe('Form', () => {
         pathname: '/mentor'
       },
       updateForm: jest.fn(),
+      sendForm: jest.fn(),
     };
 
     wrapper = shallow(<Form {...mockProps} />);

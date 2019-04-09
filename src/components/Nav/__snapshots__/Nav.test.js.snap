@@ -32,13 +32,59 @@ ShallowWrapper {
             />
           </Link>
         </div>,
-        <p
-          className="hamburger"
-        >
-          <i
-            className="fas fa-bars"
-          />
-        </p>,
+        <div>
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger={
+              <i
+                className="fas fa-bars"
+              />
+            }
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+          >
+            <NavLink
+              to="/"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/about"
+            >
+              About
+            </NavLink>
+            <NavLink
+              to="contact"
+            >
+              Contact Us
+            </NavLink>
+            <NavLink
+              to="contribute"
+            >
+              Contribute
+            </NavLink>
+          </Collapsible>
+        </div>,
         <div
           className="links"
         >
@@ -120,24 +166,167 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <i
-            className="fas fa-bars"
-          />,
-          "className": "hamburger",
+          "children": <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger={
+              <i
+                className="fas fa-bars"
+              />
+            }
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+          >
+            <NavLink
+              to="/"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/about"
+            >
+              About
+            </NavLink>
+            <NavLink
+              to="contact"
+            >
+              Contact Us
+            </NavLink>
+            <NavLink
+              to="contribute"
+            >
+              Contribute
+            </NavLink>
+          </Collapsible>,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "className": "fas fa-bars",
+            "children": Array [
+              <NavLink
+                to="/"
+              >
+                Home
+              </NavLink>,
+              <NavLink
+                to="/about"
+              >
+                About
+              </NavLink>,
+              <NavLink
+                to="contact"
+              >
+                Contact Us
+              </NavLink>,
+              <NavLink
+                to="contribute"
+              >
+                Contribute
+              </NavLink>,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": <i
+              className="fas fa-bars"
+            />,
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
           },
           "ref": null,
-          "rendered": null,
-          "type": "i",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Home",
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": "Home",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "About",
+                "to": "/about",
+              },
+              "ref": null,
+              "rendered": "About",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Contact Us",
+                "to": "contact",
+              },
+              "ref": null,
+              "rendered": "Contact Us",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Contribute",
+                "to": "contribute",
+              },
+              "ref": null,
+              "rendered": "Contribute",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
         },
-        "type": "p",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -244,13 +433,59 @@ ShallowWrapper {
               />
             </Link>
           </div>,
-          <p
-            className="hamburger"
-          >
-            <i
-              className="fas fa-bars"
-            />
-          </p>,
+          <div>
+            <Collapsible
+              className=""
+              classParentString="Collapsible"
+              contentContainerTagName="div"
+              contentInnerClassName=""
+              contentOuterClassName=""
+              easing="linear"
+              lazyRender={false}
+              onClose={[Function]}
+              onClosing={[Function]}
+              onOpen={[Function]}
+              onOpening={[Function]}
+              open={false}
+              openedClassName=""
+              overflowWhenOpen="hidden"
+              tabIndex={null}
+              transitionCloseTime={null}
+              transitionTime={400}
+              trigger={
+                <i
+                  className="fas fa-bars"
+                />
+              }
+              triggerClassName=""
+              triggerDisabled={false}
+              triggerOpenedClassName=""
+              triggerSibling={null}
+              triggerStyle={null}
+              triggerTagName="span"
+            >
+              <NavLink
+                to="/"
+              >
+                Home
+              </NavLink>
+              <NavLink
+                to="/about"
+              >
+                About
+              </NavLink>
+              <NavLink
+                to="contact"
+              >
+                Contact Us
+              </NavLink>
+              <NavLink
+                to="contribute"
+              >
+                Contribute
+              </NavLink>
+            </Collapsible>
+          </div>,
           <div
             className="links"
           >
@@ -332,24 +567,167 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <i
-              className="fas fa-bars"
-            />,
-            "className": "hamburger",
+            "children": <Collapsible
+              className=""
+              classParentString="Collapsible"
+              contentContainerTagName="div"
+              contentInnerClassName=""
+              contentOuterClassName=""
+              easing="linear"
+              lazyRender={false}
+              onClose={[Function]}
+              onClosing={[Function]}
+              onOpen={[Function]}
+              onOpening={[Function]}
+              open={false}
+              openedClassName=""
+              overflowWhenOpen="hidden"
+              tabIndex={null}
+              transitionCloseTime={null}
+              transitionTime={400}
+              trigger={
+                <i
+                  className="fas fa-bars"
+                />
+              }
+              triggerClassName=""
+              triggerDisabled={false}
+              triggerOpenedClassName=""
+              triggerSibling={null}
+              triggerStyle={null}
+              triggerTagName="span"
+            >
+              <NavLink
+                to="/"
+              >
+                Home
+              </NavLink>
+              <NavLink
+                to="/about"
+              >
+                About
+              </NavLink>
+              <NavLink
+                to="contact"
+              >
+                Contact Us
+              </NavLink>
+              <NavLink
+                to="contribute"
+              >
+                Contribute
+              </NavLink>
+            </Collapsible>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
-              "className": "fas fa-bars",
+              "children": Array [
+                <NavLink
+                  to="/"
+                >
+                  Home
+                </NavLink>,
+                <NavLink
+                  to="/about"
+                >
+                  About
+                </NavLink>,
+                <NavLink
+                  to="contact"
+                >
+                  Contact Us
+                </NavLink>,
+                <NavLink
+                  to="contribute"
+                >
+                  Contribute
+                </NavLink>,
+              ],
+              "className": "",
+              "classParentString": "Collapsible",
+              "contentContainerTagName": "div",
+              "contentInnerClassName": "",
+              "contentOuterClassName": "",
+              "easing": "linear",
+              "lazyRender": false,
+              "onClose": [Function],
+              "onClosing": [Function],
+              "onOpen": [Function],
+              "onOpening": [Function],
+              "open": false,
+              "openedClassName": "",
+              "overflowWhenOpen": "hidden",
+              "tabIndex": null,
+              "transitionCloseTime": null,
+              "transitionTime": 400,
+              "trigger": <i
+                className="fas fa-bars"
+              />,
+              "triggerClassName": "",
+              "triggerDisabled": false,
+              "triggerOpenedClassName": "",
+              "triggerSibling": null,
+              "triggerStyle": null,
+              "triggerTagName": "span",
             },
             "ref": null,
-            "rendered": null,
-            "type": "i",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Home",
+                  "to": "/",
+                },
+                "ref": null,
+                "rendered": "Home",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "About",
+                  "to": "/about",
+                },
+                "ref": null,
+                "rendered": "About",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Contact Us",
+                  "to": "contact",
+                },
+                "ref": null,
+                "rendered": "Contact Us",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Contribute",
+                  "to": "contribute",
+                },
+                "ref": null,
+                "rendered": "Contribute",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
           },
-          "type": "p",
+          "type": "div",
         },
         Object {
           "instance": null,

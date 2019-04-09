@@ -8,6 +8,7 @@ import UserNonTechSkills from '../../components/UserNonTechSkills/UserNonTechSki
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { updateForm } from '../../actions';
+import { sendForm } from '../../thunks/sendForm';
 
 export class Form extends Component {
   state = {
@@ -25,12 +26,25 @@ export class Form extends Component {
     const currentSection = info.pop();
     const data = info.pop()
 
-    this.setState({ [updatedSection]: data, currentSection })
     this.props.updateForm({ ...this.props.form, ...data })
+    this.setState({ [updatedSection]: data, currentSection })
+
+    if (currentSection === 'complete') {
+      this.submitForm({ ...this.props.form, ...data })
+    }
   }
 
-  submitForm = (e) => {
-    e.preventDefault();
+  submitForm = (form) => {
+
+    const corsPrefix = 'https://cors-anywhere.herokuapp.com/';
+    const root = 'https://sheltered-beach-23653.herokuapp.com';
+    const path = `/api/v1/mentors`;
+    const url = corsPrefix + root + path;
+
+    this.props.sendForm(url, form)
+  }
+
+  reset = () => {
     this.setState({
       userInfo: {},
       userBio: {},
@@ -62,7 +76,7 @@ export class Form extends Component {
         {userSchedule && <UserSchedule updateUserInfo={this.updateUserInfo} user={user} />}
         {mentor && userTechSkills && <UserTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
         {mentor && userNonTechSkills && <UserNonTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
-        {complete && <div><h1>Thank you!</h1><Link to='/'>Return Home</Link> </div>}
+        {complete && <div><h1>Thank you!</h1><Link to='/' onClick={this.reset}>Return Home</Link> </div>}
       </div>
     )
   }
@@ -74,6 +88,7 @@ export const mapStateToProps = (state) => ({
 
 export const mapDispatchToProps = (dispatch) => ({
   updateForm: (form) => dispatch(updateForm(form)),
+  sendForm: (url, form) => dispatch(sendForm(url, form)),
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Form);
