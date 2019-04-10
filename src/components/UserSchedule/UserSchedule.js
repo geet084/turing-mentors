@@ -42,14 +42,6 @@ export class UserSchedule extends Component {
     this.setState({ availability: updatedState })
   }
 
-  handleChange = ({ target }) => {
-    this.setState({ [target.name]: target.value })
-  }
-
-  time = (e) => {
-    this.setState({ [e.target.name]: e.target.value })
-  }
-
   render() {
     const daysOfWeek = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
     const apptTimes = ['Morning', 'Afternoon', 'Evening'];
