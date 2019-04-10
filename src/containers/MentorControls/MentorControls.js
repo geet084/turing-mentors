@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
+import { CreateCheckbox } from '../../components/CreateCheckbox/CreateCheckbox';
 
 export class MentorControls extends Component {
+  checkBoxes = (e) => {
+    this.props.handleChange(e)
+  }
+
   render() {
-    const { handleChange, javascript, ruby, denver, remote } = this.props;
+    const {javascript, ruby, denver, remote } = this.props;
     
     return (
-      <div>
-        <input type="checkbox" onClick={handleChange} name="javascript" />JS
-        <input type="checkbox" onClick={handleChange} name="ruby" />RUBY
-        <input type="checkbox" onClick={handleChange} name="denver" />Denver
-        <input type="checkbox" onClick={handleChange} name="remote" />Remote
+      <div className="mentor-controls">
+        <CreateCheckbox field="javascript" name="JS" value='javascript' checkBoxes={this.checkBoxes} />
+        <CreateCheckbox field="ruby" name="RUBY" value='ruby' checkBoxes={this.checkBoxes} />
+        <CreateCheckbox field="denver" name="Denver" value='denver' checkBoxes={this.checkBoxes} />
+        <CreateCheckbox field="remote" name="Remote" value='remote' checkBoxes={this.checkBoxes} />
         <div>
           {javascript && <span>{javascript}</span>}
           {ruby && <span>{ruby}</span>}

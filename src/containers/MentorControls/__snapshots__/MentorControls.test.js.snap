@@ -25,91 +25,92 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <input
-          name="javascript"
-          onClick={[MockFunction]}
-          type="checkbox"
+        <CreateCheckbox
+          checkBoxes={[Function]}
+          field="javascript"
+          name="JS"
+          value="javascript"
         />,
-        "JS",
-        <input
-          name="ruby"
-          onClick={[MockFunction]}
-          type="checkbox"
+        <CreateCheckbox
+          checkBoxes={[Function]}
+          field="ruby"
+          name="RUBY"
+          value="ruby"
         />,
-        "RUBY",
-        <input
-          name="denver"
-          onClick={[MockFunction]}
-          type="checkbox"
+        <CreateCheckbox
+          checkBoxes={[Function]}
+          field="denver"
+          name="Denver"
+          value="denver"
         />,
-        "Denver",
-        <input
-          name="remote"
-          onClick={[MockFunction]}
-          type="checkbox"
+        <CreateCheckbox
+          checkBoxes={[Function]}
+          field="remote"
+          name="Remote"
+          value="remote"
         />,
-        "Remote",
         <div />,
       ],
+      "className": "mentor-controls",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
-          "name": "javascript",
-          "onClick": [MockFunction],
-          "type": "checkbox",
+          "checkBoxes": [Function],
+          "field": "javascript",
+          "name": "JS",
+          "value": "javascript",
         },
         "ref": null,
         "rendered": null,
-        "type": "input",
+        "type": [Function],
       },
-      "JS",
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
-          "name": "ruby",
-          "onClick": [MockFunction],
-          "type": "checkbox",
+          "checkBoxes": [Function],
+          "field": "ruby",
+          "name": "RUBY",
+          "value": "ruby",
         },
         "ref": null,
         "rendered": null,
-        "type": "input",
+        "type": [Function],
       },
-      "RUBY",
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
-          "name": "denver",
-          "onClick": [MockFunction],
-          "type": "checkbox",
+          "checkBoxes": [Function],
+          "field": "denver",
+          "name": "Denver",
+          "value": "denver",
         },
         "ref": null,
         "rendered": null,
-        "type": "input",
+        "type": [Function],
       },
-      "Denver",
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
-          "name": "remote",
-          "onClick": [MockFunction],
-          "type": "checkbox",
+          "checkBoxes": [Function],
+          "field": "remote",
+          "name": "Remote",
+          "value": "remote",
         },
         "ref": null,
         "rendered": null,
-        "type": "input",
+        "type": [Function],
       },
-      "Remote",
       Object {
         "instance": null,
         "key": undefined,
@@ -141,91 +142,92 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <input
-            name="javascript"
-            onClick={[MockFunction]}
-            type="checkbox"
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="javascript"
+            name="JS"
+            value="javascript"
           />,
-          "JS",
-          <input
-            name="ruby"
-            onClick={[MockFunction]}
-            type="checkbox"
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="ruby"
+            name="RUBY"
+            value="ruby"
           />,
-          "RUBY",
-          <input
-            name="denver"
-            onClick={[MockFunction]}
-            type="checkbox"
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="denver"
+            name="Denver"
+            value="denver"
           />,
-          "Denver",
-          <input
-            name="remote"
-            onClick={[MockFunction]}
-            type="checkbox"
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="remote"
+            name="Remote"
+            value="remote"
           />,
-          "Remote",
           <div />,
         ],
+        "className": "mentor-controls",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "name": "javascript",
-            "onClick": [MockFunction],
-            "type": "checkbox",
+            "checkBoxes": [Function],
+            "field": "javascript",
+            "name": "JS",
+            "value": "javascript",
           },
           "ref": null,
           "rendered": null,
-          "type": "input",
+          "type": [Function],
         },
-        "JS",
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "name": "ruby",
-            "onClick": [MockFunction],
-            "type": "checkbox",
+            "checkBoxes": [Function],
+            "field": "ruby",
+            "name": "RUBY",
+            "value": "ruby",
           },
           "ref": null,
           "rendered": null,
-          "type": "input",
+          "type": [Function],
         },
-        "RUBY",
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "name": "denver",
-            "onClick": [MockFunction],
-            "type": "checkbox",
+            "checkBoxes": [Function],
+            "field": "denver",
+            "name": "Denver",
+            "value": "denver",
           },
           "ref": null,
           "rendered": null,
-          "type": "input",
+          "type": [Function],
         },
-        "Denver",
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "name": "remote",
-            "onClick": [MockFunction],
-            "type": "checkbox",
+            "checkBoxes": [Function],
+            "field": "remote",
+            "name": "Remote",
+            "value": "remote",
           },
           "ref": null,
           "rendered": null,
-          "type": "input",
+          "type": [Function],
         },
-        "Remote",
         Object {
           "instance": null,
           "key": undefined,
