@@ -7,24 +7,53 @@ describe('UserBio', () => {
   const mockProps = {
     updateUserInfo: jest.fn()
   };
+  const mockState = {
+    slack: '',
+    email: '',
+    phone: '',
+    location: '',
+  };
 
   beforeEach(() => {
     wrapper = shallow(<UserBio {...mockProps} />);
   });
-
-  it('should match the correct snapshot', () => {
-    expect(wrapper).toMatchSnapshot();
+  
+  describe('initial snapshot', () => {
+    it('should match the correct snapshot', () => {
+      expect(wrapper).toMatchSnapshot();
+    });
   });
 
-  it.skip('should register a change when the input is typed in', () => {
-    const mockEvent = { target: { value: 'new info', name: 'slack' } };
-    const expected = {
-      slack: 'new info',
-      email: '',
-      phone: ''
-    };
+  describe('submitForm', () => {
+    it('should handle the form submission', () => {
+      const mockEvent = { preventDefault: () => { } };
+      const expected = [mockState, 'userBackground'];
 
-    wrapper.find('.input-effect').simulate('change', mockEvent);
-    expect(wrapper.state()).toEqual(expected);
+      wrapper.instance().submitForm(mockEvent);
+
+      expect(mockProps.updateUserInfo).toHaveBeenCalledWith(expected);
+    });
+  });
+
+  describe('goBack', () => {
+    it('should handle going back a page', () => {
+      const mockEvent = { preventDefault: () => { } };
+      const expected = [mockState, 'userInfo'];
+
+      wrapper.instance().goBack(mockEvent);
+
+      expect(mockProps.updateUserInfo).toHaveBeenCalledWith(expected);
+    });
+  });
+
+  describe('handleChange', () => {
+    it('should update the selected input in state', () => {
+      const mockEvent = { target: { name: 'slack', value: 'slack handle' } };
+      const expected = 'slack handle';
+      expect(wrapper.state('slack')).toEqual('')
+      wrapper.instance().handleChange(mockEvent);
+
+      expect(wrapper.state('slack')).toEqual(expected);
+    });
   });
 });
