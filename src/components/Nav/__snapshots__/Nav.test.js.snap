@@ -50,7 +50,7 @@ ShallowWrapper {
             overflowWhenOpen="hidden"
             tabIndex={null}
             transitionCloseTime={null}
-            transitionTime={400}
+            transitionTime={150}
             trigger={
               <i
                 className="fas fa-bars"
@@ -183,7 +183,7 @@ ShallowWrapper {
             overflowWhenOpen="hidden"
             tabIndex={null}
             transitionCloseTime={null}
-            transitionTime={400}
+            transitionTime={150}
             trigger={
               <i
                 className="fas fa-bars"
@@ -262,7 +262,7 @@ ShallowWrapper {
             "overflowWhenOpen": "hidden",
             "tabIndex": null,
             "transitionCloseTime": null,
-            "transitionTime": 400,
+            "transitionTime": 150,
             "trigger": <i
               className="fas fa-bars"
             />,
@@ -451,7 +451,7 @@ ShallowWrapper {
               overflowWhenOpen="hidden"
               tabIndex={null}
               transitionCloseTime={null}
-              transitionTime={400}
+              transitionTime={150}
               trigger={
                 <i
                   className="fas fa-bars"
@@ -584,7 +584,7 @@ ShallowWrapper {
               overflowWhenOpen="hidden"
               tabIndex={null}
               transitionCloseTime={null}
-              transitionTime={400}
+              transitionTime={150}
               trigger={
                 <i
                   className="fas fa-bars"
@@ -663,7 +663,7 @@ ShallowWrapper {
               "overflowWhenOpen": "hidden",
               "tabIndex": null,
               "transitionCloseTime": null,
-              "transitionTime": 400,
+              "transitionTime": 150,
               "trigger": <i
                 className="fas fa-bars"
               />,

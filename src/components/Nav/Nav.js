@@ -13,7 +13,7 @@ export const Nav = () => {
       </div>
       <div>
         <Collapsible
-          transitionTime="150"
+          transitionTime={150}
           trigger={<i className="fas fa-bars"></i>} >
           <NavLink to='/'>Home</NavLink>
           <NavLink to='/about'>About</NavLink>
