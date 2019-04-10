@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 export class MentorCard extends Component {
   render() {
     const { id, first_name, last_name, location, tech_skills } = this.props;
-    
+    let skills = tech_skills.includes('javascript') ? 'JS' : ''
+    skills += tech_skills.includes('ruby') ? ' & ruby' : '';
+
     return (
       <Link to={`/mentors/${id}`}>
         <div className="mentors-card">
@@ -13,12 +15,10 @@ export class MentorCard extends Component {
             <span className="loc">
               {location}
             </span>
-            {
-              tech_skills &&
-              <span className="lang">
-                {tech_skills[0]}
-              </span>
-            }
+            <span className="lang">
+              {skills}
+              {!skills && tech_skills[0]}
+            </span> 
           </div>
         </div>
       </Link>

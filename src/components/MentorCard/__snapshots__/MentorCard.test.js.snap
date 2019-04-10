@@ -3,7 +3,13 @@
 exports[`MentorCard should match the snapshot if no tech skills are passed in 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <MentorCard />,
+  Symbol(enzyme.__unrendered__): <MentorCard
+    tech_skills={
+      Array [
+        "sql",
+      ]
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -30,6 +36,12 @@ ShallowWrapper {
           <span
             className="loc"
           />
+          <span
+            className="lang"
+          >
+            
+            sql
+          </span>
         </div>
       </div>,
       "to": "/mentors/undefined",
@@ -50,6 +62,12 @@ ShallowWrapper {
             <span
               className="loc"
             />
+            <span
+              className="lang"
+            >
+              
+              sql
+            </span>
           </div>,
         ],
         "className": "mentors-card",
@@ -84,7 +102,12 @@ ShallowWrapper {
               <span
                 className="loc"
               />,
-              undefined,
+              <span
+                className="lang"
+              >
+                
+                sql
+              </span>,
             ],
             "className": "loc-lang",
           },
@@ -102,7 +125,24 @@ ShallowWrapper {
               "rendered": null,
               "type": "span",
             },
-            undefined,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "",
+                  "sql",
+                ],
+                "className": "lang",
+              },
+              "ref": null,
+              "rendered": Array [
+                "",
+                "sql",
+              ],
+              "type": "span",
+            },
           ],
           "type": "div",
         },
@@ -129,6 +169,12 @@ ShallowWrapper {
             <span
               className="loc"
             />
+            <span
+              className="lang"
+            >
+              
+              sql
+            </span>
           </div>
         </div>,
         "to": "/mentors/undefined",
@@ -149,6 +195,12 @@ ShallowWrapper {
               <span
                 className="loc"
               />
+              <span
+                className="lang"
+              >
+                
+                sql
+              </span>
             </div>,
           ],
           "className": "mentors-card",
@@ -183,7 +235,12 @@ ShallowWrapper {
                 <span
                   className="loc"
                 />,
-                undefined,
+                <span
+                  className="lang"
+                >
+                  
+                  sql
+                </span>,
               ],
               "className": "loc-lang",
             },
@@ -201,7 +258,24 @@ ShallowWrapper {
                 "rendered": null,
                 "type": "span",
               },
-              undefined,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "",
+                    "sql",
+                  ],
+                  "className": "lang",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "",
+                  "sql",
+                ],
+                "type": "span",
+              },
             ],
             "type": "div",
           },
@@ -242,7 +316,12 @@ exports[`MentorCard should match the snapshot if tech skills are passed in 1`] =
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <MentorCard
-    tech_skills="javascript"
+    tech_skills={
+      Array [
+        "javascript",
+        "ruby",
+      ]
+    }
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -273,7 +352,7 @@ ShallowWrapper {
           <span
             className="lang"
           >
-            j
+            JS & ruby
           </span>
         </div>
       </div>,
@@ -298,7 +377,7 @@ ShallowWrapper {
             <span
               className="lang"
             >
-              j
+              JS & ruby
             </span>
           </div>,
         ],
@@ -337,7 +416,7 @@ ShallowWrapper {
               <span
                 className="lang"
               >
-                j
+                JS & ruby
               </span>,
             ],
             "className": "loc-lang",
@@ -361,11 +440,17 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "j",
+                "children": Array [
+                  "JS & ruby",
+                  false,
+                ],
                 "className": "lang",
               },
               "ref": null,
-              "rendered": "j",
+              "rendered": Array [
+                "JS & ruby",
+                false,
+              ],
               "type": "span",
             },
           ],
@@ -397,7 +482,7 @@ ShallowWrapper {
             <span
               className="lang"
             >
-              j
+              JS & ruby
             </span>
           </div>
         </div>,
@@ -422,7 +507,7 @@ ShallowWrapper {
               <span
                 className="lang"
               >
-                j
+                JS & ruby
               </span>
             </div>,
           ],
@@ -461,7 +546,7 @@ ShallowWrapper {
                 <span
                   className="lang"
                 >
-                  j
+                  JS & ruby
                 </span>,
               ],
               "className": "loc-lang",
@@ -485,11 +570,17 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "j",
+                  "children": Array [
+                    "JS & ruby",
+                    false,
+                  ],
                   "className": "lang",
                 },
                 "ref": null,
-                "rendered": "j",
+                "rendered": Array [
+                  "JS & ruby",
+                  false,
+                ],
                 "type": "span",
               },
             ],

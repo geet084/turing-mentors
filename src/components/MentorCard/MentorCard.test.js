@@ -4,14 +4,20 @@ import { shallow } from 'enzyme';
 
 describe('MentorCard', () => {
   let wrapper;
-
+  
   it('should match the snapshot if no tech skills are passed in', () => {
-    wrapper = shallow(<MentorCard />);
+    const mockProps = {
+      tech_skills: ['sql']
+    }
+    wrapper = shallow(<MentorCard {...mockProps} />);
     expect(wrapper).toMatchSnapshot();
   });
 
   it('should match the snapshot if tech skills are passed in', () => {
-    wrapper = shallow(<MentorCard tech_skills={'javascript'} />);
+    const mockProps = {
+      tech_skills: ['javascript', 'ruby']
+    }
+    wrapper = shallow(<MentorCard {...mockProps} />);
     expect(wrapper).toMatchSnapshot();
   });
 });
