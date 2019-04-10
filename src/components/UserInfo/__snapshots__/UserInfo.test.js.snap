@@ -92,13 +92,6 @@ ShallowWrapper {
         <div
           className="input-box"
         >
-          <CreateInput
-            field="current_job"
-            handleChange={[Function]}
-            max="28"
-            text="Current Job"
-            value=""
-          />
           <button
             className="next-btn"
             onClick={[Function]}
@@ -399,13 +392,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <CreateInput
-              field="current_job"
-              handleChange={[Function]}
-              max="28"
-              text="Current Job"
-              value=""
-            />,
+            false,
             <button
               className="next-btn"
               onClick={[Function]}
@@ -423,21 +410,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "field": "current_job",
-              "handleChange": [Function],
-              "max": "28",
-              "text": "Current Job",
-              "value": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          false,
           Object {
             "instance": null,
             "key": undefined,
@@ -553,13 +526,6 @@ ShallowWrapper {
           <div
             className="input-box"
           >
-            <CreateInput
-              field="current_job"
-              handleChange={[Function]}
-              max="28"
-              text="Current Job"
-              value=""
-            />
             <button
               className="next-btn"
               onClick={[Function]}
@@ -860,13 +826,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <CreateInput
-                field="current_job"
-                handleChange={[Function]}
-                max="28"
-                text="Current Job"
-                value=""
-              />,
+              false,
               <button
                 className="next-btn"
                 onClick={[Function]}
@@ -884,21 +844,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "field": "current_job",
-                "handleChange": [Function],
-                "max": "28",
-                "text": "Current Job",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
+            false,
             Object {
               "instance": null,
               "key": undefined,

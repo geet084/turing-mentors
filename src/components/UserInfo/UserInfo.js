@@ -46,7 +46,7 @@ export class UserInfo extends Component {
     const { first_name, last_name, cohort, current_job } = this.state;
     const identities = ['Male', 'Female', 'Non-Binary'];
     const mentor = this.props.user === 'Mentor';
-    
+
     return (
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
@@ -68,7 +68,10 @@ export class UserInfo extends Component {
           </div>
         </form>
         <div className="input-box">
-          <CreateInput field="current_job" text="Current Job" value={current_job} handleChange={this.handleChange} max="28" />
+          {
+            mentor &&
+            <CreateInput field="current_job" text="Current Job" value={current_job} handleChange={this.handleChange} max="28" />
+          }
           <button className="next-btn" onClick={this.submitForm}>Next</button>
           <span className="pages">1 of {mentor ? '6' : '4'}</span>
         </div>
