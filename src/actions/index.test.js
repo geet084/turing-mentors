@@ -62,4 +62,17 @@ describe('actions', () => {
       expect(result).toEqual(expected);
     });
   });
+
+  describe('postMentorSuccess', () => {
+    it('should post a new mentor to the database', () => {
+      const mentor = 'a mentor to post';
+      const expected = {
+        type: 'POST_MENTOR_SUCCESS',
+        mentor: 'a mentor to post'
+      };
+
+      const result = actions.postMentorSuccess(mentor);
+      expect(result).toEqual(expected);
+    });
+  });
 });
