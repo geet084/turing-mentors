@@ -19,7 +19,7 @@ export class Mentors extends Component {
 
   getUpdated = () => {
     const corsPrefix = 'https://cors-anywhere.herokuapp.com/';
-    const root = 'https://sheltered-beach-23653.herokuapp.com';
+    const root = 'https://turing-mentors-be.herokuapp.com';
     const { javascript, ruby, denver, remote } = this.state;
     let location;
     if ((!denver && !remote) || (denver && remote)) location = 'all'

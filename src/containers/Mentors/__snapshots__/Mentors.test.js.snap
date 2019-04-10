@@ -8,7 +8,7 @@ ShallowWrapper {
       [MockFunction] {
         "calls": Array [
           Array [
-            "https://cors-anywhere.herokuapp.com/https://sheltered-beach-23653.herokuapp.com/api/v1/mentors?location=all",
+            "https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=all",
           ],
         ],
         "results": Array [
