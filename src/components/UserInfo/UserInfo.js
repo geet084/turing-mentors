@@ -29,9 +29,7 @@ export class UserInfo extends Component {
   }
 
   updateProgram = ({ target }) => {
-    const { name, value } = target;
-
-    this.setState({ [name]: value })
+    this.setState({ [target.name]: target.value })
   }
 
   updateCohort = ({ target }) => {

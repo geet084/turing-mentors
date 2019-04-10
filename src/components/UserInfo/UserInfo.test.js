@@ -44,25 +44,50 @@ describe('UserInfo', () => {
   });
 
   describe('updateIdentity', () => {
-    it.skip('should update the selected identity in state', () => {
-      const mockEvent = { target: { name: 'Female', value: 1 } };
-      const expected = 'a';
+    it('should update the selected identity in state', () => {
+      const mockEvent = { target: { name: 'identities', value: 1 } };
+      const expected = [1];
 
-      wrapper.find('.check-box').simulate('click', mockEvent);
+      expect(wrapper.state('identities')).toEqual([]);
+      wrapper.instance().updateIdentity(mockEvent);
 
-      expect(wrapper.state()).toEqual(expected)
+      expect(wrapper.state('identities')).toEqual(expected)
 
     });
   });
 
+  describe('handleChange', () => {
+    it('should update the selected input in state', () => {
+      const mockEvent = { target: { name: 'first_name', value: 'name here' } };
+      const expected = 'name here';
+      expect(wrapper.state('first_name')).toEqual('')
+      wrapper.instance().handleChange(mockEvent);
+
+      expect(wrapper.state('first_name')).toEqual(expected)
+
+    });
+  });
+
+  describe('updateCohort', () => {
+    it('should update the selected input in state', () => {
+      const mockEvent = { target: { name: 'cohort', value: '1810' } };
+      const expected = 1810;
+      expect(wrapper.state('cohort')).toEqual(0);
+      wrapper.instance().updateCohort(mockEvent);
+
+      expect(wrapper.state('cohort')).toEqual(expected);
+    });
+  });
+
   describe('updateProgram', () => {
-    it.skip('should update the program', () => {
-      const mockEvent = { target: { name: 'BE', value: 'BE' } };
-      const expected = 'a';
+    it('should update the program', () => {
+      const mockEvent = { target: { name: 'program', value: 'BE' } };
+      const expected = 'BE';
 
-      wrapper.find('.aa').simulate('click', mockEvent);
+      expect(wrapper.state('program')).toEqual('');
+      wrapper.instance().updateProgram(mockEvent);
 
-      expect(wrapper.state()).toEqual(expected);
+      expect(wrapper.state('program')).toEqual(expected);
     });
   });
 });
