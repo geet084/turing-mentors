@@ -27,17 +27,17 @@ describe('UserBackground', () => {
     expect(wrapper.state()).toEqual(expected);
   });
 
-  it.skip('should go back a page when the back button is clicked', () => {
+  it('should go back a page when the back button is clicked', () => {
     const mockEvent = { preventDefault: () => { } }
 
     wrapper.find('.prev-btn').simulate('click', mockEvent);
-    expect(wrapper.updateUserInfo).toHaveBeenCalled()
+    expect(mockProps.updateUserInfo).toHaveBeenCalled()
   });
 
-  it.skip('should go to the page when the next button is clicked', () => {
+  it('should go to the page when the next button is clicked', () => {
     const mockEvent = { preventDefault: () => { } }
 
     wrapper.find('.next-btn').simulate('click', mockEvent);
-    expect(wrapper.updateUserInfo).toHaveBeenCalled()
+    expect(mockProps.updateUserInfo).toHaveBeenCalled()
   });
 });

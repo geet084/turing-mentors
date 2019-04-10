@@ -18,7 +18,7 @@ describe('MentorPopup', () => {
     },
     tech_skills: ['skill'],
     non_tech_skills: ['skill'],
-    contact_details: ['slack'],
+    contact_details: {slack: 'user'},
     sendMessage: jest.fn(),
   };
 
@@ -30,7 +30,7 @@ describe('MentorPopup', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it.skip('should handle change of the slack message input', () => {
+  it('should handle change of the slack message input', () => {
     const mockEvent = { target: { value: 'new message' } };
 
     wrapper.find('.bg-info').simulate('change', mockEvent);
@@ -38,9 +38,9 @@ describe('MentorPopup', () => {
     expect(wrapper.state()).toEqual({ text: 'new message' });
   });
 
-  it.skip('should handle submitting the new slack message', () => {
+  it('should handle submitting the new slack message', () => {
     const mockEvent = { target: { value: 'new message' } };
-    const mockMessage = 'To user: anonymous -- message: new message';
+    const mockMessage = 'user: new message';
 
     wrapper.find('.bg-info').simulate('change', mockEvent);
     wrapper.find('button').simulate('click');

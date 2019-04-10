@@ -44,9 +44,9 @@ ShallowWrapper {
       }
     }
     contact_details={
-      Array [
-        "slack",
-      ]
+      Object {
+        "slack": "user",
+      }
     }
     id={1}
     name="some name"
@@ -102,9 +102,9 @@ ShallowWrapper {
            
           <p>
              
-            0
-            : 
             slack
+            : 
+            user
              
           </p>
            
@@ -350,9 +350,9 @@ ShallowWrapper {
             Array [
               <p>
                  
-                0
-                : 
                 slack
+                : 
+                user
                  
               </p>,
             ],
@@ -365,23 +365,23 @@ ShallowWrapper {
           " ",
           Object {
             "instance": null,
-            "key": "0",
+            "key": "slack",
             "nodeType": "host",
             "props": Object {
               "children": Array [
                 " ",
-                "0",
-                ": ",
                 "slack",
+                ": ",
+                "user",
                 " ",
               ],
             },
             "ref": null,
             "rendered": Array [
               " ",
-              "0",
-              ": ",
               "slack",
+              ": ",
+              "user",
               " ",
             ],
             "type": "p",
@@ -1025,9 +1025,9 @@ ShallowWrapper {
              
             <p>
                
-              0
-              : 
               slack
+              : 
+              user
                
             </p>
              
@@ -1273,9 +1273,9 @@ ShallowWrapper {
               Array [
                 <p>
                    
-                  0
-                  : 
                   slack
+                  : 
+                  user
                    
                 </p>,
               ],
@@ -1288,23 +1288,23 @@ ShallowWrapper {
             " ",
             Object {
               "instance": null,
-              "key": "0",
+              "key": "slack",
               "nodeType": "host",
               "props": Object {
                 "children": Array [
                   " ",
-                  "0",
-                  ": ",
                   "slack",
+                  ": ",
+                  "user",
                   " ",
                 ],
               },
               "ref": null,
               "rendered": Array [
                 " ",
-                "0",
-                ": ",
                 "slack",
+                ": ",
+                "user",
                 " ",
               ],
               "type": "p",

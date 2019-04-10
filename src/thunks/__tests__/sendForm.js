@@ -1,19 +1,17 @@
-import { slack } from '../slack';
-import { isLoading, hasErrored, slackSuccess } from '../../actions';
+import { sendForm } from '../sendForm';
+import { isLoading, hasErrored, postMentorSuccess } from '../../actions';
 
-describe('slack', () => {
+describe('sendForm', () => {
   let mockURL;
-  let mockText;
   let mockDispatch;
 
   beforeEach(() => {
     mockURL = 'http://localhost:3001';
     mockDispatch = jest.fn();
-    mockText = 'slack message';
   });
 
   it('should call dispatch with isLoading(true) action', () => {
-    const thunk = slack(mockURL, mockText);
+    const thunk = sendForm(mockURL);
     thunk(mockDispatch);
     expect(mockDispatch).toHaveBeenCalledWith(isLoading(true));
   });
@@ -24,7 +22,7 @@ describe('slack', () => {
       statusText: 'Error',
     }));
 
-    const thunk = slack(mockURL, mockText);
+    const thunk = sendForm(mockURL);
     await thunk(mockDispatch);
 
     expect(mockDispatch).toHaveBeenCalledWith(hasErrored('Error'));
@@ -35,9 +33,23 @@ describe('slack', () => {
       ok: true,
     }));
 
-    const thunk = slack(mockURL, mockText);
+    const thunk = sendForm(mockURL);
     await thunk(mockDispatch);
 
     expect(mockDispatch).toHaveBeenCalledWith(isLoading(false));
+  });
+
+  it.skip('should dispatch postMentorSuccess', async () => {
+    const mockForm = {name: 'aa', location: 'denver'};
+
+    window.fetch = jest.fn().mockImplementation(() => Promise.resolve({
+      json: () => Promise.resolve(mockForm),
+      ok: true
+    }));
+
+    const thunk = sendForm(mockURL);
+    await thunk(mockDispatch);
+
+    expect(mockDispatch).toHaveBeenCalledWith(postMentorSuccess(mockForm));
   });
 });

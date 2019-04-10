@@ -40,12 +40,11 @@ export class MentorPopup extends Component {
 
   render() {
     const { first_name, last_name, identities, location, cohort, program, current_job, contact_details, background, tech_skills, non_tech_skills, availability } = this.props;
-    const contactInfo = Object.keys(contact_details).map(detail => <p key={detail}> {detail}: {contact_details[detail]} </p>);
-    // const contactInfo = this.generateContactInfo(contact_details)
+    const contactInfo = this.generateContactInfo(contact_details)
     const techSkills = this.generateSkills(tech_skills)
     const nonTechSkills = this.generateSkills(non_tech_skills)
     const avail = this.generateAvailability()
-
+    
     return (
       <div className="mentor-popup link-content">
         <div className="name">
