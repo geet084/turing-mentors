@@ -16,8 +16,8 @@ export class Form extends Component {
     userBio: {},
     userBackground: {},
     userSchedule: {},
-    userTechSkills: {},
-    userNonTechSkills: {},
+    userTechSkills: [],
+    userNonTechSkills: [],
     currentSection: 'userInfo',
   }
 
@@ -35,12 +35,10 @@ export class Form extends Component {
   }
 
   submitForm = (form) => {
-
     const corsPrefix = 'https://cors-anywhere.herokuapp.com/';
     const root = 'https://sheltered-beach-23653.herokuapp.com';
     const path = `/api/v1/mentors`;
     const url = corsPrefix + root + path;
-
     this.props.sendForm(url, form)
   }
 

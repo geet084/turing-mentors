@@ -69,8 +69,8 @@ describe('Form', () => {
         userBio: {},
         userBackground: {},
         userSchedule: {},
-        userTechSkills: {},
-        userNonTechSkills: {},
+        userTechSkills: [],
+        userNonTechSkills: [],
         currentSection: 'userInfo',
       };
 
@@ -92,8 +92,8 @@ describe('Form', () => {
         userBio: {},
         userBackground: {},
         userSchedule: {},
-        userTechSkills: {},
-        userNonTechSkills: {},
+        userTechSkills: [],
+        userNonTechSkills: [],
         currentSection: 'userBio',
       };
       const mockInfo = [expected.userInfo, 'userBio'];
@@ -112,8 +112,8 @@ describe('Form', () => {
         userBio: {},
         userBackground: {},
         userSchedule: {},
-        userTechSkills: {},
-        userNonTechSkills: {},
+        userTechSkills: [],
+        userNonTechSkills: [],
         currentSection: 'userInfo',
       };
 
