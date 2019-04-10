@@ -96,10 +96,32 @@ ShallowWrapper {
              
           </span>
         </div>,
-        <div
-          className="contact-info"
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName="contact-info"
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="+ Contact Info +"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
         >
-           
           <p>
              
             slack
@@ -107,10 +129,32 @@ ShallowWrapper {
             user
              
           </p>
-           
-        </div>,
-        <div
-          className="skills-box"
+        </Collapsible>,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="+ Skills +"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
         >
           <div>
             <p>
@@ -132,13 +176,33 @@ ShallowWrapper {
               , 
             </span>
           </div>
-        </div>,
-        <div
-          className="avail"
+        </Collapsible>,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName="avail"
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="+ Availability +"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
         >
-          <p>
-            Availability:
-          </p>
           <p>
             Mon
             : 
@@ -195,14 +259,61 @@ ShallowWrapper {
                
             </span>
           </p>
-        </div>,
-        <div>
-          <p>
-            Background:
-          </p>
+        </Collapsible>,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="+ Background Info +"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+        >
           <span />
-        </div>,
-        <div>
+        </Collapsible>,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName="slack-message"
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="+ Send a slack message +"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+        >
           <textarea
             className="bg-info"
             name="text"
@@ -210,12 +321,12 @@ ShallowWrapper {
             placeholder="send slack message"
             value=""
           />
-        </div>,
-        <button
-          onClick={[Function]}
-        >
-          Submit
-        </button>,
+          <button
+            onClick={[Function]}
+          >
+            Submit
+          </button>
+        </Collapsible>,
         <Link
           to="/mentors"
         >
@@ -343,26 +454,44 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
-            Array [
-              <p>
-                 
-                slack
-                : 
-                user
-                 
-              </p>,
-            ],
-            " ",
+            <p>
+               
+              slack
+              : 
+              user
+               
+            </p>,
           ],
-          "className": "contact-info",
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "contact-info",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "+ Contact Info +",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": "slack",
@@ -386,14 +515,13 @@ ShallowWrapper {
             ],
             "type": "p",
           },
-          " ",
         ],
-        "type": "div",
+        "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
           "children": Array [
             <div>
@@ -417,7 +545,30 @@ ShallowWrapper {
               </span>
             </div>,
           ],
-          "className": "skills-box",
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "+ Skills +",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
         },
         "ref": null,
         "rendered": Array [
@@ -528,91 +679,98 @@ ShallowWrapper {
             "type": "div",
           },
         ],
-        "type": "div",
+        "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
           "children": Array [
             <p>
-              Availability:
+              Mon
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
             </p>,
-            Array [
-              <p>
-                Mon
-                : 
-                <span>
-                  Afternoon
-                   
-                </span>
-              </p>,
-              <p>
-                Tue
-                : 
-                <span>
-                  Afternoon
-                   
-                </span>
-              </p>,
-              <p>
-                Wed
-                : 
-                <span>
-                  Afternoon
-                   
-                </span>
-              </p>,
-              <p>
-                Thu
-                : 
-                <span>
-                  Afternoon
-                   
-                </span>
-              </p>,
-              <p>
-                Fri
-                : 
-                <span>
-                  Afternoon
-                   
-                </span>
-              </p>,
-              <p>
-                Sat
-                : 
-                <span>
-                  Afternoon
-                   
-                </span>
-              </p>,
-              <p>
-                Sun
-                : 
-                <span>
-                  Afternoon
-                   
-                </span>
-              </p>,
-            ],
+            <p>
+              Tue
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>,
+            <p>
+              Wed
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>,
+            <p>
+              Thu
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>,
+            <p>
+              Fri
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>,
+            <p>
+              Sat
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>,
+            <p>
+              Sun
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>,
           ],
-          "className": "avail",
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "avail",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "+ Availability +",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
         },
         "ref": null,
         "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Availability:",
-            },
-            "ref": null,
-            "rendered": "Availability:",
-            "type": "p",
-          },
           Object {
             "instance": null,
             "key": "Mon0",
@@ -894,19 +1052,96 @@ ShallowWrapper {
             "type": "p",
           },
         ],
-        "type": "div",
+        "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
+        "props": Object {
+          "children": <span />,
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "+ Background Info +",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
         "props": Object {
           "children": Array [
-            <p>
-              Background:
-            </p>,
-            <span />,
+            <textarea
+              className="bg-info"
+              name="text"
+              onChange={[Function]}
+              placeholder="send slack message"
+              value=""
+            />,
+            <button
+              onClick={[Function]}
+            >
+              Submit
+            </button>,
           ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "slack-message",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "+ Send a slack message +",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
         },
         "ref": null,
         "rendered": Array [
@@ -915,68 +1150,30 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Background:",
+              "className": "bg-info",
+              "name": "text",
+              "onChange": [Function],
+              "placeholder": "send slack message",
+              "value": "",
             },
             "ref": null,
-            "rendered": "Background:",
-            "type": "p",
+            "rendered": null,
+            "type": "textarea",
           },
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": "Submit",
+              "onClick": [Function],
             },
             "ref": null,
-            "rendered": null,
-            "type": "span",
+            "rendered": "Submit",
+            "type": "button",
           },
         ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <textarea
-            className="bg-info"
-            name="text"
-            onChange={[Function]}
-            placeholder="send slack message"
-            value=""
-          />,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "className": "bg-info",
-            "name": "text",
-            "onChange": [Function],
-            "placeholder": "send slack message",
-            "value": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "textarea",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Submit",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Submit",
-        "type": "button",
+        "type": [Function],
       },
       Object {
         "instance": null,
@@ -1019,10 +1216,32 @@ ShallowWrapper {
                
             </span>
           </div>,
-          <div
-            className="contact-info"
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName="contact-info"
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="+ Contact Info +"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
           >
-             
             <p>
                
               slack
@@ -1030,10 +1249,32 @@ ShallowWrapper {
               user
                
             </p>
-             
-          </div>,
-          <div
-            className="skills-box"
+          </Collapsible>,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="+ Skills +"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
           >
             <div>
               <p>
@@ -1055,13 +1296,33 @@ ShallowWrapper {
                 , 
               </span>
             </div>
-          </div>,
-          <div
-            className="avail"
+          </Collapsible>,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName="avail"
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="+ Availability +"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
           >
-            <p>
-              Availability:
-            </p>
             <p>
               Mon
               : 
@@ -1118,14 +1379,61 @@ ShallowWrapper {
                  
               </span>
             </p>
-          </div>,
-          <div>
-            <p>
-              Background:
-            </p>
+          </Collapsible>,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="+ Background Info +"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+          >
             <span />
-          </div>,
-          <div>
+          </Collapsible>,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName="slack-message"
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="+ Send a slack message +"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+          >
             <textarea
               className="bg-info"
               name="text"
@@ -1133,12 +1441,12 @@ ShallowWrapper {
               placeholder="send slack message"
               value=""
             />
-          </div>,
-          <button
-            onClick={[Function]}
-          >
-            Submit
-          </button>,
+            <button
+              onClick={[Function]}
+            >
+              Submit
+            </button>
+          </Collapsible>,
           <Link
             to="/mentors"
           >
@@ -1266,26 +1574,44 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
-              Array [
-                <p>
-                   
-                  slack
-                  : 
-                  user
-                   
-                </p>,
-              ],
-              " ",
+              <p>
+                 
+                slack
+                : 
+                user
+                 
+              </p>,
             ],
-            "className": "contact-info",
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "contact-info",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "+ Contact Info +",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": "slack",
@@ -1309,14 +1635,13 @@ ShallowWrapper {
               ],
               "type": "p",
             },
-            " ",
           ],
-          "type": "div",
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
             "children": Array [
               <div>
@@ -1340,7 +1665,30 @@ ShallowWrapper {
                 </span>
               </div>,
             ],
-            "className": "skills-box",
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "+ Skills +",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
           },
           "ref": null,
           "rendered": Array [
@@ -1451,91 +1799,98 @@ ShallowWrapper {
               "type": "div",
             },
           ],
-          "type": "div",
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
             "children": Array [
               <p>
-                Availability:
+                Mon
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
               </p>,
-              Array [
-                <p>
-                  Mon
-                  : 
-                  <span>
-                    Afternoon
-                     
-                  </span>
-                </p>,
-                <p>
-                  Tue
-                  : 
-                  <span>
-                    Afternoon
-                     
-                  </span>
-                </p>,
-                <p>
-                  Wed
-                  : 
-                  <span>
-                    Afternoon
-                     
-                  </span>
-                </p>,
-                <p>
-                  Thu
-                  : 
-                  <span>
-                    Afternoon
-                     
-                  </span>
-                </p>,
-                <p>
-                  Fri
-                  : 
-                  <span>
-                    Afternoon
-                     
-                  </span>
-                </p>,
-                <p>
-                  Sat
-                  : 
-                  <span>
-                    Afternoon
-                     
-                  </span>
-                </p>,
-                <p>
-                  Sun
-                  : 
-                  <span>
-                    Afternoon
-                     
-                  </span>
-                </p>,
-              ],
+              <p>
+                Tue
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Wed
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Thu
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Fri
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Sat
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Sun
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
             ],
-            "className": "avail",
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "avail",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "+ Availability +",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
           },
           "ref": null,
           "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Availability:",
-              },
-              "ref": null,
-              "rendered": "Availability:",
-              "type": "p",
-            },
             Object {
               "instance": null,
               "key": "Mon0",
@@ -1817,19 +2172,96 @@ ShallowWrapper {
               "type": "p",
             },
           ],
-          "type": "div",
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
+          "props": Object {
+            "children": <span />,
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "+ Background Info +",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
           "props": Object {
             "children": Array [
-              <p>
-                Background:
-              </p>,
-              <span />,
+              <textarea
+                className="bg-info"
+                name="text"
+                onChange={[Function]}
+                placeholder="send slack message"
+                value=""
+              />,
+              <button
+                onClick={[Function]}
+              >
+                Submit
+              </button>,
             ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "slack-message",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "+ Send a slack message +",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
           },
           "ref": null,
           "rendered": Array [
@@ -1838,68 +2270,30 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Background:",
+                "className": "bg-info",
+                "name": "text",
+                "onChange": [Function],
+                "placeholder": "send slack message",
+                "value": "",
               },
               "ref": null,
-              "rendered": "Background:",
-              "type": "p",
+              "rendered": null,
+              "type": "textarea",
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": "Submit",
+                "onClick": [Function],
               },
               "ref": null,
-              "rendered": null,
-              "type": "span",
+              "rendered": "Submit",
+              "type": "button",
             },
           ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <textarea
-              className="bg-info"
-              name="text"
-              onChange={[Function]}
-              placeholder="send slack message"
-              value=""
-            />,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "className": "bg-info",
-              "name": "text",
-              "onChange": [Function],
-              "placeholder": "send slack message",
-              "value": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "textarea",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Submit",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Submit",
-          "type": "button",
+          "type": [Function],
         },
         Object {
           "instance": null,

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Collapsible from 'react-collapsible';
 
 export class MentorPopup extends Component {
   state = {
@@ -44,7 +45,7 @@ export class MentorPopup extends Component {
     const techSkills = this.generateSkills(tech_skills)
     const nonTechSkills = this.generateSkills(non_tech_skills)
     const avail = this.generateAvailability()
-    
+
     return (
       <div className="mentor-popup link-content">
         <div className="name">
@@ -55,8 +56,10 @@ export class MentorPopup extends Component {
           <span>{location} </span>
           <span> {current_job}</span>
         </div>
-        <div className="contact-info"> {contact_details && contactInfo} </div>
-        <div className="skills-box">
+        <Collapsible openedClassName="contact-info" trigger="+ Contact Info +">
+          {contact_details && contactInfo}
+        </Collapsible>
+        <Collapsible trigger="+ Skills +">
           <div>
             <p>Tech Skills:</p>
             {tech_skills && techSkills}
@@ -65,16 +68,14 @@ export class MentorPopup extends Component {
             <p>Non-tech Skills:</p>
             {non_tech_skills && nonTechSkills}
           </div>
-        </div>
-        <div className="avail">
-          <p>Availability:</p>
+        </Collapsible>
+        <Collapsible openedClassName="avail" trigger="+ Availability +">
           {availability && avail}
-        </div>
-        <div>
-          <p>Background:</p>
+        </Collapsible>
+        <Collapsible trigger="+ Background Info +">
           <span>{background}</span>
-        </div>
-        <div>
+        </Collapsible>
+        <Collapsible openedClassName="slack-message" trigger="+ Send a slack message +">
           <textarea
             className="bg-info"
             name="text"
@@ -82,8 +83,8 @@ export class MentorPopup extends Component {
             value={this.state.text}
             onChange={this.handleChange}>
           </textarea>
-        </div>
-        <button onClick={this.handleSubmit} >Submit</button>
+          <button onClick={this.handleSubmit}>Submit</button>
+        </Collapsible>
         <Link to='/mentors'>GO BACK</Link>
       </div>
     )

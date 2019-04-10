@@ -27,7 +27,7 @@
   justify-content: space-around;
 }
 
-.Collapsible__contentInner {
+nav .Collapsible__contentInner {
   display: flex;
   background-color: #fff;
   border: 2px solid lightgrey;
@@ -40,7 +40,7 @@
   margin-bottom: 20px;
 }
 
-.links a, .Collapsible__contentInner a {
+.links a, nav .Collapsible__contentInner a {
   margin: 20px 8px;
   font-size: .95rem;
   text-decoration: none;
@@ -53,7 +53,7 @@
   }
 }
 
-.hamburger, .Collapsible{
+.hamburger, nav .Collapsible{
   display: none;
   font-size: 30px;
   color: #5f5f5f;
@@ -76,7 +76,7 @@
     display: none;
   }
   
-  .hamburger, .Collapsible {
+  .hamburger, nav .Collapsible {
     display: unset;
     position: absolute;
     top: 35px;
