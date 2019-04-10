@@ -4,12 +4,25 @@
   width: 80vw;
   display: flex;
   flex-direction: column;
-  background-color: lightgrey;
+  background-color: white;
   align-items: center;
   border-radius: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.25);
+    &:hover {
+      cursor: pointer;
+      margin-bottom: -2px;
+      border-bottom: 2px solid #12f1fc;
+    }
   p, span {
     margin: 10px;
+    color:navy;
   }
+}
+
+.mentor-card-link {
+  text-decoration: none;
 }
 
 .loc-lang {

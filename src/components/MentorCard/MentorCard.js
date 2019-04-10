@@ -8,7 +8,7 @@ export class MentorCard extends Component {
     skills += tech_skills.includes('ruby') ? ' & ruby' : '';
 
     return (
-      <Link to={`/mentors/${id}`}>
+      <Link to={`/mentors/${id}`} className="mentor-card-link">
         <div className="mentors-card">
           <p>{first_name} {last_name}</p>
           <div className="loc-lang">

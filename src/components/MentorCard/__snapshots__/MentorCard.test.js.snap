@@ -44,6 +44,7 @@ ShallowWrapper {
           </span>
         </div>
       </div>,
+      "className": "mentor-card-link",
       "to": "/mentors/undefined",
     },
     "ref": null,
@@ -177,6 +178,7 @@ ShallowWrapper {
             </span>
           </div>
         </div>,
+        "className": "mentor-card-link",
         "to": "/mentors/undefined",
       },
       "ref": null,
@@ -356,6 +358,7 @@ ShallowWrapper {
           </span>
         </div>
       </div>,
+      "className": "mentor-card-link",
       "to": "/mentors/undefined",
     },
     "ref": null,
@@ -486,6 +489,7 @@ ShallowWrapper {
             </span>
           </div>
         </div>,
+        "className": "mentor-card-link",
         "to": "/mentors/undefined",
       },
       "ref": null,
