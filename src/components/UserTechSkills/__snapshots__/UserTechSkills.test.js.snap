@@ -29,57 +29,57 @@ ShallowWrapper {
         <form>
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="Ruby"
-            name="Ruby"
-            value={0}
-          />
-          <CreateCheckbox
-            checkBoxes={[Function]}
-            field="JavaScript"
-            name="JavaScript"
+            field="ruby"
+            name="ruby"
             value={1}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="Python"
-            name="Python"
+            field="javascript"
+            name="javascript"
             value={2}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="Java"
-            name="Java"
+            field="python"
+            name="python"
             value={3}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="Elixer"
-            name="Elixer"
+            field="java"
+            name="java"
             value={4}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="C"
-            name="C"
+            field="elixer"
+            name="elixer"
             value={5}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="PHP"
-            name="PHP"
+            field="c"
+            name="c"
             value={6}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="Swift"
-            name="Swift"
+            field="php"
+            name="php"
             value={7}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="SQL"
-            name="SQL"
+            field="swift"
+            name="swift"
             value={8}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="sql"
+            name="sql"
+            value={9}
           />
         </form>,
         <button
@@ -125,57 +125,57 @@ ShallowWrapper {
           "children": Array [
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Ruby"
-              name="Ruby"
-              value={0}
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="JavaScript"
-              name="JavaScript"
+              field="ruby"
+              name="ruby"
               value={1}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Python"
-              name="Python"
+              field="javascript"
+              name="javascript"
               value={2}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Java"
-              name="Java"
+              field="python"
+              name="python"
               value={3}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Elixer"
-              name="Elixer"
+              field="java"
+              name="java"
               value={4}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="C"
-              name="C"
+              field="elixer"
+              name="elixer"
               value={5}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="PHP"
-              name="PHP"
+              field="c"
+              name="c"
               value={6}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Swift"
-              name="Swift"
+              field="php"
+              name="php"
               value={7}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="SQL"
-              name="SQL"
+              field="swift"
+              name="swift"
               value={8}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="sql"
+              value={9}
             />,
           ],
         },
@@ -183,26 +183,12 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "Ruby",
+            "key": "ruby",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "Ruby",
-              "name": "Ruby",
-              "value": 0,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "JavaScript",
-            "nodeType": "class",
-            "props": Object {
-              "checkBoxes": [Function],
-              "field": "JavaScript",
-              "name": "JavaScript",
+              "field": "ruby",
+              "name": "ruby",
               "value": 1,
             },
             "ref": null,
@@ -211,12 +197,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "Python",
+            "key": "javascript",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "Python",
-              "name": "Python",
+              "field": "javascript",
+              "name": "javascript",
               "value": 2,
             },
             "ref": null,
@@ -225,12 +211,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "Java",
+            "key": "python",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "Java",
-              "name": "Java",
+              "field": "python",
+              "name": "python",
               "value": 3,
             },
             "ref": null,
@@ -239,12 +225,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "Elixer",
+            "key": "java",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "Elixer",
-              "name": "Elixer",
+              "field": "java",
+              "name": "java",
               "value": 4,
             },
             "ref": null,
@@ -253,12 +239,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "C",
+            "key": "elixer",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "C",
-              "name": "C",
+              "field": "elixer",
+              "name": "elixer",
               "value": 5,
             },
             "ref": null,
@@ -267,12 +253,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "PHP",
+            "key": "c",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "PHP",
-              "name": "PHP",
+              "field": "c",
+              "name": "c",
               "value": 6,
             },
             "ref": null,
@@ -281,12 +267,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "Swift",
+            "key": "php",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "Swift",
-              "name": "Swift",
+              "field": "php",
+              "name": "php",
               "value": 7,
             },
             "ref": null,
@@ -295,13 +281,27 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "SQL",
+            "key": "swift",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "SQL",
-              "name": "SQL",
+              "field": "swift",
+              "name": "swift",
               "value": 8,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "sql",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "sql",
+              "name": "sql",
+              "value": 9,
             },
             "ref": null,
             "rendered": null,
@@ -372,57 +372,57 @@ ShallowWrapper {
           <form>
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Ruby"
-              name="Ruby"
-              value={0}
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="JavaScript"
-              name="JavaScript"
+              field="ruby"
+              name="ruby"
               value={1}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Python"
-              name="Python"
+              field="javascript"
+              name="javascript"
               value={2}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Java"
-              name="Java"
+              field="python"
+              name="python"
               value={3}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Elixer"
-              name="Elixer"
+              field="java"
+              name="java"
               value={4}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="C"
-              name="C"
+              field="elixer"
+              name="elixer"
               value={5}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="PHP"
-              name="PHP"
+              field="c"
+              name="c"
               value={6}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Swift"
-              name="Swift"
+              field="php"
+              name="php"
               value={7}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="SQL"
-              name="SQL"
+              field="swift"
+              name="swift"
               value={8}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="sql"
+              value={9}
             />
           </form>,
           <button
@@ -468,57 +468,57 @@ ShallowWrapper {
             "children": Array [
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="Ruby"
-                name="Ruby"
-                value={0}
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="JavaScript"
-                name="JavaScript"
+                field="ruby"
+                name="ruby"
                 value={1}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="Python"
-                name="Python"
+                field="javascript"
+                name="javascript"
                 value={2}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="Java"
-                name="Java"
+                field="python"
+                name="python"
                 value={3}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="Elixer"
-                name="Elixer"
+                field="java"
+                name="java"
                 value={4}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="C"
-                name="C"
+                field="elixer"
+                name="elixer"
                 value={5}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="PHP"
-                name="PHP"
+                field="c"
+                name="c"
                 value={6}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="Swift"
-                name="Swift"
+                field="php"
+                name="php"
                 value={7}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="SQL"
-                name="SQL"
+                field="swift"
+                name="swift"
                 value={8}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="sql"
+                name="sql"
+                value={9}
               />,
             ],
           },
@@ -526,26 +526,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "Ruby",
+              "key": "ruby",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "Ruby",
-                "name": "Ruby",
-                "value": 0,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": "JavaScript",
-              "nodeType": "class",
-              "props": Object {
-                "checkBoxes": [Function],
-                "field": "JavaScript",
-                "name": "JavaScript",
+                "field": "ruby",
+                "name": "ruby",
                 "value": 1,
               },
               "ref": null,
@@ -554,12 +540,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "Python",
+              "key": "javascript",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "Python",
-                "name": "Python",
+                "field": "javascript",
+                "name": "javascript",
                 "value": 2,
               },
               "ref": null,
@@ -568,12 +554,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "Java",
+              "key": "python",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "Java",
-                "name": "Java",
+                "field": "python",
+                "name": "python",
                 "value": 3,
               },
               "ref": null,
@@ -582,12 +568,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "Elixer",
+              "key": "java",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "Elixer",
-                "name": "Elixer",
+                "field": "java",
+                "name": "java",
                 "value": 4,
               },
               "ref": null,
@@ -596,12 +582,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "C",
+              "key": "elixer",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "C",
-                "name": "C",
+                "field": "elixer",
+                "name": "elixer",
                 "value": 5,
               },
               "ref": null,
@@ -610,12 +596,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "PHP",
+              "key": "c",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "PHP",
-                "name": "PHP",
+                "field": "c",
+                "name": "c",
                 "value": 6,
               },
               "ref": null,
@@ -624,12 +610,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "Swift",
+              "key": "php",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "Swift",
-                "name": "Swift",
+                "field": "php",
+                "name": "php",
                 "value": 7,
               },
               "ref": null,
@@ -638,13 +624,27 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "SQL",
+              "key": "swift",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "SQL",
-                "name": "SQL",
+                "field": "swift",
+                "name": "swift",
                 "value": 8,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "sql",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "sql",
+                "name": "sql",
+                "value": 9,
               },
               "ref": null,
               "rendered": null,

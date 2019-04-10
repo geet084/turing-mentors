@@ -32,7 +32,7 @@ ShallowWrapper {
           </span>
           <textarea
             className="bg-info"
-            cols="30"
+            cols="40"
             name="background"
             onChange={[Function]}
             placeholder="Tell us a bit about yourself"
@@ -77,7 +77,7 @@ ShallowWrapper {
             </span>,
             <textarea
               className="bg-info"
-              cols="30"
+              cols="40"
               name="background"
               onChange={[Function]}
               placeholder="Tell us a bit about yourself"
@@ -114,7 +114,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "className": "bg-info",
-              "cols": "30",
+              "cols": "40",
               "name": "background",
               "onChange": [Function],
               "placeholder": "Tell us a bit about yourself",
@@ -194,7 +194,7 @@ ShallowWrapper {
             </span>
             <textarea
               className="bg-info"
-              cols="30"
+              cols="40"
               name="background"
               onChange={[Function]}
               placeholder="Tell us a bit about yourself"
@@ -239,7 +239,7 @@ ShallowWrapper {
               </span>,
               <textarea
                 className="bg-info"
-                cols="30"
+                cols="40"
                 name="background"
                 onChange={[Function]}
                 placeholder="Tell us a bit about yourself"
@@ -276,7 +276,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "className": "bg-info",
-                "cols": "30",
+                "cols": "40",
                 "name": "background",
                 "onChange": [Function],
                 "placeholder": "Tell us a bit about yourself",

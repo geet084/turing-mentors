@@ -29,39 +29,39 @@ ShallowWrapper {
         <form>
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="StressManagement"
-            name="StressManagement"
-            value={0}
-          />
-          <CreateCheckbox
-            checkBoxes={[Function]}
-            field="PublicSpeaking"
-            name="PublicSpeaking"
+            field="stress_management"
+            name="stress_management"
             value={1}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="Resumes"
-            name="Resumes"
+            field="public_speaking"
+            name="public_speaking"
             value={2}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="Technical_Interview"
-            name="Technical_Interview"
+            field="resumes"
+            name="resumes"
             value={3}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="Parenting"
-            name="Parenting"
+            field="technical_interviews"
+            name="technical_interviews"
             value={4}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
-            field="Wellness"
-            name="Wellness"
+            field="parenting"
+            name="parenting"
             value={5}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="wellness"
+            name="wellness"
+            value={6}
           />
         </form>,
         <button
@@ -107,39 +107,39 @@ ShallowWrapper {
           "children": Array [
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="StressManagement"
-              name="StressManagement"
-              value={0}
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="PublicSpeaking"
-              name="PublicSpeaking"
+              field="stress_management"
+              name="stress_management"
               value={1}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Resumes"
-              name="Resumes"
+              field="public_speaking"
+              name="public_speaking"
               value={2}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Technical_Interview"
-              name="Technical_Interview"
+              field="resumes"
+              name="resumes"
               value={3}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Parenting"
-              name="Parenting"
+              field="technical_interviews"
+              name="technical_interviews"
               value={4}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Wellness"
-              name="Wellness"
+              field="parenting"
+              name="parenting"
               value={5}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="wellness"
+              name="wellness"
+              value={6}
             />,
           ],
         },
@@ -147,26 +147,12 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "StressManagement",
+            "key": "stress_management",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "StressManagement",
-              "name": "StressManagement",
-              "value": 0,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "PublicSpeaking",
-            "nodeType": "class",
-            "props": Object {
-              "checkBoxes": [Function],
-              "field": "PublicSpeaking",
-              "name": "PublicSpeaking",
+              "field": "stress_management",
+              "name": "stress_management",
               "value": 1,
             },
             "ref": null,
@@ -175,12 +161,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "Resumes",
+            "key": "public_speaking",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "Resumes",
-              "name": "Resumes",
+              "field": "public_speaking",
+              "name": "public_speaking",
               "value": 2,
             },
             "ref": null,
@@ -189,12 +175,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "Technical_Interview",
+            "key": "resumes",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "Technical_Interview",
-              "name": "Technical_Interview",
+              "field": "resumes",
+              "name": "resumes",
               "value": 3,
             },
             "ref": null,
@@ -203,12 +189,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "Parenting",
+            "key": "technical_interviews",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "Parenting",
-              "name": "Parenting",
+              "field": "technical_interviews",
+              "name": "technical_interviews",
               "value": 4,
             },
             "ref": null,
@@ -217,13 +203,27 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "Wellness",
+            "key": "parenting",
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
-              "field": "Wellness",
-              "name": "Wellness",
+              "field": "parenting",
+              "name": "parenting",
               "value": 5,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "wellness",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "wellness",
+              "name": "wellness",
+              "value": 6,
             },
             "ref": null,
             "rendered": null,
@@ -294,39 +294,39 @@ ShallowWrapper {
           <form>
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="StressManagement"
-              name="StressManagement"
-              value={0}
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="PublicSpeaking"
-              name="PublicSpeaking"
+              field="stress_management"
+              name="stress_management"
               value={1}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Resumes"
-              name="Resumes"
+              field="public_speaking"
+              name="public_speaking"
               value={2}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Technical_Interview"
-              name="Technical_Interview"
+              field="resumes"
+              name="resumes"
               value={3}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Parenting"
-              name="Parenting"
+              field="technical_interviews"
+              name="technical_interviews"
               value={4}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
-              field="Wellness"
-              name="Wellness"
+              field="parenting"
+              name="parenting"
               value={5}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="wellness"
+              name="wellness"
+              value={6}
             />
           </form>,
           <button
@@ -372,39 +372,39 @@ ShallowWrapper {
             "children": Array [
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="StressManagement"
-                name="StressManagement"
-                value={0}
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="PublicSpeaking"
-                name="PublicSpeaking"
+                field="stress_management"
+                name="stress_management"
                 value={1}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="Resumes"
-                name="Resumes"
+                field="public_speaking"
+                name="public_speaking"
                 value={2}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="Technical_Interview"
-                name="Technical_Interview"
+                field="resumes"
+                name="resumes"
                 value={3}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="Parenting"
-                name="Parenting"
+                field="technical_interviews"
+                name="technical_interviews"
                 value={4}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
-                field="Wellness"
-                name="Wellness"
+                field="parenting"
+                name="parenting"
                 value={5}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="wellness"
+                name="wellness"
+                value={6}
               />,
             ],
           },
@@ -412,26 +412,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "StressManagement",
+              "key": "stress_management",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "StressManagement",
-                "name": "StressManagement",
-                "value": 0,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": "PublicSpeaking",
-              "nodeType": "class",
-              "props": Object {
-                "checkBoxes": [Function],
-                "field": "PublicSpeaking",
-                "name": "PublicSpeaking",
+                "field": "stress_management",
+                "name": "stress_management",
                 "value": 1,
               },
               "ref": null,
@@ -440,12 +426,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "Resumes",
+              "key": "public_speaking",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "Resumes",
-                "name": "Resumes",
+                "field": "public_speaking",
+                "name": "public_speaking",
                 "value": 2,
               },
               "ref": null,
@@ -454,12 +440,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "Technical_Interview",
+              "key": "resumes",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "Technical_Interview",
-                "name": "Technical_Interview",
+                "field": "resumes",
+                "name": "resumes",
                 "value": 3,
               },
               "ref": null,
@@ -468,12 +454,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "Parenting",
+              "key": "technical_interviews",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "Parenting",
-                "name": "Parenting",
+                "field": "technical_interviews",
+                "name": "technical_interviews",
                 "value": 4,
               },
               "ref": null,
@@ -482,13 +468,27 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "Wellness",
+              "key": "parenting",
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
-                "field": "Wellness",
-                "name": "Wellness",
+                "field": "parenting",
+                "name": "parenting",
                 "value": 5,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "wellness",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "wellness",
+                "name": "wellness",
+                "value": 6,
               },
               "ref": null,
               "rendered": null,

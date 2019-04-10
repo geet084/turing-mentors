@@ -20,12 +20,29 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h2>
-          Contribute page
+          Want to contribute?
         </h2>,
         <p>
-          Turing mentors contribution...
+          Please send questions to:
         </p>,
+        <h4>
+          BE: 
+          <a
+            href="#"
+          >
+            Ricardo Ledesma
+          </a>
+        </h4>,
+        <h4>
+          FE: 
+          <a
+            href="#"
+          >
+            Travis Gee
+          </a>
+        </h4>,
       ],
+      "className": "link-content pages",
     },
     "ref": null,
     "rendered": Array [
@@ -34,10 +51,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Contribute page",
+          "children": "Want to contribute?",
         },
         "ref": null,
-        "rendered": "Contribute page",
+        "rendered": "Want to contribute?",
         "type": "h2",
       },
       Object {
@@ -45,11 +62,75 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Turing mentors contribution...",
+          "children": "Please send questions to:",
         },
         "ref": null,
-        "rendered": "Turing mentors contribution...",
+        "rendered": "Please send questions to:",
         "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "BE: ",
+            <a
+              href="#"
+            >
+              Ricardo Ledesma
+            </a>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "BE: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Ricardo Ledesma",
+              "href": "#",
+            },
+            "ref": null,
+            "rendered": "Ricardo Ledesma",
+            "type": "a",
+          },
+        ],
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "FE: ",
+            <a
+              href="#"
+            >
+              Travis Gee
+            </a>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "FE: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Travis Gee",
+              "href": "#",
+            },
+            "ref": null,
+            "rendered": "Travis Gee",
+            "type": "a",
+          },
+        ],
+        "type": "h4",
       },
     ],
     "type": "div",
@@ -62,12 +143,29 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h2>
-            Contribute page
+            Want to contribute?
           </h2>,
           <p>
-            Turing mentors contribution...
+            Please send questions to:
           </p>,
+          <h4>
+            BE: 
+            <a
+              href="#"
+            >
+              Ricardo Ledesma
+            </a>
+          </h4>,
+          <h4>
+            FE: 
+            <a
+              href="#"
+            >
+              Travis Gee
+            </a>
+          </h4>,
         ],
+        "className": "link-content pages",
       },
       "ref": null,
       "rendered": Array [
@@ -76,10 +174,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Contribute page",
+            "children": "Want to contribute?",
           },
           "ref": null,
-          "rendered": "Contribute page",
+          "rendered": "Want to contribute?",
           "type": "h2",
         },
         Object {
@@ -87,11 +185,75 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Turing mentors contribution...",
+            "children": "Please send questions to:",
           },
           "ref": null,
-          "rendered": "Turing mentors contribution...",
+          "rendered": "Please send questions to:",
           "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "BE: ",
+              <a
+                href="#"
+              >
+                Ricardo Ledesma
+              </a>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "BE: ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ricardo Ledesma",
+                "href": "#",
+              },
+              "ref": null,
+              "rendered": "Ricardo Ledesma",
+              "type": "a",
+            },
+          ],
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "FE: ",
+              <a
+                href="#"
+              >
+                Travis Gee
+              </a>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "FE: ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Travis Gee",
+                "href": "#",
+              },
+              "ref": null,
+              "rendered": "Travis Gee",
+              "type": "a",
+            },
+          ],
+          "type": "h4",
         },
       ],
       "type": "div",

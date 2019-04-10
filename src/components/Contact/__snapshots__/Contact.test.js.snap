@@ -20,12 +20,25 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h2>
-          Contact page
+          Turing School of Software and Design
         </h2>,
         <p>
-          Turing contact info...
+          1331 17th Street
+        </p>,
+        <p>
+          Suite LL100
+        </p>,
+        <p>
+          Denver, CO 80202
+        </p>,
+        <p>
+          Phone: 303.731.3117
+        </p>,
+        <p>
+          Fax: 303.374.7360
         </p>,
       ],
+      "className": "link-content pages",
     },
     "ref": null,
     "rendered": Array [
@@ -34,10 +47,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Contact page",
+          "children": "Turing School of Software and Design",
         },
         "ref": null,
-        "rendered": "Contact page",
+        "rendered": "Turing School of Software and Design",
         "type": "h2",
       },
       Object {
@@ -45,10 +58,54 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Turing contact info...",
+          "children": "1331 17th Street",
         },
         "ref": null,
-        "rendered": "Turing contact info...",
+        "rendered": "1331 17th Street",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Suite LL100",
+        },
+        "ref": null,
+        "rendered": "Suite LL100",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Denver, CO 80202",
+        },
+        "ref": null,
+        "rendered": "Denver, CO 80202",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Phone: 303.731.3117",
+        },
+        "ref": null,
+        "rendered": "Phone: 303.731.3117",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Fax: 303.374.7360",
+        },
+        "ref": null,
+        "rendered": "Fax: 303.374.7360",
         "type": "p",
       },
     ],
@@ -62,12 +119,25 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h2>
-            Contact page
+            Turing School of Software and Design
           </h2>,
           <p>
-            Turing contact info...
+            1331 17th Street
+          </p>,
+          <p>
+            Suite LL100
+          </p>,
+          <p>
+            Denver, CO 80202
+          </p>,
+          <p>
+            Phone: 303.731.3117
+          </p>,
+          <p>
+            Fax: 303.374.7360
           </p>,
         ],
+        "className": "link-content pages",
       },
       "ref": null,
       "rendered": Array [
@@ -76,10 +146,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Contact page",
+            "children": "Turing School of Software and Design",
           },
           "ref": null,
-          "rendered": "Contact page",
+          "rendered": "Turing School of Software and Design",
           "type": "h2",
         },
         Object {
@@ -87,10 +157,54 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Turing contact info...",
+            "children": "1331 17th Street",
           },
           "ref": null,
-          "rendered": "Turing contact info...",
+          "rendered": "1331 17th Street",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Suite LL100",
+          },
+          "ref": null,
+          "rendered": "Suite LL100",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Denver, CO 80202",
+          },
+          "ref": null,
+          "rendered": "Denver, CO 80202",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Phone: 303.731.3117",
+          },
+          "ref": null,
+          "rendered": "Phone: 303.731.3117",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Fax: 303.374.7360",
+          },
+          "ref": null,
+          "rendered": "Fax: 303.374.7360",
           "type": "p",
         },
       ],

@@ -4,8 +4,57 @@ exports[`MentorPopup should match the correct snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <MentorPopup
+    availability={
+      Object {
+        "0": Array [
+          false,
+          true,
+          false,
+        ],
+        "1": Array [
+          false,
+          true,
+          false,
+        ],
+        "2": Array [
+          false,
+          true,
+          false,
+        ],
+        "3": Array [
+          false,
+          true,
+          false,
+        ],
+        "4": Array [
+          false,
+          true,
+          false,
+        ],
+        "5": Array [
+          false,
+          true,
+          false,
+        ],
+        "6": Array [
+          false,
+          true,
+          false,
+        ],
+      }
+    }
+    contact_details={
+      Array [
+        "slack",
+      ]
+    }
     id={1}
     name="some name"
+    non_tech_skills={
+      Array [
+        "skill",
+      ]
+    }
     sendMessage={[MockFunction]}
     tech_skills={
       Array [
@@ -28,24 +77,131 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <p>
-           
-        </p>,
-        <p />,
-        <p />,
-        <p />,
-        <p />,
-        <div />,
+        <div
+          className="name"
+        >
+          <span>
+             
+             
+             
+             
+          </span>
+          <span />
+        </div>,
         <div>
+          <span>
+             
+          </span>
+          <span>
+             
+          </span>
+        </div>,
+        <div
+          className="contact-info"
+        >
+           
           <p>
-            Tech skillz: 
-            skill
+             
+            0
+            : 
+            slack
+             
+          </p>
+           
+        </div>,
+        <div
+          className="skills-box"
+        >
+          <div>
+            <p>
+              Tech Skills:
+            </p>
+            <span>
+               
+              skill
+              , 
+            </span>
+          </div>
+          <div>
+            <p>
+              Non-tech Skills:
+            </p>
+            <span>
+               
+              skill
+              , 
+            </span>
+          </div>
+        </div>,
+        <div
+          className="avail"
+        >
+          <p>
+            Availability:
+          </p>
+          <p>
+            Mon
+            : 
+            <span>
+              Afternoon
+               
+            </span>
+          </p>
+          <p>
+            Tue
+            : 
+            <span>
+              Afternoon
+               
+            </span>
+          </p>
+          <p>
+            Wed
+            : 
+            <span>
+              Afternoon
+               
+            </span>
+          </p>
+          <p>
+            Thu
+            : 
+            <span>
+              Afternoon
+               
+            </span>
+          </p>
+          <p>
+            Fri
+            : 
+            <span>
+              Afternoon
+               
+            </span>
+          </p>
+          <p>
+            Sat
+            : 
+            <span>
+              Afternoon
+               
+            </span>
+          </p>
+          <p>
+            Sun
+            : 
+            <span>
+              Afternoon
+               
+            </span>
           </p>
         </div>,
-        <div />,
-        <p>
-          ...availabilities here...
-        </p>,
+        <div>
+          <p>
+            Background:
+          </p>
+          <span />
+        </div>,
         <div>
           <textarea
             className="bg-info"
@@ -66,6 +222,7 @@ ShallowWrapper {
           GO BACK
         </Link>,
       ],
+      "className": "mentor-popup link-content",
     },
     "ref": null,
     "rendered": Array [
@@ -75,31 +232,60 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            undefined,
-            " ",
-            undefined,
-            undefined,
+            <span>
+               
+               
+               
+               
+            </span>,
+            <span />,
           ],
+          "className": "name",
         },
         "ref": null,
         "rendered": Array [
-          undefined,
-          " ",
-          undefined,
-          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                undefined,
+                " ",
+                undefined,
+                " ",
+                undefined,
+                undefined,
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              undefined,
+              " ",
+              undefined,
+              " ",
+              undefined,
+              undefined,
+              " ",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
         ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "p",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -107,48 +293,241 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            undefined,
-            undefined,
+            <span>
+               
+            </span>,
+            <span>
+               
+            </span>,
           ],
         },
         "ref": null,
         "rendered": Array [
-          undefined,
-          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              " ",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              undefined,
+            ],
+            "type": "span",
+          },
         ],
-        "type": "p",
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": Array [
+            " ",
+            Array [
+              <p>
+                 
+                0
+                : 
+                slack
+                 
+              </p>,
+            ],
+            " ",
+          ],
+          "className": "contact-info",
         },
         "ref": null,
-        "rendered": null,
-        "type": "p",
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                "0",
+                ": ",
+                "slack",
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              "0",
+              ": ",
+              "slack",
+              " ",
+            ],
+            "type": "p",
+          },
+          " ",
+        ],
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": Array [
+            <div>
+              <p>
+                Tech Skills:
+              </p>
+              <span>
+                 
+                skill
+                , 
+              </span>
+            </div>,
+            <div>
+              <p>
+                Non-tech Skills:
+              </p>
+              <span>
+                 
+                skill
+                , 
+              </span>
+            </div>,
+          ],
+          "className": "skills-box",
         },
         "ref": null,
-        "rendered": null,
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-        },
-        "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Tech Skills:
+                </p>,
+                Array [
+                  <span>
+                     
+                    skill
+                    , 
+                  </span>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Tech Skills:",
+                },
+                "ref": null,
+                "rendered": "Tech Skills:",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "skill",
+                    ", ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "skill",
+                  ", ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Non-tech Skills:
+                </p>,
+                Array [
+                  <span>
+                     
+                    skill
+                    , 
+                  </span>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Non-tech Skills:",
+                },
+                "ref": null,
+                "rendered": "Non-tech Skills:",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "skill",
+                    ", ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "skill",
+                  ", ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+        ],
         "type": "div",
       },
       Object {
@@ -158,27 +537,359 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <p>
-              Tech skillz: 
-              skill
+              Availability:
             </p>,
+            Array [
+              <p>
+                Mon
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Tue
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Wed
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Thu
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Fri
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Sat
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+              <p>
+                Sun
+                : 
+                <span>
+                  Afternoon
+                   
+                </span>
+              </p>,
+            ],
           ],
+          "className": "avail",
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "0",
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Availability:",
+            },
+            "ref": null,
+            "rendered": "Availability:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "Mon0",
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                "Tech skillz: ",
-                "skill",
+                "Mon",
+                ": ",
+                Array [
+                  <span>
+                    Afternoon
+                     
+                  </span>,
+                ],
               ],
             },
             "ref": null,
             "rendered": Array [
-              "Tech skillz: ",
-              "skill",
+              "Mon",
+              ": ",
+              Object {
+                "instance": null,
+                "key": "Mon1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Afternoon",
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "Tue1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Tue",
+                ": ",
+                Array [
+                  <span>
+                    Afternoon
+                     
+                  </span>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Tue",
+              ": ",
+              Object {
+                "instance": null,
+                "key": "Tue1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Afternoon",
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "Wed2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Wed",
+                ": ",
+                Array [
+                  <span>
+                    Afternoon
+                     
+                  </span>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Wed",
+              ": ",
+              Object {
+                "instance": null,
+                "key": "Wed1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Afternoon",
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "Thu3",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Thu",
+                ": ",
+                Array [
+                  <span>
+                    Afternoon
+                     
+                  </span>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Thu",
+              ": ",
+              Object {
+                "instance": null,
+                "key": "Thu1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Afternoon",
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "Fri4",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Fri",
+                ": ",
+                Array [
+                  <span>
+                    Afternoon
+                     
+                  </span>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Fri",
+              ": ",
+              Object {
+                "instance": null,
+                "key": "Fri1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Afternoon",
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "Sat5",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Sat",
+                ": ",
+                Array [
+                  <span>
+                    Afternoon
+                     
+                  </span>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Sat",
+              ": ",
+              Object {
+                "instance": null,
+                "key": "Sat1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Afternoon",
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": "Sun6",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Sun",
+                ": ",
+                Array [
+                  <span>
+                    Afternoon
+                     
+                  </span>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Sun",
+              ": ",
+              Object {
+                "instance": null,
+                "key": "Sun1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Afternoon",
+                  " ",
+                ],
+                "type": "span",
+              },
             ],
             "type": "p",
           },
@@ -190,22 +901,39 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": Array [
+            <p>
+              Background:
+            </p>,
+            <span />,
+          ],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Background:",
+            },
+            "ref": null,
+            "rendered": "Background:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+        ],
         "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "...availabilities here...",
-        },
-        "ref": null,
-        "rendered": "...availabilities here...",
-        "type": "p",
       },
       Object {
         "instance": null,
@@ -272,24 +1000,131 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <p>
-             
-          </p>,
-          <p />,
-          <p />,
-          <p />,
-          <p />,
-          <div />,
+          <div
+            className="name"
+          >
+            <span>
+               
+               
+               
+               
+            </span>
+            <span />
+          </div>,
           <div>
+            <span>
+               
+            </span>
+            <span>
+               
+            </span>
+          </div>,
+          <div
+            className="contact-info"
+          >
+             
             <p>
-              Tech skillz: 
-              skill
+               
+              0
+              : 
+              slack
+               
+            </p>
+             
+          </div>,
+          <div
+            className="skills-box"
+          >
+            <div>
+              <p>
+                Tech Skills:
+              </p>
+              <span>
+                 
+                skill
+                , 
+              </span>
+            </div>
+            <div>
+              <p>
+                Non-tech Skills:
+              </p>
+              <span>
+                 
+                skill
+                , 
+              </span>
+            </div>
+          </div>,
+          <div
+            className="avail"
+          >
+            <p>
+              Availability:
+            </p>
+            <p>
+              Mon
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>
+            <p>
+              Tue
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>
+            <p>
+              Wed
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>
+            <p>
+              Thu
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>
+            <p>
+              Fri
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>
+            <p>
+              Sat
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
+            </p>
+            <p>
+              Sun
+              : 
+              <span>
+                Afternoon
+                 
+              </span>
             </p>
           </div>,
-          <div />,
-          <p>
-            ...availabilities here...
-          </p>,
+          <div>
+            <p>
+              Background:
+            </p>
+            <span />
+          </div>,
           <div>
             <textarea
               className="bg-info"
@@ -310,6 +1145,7 @@ ShallowWrapper {
             GO BACK
           </Link>,
         ],
+        "className": "mentor-popup link-content",
       },
       "ref": null,
       "rendered": Array [
@@ -319,31 +1155,60 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              undefined,
-              " ",
-              undefined,
-              undefined,
+              <span>
+                 
+                 
+                 
+                 
+              </span>,
+              <span />,
             ],
+            "className": "name",
           },
           "ref": null,
           "rendered": Array [
-            undefined,
-            " ",
-            undefined,
-            undefined,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  undefined,
+                  " ",
+                  undefined,
+                  " ",
+                  undefined,
+                  undefined,
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                undefined,
+                " ",
+                undefined,
+                " ",
+                undefined,
+                undefined,
+                " ",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
           ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "p",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -351,48 +1216,241 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              undefined,
-              undefined,
+              <span>
+                 
+              </span>,
+              <span>
+                 
+              </span>,
             ],
           },
           "ref": null,
           "rendered": Array [
-            undefined,
-            undefined,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                " ",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                undefined,
+              ],
+              "type": "span",
+            },
           ],
-          "type": "p",
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": Array [
+              " ",
+              Array [
+                <p>
+                   
+                  0
+                  : 
+                  slack
+                   
+                </p>,
+              ],
+              " ",
+            ],
+            "className": "contact-info",
           },
           "ref": null,
-          "rendered": null,
-          "type": "p",
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  "0",
+                  ": ",
+                  "slack",
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "0",
+                ": ",
+                "slack",
+                " ",
+              ],
+              "type": "p",
+            },
+            " ",
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": Array [
+              <div>
+                <p>
+                  Tech Skills:
+                </p>
+                <span>
+                   
+                  skill
+                  , 
+                </span>
+              </div>,
+              <div>
+                <p>
+                  Non-tech Skills:
+                </p>
+                <span>
+                   
+                  skill
+                  , 
+                </span>
+              </div>,
+            ],
+            "className": "skills-box",
           },
           "ref": null,
-          "rendered": null,
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-          },
-          "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Tech Skills:
+                  </p>,
+                  Array [
+                    <span>
+                       
+                      skill
+                      , 
+                    </span>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Tech Skills:",
+                  },
+                  "ref": null,
+                  "rendered": "Tech Skills:",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "skill",
+                      ", ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "skill",
+                    ", ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Non-tech Skills:
+                  </p>,
+                  Array [
+                    <span>
+                       
+                      skill
+                      , 
+                    </span>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Non-tech Skills:",
+                  },
+                  "ref": null,
+                  "rendered": "Non-tech Skills:",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "skill",
+                      ", ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "skill",
+                    ", ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+          ],
           "type": "div",
         },
         Object {
@@ -402,27 +1460,359 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <p>
-                Tech skillz: 
-                skill
+                Availability:
               </p>,
+              Array [
+                <p>
+                  Mon
+                  : 
+                  <span>
+                    Afternoon
+                     
+                  </span>
+                </p>,
+                <p>
+                  Tue
+                  : 
+                  <span>
+                    Afternoon
+                     
+                  </span>
+                </p>,
+                <p>
+                  Wed
+                  : 
+                  <span>
+                    Afternoon
+                     
+                  </span>
+                </p>,
+                <p>
+                  Thu
+                  : 
+                  <span>
+                    Afternoon
+                     
+                  </span>
+                </p>,
+                <p>
+                  Fri
+                  : 
+                  <span>
+                    Afternoon
+                     
+                  </span>
+                </p>,
+                <p>
+                  Sat
+                  : 
+                  <span>
+                    Afternoon
+                     
+                  </span>
+                </p>,
+                <p>
+                  Sun
+                  : 
+                  <span>
+                    Afternoon
+                     
+                  </span>
+                </p>,
+              ],
             ],
+            "className": "avail",
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "0",
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Availability:",
+              },
+              "ref": null,
+              "rendered": "Availability:",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": "Mon0",
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  "Tech skillz: ",
-                  "skill",
+                  "Mon",
+                  ": ",
+                  Array [
+                    <span>
+                      Afternoon
+                       
+                    </span>,
+                  ],
                 ],
               },
               "ref": null,
               "rendered": Array [
-                "Tech skillz: ",
-                "skill",
+                "Mon",
+                ": ",
+                Object {
+                  "instance": null,
+                  "key": "Mon1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Afternoon",
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": "Tue1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Tue",
+                  ": ",
+                  Array [
+                    <span>
+                      Afternoon
+                       
+                    </span>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Tue",
+                ": ",
+                Object {
+                  "instance": null,
+                  "key": "Tue1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Afternoon",
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": "Wed2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Wed",
+                  ": ",
+                  Array [
+                    <span>
+                      Afternoon
+                       
+                    </span>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Wed",
+                ": ",
+                Object {
+                  "instance": null,
+                  "key": "Wed1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Afternoon",
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": "Thu3",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Thu",
+                  ": ",
+                  Array [
+                    <span>
+                      Afternoon
+                       
+                    </span>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Thu",
+                ": ",
+                Object {
+                  "instance": null,
+                  "key": "Thu1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Afternoon",
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": "Fri4",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Fri",
+                  ": ",
+                  Array [
+                    <span>
+                      Afternoon
+                       
+                    </span>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Fri",
+                ": ",
+                Object {
+                  "instance": null,
+                  "key": "Fri1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Afternoon",
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": "Sat5",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Sat",
+                  ": ",
+                  Array [
+                    <span>
+                      Afternoon
+                       
+                    </span>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Sat",
+                ": ",
+                Object {
+                  "instance": null,
+                  "key": "Sat1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Afternoon",
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": "Sun6",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Sun",
+                  ": ",
+                  Array [
+                    <span>
+                      Afternoon
+                       
+                    </span>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Sun",
+                ": ",
+                Object {
+                  "instance": null,
+                  "key": "Sun1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Afternoon",
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Afternoon",
+                    " ",
+                  ],
+                  "type": "span",
+                },
               ],
               "type": "p",
             },
@@ -434,22 +1824,39 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": Array [
+              <p>
+                Background:
+              </p>,
+              <span />,
+            ],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Background:",
+              },
+              "ref": null,
+              "rendered": "Background:",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+          ],
           "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "...availabilities here...",
-          },
-          "ref": null,
-          "rendered": "...availabilities here...",
-          "type": "p",
         },
         Object {
           "instance": null,
