@@ -41,9 +41,9 @@ Turing Mentors is a web application designed for Turing students and Alumni to c
 - Adding more advance search capabilities such as searching through a user's bio, for specific cities, for languanges other than JavaScript and Ruby, etc.
 
 ## Developers
-[Ricardo Ledesma](https://github.com/stoic-plus)
+[Ricardo Ledesma - BE](https://github.com/stoic-plus)
 
-[Travis Gee](https://github.com/geet084)
+[Travis Gee - FE](https://github.com/geet084)
 
 
 ## Wireframes
