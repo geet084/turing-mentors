@@ -35,15 +35,7 @@ export class Mentors extends Component {
     if ((!javascript && !ruby) || (javascript && ruby)) languages = ''
     
     const path = `/api/v1/mentors?location=${location}${languages}`;
-    //ALL / REMOTE / DENVER
-    // always have to provide location
-    //mentors?location=denver
-    //mentors?location=remote
-    //mentors?location=all&tech_skills=ruby,javascript
-
     // TODO: what is the best way to use env vars with a rails backend?
-
-
     const url = corsPrefix + root + path
     this.props.getMentors(url);
   }
