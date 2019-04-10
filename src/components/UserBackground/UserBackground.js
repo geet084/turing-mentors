@@ -33,7 +33,7 @@ export class UserBackground extends Component {
             placeholder="Tell us a bit about yourself"
             name='background'
             rows="18"
-            cols="30"
+            cols="40"
             value={background}
             onChange={this.handleChange} />
         </form>
