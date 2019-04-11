@@ -20,6 +20,28 @@ describe('Mentors', () => {
     });
   });
 
+  describe('handleChange', () => {
+    it('should update the selected input in state', () => {
+      const mockEvent = { target: { name: 'javascript' } };
+      const expected = true;
+      expect(wrapper.state('javascript')).toEqual(false)
+      wrapper.instance().handleChange(mockEvent);
+
+      expect(wrapper.state('javascript')).toEqual(expected);
+    });
+  });
+  
+  describe('handleSearch', () => {
+    it('should update the selected input in state', () => {
+      const mockEvent = { target: { name: 'mentorSearch', value:'search param' } };
+      const expected = 'search param';
+      expect(wrapper.state('mentorSearch')).toEqual('')
+      wrapper.instance().handleSearch(mockEvent);
+
+      expect(wrapper.state('mentorSearch')).toEqual(expected);
+    });
+  });
+
   describe('mapStateToProps', () => {
     it('should return an array of mentors', () => {
       const mockState = {

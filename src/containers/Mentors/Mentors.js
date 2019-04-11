@@ -42,9 +42,7 @@ export class Mentors extends Component {
   }
 
   handleChange = ({ target }) => {
-    const value = this.state[target.name];
-
-    this.setState({ [target.name]: !value }, this.getUpdated);
+    this.setState({ [target.name]: !this.state[target.name] }, this.getUpdated);
   }
 
   handleSearch = ({ target }) => {

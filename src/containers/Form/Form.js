@@ -48,8 +48,8 @@ export class Form extends Component {
       userBio: {},
       userBackground: {},
       userSchedule: {},
-      userTechSkills: {},
-      userNonTechSkills: {},
+      userTechSkills: [],
+      userNonTechSkills: [],
       currentSection: 'userInfo',
     });
   }

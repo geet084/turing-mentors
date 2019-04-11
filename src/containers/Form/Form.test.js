@@ -2,6 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { Form, mapStateToProps, mapDispatchToProps } from './Form';
 import { updateForm } from '../../actions';
+import { sendForm } from '../../thunks/sendForm';
 
 describe('Form', () => {
   let wrapper;
@@ -105,7 +106,7 @@ describe('Form', () => {
   });
 
   describe('submitForm', () => {
-    it('should', () => {
+    it('should submit a completed form', () => {
       const mockEvent = { preventDefault: () => { } };
       const expected = {
         userInfo: {},
@@ -118,6 +119,24 @@ describe('Form', () => {
       };
 
       wrapper.instance().submitForm(mockEvent);
+
+      expect(wrapper.state()).toEqual(expected);
+    });
+  });
+
+  describe('resetForm', () => {
+    it('should reset the form after it has been completed', () => {
+      const expected = {
+        userInfo: {},
+        userBio: {},
+        userBackground: {},
+        userSchedule: {},
+        userTechSkills: [],
+        userNonTechSkills: [],
+        currentSection: 'userInfo',
+      };
+
+      wrapper.instance().reset();
 
       expect(wrapper.state()).toEqual(expected);
     });
@@ -146,6 +165,21 @@ describe('Form', () => {
       mappedProps.updateForm(mockForm)
 
       expect(mockDispatch).toHaveBeenCalledWith(actionToDispatch)
+    })
+
+    it('should call sendForm dispatch', () => {
+      const mockDispatch = jest.fn();
+      const mockURL = 'http://localhost:3000';
+      const mockForm = { firstName: 'name', lastName: 'last name' }
+
+      const actionToDispatch = sendForm(mockURL, mockForm)
+
+      const mappedProps = mapDispatchToProps(mockDispatch)
+      mappedProps.sendForm(mockURL, mockForm)
+
+      expect(mockDispatch).toHaveBeenCalled();
+      // TODO: NEED TO FIX THIS
+      // expect(mockDispatch).toHaveBeenCalledWith(actionToDispatch)
     })
   })
 });
