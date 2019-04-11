@@ -23,9 +23,9 @@ Turing Mentors is a web application designed for Turing students and Alumni to c
 
 ## Screenshots
 ![turing-mentors](https://user-images.githubusercontent.com/39391585/55925805-0c571380-5bcc-11e9-89f9-4a8389749844.gif)
-<img src="https://user-images.githubusercontent.com/39391585/55925854-3c061b80-5bcc-11e9-98b0-99909fb8a038.png" height="600" />
 
-<img src="https://user-images.githubusercontent.com/39391585/55925853-3c061b80-5bcc-11e9-8ff5-d72dad3ad19b.png" height="600" /><img src="https://user-images.githubusercontent.com/39391585/55925852-3c061b80-5bcc-11e9-8876-d69256f7d2fd.png" height="600" />
+
+<img src="https://user-images.githubusercontent.com/39391585/55925854-3c061b80-5bcc-11e9-98b0-99909fb8a038.png" height="600" /><img src="https://user-images.githubusercontent.com/39391585/55925853-3c061b80-5bcc-11e9-8ff5-d72dad3ad19b.png" height="600" /><img src="https://user-images.githubusercontent.com/39391585/55925852-3c061b80-5bcc-11e9-8876-d69256f7d2fd.png" height="600" />
 
 ## Primary Technologies Used
 - React
