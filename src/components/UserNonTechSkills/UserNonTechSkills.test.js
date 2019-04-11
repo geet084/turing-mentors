@@ -43,4 +43,16 @@ describe('UserNonTechSkills', () => {
     });
   });
 
+  describe('checkBoxes', () => {
+    it('should update the selected input in state', () => {
+      const mockEvent = { target: { value: 3 } };
+      const expected = {
+        non_tech_skills: [3]
+      }
+
+      wrapper.instance().checkBoxes(mockEvent);
+
+      expect(wrapper.state()).toEqual(expected);
+    });
+  });
 });
