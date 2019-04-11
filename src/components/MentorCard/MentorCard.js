@@ -5,7 +5,8 @@ export class MentorCard extends Component {
   render() {
     const { id, first_name, last_name, location, tech_skills } = this.props;
     let skills = tech_skills.includes('javascript') ? 'JS' : ''
-    skills += tech_skills.includes('ruby') ? ' & ruby' : '';
+    skills += tech_skills.includes('ruby') ? 'Ruby' : '';
+    if(skills === 'JSRuby') skills = 'JS & Ruby'
 
     return (
       <Link to={`/mentors/${id}`} className="mentor-card-link">

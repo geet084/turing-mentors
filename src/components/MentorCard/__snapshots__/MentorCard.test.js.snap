@@ -354,7 +354,7 @@ ShallowWrapper {
           <span
             className="lang"
           >
-            JS & ruby
+            JS & Ruby
           </span>
         </div>
       </div>,
@@ -380,7 +380,7 @@ ShallowWrapper {
             <span
               className="lang"
             >
-              JS & ruby
+              JS & Ruby
             </span>
           </div>,
         ],
@@ -419,7 +419,7 @@ ShallowWrapper {
               <span
                 className="lang"
               >
-                JS & ruby
+                JS & Ruby
               </span>,
             ],
             "className": "loc-lang",
@@ -444,14 +444,14 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  "JS & ruby",
+                  "JS & Ruby",
                   false,
                 ],
                 "className": "lang",
               },
               "ref": null,
               "rendered": Array [
-                "JS & ruby",
+                "JS & Ruby",
                 false,
               ],
               "type": "span",
@@ -485,7 +485,7 @@ ShallowWrapper {
             <span
               className="lang"
             >
-              JS & ruby
+              JS & Ruby
             </span>
           </div>
         </div>,
@@ -511,7 +511,7 @@ ShallowWrapper {
               <span
                 className="lang"
               >
-                JS & ruby
+                JS & Ruby
               </span>
             </div>,
           ],
@@ -550,7 +550,7 @@ ShallowWrapper {
                 <span
                   className="lang"
                 >
-                  JS & ruby
+                  JS & Ruby
                 </span>,
               ],
               "className": "loc-lang",
@@ -575,14 +575,14 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "JS & ruby",
+                    "JS & Ruby",
                     false,
                   ],
                   "className": "lang",
                 },
                 "ref": null,
                 "rendered": Array [
-                  "JS & ruby",
+                  "JS & Ruby",
                   false,
                 ],
                 "type": "span",
