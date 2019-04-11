@@ -50,7 +50,9 @@ ShallowWrapper {
         <MentorControls
           denver={false}
           handleChange={[Function]}
+          handleSearch={[Function]}
           javascript={false}
+          mentorSearch=""
           remote={false}
           ruby={false}
         />,
@@ -93,7 +95,9 @@ ShallowWrapper {
         "props": Object {
           "denver": false,
           "handleChange": [Function],
+          "handleSearch": [Function],
           "javascript": false,
+          "mentorSearch": "",
           "remote": false,
           "ruby": false,
         },
@@ -171,7 +175,9 @@ ShallowWrapper {
           <MentorControls
             denver={false}
             handleChange={[Function]}
+            handleSearch={[Function]}
             javascript={false}
+            mentorSearch=""
             remote={false}
             ruby={false}
           />,
@@ -214,7 +220,9 @@ ShallowWrapper {
           "props": Object {
             "denver": false,
             "handleChange": [Function],
+            "handleSearch": [Function],
             "javascript": false,
+            "mentorSearch": "",
             "remote": false,
             "ruby": false,
           },

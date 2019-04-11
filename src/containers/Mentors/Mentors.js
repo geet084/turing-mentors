@@ -11,6 +11,7 @@ export class Mentors extends Component {
     ruby: false,
     denver: false,
     remote: false,
+    mentorSearch: '',
   }
 
   componentDidMount = () => {
@@ -24,16 +25,16 @@ export class Mentors extends Component {
     let location;
     if ((!denver && !remote) || (denver && remote)) location = 'all'
     else location = denver ? 'denver' : 'remote'
-    
+
     let lang;
-    
+
     if (javascript) lang = 'javascript'
     if (ruby) lang = 'ruby'
-    
+
     let languages = `&tech_skills=${lang}`
-    
+
     if ((!javascript && !ruby) || (javascript && ruby)) languages = ''
-    
+
     const path = `/api/v1/mentors?location=${location}${languages}`;
     // TODO: what is the best way to use env vars with a rails backend?
     const url = corsPrefix + root + path
@@ -43,7 +44,11 @@ export class Mentors extends Component {
   handleChange = ({ target }) => {
     const value = this.state[target.name];
 
-    this.setState({ [target.name]: !value }, this.getUpdated)
+    this.setState({ [target.name]: !value }, this.getUpdated);
+  }
+
+  handleSearch = ({ target }) => {
+    this.setState({ [target.name]: target.value });
   }
 
   render() {
@@ -51,7 +56,21 @@ export class Mentors extends Component {
     const mentorList = mentors.map(mentor => {
       return <MentorCard key={mentor.id} id={mentor.id} {...mentor.attributes} />
     });
+    // const searchList = mentors.map(mentor => {
+    //   Object.keys(mentor.attributes).forEach(attr => {
+    //     // console.log(mentor.attributes)
+    //     if (typeof mentor[attr] === 'string') {
+    //       if (mentor.attributes[attr].includes(this.state.mentorSearch)) {
+    //         return <MentorCard key={mentor.id} id={mentor.id} {...mentor.attributes} />
+    //       }
+    //     } else if (typeof mentor[attr] === 'array') { 
+    //       // if (mentor.attributes[attr].includes(this.state.mentorSearch)) {
+    //       //   return <MentorCard key={mentor.id} id={mentor.id} {...mentor.attributes} />
+    //       // }
+    //     }
 
+    //   })
+    // });
     const breakpointColumnsObj = {
       default: 4,
       1100: 3,
@@ -61,11 +80,12 @@ export class Mentors extends Component {
 
     return (
       <div className="mentors-container">
-        <MentorControls {...this.state} handleChange={this.handleChange} />
+        <MentorControls {...this.state} handleSearch={this.handleSearch} handleChange={this.handleChange} />
         <Masonry breakpointCols={breakpointColumnsObj}
           className="mentors-grid"
           columnClassName="mentors-grid_column">
-          {mentorList}
+          {this.state.mentorSearch === '' && mentorList}
+          {/* {this.state.mentorSearch !== '' && searchList} */}
         </Masonry>
       </div>
     )
