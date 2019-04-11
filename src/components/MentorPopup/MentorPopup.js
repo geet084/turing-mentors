@@ -70,7 +70,7 @@ export class MentorPopup extends Component {
             {non_tech_skills && nonTechSkills}
           </div>
         </Collapsible>
-        <Collapsible openedClassName="avail" trigger="Availability  &#9660;" triggerWhenOpen="Availability  &#9650;">
+        <Collapsible openedClassName="avail" contentInnerClassName="avail" contentOuterClassName="avail" trigger="Availability  &#9660;" triggerWhenOpen="Availability  &#9650;">
           {availability && avail}
         </Collapsible>
         <Collapsible trigger="Background Info  &#9660;" triggerWhenOpen="Background Info  &#9650;">
