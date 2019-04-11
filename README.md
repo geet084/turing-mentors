@@ -22,7 +22,10 @@ When you become a student at Turing, you are assigned a mentor. Someone to ask d
 Turing Mentors is a web application designed for Turing students and Alumni to connect via a mentorship program. Currently there is a spreadsheet that is filled out to track possible mentors and allow mentees to look through. This is not an ideal solution and this is where Turing Mentors comes in. You can sign up to become a mentor or a mentee, along with being able to search through mentors broadly by language and location. From there you can look through the results and select a mentor to see more information about them.
 
 ## Screenshots
+![turing-mentors](https://user-images.githubusercontent.com/39391585/55925805-0c571380-5bcc-11e9-89f9-4a8389749844.gif)
 
+
+<img src="https://user-images.githubusercontent.com/39391585/55925854-3c061b80-5bcc-11e9-98b0-99909fb8a038.png" height="550" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/39391585/55925853-3c061b80-5bcc-11e9-8ff5-d72dad3ad19b.png" height="550" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/39391585/55925852-3c061b80-5bcc-11e9-8876-d69256f7d2fd.png" height="550" />
 
 ## Primary Technologies Used
 - React
