@@ -25,7 +25,9 @@ ShallowWrapper {
         <p>
           Please send questions to:
         </p>,
-        <h4>
+        <h4
+          className="dev-links"
+        >
           BE: 
           <a
             href="#"
@@ -33,7 +35,9 @@ ShallowWrapper {
             Ricardo Ledesma
           </a>
         </h4>,
-        <h4>
+        <h4
+          className="dev-links"
+        >
           FE: 
           <a
             href="#"
@@ -81,6 +85,7 @@ ShallowWrapper {
               Ricardo Ledesma
             </a>,
           ],
+          "className": "dev-links",
         },
         "ref": null,
         "rendered": Array [
@@ -113,6 +118,7 @@ ShallowWrapper {
               Travis Gee
             </a>,
           ],
+          "className": "dev-links",
         },
         "ref": null,
         "rendered": Array [
@@ -148,7 +154,9 @@ ShallowWrapper {
           <p>
             Please send questions to:
           </p>,
-          <h4>
+          <h4
+            className="dev-links"
+          >
             BE: 
             <a
               href="#"
@@ -156,7 +164,9 @@ ShallowWrapper {
               Ricardo Ledesma
             </a>
           </h4>,
-          <h4>
+          <h4
+            className="dev-links"
+          >
             FE: 
             <a
               href="#"
@@ -204,6 +214,7 @@ ShallowWrapper {
                 Ricardo Ledesma
               </a>,
             ],
+            "className": "dev-links",
           },
           "ref": null,
           "rendered": Array [
@@ -236,6 +247,7 @@ ShallowWrapper {
                 Travis Gee
               </a>,
             ],
+            "className": "dev-links",
           },
           "ref": null,
           "rendered": Array [

@@ -74,7 +74,8 @@ export class Form extends Component {
         {userSchedule && <UserSchedule updateUserInfo={this.updateUserInfo} user={user} />}
         {mentor && userTechSkills && <UserTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
         {mentor && userNonTechSkills && <UserNonTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
-        {complete && <div><h1>Thank you!</h1><Link to='/' onClick={this.reset}>Return Home</Link> </div>}
+        {complete &&
+          <div className="complete"><h1>Thank you!</h1><Link to='/' onClick={this.reset}>Return Home</Link> </div>}
       </div>
     )
   }

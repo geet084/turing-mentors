@@ -6,8 +6,8 @@ export class Contribute extends Component {
       <div className="link-content pages">
         <h2>Want to contribute?</h2>
         <p>Please send questions to:</p>
-        <h4>BE: <a href="#">Ricardo Ledesma</a></h4>
-        <h4>FE: <a href="#">Travis Gee</a></h4>
+        <h4 className="dev-links">BE: <a href="#">Ricardo Ledesma</a></h4>
+        <h4 className="dev-links">FE: <a href="#">Travis Gee</a></h4>
       </div>
     )
   }

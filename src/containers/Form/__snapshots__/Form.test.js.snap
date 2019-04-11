@@ -165,7 +165,9 @@ ShallowWrapper {
         false,
         false,
         false,
-        <div>
+        <div
+          className="complete"
+        >
           <h1>
             Thank you!
           </h1>
@@ -204,6 +206,7 @@ ShallowWrapper {
             </Link>,
             " ",
           ],
+          "className": "complete",
         },
         "ref": null,
         "rendered": Array [
@@ -251,7 +254,9 @@ ShallowWrapper {
           false,
           false,
           false,
-          <div>
+          <div
+            className="complete"
+          >
             <h1>
               Thank you!
             </h1>
@@ -290,6 +295,7 @@ ShallowWrapper {
               </Link>,
               " ",
             ],
+            "className": "complete",
           },
           "ref": null,
           "rendered": Array [
