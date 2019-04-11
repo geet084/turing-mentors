@@ -21,7 +21,11 @@ describe('UserInfo', () => {
   });
 
   describe('initial state & snapshot', () => {
-    it('should match the correct snapshot', () => {
+    it('should match the correct mentee snapshot', () => {
+      expect(wrapper).toMatchSnapshot();
+    });
+    it('should match the correct mentor snapshot', () => {
+      wrapper.setProps({ user: 'Mentor' });
       expect(wrapper).toMatchSnapshot();
     });
 

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserInfo initial state & snapshot should match the correct snapshot 1`] = `
+exports[`UserInfo initial state & snapshot should match the correct mentee snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <UserInfo
@@ -873,6 +873,975 @@ ShallowWrapper {
               "rendered": Array [
                 "1 of ",
                 "4",
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`UserInfo initial state & snapshot should match the correct mentor snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserInfo
+    updateUserInfo={[MockFunction]}
+    user="Mentor"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          autoComplete="off"
+          onSubmit={[Function]}
+        >
+          <span
+            className="pages"
+          >
+            Mentor
+             User info:
+          </span>
+          <CreateInput
+            field="first_name"
+            handleChange={[Function]}
+            max="28"
+            text="First Name"
+            value=""
+          />
+          <CreateInput
+            field="last_name"
+            handleChange={[Function]}
+            max="28"
+            text="Last Name"
+            value=""
+          />
+          <div
+            className="check-box"
+          >
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="identities"
+              name="Male"
+              value={0}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="identities"
+              name="Female"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="identities"
+              name="Non-Binary"
+              value={2}
+            />
+          </div>
+          <div>
+            <CreateInput
+              field="cohort"
+              handleChange={[Function]}
+              max="4"
+              text="Cohort (ex: 1406)"
+              value={0}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              className="aa"
+              field="program"
+              name="BE"
+              value="BE"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="program"
+              name="FE"
+              value="FE"
+            />
+          </div>
+        </form>,
+        <div
+          className="input-box"
+        >
+          <CreateInput
+            field="current_job"
+            handleChange={[Function]}
+            max="28"
+            text="Current Job"
+            value=""
+          />
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Next
+          </button>
+          <span
+            className="pages"
+          >
+            1 of 
+            6
+          </span>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "autoComplete": "off",
+          "children": Array [
+            <span
+              className="pages"
+            >
+              Mentor
+               User info:
+            </span>,
+            <CreateInput
+              field="first_name"
+              handleChange={[Function]}
+              max="28"
+              text="First Name"
+              value=""
+            />,
+            <CreateInput
+              field="last_name"
+              handleChange={[Function]}
+              max="28"
+              text="Last Name"
+              value=""
+            />,
+            <div
+              className="check-box"
+            >
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="identities"
+                name="Male"
+                value={0}
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="identities"
+                name="Female"
+                value={1}
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="identities"
+                name="Non-Binary"
+                value={2}
+              />
+            </div>,
+            <div>
+              <CreateInput
+                field="cohort"
+                handleChange={[Function]}
+                max="4"
+                text="Cohort (ex: 1406)"
+                value={0}
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                className="aa"
+                field="program"
+                name="BE"
+                value="BE"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="program"
+                name="FE"
+                value="FE"
+              />
+            </div>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Mentor",
+                " User info:",
+              ],
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Mentor",
+              " User info:",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "first_name",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "First Name",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "last_name",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Last Name",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="identities"
+                  name="Male"
+                  value={0}
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="identities"
+                  name="Female"
+                  value={1}
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="identities"
+                  name="Non-Binary"
+                  value={2}
+                />,
+              ],
+              "className": "check-box",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "identities",
+                  "name": "Male",
+                  "value": 0,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "identities",
+                  "name": "Female",
+                  "value": 1,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "identities",
+                  "name": "Non-Binary",
+                  "value": 2,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <CreateInput
+                  field="cohort"
+                  handleChange={[Function]}
+                  max="4"
+                  text="Cohort (ex: 1406)"
+                  value={0}
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  className="aa"
+                  field="program"
+                  name="BE"
+                  value="BE"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="program"
+                  name="FE"
+                  value="FE"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "field": "cohort",
+                  "handleChange": [Function],
+                  "max": "4",
+                  "text": "Cohort (ex: 1406)",
+                  "value": 0,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "className": "aa",
+                  "field": "program",
+                  "name": "BE",
+                  "value": "BE",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "checkBoxes": [Function],
+                  "field": "program",
+                  "name": "FE",
+                  "value": "FE",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CreateInput
+              field="current_job"
+              handleChange={[Function]}
+              max="28"
+              text="Current Job"
+              value=""
+            />,
+            <button
+              className="next-btn"
+              onClick={[Function]}
+            >
+              Next
+            </button>,
+            <span
+              className="pages"
+            >
+              1 of 
+              6
+            </span>,
+          ],
+          "className": "input-box",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "current_job",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Current Job",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Next",
+              "className": "next-btn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Next",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "1 of ",
+                "6",
+              ],
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": Array [
+              "1 of ",
+              "6",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            autoComplete="off"
+            onSubmit={[Function]}
+          >
+            <span
+              className="pages"
+            >
+              Mentor
+               User info:
+            </span>
+            <CreateInput
+              field="first_name"
+              handleChange={[Function]}
+              max="28"
+              text="First Name"
+              value=""
+            />
+            <CreateInput
+              field="last_name"
+              handleChange={[Function]}
+              max="28"
+              text="Last Name"
+              value=""
+            />
+            <div
+              className="check-box"
+            >
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="identities"
+                name="Male"
+                value={0}
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="identities"
+                name="Female"
+                value={1}
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="identities"
+                name="Non-Binary"
+                value={2}
+              />
+            </div>
+            <div>
+              <CreateInput
+                field="cohort"
+                handleChange={[Function]}
+                max="4"
+                text="Cohort (ex: 1406)"
+                value={0}
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                className="aa"
+                field="program"
+                name="BE"
+                value="BE"
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="program"
+                name="FE"
+                value="FE"
+              />
+            </div>
+          </form>,
+          <div
+            className="input-box"
+          >
+            <CreateInput
+              field="current_job"
+              handleChange={[Function]}
+              max="28"
+              text="Current Job"
+              value=""
+            />
+            <button
+              className="next-btn"
+              onClick={[Function]}
+            >
+              Next
+            </button>
+            <span
+              className="pages"
+            >
+              1 of 
+              6
+            </span>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "autoComplete": "off",
+            "children": Array [
+              <span
+                className="pages"
+              >
+                Mentor
+                 User info:
+              </span>,
+              <CreateInput
+                field="first_name"
+                handleChange={[Function]}
+                max="28"
+                text="First Name"
+                value=""
+              />,
+              <CreateInput
+                field="last_name"
+                handleChange={[Function]}
+                max="28"
+                text="Last Name"
+                value=""
+              />,
+              <div
+                className="check-box"
+              >
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="identities"
+                  name="Male"
+                  value={0}
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="identities"
+                  name="Female"
+                  value={1}
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="identities"
+                  name="Non-Binary"
+                  value={2}
+                />
+              </div>,
+              <div>
+                <CreateInput
+                  field="cohort"
+                  handleChange={[Function]}
+                  max="4"
+                  text="Cohort (ex: 1406)"
+                  value={0}
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  className="aa"
+                  field="program"
+                  name="BE"
+                  value="BE"
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="program"
+                  name="FE"
+                  value="FE"
+                />
+              </div>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Mentor",
+                  " User info:",
+                ],
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Mentor",
+                " User info:",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "first_name",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "First Name",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "last_name",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Last Name",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="identities"
+                    name="Male"
+                    value={0}
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="identities"
+                    name="Female"
+                    value={1}
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="identities"
+                    name="Non-Binary"
+                    value={2}
+                  />,
+                ],
+                "className": "check-box",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "identities",
+                    "name": "Male",
+                    "value": 0,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "identities",
+                    "name": "Female",
+                    "value": 1,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "identities",
+                    "name": "Non-Binary",
+                    "value": 2,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <CreateInput
+                    field="cohort"
+                    handleChange={[Function]}
+                    max="4"
+                    text="Cohort (ex: 1406)"
+                    value={0}
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    className="aa"
+                    field="program"
+                    name="BE"
+                    value="BE"
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="program"
+                    name="FE"
+                    value="FE"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "field": "cohort",
+                    "handleChange": [Function],
+                    "max": "4",
+                    "text": "Cohort (ex: 1406)",
+                    "value": 0,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "className": "aa",
+                    "field": "program",
+                    "name": "BE",
+                    "value": "BE",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "checkBoxes": [Function],
+                    "field": "program",
+                    "name": "FE",
+                    "value": "FE",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CreateInput
+                field="current_job"
+                handleChange={[Function]}
+                max="28"
+                text="Current Job"
+                value=""
+              />,
+              <button
+                className="next-btn"
+                onClick={[Function]}
+              >
+                Next
+              </button>,
+              <span
+                className="pages"
+              >
+                1 of 
+                6
+              </span>,
+            ],
+            "className": "input-box",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "current_job",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Current Job",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Next",
+                "className": "next-btn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Next",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "1 of ",
+                  "6",
+                ],
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": Array [
+                "1 of ",
+                "6",
               ],
               "type": "span",
             },
