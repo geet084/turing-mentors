@@ -64,22 +64,43 @@ ShallowWrapper {
             triggerTagName="span"
           >
             <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              exact={true}
               to="/"
             >
               Home
             </NavLink>
             <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
               to="/about"
             >
               About
             </NavLink>
             <NavLink
-              to="contact"
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/contact"
             >
               Contact Us
             </NavLink>
             <NavLink
-              to="contribute"
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/contribute"
             >
               Contribute
             </NavLink>
@@ -89,22 +110,43 @@ ShallowWrapper {
           className="links"
         >
           <NavLink
+            activeStyle={
+              Object {
+                "color": "#12f1fc",
+              }
+            }
+            exact={true}
             to="/"
           >
             Home
           </NavLink>
           <NavLink
+            activeStyle={
+              Object {
+                "color": "#12f1fc",
+              }
+            }
             to="/about"
           >
             About
           </NavLink>
           <NavLink
-            to="contact"
+            activeStyle={
+              Object {
+                "color": "#12f1fc",
+              }
+            }
+            to="/contact"
           >
             Contact Us
           </NavLink>
           <NavLink
-            to="contribute"
+            activeStyle={
+              Object {
+                "color": "#12f1fc",
+              }
+            }
+            to="/contribute"
           >
             Contribute
           </NavLink>
@@ -197,22 +239,43 @@ ShallowWrapper {
             triggerTagName="span"
           >
             <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              exact={true}
               to="/"
             >
               Home
             </NavLink>
             <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
               to="/about"
             >
               About
             </NavLink>
             <NavLink
-              to="contact"
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/contact"
             >
               Contact Us
             </NavLink>
             <NavLink
-              to="contribute"
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/contribute"
             >
               Contribute
             </NavLink>
@@ -226,22 +289,43 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                exact={true}
                 to="/"
               >
                 Home
               </NavLink>,
               <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
                 to="/about"
               >
                 About
               </NavLink>,
               <NavLink
-                to="contact"
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/contact"
               >
                 Contact Us
               </NavLink>,
               <NavLink
-                to="contribute"
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/contribute"
               >
                 Contribute
               </NavLink>,
@@ -280,7 +364,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
                 "children": "Home",
+                "exact": true,
                 "to": "/",
               },
               "ref": null,
@@ -292,6 +380,9 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
                 "children": "About",
                 "to": "/about",
               },
@@ -304,8 +395,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
                 "children": "Contact Us",
-                "to": "contact",
+                "to": "/contact",
               },
               "ref": null,
               "rendered": "Contact Us",
@@ -316,8 +410,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
                 "children": "Contribute",
-                "to": "contribute",
+                "to": "/contribute",
               },
               "ref": null,
               "rendered": "Contribute",
@@ -335,22 +432,43 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              exact={true}
               to="/"
             >
               Home
             </NavLink>,
             <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
               to="/about"
             >
               About
             </NavLink>,
             <NavLink
-              to="contact"
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/contact"
             >
               Contact Us
             </NavLink>,
             <NavLink
-              to="contribute"
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/contribute"
             >
               Contribute
             </NavLink>,
@@ -364,7 +482,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
               "children": "Home",
+              "exact": true,
               "to": "/",
             },
             "ref": null,
@@ -376,6 +498,9 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
               "children": "About",
               "to": "/about",
             },
@@ -388,8 +513,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
               "children": "Contact Us",
-              "to": "contact",
+              "to": "/contact",
             },
             "ref": null,
             "rendered": "Contact Us",
@@ -400,8 +528,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
               "children": "Contribute",
-              "to": "contribute",
+              "to": "/contribute",
             },
             "ref": null,
             "rendered": "Contribute",
@@ -465,22 +596,43 @@ ShallowWrapper {
               triggerTagName="span"
             >
               <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                exact={true}
                 to="/"
               >
                 Home
               </NavLink>
               <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
                 to="/about"
               >
                 About
               </NavLink>
               <NavLink
-                to="contact"
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/contact"
               >
                 Contact Us
               </NavLink>
               <NavLink
-                to="contribute"
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/contribute"
               >
                 Contribute
               </NavLink>
@@ -490,22 +642,43 @@ ShallowWrapper {
             className="links"
           >
             <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              exact={true}
               to="/"
             >
               Home
             </NavLink>
             <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
               to="/about"
             >
               About
             </NavLink>
             <NavLink
-              to="contact"
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/contact"
             >
               Contact Us
             </NavLink>
             <NavLink
-              to="contribute"
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/contribute"
             >
               Contribute
             </NavLink>
@@ -598,22 +771,43 @@ ShallowWrapper {
               triggerTagName="span"
             >
               <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                exact={true}
                 to="/"
               >
                 Home
               </NavLink>
               <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
                 to="/about"
               >
                 About
               </NavLink>
               <NavLink
-                to="contact"
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/contact"
               >
                 Contact Us
               </NavLink>
               <NavLink
-                to="contribute"
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/contribute"
               >
                 Contribute
               </NavLink>
@@ -627,22 +821,43 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <NavLink
+                  activeStyle={
+                    Object {
+                      "color": "#12f1fc",
+                    }
+                  }
+                  exact={true}
                   to="/"
                 >
                   Home
                 </NavLink>,
                 <NavLink
+                  activeStyle={
+                    Object {
+                      "color": "#12f1fc",
+                    }
+                  }
                   to="/about"
                 >
                   About
                 </NavLink>,
                 <NavLink
-                  to="contact"
+                  activeStyle={
+                    Object {
+                      "color": "#12f1fc",
+                    }
+                  }
+                  to="/contact"
                 >
                   Contact Us
                 </NavLink>,
                 <NavLink
-                  to="contribute"
+                  activeStyle={
+                    Object {
+                      "color": "#12f1fc",
+                    }
+                  }
+                  to="/contribute"
                 >
                   Contribute
                 </NavLink>,
@@ -681,7 +896,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
+                  "activeStyle": Object {
+                    "color": "#12f1fc",
+                  },
                   "children": "Home",
+                  "exact": true,
                   "to": "/",
                 },
                 "ref": null,
@@ -693,6 +912,9 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
+                  "activeStyle": Object {
+                    "color": "#12f1fc",
+                  },
                   "children": "About",
                   "to": "/about",
                 },
@@ -705,8 +927,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
+                  "activeStyle": Object {
+                    "color": "#12f1fc",
+                  },
                   "children": "Contact Us",
-                  "to": "contact",
+                  "to": "/contact",
                 },
                 "ref": null,
                 "rendered": "Contact Us",
@@ -717,8 +942,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
+                  "activeStyle": Object {
+                    "color": "#12f1fc",
+                  },
                   "children": "Contribute",
-                  "to": "contribute",
+                  "to": "/contribute",
                 },
                 "ref": null,
                 "rendered": "Contribute",
@@ -736,22 +964,43 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                exact={true}
                 to="/"
               >
                 Home
               </NavLink>,
               <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
                 to="/about"
               >
                 About
               </NavLink>,
               <NavLink
-                to="contact"
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/contact"
               >
                 Contact Us
               </NavLink>,
               <NavLink
-                to="contribute"
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/contribute"
               >
                 Contribute
               </NavLink>,
@@ -765,7 +1014,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
                 "children": "Home",
+                "exact": true,
                 "to": "/",
               },
               "ref": null,
@@ -777,6 +1030,9 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
                 "children": "About",
                 "to": "/about",
               },
@@ -789,8 +1045,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
                 "children": "Contact Us",
-                "to": "contact",
+                "to": "/contact",
               },
               "ref": null,
               "rendered": "Contact Us",
@@ -801,8 +1060,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
                 "children": "Contribute",
-                "to": "contribute",
+                "to": "/contribute",
               },
               "ref": null,
               "rendered": "Contribute",

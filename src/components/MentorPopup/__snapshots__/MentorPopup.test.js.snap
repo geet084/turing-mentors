@@ -84,9 +84,12 @@ ShallowWrapper {
              
              
              
+          </span>
+          <span>
+             
              
           </span>
-          <span />
+          <p />
         </div>,
         <div>
           <span>
@@ -114,13 +117,14 @@ ShallowWrapper {
           tabIndex={null}
           transitionCloseTime={null}
           transitionTime={400}
-          trigger="+ Contact Info +"
+          trigger="Contact Info  ▼"
           triggerClassName=""
           triggerDisabled={false}
           triggerOpenedClassName=""
           triggerSibling={null}
           triggerStyle={null}
           triggerTagName="span"
+          triggerWhenOpen="Contact Info  ▲"
         >
           <p>
              
@@ -148,13 +152,14 @@ ShallowWrapper {
           tabIndex={null}
           transitionCloseTime={null}
           transitionTime={400}
-          trigger="+ Skills +"
+          trigger="Skills  ▼"
           triggerClassName=""
           triggerDisabled={false}
           triggerOpenedClassName=""
           triggerSibling={null}
           triggerStyle={null}
           triggerTagName="span"
+          triggerWhenOpen="Skills  ▲"
         >
           <div>
             <p>
@@ -195,13 +200,14 @@ ShallowWrapper {
           tabIndex={null}
           transitionCloseTime={null}
           transitionTime={400}
-          trigger="+ Availability +"
+          trigger="Availability  ▼"
           triggerClassName=""
           triggerDisabled={false}
           triggerOpenedClassName=""
           triggerSibling={null}
           triggerStyle={null}
           triggerTagName="span"
+          triggerWhenOpen="Availability  ▲"
         >
           <p>
             Mon
@@ -278,15 +284,16 @@ ShallowWrapper {
           tabIndex={null}
           transitionCloseTime={null}
           transitionTime={400}
-          trigger="+ Background Info +"
+          trigger="Background Info  ▼"
           triggerClassName=""
           triggerDisabled={false}
           triggerOpenedClassName=""
           triggerSibling={null}
           triggerStyle={null}
           triggerTagName="span"
+          triggerWhenOpen="Background Info  ▲"
         >
-          <span />
+          <p />
         </Collapsible>,
         <Collapsible
           className=""
@@ -306,13 +313,14 @@ ShallowWrapper {
           tabIndex={null}
           transitionCloseTime={null}
           transitionTime={400}
-          trigger="+ Send a slack message +"
+          trigger="Send slack message  ▼"
           triggerClassName=""
           triggerDisabled={false}
           triggerOpenedClassName=""
           triggerSibling={null}
           triggerStyle={null}
           triggerTagName="span"
+          triggerWhenOpen="Send slack message  ▲"
         >
           <textarea
             className="bg-info"
@@ -327,11 +335,15 @@ ShallowWrapper {
             Submit
           </button>
         </Collapsible>,
-        <Link
-          to="/mentors"
+        <div
+          className="links"
         >
-          GO BACK
-        </Link>,
+          <Link
+            to="/mentors"
+          >
+            GO BACK
+          </Link>
+        </div>,
       ],
       "className": "mentor-popup link-content",
     },
@@ -347,9 +359,12 @@ ShallowWrapper {
                
                
                
+            </span>,
+            <span>
+               
                
             </span>,
-            <span />,
+            <p />,
           ],
           "className": "name",
         },
@@ -366,9 +381,6 @@ ShallowWrapper {
                 " ",
                 undefined,
                 " ",
-                undefined,
-                undefined,
-                " ",
               ],
             },
             "ref": null,
@@ -377,6 +389,24 @@ ShallowWrapper {
               undefined,
               " ",
               undefined,
+              " ",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                undefined,
+                undefined,
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
               " ",
               undefined,
               undefined,
@@ -393,7 +423,7 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": null,
-            "type": "span",
+            "type": "p",
           },
         ],
         "type": "div",
@@ -482,13 +512,14 @@ ShallowWrapper {
           "tabIndex": null,
           "transitionCloseTime": null,
           "transitionTime": 400,
-          "trigger": "+ Contact Info +",
+          "trigger": "Contact Info  ▼",
           "triggerClassName": "",
           "triggerDisabled": false,
           "triggerOpenedClassName": "",
           "triggerSibling": null,
           "triggerStyle": null,
           "triggerTagName": "span",
+          "triggerWhenOpen": "Contact Info  ▲",
         },
         "ref": null,
         "rendered": Array [
@@ -562,13 +593,14 @@ ShallowWrapper {
           "tabIndex": null,
           "transitionCloseTime": null,
           "transitionTime": 400,
-          "trigger": "+ Skills +",
+          "trigger": "Skills  ▼",
           "triggerClassName": "",
           "triggerDisabled": false,
           "triggerOpenedClassName": "",
           "triggerSibling": null,
           "triggerStyle": null,
           "triggerTagName": "span",
+          "triggerWhenOpen": "Skills  ▲",
         },
         "ref": null,
         "rendered": Array [
@@ -761,13 +793,14 @@ ShallowWrapper {
           "tabIndex": null,
           "transitionCloseTime": null,
           "transitionTime": 400,
-          "trigger": "+ Availability +",
+          "trigger": "Availability  ▼",
           "triggerClassName": "",
           "triggerDisabled": false,
           "triggerOpenedClassName": "",
           "triggerSibling": null,
           "triggerStyle": null,
           "triggerTagName": "span",
+          "triggerWhenOpen": "Availability  ▲",
         },
         "ref": null,
         "rendered": Array [
@@ -1059,7 +1092,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <span />,
+          "children": <p />,
           "className": "",
           "classParentString": "Collapsible",
           "contentContainerTagName": "div",
@@ -1077,13 +1110,14 @@ ShallowWrapper {
           "tabIndex": null,
           "transitionCloseTime": null,
           "transitionTime": 400,
-          "trigger": "+ Background Info +",
+          "trigger": "Background Info  ▼",
           "triggerClassName": "",
           "triggerDisabled": false,
           "triggerOpenedClassName": "",
           "triggerSibling": null,
           "triggerStyle": null,
           "triggerTagName": "span",
+          "triggerWhenOpen": "Background Info  ▲",
         },
         "ref": null,
         "rendered": Object {
@@ -1095,7 +1129,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": "span",
+          "type": "p",
         },
         "type": [Function],
       },
@@ -1135,13 +1169,14 @@ ShallowWrapper {
           "tabIndex": null,
           "transitionCloseTime": null,
           "transitionTime": 400,
-          "trigger": "+ Send a slack message +",
+          "trigger": "Send slack message  ▼",
           "triggerClassName": "",
           "triggerDisabled": false,
           "triggerOpenedClassName": "",
           "triggerSibling": null,
           "triggerStyle": null,
           "triggerTagName": "span",
+          "triggerWhenOpen": "Send slack message  ▲",
         },
         "ref": null,
         "rendered": Array [
@@ -1178,14 +1213,29 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "children": "GO BACK",
-          "to": "/mentors",
+          "children": <Link
+            to="/mentors"
+          >
+            GO BACK
+          </Link>,
+          "className": "links",
         },
         "ref": null,
-        "rendered": "GO BACK",
-        "type": [Function],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "GO BACK",
+            "to": "/mentors",
+          },
+          "ref": null,
+          "rendered": "GO BACK",
+          "type": [Function],
+        },
+        "type": "div",
       },
     ],
     "type": "div",
@@ -1204,9 +1254,12 @@ ShallowWrapper {
                
                
                
+            </span>
+            <span>
+               
                
             </span>
-            <span />
+            <p />
           </div>,
           <div>
             <span>
@@ -1234,13 +1287,14 @@ ShallowWrapper {
             tabIndex={null}
             transitionCloseTime={null}
             transitionTime={400}
-            trigger="+ Contact Info +"
+            trigger="Contact Info  ▼"
             triggerClassName=""
             triggerDisabled={false}
             triggerOpenedClassName=""
             triggerSibling={null}
             triggerStyle={null}
             triggerTagName="span"
+            triggerWhenOpen="Contact Info  ▲"
           >
             <p>
                
@@ -1268,13 +1322,14 @@ ShallowWrapper {
             tabIndex={null}
             transitionCloseTime={null}
             transitionTime={400}
-            trigger="+ Skills +"
+            trigger="Skills  ▼"
             triggerClassName=""
             triggerDisabled={false}
             triggerOpenedClassName=""
             triggerSibling={null}
             triggerStyle={null}
             triggerTagName="span"
+            triggerWhenOpen="Skills  ▲"
           >
             <div>
               <p>
@@ -1315,13 +1370,14 @@ ShallowWrapper {
             tabIndex={null}
             transitionCloseTime={null}
             transitionTime={400}
-            trigger="+ Availability +"
+            trigger="Availability  ▼"
             triggerClassName=""
             triggerDisabled={false}
             triggerOpenedClassName=""
             triggerSibling={null}
             triggerStyle={null}
             triggerTagName="span"
+            triggerWhenOpen="Availability  ▲"
           >
             <p>
               Mon
@@ -1398,15 +1454,16 @@ ShallowWrapper {
             tabIndex={null}
             transitionCloseTime={null}
             transitionTime={400}
-            trigger="+ Background Info +"
+            trigger="Background Info  ▼"
             triggerClassName=""
             triggerDisabled={false}
             triggerOpenedClassName=""
             triggerSibling={null}
             triggerStyle={null}
             triggerTagName="span"
+            triggerWhenOpen="Background Info  ▲"
           >
-            <span />
+            <p />
           </Collapsible>,
           <Collapsible
             className=""
@@ -1426,13 +1483,14 @@ ShallowWrapper {
             tabIndex={null}
             transitionCloseTime={null}
             transitionTime={400}
-            trigger="+ Send a slack message +"
+            trigger="Send slack message  ▼"
             triggerClassName=""
             triggerDisabled={false}
             triggerOpenedClassName=""
             triggerSibling={null}
             triggerStyle={null}
             triggerTagName="span"
+            triggerWhenOpen="Send slack message  ▲"
           >
             <textarea
               className="bg-info"
@@ -1447,11 +1505,15 @@ ShallowWrapper {
               Submit
             </button>
           </Collapsible>,
-          <Link
-            to="/mentors"
+          <div
+            className="links"
           >
-            GO BACK
-          </Link>,
+            <Link
+              to="/mentors"
+            >
+              GO BACK
+            </Link>
+          </div>,
         ],
         "className": "mentor-popup link-content",
       },
@@ -1467,9 +1529,12 @@ ShallowWrapper {
                  
                  
                  
+              </span>,
+              <span>
+                 
                  
               </span>,
-              <span />,
+              <p />,
             ],
             "className": "name",
           },
@@ -1486,9 +1551,6 @@ ShallowWrapper {
                   " ",
                   undefined,
                   " ",
-                  undefined,
-                  undefined,
-                  " ",
                 ],
               },
               "ref": null,
@@ -1497,6 +1559,24 @@ ShallowWrapper {
                 undefined,
                 " ",
                 undefined,
+                " ",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  undefined,
+                  undefined,
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
                 " ",
                 undefined,
                 undefined,
@@ -1513,7 +1593,7 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": null,
-              "type": "span",
+              "type": "p",
             },
           ],
           "type": "div",
@@ -1602,13 +1682,14 @@ ShallowWrapper {
             "tabIndex": null,
             "transitionCloseTime": null,
             "transitionTime": 400,
-            "trigger": "+ Contact Info +",
+            "trigger": "Contact Info  ▼",
             "triggerClassName": "",
             "triggerDisabled": false,
             "triggerOpenedClassName": "",
             "triggerSibling": null,
             "triggerStyle": null,
             "triggerTagName": "span",
+            "triggerWhenOpen": "Contact Info  ▲",
           },
           "ref": null,
           "rendered": Array [
@@ -1682,13 +1763,14 @@ ShallowWrapper {
             "tabIndex": null,
             "transitionCloseTime": null,
             "transitionTime": 400,
-            "trigger": "+ Skills +",
+            "trigger": "Skills  ▼",
             "triggerClassName": "",
             "triggerDisabled": false,
             "triggerOpenedClassName": "",
             "triggerSibling": null,
             "triggerStyle": null,
             "triggerTagName": "span",
+            "triggerWhenOpen": "Skills  ▲",
           },
           "ref": null,
           "rendered": Array [
@@ -1881,13 +1963,14 @@ ShallowWrapper {
             "tabIndex": null,
             "transitionCloseTime": null,
             "transitionTime": 400,
-            "trigger": "+ Availability +",
+            "trigger": "Availability  ▼",
             "triggerClassName": "",
             "triggerDisabled": false,
             "triggerOpenedClassName": "",
             "triggerSibling": null,
             "triggerStyle": null,
             "triggerTagName": "span",
+            "triggerWhenOpen": "Availability  ▲",
           },
           "ref": null,
           "rendered": Array [
@@ -2179,7 +2262,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <span />,
+            "children": <p />,
             "className": "",
             "classParentString": "Collapsible",
             "contentContainerTagName": "div",
@@ -2197,13 +2280,14 @@ ShallowWrapper {
             "tabIndex": null,
             "transitionCloseTime": null,
             "transitionTime": 400,
-            "trigger": "+ Background Info +",
+            "trigger": "Background Info  ▼",
             "triggerClassName": "",
             "triggerDisabled": false,
             "triggerOpenedClassName": "",
             "triggerSibling": null,
             "triggerStyle": null,
             "triggerTagName": "span",
+            "triggerWhenOpen": "Background Info  ▲",
           },
           "ref": null,
           "rendered": Object {
@@ -2215,7 +2299,7 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": null,
-            "type": "span",
+            "type": "p",
           },
           "type": [Function],
         },
@@ -2255,13 +2339,14 @@ ShallowWrapper {
             "tabIndex": null,
             "transitionCloseTime": null,
             "transitionTime": 400,
-            "trigger": "+ Send a slack message +",
+            "trigger": "Send slack message  ▼",
             "triggerClassName": "",
             "triggerDisabled": false,
             "triggerOpenedClassName": "",
             "triggerSibling": null,
             "triggerStyle": null,
             "triggerTagName": "span",
+            "triggerWhenOpen": "Send slack message  ▲",
           },
           "ref": null,
           "rendered": Array [
@@ -2298,14 +2383,29 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "children": "GO BACK",
-            "to": "/mentors",
+            "children": <Link
+              to="/mentors"
+            >
+              GO BACK
+            </Link>,
+            "className": "links",
           },
           "ref": null,
-          "rendered": "GO BACK",
-          "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "GO BACK",
+              "to": "/mentors",
+            },
+            "ref": null,
+            "rendered": "GO BACK",
+            "type": [Function],
+          },
+          "type": "div",
         },
       ],
       "type": "div",

@@ -15,17 +15,17 @@ export const Nav = () => {
         <Collapsible
           transitionTime={150}
           trigger={<i className="fas fa-bars"></i>} >
-          <NavLink to='/'>Home</NavLink>
-          <NavLink to='/about'>About</NavLink>
-          <NavLink to='contact'>Contact Us</NavLink>
-          <NavLink to='contribute'>Contribute</NavLink>
+          <NavLink activeStyle={{ color: '#12f1fc' }} exact to='/'>Home</NavLink>
+          <NavLink activeStyle={{ color: '#12f1fc' }} to='/about'>About</NavLink>
+          <NavLink activeStyle={{ color: '#12f1fc' }} to='/contact'>Contact Us</NavLink>
+          <NavLink activeStyle={{ color: '#12f1fc' }} to='/contribute'>Contribute</NavLink>
         </Collapsible>
       </div>
       <div className="links">
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/about'>About</NavLink>
-        <NavLink to='contact'>Contact Us</NavLink>
-        <NavLink to='contribute'>Contribute</NavLink>
+        <NavLink activeStyle={{ color: '#12f1fc' }} exact to='/'>Home</NavLink>
+        <NavLink activeStyle={{ color: '#12f1fc' }} to='/about'>About</NavLink>
+        <NavLink activeStyle={{ color: '#12f1fc' }} to='/contact'>Contact Us</NavLink>
+        <NavLink activeStyle={{ color: '#12f1fc' }} to='/contribute'>Contribute</NavLink>
       </div>
     </nav>
   )

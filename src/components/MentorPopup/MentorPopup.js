@@ -49,17 +49,18 @@ export class MentorPopup extends Component {
     return (
       <div className="mentor-popup link-content">
         <div className="name">
-          <span> {first_name} {last_name} {cohort}{program} </span>
-          <span>{identities && identities.map(id => <span key={id}> {id} </span>)}</span>
+          <span> {first_name} {last_name} </span>
+          <span> {cohort}{program} </span>
+          <p>{identities && identities.map(id => <span key={id}> {id} </span>)}</p>
         </div>
         <div>
           <span>{location} </span>
           <span> {current_job}</span>
         </div>
-        <Collapsible openedClassName="contact-info" trigger="+ Contact Info +">
+        <Collapsible openedClassName="contact-info" trigger="Contact Info  &#9660;" triggerWhenOpen="Contact Info  &#9650;">
           {contact_details && contactInfo}
         </Collapsible>
-        <Collapsible trigger="+ Skills +">
+        <Collapsible trigger="Skills  &#9660;" triggerWhenOpen="Skills  &#9650;">
           <div>
             <p>Tech Skills:</p>
             {tech_skills && techSkills}
@@ -69,13 +70,13 @@ export class MentorPopup extends Component {
             {non_tech_skills && nonTechSkills}
           </div>
         </Collapsible>
-        <Collapsible openedClassName="avail" trigger="+ Availability +">
+        <Collapsible openedClassName="avail" trigger="Availability  &#9660;" triggerWhenOpen="Availability  &#9650;">
           {availability && avail}
         </Collapsible>
-        <Collapsible trigger="+ Background Info +">
-          <span>{background}</span>
+        <Collapsible trigger="Background Info  &#9660;" triggerWhenOpen="Background Info  &#9650;">
+          <p>{background}</p>
         </Collapsible>
-        <Collapsible openedClassName="slack-message" trigger="+ Send a slack message +">
+        <Collapsible openedClassName="slack-message" trigger="Send slack message  &#9660;" triggerWhenOpen="Send slack message  &#9650;">
           <textarea
             className="bg-info"
             name="text"
@@ -85,7 +86,9 @@ export class MentorPopup extends Component {
           </textarea>
           <button onClick={this.handleSubmit}>Submit</button>
         </Collapsible>
-        <Link to='/mentors'>GO BACK</Link>
+        <div className="links">
+          <Link to='/mentors'>GO BACK</Link>
+        </div>
       </div>
     )
   }
