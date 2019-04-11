@@ -42,4 +42,17 @@ describe('UserTechSkills', () => {
       expect(mockProps.updateUserInfo).toHaveBeenCalledWith(expected);
     });
   });
+
+  describe('checkBoxes', () => {
+    it('should update the selected input in state', () => {
+      const mockEvent = { target: { value: 1 } };
+      const expected = {
+        tech_skills: [1]
+      }
+
+      wrapper.instance().checkBoxes(mockEvent);
+
+      expect(wrapper.state()).toEqual(expected);
+    });
+  });
 });
