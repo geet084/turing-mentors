@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/geet084/turing-mentors.svg?branch=master)](https://travis-ci.org/geet084/turing-mentors)
+[![Coverage Status](https://coveralls.io/repos/github/geet084/turing-mentors/badge.svg?branch=master)](https://coveralls.io/github/geet084/turing-mentors?branch=master)
 # Turing Mentors
 
 #### Turing mentors is an app for those who are looking for a mentor as well as those looking to become a mentor.
