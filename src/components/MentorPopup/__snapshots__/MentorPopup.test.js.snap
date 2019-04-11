@@ -103,8 +103,8 @@ ShallowWrapper {
           className=""
           classParentString="Collapsible"
           contentContainerTagName="div"
-          contentInnerClassName=""
-          contentOuterClassName=""
+          contentInnerClassName="contact-info"
+          contentOuterClassName="contact-info"
           easing="linear"
           lazyRender={false}
           onClose={[Function]}
@@ -498,8 +498,8 @@ ShallowWrapper {
           "className": "",
           "classParentString": "Collapsible",
           "contentContainerTagName": "div",
-          "contentInnerClassName": "",
-          "contentOuterClassName": "",
+          "contentInnerClassName": "contact-info",
+          "contentOuterClassName": "contact-info",
           "easing": "linear",
           "lazyRender": false,
           "onClose": [Function],
@@ -1273,8 +1273,8 @@ ShallowWrapper {
             className=""
             classParentString="Collapsible"
             contentContainerTagName="div"
-            contentInnerClassName=""
-            contentOuterClassName=""
+            contentInnerClassName="contact-info"
+            contentOuterClassName="contact-info"
             easing="linear"
             lazyRender={false}
             onClose={[Function]}
@@ -1668,8 +1668,8 @@ ShallowWrapper {
             "className": "",
             "classParentString": "Collapsible",
             "contentContainerTagName": "div",
-            "contentInnerClassName": "",
-            "contentOuterClassName": "",
+            "contentInnerClassName": "contact-info",
+            "contentOuterClassName": "contact-info",
             "easing": "linear",
             "lazyRender": false,
             "onClose": [Function],

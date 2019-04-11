@@ -57,7 +57,7 @@ export class MentorPopup extends Component {
           <span>{location} </span>
           <span> {current_job}</span>
         </div>
-        <Collapsible openedClassName="contact-info" trigger="Contact Info  &#9660;" triggerWhenOpen="Contact Info  &#9650;">
+        <Collapsible openedClassName="contact-info" contentInnerClassName="contact-info" contentOuterClassName="contact-info" trigger="Contact Info  &#9660;" triggerWhenOpen="Contact Info  &#9650;">
           {contact_details && contactInfo}
         </Collapsible>
         <Collapsible trigger="Skills  &#9660;" triggerWhenOpen="Skills  &#9650;">
