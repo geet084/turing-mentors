@@ -6,7 +6,7 @@ export class MentorCard extends Component {
     const { id, first_name, last_name, location, tech_skills } = this.props;
     let skills = tech_skills.includes('javascript') ? 'JS' : ''
     skills += tech_skills.includes('ruby') ? 'Ruby' : '';
-    if(skills === 'JSRuby') skills = 'JS & Ruby'
+    if (skills === 'JSRuby') skills = 'JS & Ruby'
 
     return (
       <Link to={`/mentors/${id}`} className="mentor-card-link">
@@ -19,7 +19,7 @@ export class MentorCard extends Component {
             <span className="lang">
               {skills}
               {!skills && tech_skills[0]}
-            </span> 
+            </span>
           </div>
         </div>
       </Link>

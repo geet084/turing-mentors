@@ -48,13 +48,20 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <MentorControls
+          c={false}
           denver={false}
+          elixer={false}
           handleChange={[Function]}
           handleSearch={[Function]}
+          java={false}
           javascript={false}
           mentorSearch=""
+          php={false}
+          python={false}
           remote={false}
           ruby={false}
+          sql={false}
+          swift={false}
         />,
         <MasonryComponent
           breakpointCols={
@@ -93,13 +100,20 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "c": false,
           "denver": false,
+          "elixer": false,
           "handleChange": [Function],
           "handleSearch": [Function],
+          "java": false,
           "javascript": false,
           "mentorSearch": "",
+          "php": false,
+          "python": false,
           "remote": false,
           "ruby": false,
+          "sql": false,
+          "swift": false,
         },
         "ref": null,
         "rendered": null,
@@ -173,13 +187,20 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <MentorControls
+            c={false}
             denver={false}
+            elixer={false}
             handleChange={[Function]}
             handleSearch={[Function]}
+            java={false}
             javascript={false}
             mentorSearch=""
+            php={false}
+            python={false}
             remote={false}
             ruby={false}
+            sql={false}
+            swift={false}
           />,
           <MasonryComponent
             breakpointCols={
@@ -218,13 +239,20 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "c": false,
             "denver": false,
+            "elixer": false,
             "handleChange": [Function],
             "handleSearch": [Function],
+            "java": false,
             "javascript": false,
             "mentorSearch": "",
+            "php": false,
+            "python": false,
             "remote": false,
             "ruby": false,
+            "sql": false,
+            "swift": false,
           },
           "ref": null,
           "rendered": null,

@@ -49,6 +49,76 @@ ShallowWrapper {
           name="Remote"
           value="remote"
         />,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="▼"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+          triggerWhenOpen="▲"
+        >
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="python"
+            name="Python"
+            value="python"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="java"
+            name="Java"
+            value="java"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="elixer"
+            name="Elixer"
+            value="elixer"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="c"
+            name="C"
+            value="c"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="php"
+            name="PHP"
+            value="php"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="swift"
+            name="Swift"
+            value="swift"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="sql"
+            name="SQL"
+            value="sql"
+          />
+        </Collapsible>,
         <div />,
       ],
       "className": "mentor-controls",
@@ -114,6 +184,184 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="python"
+              name="Python"
+              value="python"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="java"
+              name="Java"
+              value="java"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="elixer"
+              name="Elixer"
+              value="elixer"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="c"
+              name="C"
+              value="c"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="php"
+              name="PHP"
+              value="php"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="swift"
+              name="Swift"
+              value="swift"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="SQL"
+              value="sql"
+            />,
+          ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "▼",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+          "triggerWhenOpen": "▲",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "python",
+              "name": "Python",
+              "value": "python",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "java",
+              "name": "Java",
+              "value": "java",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "elixer",
+              "name": "Elixer",
+              "value": "elixer",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "c",
+              "name": "C",
+              "value": "c",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "php",
+              "name": "PHP",
+              "value": "php",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "swift",
+              "name": "Swift",
+              "value": "swift",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "sql",
+              "name": "SQL",
+              "value": "sql",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -166,6 +414,76 @@ ShallowWrapper {
             name="Remote"
             value="remote"
           />,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="▼"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+            triggerWhenOpen="▲"
+          >
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="python"
+              name="Python"
+              value="python"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="java"
+              name="Java"
+              value="java"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="elixer"
+              name="Elixer"
+              value="elixer"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="c"
+              name="C"
+              value="c"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="php"
+              name="PHP"
+              value="php"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="swift"
+              name="Swift"
+              value="swift"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="SQL"
+              value="sql"
+            />
+          </Collapsible>,
           <div />,
         ],
         "className": "mentor-controls",
@@ -226,6 +544,184 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="python"
+                name="Python"
+                value="python"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="java"
+                name="Java"
+                value="java"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="elixer"
+                name="Elixer"
+                value="elixer"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="c"
+                name="C"
+                value="c"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="php"
+                name="PHP"
+                value="php"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="swift"
+                name="Swift"
+                value="swift"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="sql"
+                name="SQL"
+                value="sql"
+              />,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "▼",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+            "triggerWhenOpen": "▲",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "python",
+                "name": "Python",
+                "value": "python",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "java",
+                "name": "Java",
+                "value": "java",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "elixer",
+                "name": "Elixer",
+                "value": "elixer",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "c",
+                "name": "C",
+                "value": "c",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "php",
+                "name": "PHP",
+                "value": "php",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "swift",
+                "name": "Swift",
+                "value": "swift",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "sql",
+                "name": "SQL",
+                "value": "sql",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
         Object {
@@ -329,6 +825,76 @@ ShallowWrapper {
           name="Remote"
           value="remote"
         />,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="▼"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+          triggerWhenOpen="▲"
+        >
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="python"
+            name="Python"
+            value="python"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="java"
+            name="Java"
+            value="java"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="elixer"
+            name="Elixer"
+            value="elixer"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="c"
+            name="C"
+            value="c"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="php"
+            name="PHP"
+            value="php"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="swift"
+            name="Swift"
+            value="swift"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="sql"
+            name="SQL"
+            value="sql"
+          />
+        </Collapsible>,
         <div>
           <span>
             true
@@ -398,6 +964,184 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="python"
+              name="Python"
+              value="python"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="java"
+              name="Java"
+              value="java"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="elixer"
+              name="Elixer"
+              value="elixer"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="c"
+              name="C"
+              value="c"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="php"
+              name="PHP"
+              value="php"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="swift"
+              name="Swift"
+              value="swift"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="SQL"
+              value="sql"
+            />,
+          ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "▼",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+          "triggerWhenOpen": "▲",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "python",
+              "name": "Python",
+              "value": "python",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "java",
+              "name": "Java",
+              "value": "java",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "elixer",
+              "name": "Elixer",
+              "value": "elixer",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "c",
+              "name": "C",
+              "value": "c",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "php",
+              "name": "PHP",
+              "value": "php",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "swift",
+              "name": "Swift",
+              "value": "swift",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "sql",
+              "name": "SQL",
+              "value": "sql",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -462,6 +1206,76 @@ ShallowWrapper {
             name="Remote"
             value="remote"
           />,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="▼"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+            triggerWhenOpen="▲"
+          >
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="python"
+              name="Python"
+              value="python"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="java"
+              name="Java"
+              value="java"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="elixer"
+              name="Elixer"
+              value="elixer"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="c"
+              name="C"
+              value="c"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="php"
+              name="PHP"
+              value="php"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="swift"
+              name="Swift"
+              value="swift"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="SQL"
+              value="sql"
+            />
+          </Collapsible>,
           <div>
             <span>
               true
@@ -526,6 +1340,184 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="python"
+                name="Python"
+                value="python"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="java"
+                name="Java"
+                value="java"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="elixer"
+                name="Elixer"
+                value="elixer"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="c"
+                name="C"
+                value="c"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="php"
+                name="PHP"
+                value="php"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="swift"
+                name="Swift"
+                value="swift"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="sql"
+                name="SQL"
+                value="sql"
+              />,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "▼",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+            "triggerWhenOpen": "▲",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "python",
+                "name": "Python",
+                "value": "python",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "java",
+                "name": "Java",
+                "value": "java",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "elixer",
+                "name": "Elixer",
+                "value": "elixer",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "c",
+                "name": "C",
+                "value": "c",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "php",
+                "name": "PHP",
+                "value": "php",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "swift",
+                "name": "Swift",
+                "value": "swift",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "sql",
+                "name": "SQL",
+                "value": "sql",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
         Object {
@@ -641,6 +1633,76 @@ ShallowWrapper {
           name="Remote"
           value="remote"
         />,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="▼"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+          triggerWhenOpen="▲"
+        >
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="python"
+            name="Python"
+            value="python"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="java"
+            name="Java"
+            value="java"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="elixer"
+            name="Elixer"
+            value="elixer"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="c"
+            name="C"
+            value="c"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="php"
+            name="PHP"
+            value="php"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="swift"
+            name="Swift"
+            value="swift"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="sql"
+            name="SQL"
+            value="sql"
+          />
+        </Collapsible>,
         <div>
           <span>
             true
@@ -710,6 +1772,184 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="python"
+              name="Python"
+              value="python"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="java"
+              name="Java"
+              value="java"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="elixer"
+              name="Elixer"
+              value="elixer"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="c"
+              name="C"
+              value="c"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="php"
+              name="PHP"
+              value="php"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="swift"
+              name="Swift"
+              value="swift"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="SQL"
+              value="sql"
+            />,
+          ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "▼",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+          "triggerWhenOpen": "▲",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "python",
+              "name": "Python",
+              "value": "python",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "java",
+              "name": "Java",
+              "value": "java",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "elixer",
+              "name": "Elixer",
+              "value": "elixer",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "c",
+              "name": "C",
+              "value": "c",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "php",
+              "name": "PHP",
+              "value": "php",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "swift",
+              "name": "Swift",
+              "value": "swift",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "sql",
+              "name": "SQL",
+              "value": "sql",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -774,6 +2014,76 @@ ShallowWrapper {
             name="Remote"
             value="remote"
           />,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="▼"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+            triggerWhenOpen="▲"
+          >
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="python"
+              name="Python"
+              value="python"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="java"
+              name="Java"
+              value="java"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="elixer"
+              name="Elixer"
+              value="elixer"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="c"
+              name="C"
+              value="c"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="php"
+              name="PHP"
+              value="php"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="swift"
+              name="Swift"
+              value="swift"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="SQL"
+              value="sql"
+            />
+          </Collapsible>,
           <div>
             <span>
               true
@@ -838,6 +2148,184 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="python"
+                name="Python"
+                value="python"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="java"
+                name="Java"
+                value="java"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="elixer"
+                name="Elixer"
+                value="elixer"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="c"
+                name="C"
+                value="c"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="php"
+                name="PHP"
+                value="php"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="swift"
+                name="Swift"
+                value="swift"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="sql"
+                name="SQL"
+                value="sql"
+              />,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "▼",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+            "triggerWhenOpen": "▲",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "python",
+                "name": "Python",
+                "value": "python",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "java",
+                "name": "Java",
+                "value": "java",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "elixer",
+                "name": "Elixer",
+                "value": "elixer",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "c",
+                "name": "C",
+                "value": "c",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "php",
+                "name": "PHP",
+                "value": "php",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "swift",
+                "name": "Swift",
+                "value": "swift",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "sql",
+                "name": "SQL",
+                "value": "sql",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
         Object {
@@ -953,6 +2441,76 @@ ShallowWrapper {
           name="Remote"
           value="remote"
         />,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="▼"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+          triggerWhenOpen="▲"
+        >
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="python"
+            name="Python"
+            value="python"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="java"
+            name="Java"
+            value="java"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="elixer"
+            name="Elixer"
+            value="elixer"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="c"
+            name="C"
+            value="c"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="php"
+            name="PHP"
+            value="php"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="swift"
+            name="Swift"
+            value="swift"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="sql"
+            name="SQL"
+            value="sql"
+          />
+        </Collapsible>,
         <div>
           <span>
             true
@@ -1022,6 +2580,184 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="python"
+              name="Python"
+              value="python"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="java"
+              name="Java"
+              value="java"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="elixer"
+              name="Elixer"
+              value="elixer"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="c"
+              name="C"
+              value="c"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="php"
+              name="PHP"
+              value="php"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="swift"
+              name="Swift"
+              value="swift"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="SQL"
+              value="sql"
+            />,
+          ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "▼",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+          "triggerWhenOpen": "▲",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "python",
+              "name": "Python",
+              "value": "python",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "java",
+              "name": "Java",
+              "value": "java",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "elixer",
+              "name": "Elixer",
+              "value": "elixer",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "c",
+              "name": "C",
+              "value": "c",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "php",
+              "name": "PHP",
+              "value": "php",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "swift",
+              "name": "Swift",
+              "value": "swift",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "sql",
+              "name": "SQL",
+              "value": "sql",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -1086,6 +2822,76 @@ ShallowWrapper {
             name="Remote"
             value="remote"
           />,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="▼"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+            triggerWhenOpen="▲"
+          >
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="python"
+              name="Python"
+              value="python"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="java"
+              name="Java"
+              value="java"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="elixer"
+              name="Elixer"
+              value="elixer"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="c"
+              name="C"
+              value="c"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="php"
+              name="PHP"
+              value="php"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="swift"
+              name="Swift"
+              value="swift"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="SQL"
+              value="sql"
+            />
+          </Collapsible>,
           <div>
             <span>
               true
@@ -1150,6 +2956,184 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="python"
+                name="Python"
+                value="python"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="java"
+                name="Java"
+                value="java"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="elixer"
+                name="Elixer"
+                value="elixer"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="c"
+                name="C"
+                value="c"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="php"
+                name="PHP"
+                value="php"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="swift"
+                name="Swift"
+                value="swift"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="sql"
+                name="SQL"
+                value="sql"
+              />,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "▼",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+            "triggerWhenOpen": "▲",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "python",
+                "name": "Python",
+                "value": "python",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "java",
+                "name": "Java",
+                "value": "java",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "elixer",
+                "name": "Elixer",
+                "value": "elixer",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "c",
+                "name": "C",
+                "value": "c",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "php",
+                "name": "PHP",
+                "value": "php",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "swift",
+                "name": "Swift",
+                "value": "swift",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "sql",
+                "name": "SQL",
+                "value": "sql",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
         Object {
@@ -1265,6 +3249,76 @@ ShallowWrapper {
           name="Remote"
           value="remote"
         />,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="▼"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+          triggerWhenOpen="▲"
+        >
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="python"
+            name="Python"
+            value="python"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="java"
+            name="Java"
+            value="java"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="elixer"
+            name="Elixer"
+            value="elixer"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="c"
+            name="C"
+            value="c"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="php"
+            name="PHP"
+            value="php"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="swift"
+            name="Swift"
+            value="swift"
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            field="sql"
+            name="SQL"
+            value="sql"
+          />
+        </Collapsible>,
         <div>
           <span>
             true
@@ -1334,6 +3388,184 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="python"
+              name="Python"
+              value="python"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="java"
+              name="Java"
+              value="java"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="elixer"
+              name="Elixer"
+              value="elixer"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="c"
+              name="C"
+              value="c"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="php"
+              name="PHP"
+              value="php"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="swift"
+              name="Swift"
+              value="swift"
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="SQL"
+              value="sql"
+            />,
+          ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "▼",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+          "triggerWhenOpen": "▲",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "python",
+              "name": "Python",
+              "value": "python",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "java",
+              "name": "Java",
+              "value": "java",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "elixer",
+              "name": "Elixer",
+              "value": "elixer",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "c",
+              "name": "C",
+              "value": "c",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "php",
+              "name": "PHP",
+              "value": "php",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "swift",
+              "name": "Swift",
+              "value": "swift",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "field": "sql",
+              "name": "SQL",
+              "value": "sql",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -1398,6 +3630,76 @@ ShallowWrapper {
             name="Remote"
             value="remote"
           />,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="▼"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+            triggerWhenOpen="▲"
+          >
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="python"
+              name="Python"
+              value="python"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="java"
+              name="Java"
+              value="java"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="elixer"
+              name="Elixer"
+              value="elixer"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="c"
+              name="C"
+              value="c"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="php"
+              name="PHP"
+              value="php"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="swift"
+              name="Swift"
+              value="swift"
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="sql"
+              name="SQL"
+              value="sql"
+            />
+          </Collapsible>,
           <div>
             <span>
               true
@@ -1462,6 +3764,184 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="python"
+                name="Python"
+                value="python"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="java"
+                name="Java"
+                value="java"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="elixer"
+                name="Elixer"
+                value="elixer"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="c"
+                name="C"
+                value="c"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="php"
+                name="PHP"
+                value="php"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="swift"
+                name="Swift"
+                value="swift"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="sql"
+                name="SQL"
+                value="sql"
+              />,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "▼",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+            "triggerWhenOpen": "▲",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "python",
+                "name": "Python",
+                "value": "python",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "java",
+                "name": "Java",
+                "value": "java",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "elixer",
+                "name": "Elixer",
+                "value": "elixer",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "c",
+                "name": "C",
+                "value": "c",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "php",
+                "name": "PHP",
+                "value": "php",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "swift",
+                "name": "Swift",
+                "value": "swift",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "field": "sql",
+                "name": "SQL",
+                "value": "sql",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
         Object {

@@ -11,6 +11,13 @@ export class Mentors extends Component {
     ruby: false,
     denver: false,
     remote: false,
+    python: false,
+    java: false,
+    elixer: false,
+    c: false,
+    php: false,
+    swift: false,
+    sql: false,
     mentorSearch: '',
   }
 
@@ -22,6 +29,7 @@ export class Mentors extends Component {
     const corsPrefix = 'https://cors-anywhere.herokuapp.com/';
     const root = 'https://turing-mentors-be.herokuapp.com';
     const { javascript, ruby, denver, remote } = this.state;
+
     let location;
     if ((!denver && !remote) || (denver && remote)) location = 'all'
     else location = denver ? 'denver' : 'remote'
@@ -42,7 +50,9 @@ export class Mentors extends Component {
   }
 
   handleChange = ({ target }) => {
-    this.setState({ [target.name]: !this.state[target.name] }, this.getUpdated);
+    this.setState({
+      [target.name]: !this.state[target.name]
+    }, this.getUpdated);
   }
 
   handleSearch = ({ target }) => {
@@ -51,23 +61,33 @@ export class Mentors extends Component {
 
   render() {
     const { mentors } = this.props;
-    const mentorList = mentors.map(mentor => {
+    const { mentorSearch, python, java, c, swift, elixer, sql, php } = this.state;
+    const mentorAll = mentors.map(mentor => {
       return <MentorCard key={mentor.id} id={mentor.id} {...mentor.attributes} />
-    });
-    // const searchList = mentors.map(mentor => {
-    //   Object.keys(mentor.attributes).forEach(attr => {
-    //     // console.log(mentor.attributes)
-    //     if (typeof mentor[attr] === 'string') {
-    //       if (mentor.attributes[attr].includes(this.state.mentorSearch)) {
-    //         return <MentorCard key={mentor.id} id={mentor.id} {...mentor.attributes} />
-    //       }
-    //     } else if (typeof mentor[attr] === 'array') { 
-    //       // if (mentor.attributes[attr].includes(this.state.mentorSearch)) {
-    //       //   return <MentorCard key={mentor.id} id={mentor.id} {...mentor.attributes} />
-    //       // }
-    //     }
+    })
 
+    const mentorList = mentorAll.filter(mentor => {
+      if(python && mentor.props.tech_skills.includes('python')) return mentor
+      if(java && mentor.props.tech_skills.includes('java')) return mentor
+      if(elixer && mentor.props.tech_skills.includes('elixer')) return mentor
+      if(c && mentor.props.tech_skills.includes('c')) return mentor
+      if(swift && mentor.props.tech_skills.includes('swift')) return mentor
+      if(sql && mentor.props.tech_skills.includes('sql')) return mentor
+      if(php && mentor.props.tech_skills.includes('php')) return mentor
+
+      if(!python && !java && !elixer && !c && !swift && !sql && !php) return mentor
+    })
+
+    // const searchList = mentors.map(mentor => {
+    //   let list = [];
+    //   Object.keys(mentor.attributes).forEach(attr => {
+    //     if (typeof mentor.attributes[attr] === 'string') {
+    //       if (mentor.attributes[attr].toLowerCase().includes(mentorSearch.toLowerCase())) {
+    //         list.push(<MentorCard key={mentor.id} id={mentor.id} {...mentor.attributes} />)
+    //       }
+    //     }
     //   })
+    //   return list;
     // });
     const breakpointColumnsObj = {
       default: 4,
@@ -76,14 +96,15 @@ export class Mentors extends Component {
       500: 1
     };
 
+
     return (
       <div className="mentors-container">
         <MentorControls {...this.state} handleSearch={this.handleSearch} handleChange={this.handleChange} />
         <Masonry breakpointCols={breakpointColumnsObj}
           className="mentors-grid"
           columnClassName="mentors-grid_column">
-          {this.state.mentorSearch === '' && mentorList}
-          {/* {this.state.mentorSearch !== '' && searchList} */}
+          {mentorSearch.length <= 1 && mentorList}
+          {/* {mentorSearch.length > 1 && searchList} */}
         </Masonry>
       </div>
     )
