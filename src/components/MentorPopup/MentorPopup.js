@@ -76,7 +76,7 @@ export class MentorPopup extends Component {
         <Collapsible trigger="Background Info  &#9660;" triggerWhenOpen="Background Info  &#9650;">
           <p>{background}</p>
         </Collapsible>
-        <Collapsible openedClassName="slack-message" trigger="Send slack message  &#9660;" triggerWhenOpen="Send slack message  &#9650;">
+        <Collapsible openedClassName="slack-message" contentInnerClassName="slack-message" ontentOuterClassName="slack-message" trigger="Send slack message  &#9660;" triggerWhenOpen="Send slack message  &#9650;">
           <textarea
             className="bg-info"
             name="text"
@@ -84,7 +84,7 @@ export class MentorPopup extends Component {
             value={this.state.text}
             onChange={this.handleChange}>
           </textarea>
-          <button onClick={this.handleSubmit}>Submit</button>
+          <button className="slack-btn" onClick={this.handleSubmit}>Submit</button>
         </Collapsible>
         <div className="links">
           <Link to='/mentors'>GO BACK</Link>

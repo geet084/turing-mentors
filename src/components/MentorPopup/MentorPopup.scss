@@ -5,6 +5,16 @@
   .Collapsible {
     margin: 10px auto;
   }
+  .Collapsible__contentInner {
+    display: flex;
+    justify-content: space-around;
+    div {
+      width: 50%;
+    }
+    p {
+      margin: 5px 0;
+    }
+  }
   .links {
     margin: 0;
     a {
@@ -39,26 +49,23 @@
   }
 }
 
-.slack-message .Collapsible__contentInner {
+.slack-message {
   display: flex;
   flex-direction: column;
 }
 
-.contact-info .Collapsible__contentInner {
-  display: flex;
-  flex-direction: column;
-  p {
-    margin: 5px;
+.slack-btn {
+  &:hover {
+    cursor: pointer;
   }
 }
 
-.mentor-popup .Collapsible__contentInner {
-  display: flex;
-  justify-content: space-around;
-  div {
-    width: 50%;
-  }
-  p {
-    margin: 5px 0;
+.contact-info {
+  .Collapsible__contentInner {
+    display: flex;
+    flex-direction: column;
+    p {
+      margin: 5px;
+    }
   }
 }
