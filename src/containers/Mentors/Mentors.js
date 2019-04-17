@@ -104,6 +104,8 @@ export class Mentors extends Component {
           className="mentors-grid"
           columnClassName="mentors-grid_column">
           {mentorSearch.length <= 1 && mentorList}
+          {mentors.length === 0 && <h3 className="mentors-results">Loading Mentors...</h3> }
+          {mentors.length > 0 && mentorList.length === 0 && <h3 className="mentors-results">No Results found!</h3> }
           {/* {mentorSearch.length > 1 && searchList} */}
         </Masonry>
       </div>

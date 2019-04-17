@@ -131,12 +131,16 @@ ShallowWrapper {
             "default": 4,
           },
           "children": Array [
-            <MentorCard
-              id={1}
-            />,
-            <MentorCard
-              id={2}
-            />,
+            Array [
+              <MentorCard
+                id={1}
+              />,
+              <MentorCard
+                id={2}
+              />,
+            ],
+            false,
+            false,
           ],
           "className": "mentors-grid",
           "columnClassName": "mentors-grid_column",
@@ -173,6 +177,8 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
+          false,
+          false,
         ],
         "type": [Function],
       },
@@ -270,12 +276,16 @@ ShallowWrapper {
               "default": 4,
             },
             "children": Array [
-              <MentorCard
-                id={1}
-              />,
-              <MentorCard
-                id={2}
-              />,
+              Array [
+                <MentorCard
+                  id={1}
+                />,
+                <MentorCard
+                  id={2}
+                />,
+              ],
+              false,
+              false,
             ],
             "className": "mentors-grid",
             "columnClassName": "mentors-grid_column",
@@ -312,6 +322,8 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
+            false,
+            false,
           ],
           "type": [Function],
         },
