@@ -51,19 +51,19 @@ ShallowWrapper {
               checkBoxes={[Function]}
               field="identities"
               name="Male"
-              value={0}
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="identities"
-              name="Female"
               value={1}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="identities"
-              name="Non-Binary"
+              name="Female"
               value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="identities"
+              name="Non-Binary"
+              value={3}
             />
           </div>
           <div>
@@ -142,19 +142,19 @@ ShallowWrapper {
                 checkBoxes={[Function]}
                 field="identities"
                 name="Male"
-                value={0}
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="identities"
-                name="Female"
                 value={1}
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="identities"
-                name="Non-Binary"
+                name="Female"
                 value={2}
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="identities"
+                name="Non-Binary"
+                value={3}
               />
             </div>,
             <div>
@@ -242,19 +242,19 @@ ShallowWrapper {
                   checkBoxes={[Function]}
                   field="identities"
                   name="Male"
-                  value={0}
-                />,
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="identities"
-                  name="Female"
                   value={1}
                 />,
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="identities"
-                  name="Non-Binary"
+                  name="Female"
                   value={2}
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="identities"
+                  name="Non-Binary"
+                  value={3}
                 />,
               ],
               "className": "check-box",
@@ -269,7 +269,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "identities",
                   "name": "Male",
-                  "value": 0,
+                  "value": 1,
                 },
                 "ref": null,
                 "rendered": null,
@@ -283,7 +283,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "identities",
                   "name": "Female",
-                  "value": 1,
+                  "value": 2,
                 },
                 "ref": null,
                 "rendered": null,
@@ -297,7 +297,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "identities",
                   "name": "Non-Binary",
-                  "value": 2,
+                  "value": 3,
                 },
                 "ref": null,
                 "rendered": null,
@@ -485,19 +485,19 @@ ShallowWrapper {
                 checkBoxes={[Function]}
                 field="identities"
                 name="Male"
-                value={0}
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="identities"
-                name="Female"
                 value={1}
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="identities"
-                name="Non-Binary"
+                name="Female"
                 value={2}
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="identities"
+                name="Non-Binary"
+                value={3}
               />
             </div>
             <div>
@@ -576,19 +576,19 @@ ShallowWrapper {
                   checkBoxes={[Function]}
                   field="identities"
                   name="Male"
-                  value={0}
-                />
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="identities"
-                  name="Female"
                   value={1}
                 />
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="identities"
-                  name="Non-Binary"
+                  name="Female"
                   value={2}
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="identities"
+                  name="Non-Binary"
+                  value={3}
                 />
               </div>,
               <div>
@@ -676,19 +676,19 @@ ShallowWrapper {
                     checkBoxes={[Function]}
                     field="identities"
                     name="Male"
-                    value={0}
-                  />,
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="identities"
-                    name="Female"
                     value={1}
                   />,
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="identities"
-                    name="Non-Binary"
+                    name="Female"
                     value={2}
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="identities"
+                    name="Non-Binary"
+                    value={3}
                   />,
                 ],
                 "className": "check-box",
@@ -703,7 +703,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "identities",
                     "name": "Male",
-                    "value": 0,
+                    "value": 1,
                   },
                   "ref": null,
                   "rendered": null,
@@ -717,7 +717,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "identities",
                     "name": "Female",
-                    "value": 1,
+                    "value": 2,
                   },
                   "ref": null,
                   "rendered": null,
@@ -731,7 +731,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "identities",
                     "name": "Non-Binary",
-                    "value": 2,
+                    "value": 3,
                   },
                   "ref": null,
                   "rendered": null,
@@ -963,19 +963,19 @@ ShallowWrapper {
               checkBoxes={[Function]}
               field="identities"
               name="Male"
-              value={0}
-            />
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="identities"
-              name="Female"
               value={1}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="identities"
-              name="Non-Binary"
+              name="Female"
               value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              field="identities"
+              name="Non-Binary"
+              value={3}
             />
           </div>
           <div>
@@ -1062,19 +1062,19 @@ ShallowWrapper {
                 checkBoxes={[Function]}
                 field="identities"
                 name="Male"
-                value={0}
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="identities"
-                name="Female"
                 value={1}
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="identities"
-                name="Non-Binary"
+                name="Female"
                 value={2}
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="identities"
+                name="Non-Binary"
+                value={3}
               />
             </div>,
             <div>
@@ -1162,19 +1162,19 @@ ShallowWrapper {
                   checkBoxes={[Function]}
                   field="identities"
                   name="Male"
-                  value={0}
-                />,
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="identities"
-                  name="Female"
                   value={1}
                 />,
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="identities"
-                  name="Non-Binary"
+                  name="Female"
                   value={2}
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="identities"
+                  name="Non-Binary"
+                  value={3}
                 />,
               ],
               "className": "check-box",
@@ -1189,7 +1189,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "identities",
                   "name": "Male",
-                  "value": 0,
+                  "value": 1,
                 },
                 "ref": null,
                 "rendered": null,
@@ -1203,7 +1203,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "identities",
                   "name": "Female",
-                  "value": 1,
+                  "value": 2,
                 },
                 "ref": null,
                 "rendered": null,
@@ -1217,7 +1217,7 @@ ShallowWrapper {
                   "checkBoxes": [Function],
                   "field": "identities",
                   "name": "Non-Binary",
-                  "value": 2,
+                  "value": 3,
                 },
                 "ref": null,
                 "rendered": null,
@@ -1426,19 +1426,19 @@ ShallowWrapper {
                 checkBoxes={[Function]}
                 field="identities"
                 name="Male"
-                value={0}
-              />
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="identities"
-                name="Female"
                 value={1}
               />
               <CreateCheckbox
                 checkBoxes={[Function]}
                 field="identities"
-                name="Non-Binary"
+                name="Female"
                 value={2}
+              />
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="identities"
+                name="Non-Binary"
+                value={3}
               />
             </div>
             <div>
@@ -1525,19 +1525,19 @@ ShallowWrapper {
                   checkBoxes={[Function]}
                   field="identities"
                   name="Male"
-                  value={0}
-                />
-                <CreateCheckbox
-                  checkBoxes={[Function]}
-                  field="identities"
-                  name="Female"
                   value={1}
                 />
                 <CreateCheckbox
                   checkBoxes={[Function]}
                   field="identities"
-                  name="Non-Binary"
+                  name="Female"
                   value={2}
+                />
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="identities"
+                  name="Non-Binary"
+                  value={3}
                 />
               </div>,
               <div>
@@ -1625,19 +1625,19 @@ ShallowWrapper {
                     checkBoxes={[Function]}
                     field="identities"
                     name="Male"
-                    value={0}
-                  />,
-                  <CreateCheckbox
-                    checkBoxes={[Function]}
-                    field="identities"
-                    name="Female"
                     value={1}
                   />,
                   <CreateCheckbox
                     checkBoxes={[Function]}
                     field="identities"
-                    name="Non-Binary"
+                    name="Female"
                     value={2}
+                  />,
+                  <CreateCheckbox
+                    checkBoxes={[Function]}
+                    field="identities"
+                    name="Non-Binary"
+                    value={3}
                   />,
                 ],
                 "className": "check-box",
@@ -1652,7 +1652,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "identities",
                     "name": "Male",
-                    "value": 0,
+                    "value": 1,
                   },
                   "ref": null,
                   "rendered": null,
@@ -1666,7 +1666,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "identities",
                     "name": "Female",
-                    "value": 1,
+                    "value": 2,
                   },
                   "ref": null,
                   "rendered": null,
@@ -1680,7 +1680,7 @@ ShallowWrapper {
                     "checkBoxes": [Function],
                     "field": "identities",
                     "name": "Non-Binary",
-                    "value": 2,
+                    "value": 3,
                   },
                   "ref": null,
                   "rendered": null,
