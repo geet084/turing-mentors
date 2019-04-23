@@ -44,9 +44,9 @@ export class UserInfo extends Component {
     const { first_name, last_name, cohort, current_job } = this.state;
     const mentor = this.props.user === 'Mentor';
     const identities = ['Male', 'Female', 'Non-Binary'].map((identity, i) => (
-      <CreateCheckbox key={i} field="identities" name={identity} value={i} checkBoxes={this.updateIdentity} />
+      <CreateCheckbox key={i} field="identities" name={identity} value={i + 1} checkBoxes={this.updateIdentity} />
     ))
-
+    
     return (
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
