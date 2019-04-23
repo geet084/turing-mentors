@@ -42,8 +42,10 @@ export class UserInfo extends Component {
 
   render() {
     const { first_name, last_name, cohort, current_job } = this.state;
-    const identities = ['Male', 'Female', 'Non-Binary'];
     const mentor = this.props.user === 'Mentor';
+    const identities = ['Male', 'Female', 'Non-Binary'].map((identity, i) => (
+      <CreateCheckbox key={i} field="identities" name={identity} value={i} checkBoxes={this.updateIdentity} />
+    ))
 
     return (
       <div>
@@ -51,13 +53,8 @@ export class UserInfo extends Component {
           <span className="pages">{this.props.user} User info:</span>
           <CreateInput field="first_name" text="First Name" value={first_name} handleChange={this.handleChange} max="28" />
           <CreateInput field="last_name" text="Last Name" value={last_name} handleChange={this.handleChange} max="28" />
-
           <div className="check-box">
-            {
-              identities.map((identity, i) => (
-                <CreateCheckbox key={i} field="identities" name={identity} value={i} checkBoxes={this.updateIdentity} />
-              ))
-            }
+            {identities}
           </div>
           <div>
             <CreateInput field="cohort" text="Cohort (ex: 1406)" value={cohort} handleChange={this.updateCohort} max='4' />
