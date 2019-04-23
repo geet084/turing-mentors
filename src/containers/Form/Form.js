@@ -57,24 +57,23 @@ export class Form extends Component {
   render() {
     const { currentSection } = this.state;
     const mentor = this.props.location.pathname === '/mentor';
-    const userInfo = currentSection === 'userInfo';
-    const userBio = currentSection === 'userBio';
-    const userBackground = currentSection === 'userBackground';
-    const userSchedule = currentSection === 'userSchedule';
-    const userTechSkills = currentSection === 'userTechSkills'
-    const userNonTechSkills = currentSection === 'userNonTechSkills'
-    const complete = currentSection === 'complete';
     const user = mentor ? 'Mentor' : 'Mentee';
 
     return (
       <div>
-        {userInfo && <UserInfo updateUserInfo={this.updateUserInfo} user={user} />}
-        {userBio && <UserBio updateUserInfo={this.updateUserInfo} user={user} />}
-        {userBackground && <UserBackground updateUserInfo={this.updateUserInfo} user={user} />}
-        {userSchedule && <UserSchedule updateUserInfo={this.updateUserInfo} user={user} />}
-        {mentor && userTechSkills && <UserTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
-        {mentor && userNonTechSkills && <UserNonTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
-        {complete &&
+        {currentSection === 'userInfo' &&
+          <UserInfo updateUserInfo={this.updateUserInfo} user={user} />}
+        {currentSection === 'userBio' &&
+          <UserBio updateUserInfo={this.updateUserInfo} user={user} />}
+        {currentSection === 'userBackground' &&
+          <UserBackground updateUserInfo={this.updateUserInfo} user={user} />}
+        {currentSection === 'userSchedule' &&
+          <UserSchedule updateUserInfo={this.updateUserInfo} user={user} />}
+        {mentor && currentSection === 'userTechSkills' &&
+          <UserTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
+        {mentor && currentSection === 'userNonTechSkills' &&
+          <UserNonTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
+        {currentSection === 'complete' &&
           <div className="complete"><h1>Thank you!</h1><Link to='/' onClick={this.reset}>Return Home</Link> </div>}
       </div>
     )
