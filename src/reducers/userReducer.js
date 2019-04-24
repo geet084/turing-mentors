@@ -9,6 +9,8 @@ export const userReducer = (state = {}, action) => {
     slack: "@j3",
     email: "jeff@email.com",
     phone: "3037313117",
+    linkedin: 'jeff-casimir-839123',
+    preferred_method: '1',
     location: "Denver, CO",
     background: "Things",
     availability: {
