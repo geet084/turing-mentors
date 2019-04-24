@@ -7,7 +7,7 @@ import UserTechSkills from '../../components/UserTechSkills/UserTechSkills';
 import UserNonTechSkills from '../../components/UserNonTechSkills/UserNonTechSkills';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { updateForm } from '../../actions';
+import { resetForm, updateForm } from '../../actions';
 import { sendForm } from '../../thunks/sendForm';
 
 export class Form extends Component {
@@ -40,6 +40,7 @@ export class Form extends Component {
     const path = `/api/v1/mentors`;
     const url = corsPrefix + root + path;
     this.props.sendForm(url, form)
+    this.props.resetForm()
   }
 
   reset = () => {
@@ -55,24 +56,24 @@ export class Form extends Component {
   }
 
   render() {
-    const { currentSection } = this.state;
+    const { currentSection, userInfo, userBio, userBackground, userSchedule, userTechSkills, userNonTechSkills } = this.state;
     const mentor = this.props.location.pathname === '/mentor';
     const user = mentor ? 'Mentor' : 'Mentee';
 
     return (
       <div>
         {currentSection === 'userInfo' &&
-          <UserInfo updateUserInfo={this.updateUserInfo} user={user} />}
+          <UserInfo updateUserInfo={this.updateUserInfo} user={user} {...userInfo} />}
         {currentSection === 'userBio' &&
-          <UserBio updateUserInfo={this.updateUserInfo} user={user} />}
+          <UserBio updateUserInfo={this.updateUserInfo} user={user} {...userBio} />}
         {currentSection === 'userBackground' &&
-          <UserBackground updateUserInfo={this.updateUserInfo} user={user} />}
+          <UserBackground updateUserInfo={this.updateUserInfo} user={user} {...userBackground} />}
         {currentSection === 'userSchedule' &&
-          <UserSchedule updateUserInfo={this.updateUserInfo} user={user} />}
+          <UserSchedule updateUserInfo={this.updateUserInfo} user={user} {...userSchedule} />}
         {mentor && currentSection === 'userTechSkills' &&
-          <UserTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
+          <UserTechSkills updateUserInfo={this.updateUserInfo} user={user} {...userTechSkills} />}
         {mentor && currentSection === 'userNonTechSkills' &&
-          <UserNonTechSkills updateUserInfo={this.updateUserInfo} user={user} />}
+          <UserNonTechSkills updateUserInfo={this.updateUserInfo} user={user} {...userNonTechSkills} />}
         {currentSection === 'complete' &&
           <div className="complete"><h1>Thank you!</h1><Link to='/' onClick={this.reset}>Return Home</Link> </div>}
       </div>
@@ -87,6 +88,7 @@ export const mapStateToProps = (state) => ({
 export const mapDispatchToProps = (dispatch) => ({
   updateForm: (form) => dispatch(updateForm(form)),
   sendForm: (url, form) => dispatch(sendForm(url, form)),
+  resetForm: () => dispatch(resetForm()),
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Form);
