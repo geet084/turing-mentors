@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 
 export class CreateCheckbox extends Component {
-
   render() {
+    const {checked, checkBoxes, field, name, value} = this.props;
+    
     return (
       <div className="checkboxes">
         <input
+          checked={checked}
           type="checkbox"
-          id={this.props.value}
-          name={this.props.field}
-          value={this.props.value}
-          onChange={this.props.checkBoxes}
+          id={value}
+          name={field}
+          value={value}
+          onChange={checkBoxes}
         />
-        <label htmlFor={this.props.value}>{this.props.name}</label>
+        <label htmlFor={value}>{name}</label>
       </div>
     )
   }
