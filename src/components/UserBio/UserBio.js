@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { CreateInput } from '../CreateInput/CreateInput';
 
 export class UserBio extends Component {
-  constructor({ slack, email, phone, location }) {
-    super({ slack, email, phone, location })
-
+  constructor(props) {
+    super(props)
+    const { slack, email, phone, location } = this.props
+    
     this.state = {
       slack: slack || '',
       email: email || '',

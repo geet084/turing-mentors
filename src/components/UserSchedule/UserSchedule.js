@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
 
 export class UserSchedule extends Component {
-  constructor({ day0, day1, day2, day3, day4, day5, day6 }) {
-    super({ day0, day1, day2, day3, day4, day5, day6 })
-
+  constructor(props) {
+    super(props)
+    const { day0, day1, day2, day3, day4, day5, day6 } = this.props
+    
     this.state = {
       availability: {
         0: day0 || [false, false, false],

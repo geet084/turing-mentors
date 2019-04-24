@@ -3,8 +3,9 @@ import { CreateInput } from '../CreateInput/CreateInput';
 import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
 
 export class UserInfo extends Component {
-  constructor({ first_name, last_name, identities, cohort, program, current_job }) {
-    super({ first_name, last_name, identities, cohort, program, current_job })
+  constructor(props) {
+    super(props)
+    const { first_name, last_name, identities, cohort, program, current_job } = this.props
 
     this.state = {
       first_name: first_name || '',

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
 export class UserBackground extends Component {
-  constructor({ background }) {
-    super({ background })
-
+  constructor(props) {
+    super(props)
+    const { background } = this.props
+    
     this.state = {
       background: background || '',
     }
