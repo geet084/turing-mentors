@@ -6,6 +6,7 @@ import UserBio from '../../components/UserBio/UserBio';
 import UserBackground from '../../components/UserBackground/UserBackground';
 import UserSchedule from '../../components/UserSchedule/UserSchedule';
 import UserTechSkills from '../../components/UserTechSkills/UserTechSkills';
+import UserNonTechSkills from '../../components/UserNonTechSkills/UserNonTechSkills';
 
 export class Profile extends Component {
 
@@ -28,6 +29,9 @@ export class Profile extends Component {
         </Collapsible>
         <Collapsible openedClassName="profile" contentInnerClassName="profile" contentOuterClassName="profile" trigger="Tech Skills  &#9660;" triggerWhenOpen=" &#9650;">
           <UserTechSkills tech_skills={tech_skills} />
+        </Collapsible>
+        <Collapsible openedClassName="profile" contentInnerClassName="profile" contentOuterClassName="profile" trigger="Non-Tech Skills  &#9660;" triggerWhenOpen=" &#9650;">
+          <UserNonTechSkills non_tech_skills={non_tech_skills} />
         </Collapsible>
       </div>
     )
