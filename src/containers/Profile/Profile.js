@@ -11,7 +11,7 @@ import UserNonTechSkills from '../../components/UserNonTechSkills/UserNonTechSki
 export class Profile extends Component {
 
   render() {
-    const { first_name, last_name, identities, location, cohort, program, current_job, slack, email, phone, background, tech_skills, non_tech_skills, availability } = this.props.user;
+    const { first_name, last_name, identities, location, cohort, program, current_job, slack, email, phone, linkedin, preferred_method, background, tech_skills, non_tech_skills, availability } = this.props.user;
 
     return (
       <div>
@@ -19,7 +19,7 @@ export class Profile extends Component {
           <UserInfo profile={true} first_name={first_name} last_name={last_name} identities={identities} cohort={cohort} program={program} current_job={current_job} />
         </Collapsible>
         <Collapsible openedClassName="profile" contentInnerClassName="profile" contentOuterClassName="profile" trigger="Contact Info  &#9660;" triggerWhenOpen="Contact Info  &#9650;">
-          <UserBio profile={true} slack={slack} email={email} phone={phone} location={location} />
+          <UserBio profile={true} slack={slack} email={email} phone={phone} linkedin={linkedin} preferred_method={preferred_method} location={location} />
         </Collapsible>
         <Collapsible openedClassName="profile" contentInnerClassName="profile" contentOuterClassName="profile" trigger="Background Info  &#9660;" triggerWhenOpen="Background Info  &#9650;">
           <UserBackground profile={true} background={background} />

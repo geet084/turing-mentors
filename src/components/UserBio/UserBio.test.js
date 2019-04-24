@@ -10,6 +10,8 @@ describe('UserBio', () => {
   const mockState = {
     slack: '',
     email: '',
+    linkedin: '',
+    preferred_method: '0',
     phone: '',
     location: '',
   };
