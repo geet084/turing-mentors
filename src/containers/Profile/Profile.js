@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Collapsible from 'react-collapsible';
 import UserInfo from '../../components/UserInfo/UserInfo';
 import UserBio from '../../components/UserBio/UserBio';
+import UserBackground from '../../components/UserBackground/UserBackground';
 
 export class Profile extends Component {
 
@@ -16,6 +17,9 @@ export class Profile extends Component {
         </Collapsible>
         <Collapsible openedClassName="profile" contentInnerClassName="profile" contentOuterClassName="profile" trigger="Contact Info  &#9660;" triggerWhenOpen=" &#9650;">
           <UserBio slack={slack} email={email} phone={phone} />
+        </Collapsible>
+        <Collapsible openedClassName="profile" contentInnerClassName="profile" contentOuterClassName="profile" trigger="Background Info  &#9660;" triggerWhenOpen=" &#9650;">
+          <UserBackground background={background} />
         </Collapsible>
       </div>
     )

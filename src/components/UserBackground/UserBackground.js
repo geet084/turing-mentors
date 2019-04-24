@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 
 export class UserBackground extends Component {
-  state = {
-    background: '',
+  constructor({ background }) {
+    super({ background })
+
+    this.state = {
+      background: background || '',
+    }
   }
 
   submitForm = (e) => {
