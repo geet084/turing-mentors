@@ -13,6 +13,10 @@ export const updateForm = (form) => ({
   form
 });
 
+export const resetForm = () => ({
+  type: 'RESET_FORM',
+})
+
 export const getMentorsSuccess = (mentors) => ({
   type: 'GET_MENTORS_SUCCESS',
   mentors
