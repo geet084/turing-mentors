@@ -19,7 +19,9 @@ export const userReducer = (state = {}, action) => {
       4: [true, false, false],
       5: [false, true, false],
       6: [false, true, false],
-    }
+    },
+    tech_skills: ["1", "2", "7"],
+    non_tech_skills: ["1", "3", "5"]
   }
   switch (action.type) {
     default:
