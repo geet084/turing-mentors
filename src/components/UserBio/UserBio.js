@@ -5,7 +5,7 @@ export class UserBio extends Component {
   constructor(props) {
     super(props)
     const { slack, email, phone, location } = this.props
-    
+
     this.state = {
       slack: slack || '',
       email: email || '',
@@ -30,23 +30,23 @@ export class UserBio extends Component {
 
   render() {
     const { slack, email, phone, location } = this.state;
-    const mentor = this.props.user === 'Mentor';
+    const { profile, user } = this.props;
 
     return (
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
-          <span className="pages">{this.props.user} Contact info:</span>
+          {!profile && <span className="pages">{user} Contact info:</span>}
           <CreateInput field="slack" text="Slack Handle" value={slack} handleChange={this.handleChange} max="28" />
           <CreateInput field="email" text="Email Address" value={email} handleChange={this.handleChange} max="28" />
           <CreateInput field="phone" text="Phone Number" value={phone} handleChange={this.handleChange} max="12" />
           {
-            mentor &&
+            user === 'Mentor' &&
             <CreateInput field="location" text="Location" value={location} handleChange={this.handleChange} max="28" />
           }
         </form>
-        <button className="next-btn" onClick={this.goBack}>Back</button>
-        <button className="next-btn" onClick={this.submitForm}>Next</button>
-        <span className="pages">2 of {mentor ? '6' : '4'}</span>
+        {!profile && <button className="next-btn" onClick={this.goBack}>Back</button>}
+        {!profile && <button className="next-btn" onClick={this.submitForm}>Next</button>}
+        {!profile && <span className="pages">2 of {user === 'Mentor' ? '6' : '4'}</span>}
       </div>
     )
   }

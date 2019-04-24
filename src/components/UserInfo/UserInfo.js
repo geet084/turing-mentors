@@ -47,7 +47,7 @@ export class UserInfo extends Component {
 
   render() {
     const { first_name, last_name, identities, cohort, program, current_job } = this.state;
-    const mentor = this.props.user === 'Mentor';
+    const { profile, user } = this.props;
     const identityBoxes = ['Male', 'Female', 'Non-Binary'].map((identity, i) => (
       <CreateCheckbox key={i} field="identities" name={identity} value={i + 1} checkBoxes={this.updateIdentity} checked={identities.includes(i + 1) ? true : false} />
     ))
@@ -55,7 +55,7 @@ export class UserInfo extends Component {
     return (
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
-          <span className="pages">{this.props.user} User info:</span>
+          {!profile && <span className="pages">{this.props.user} User info:</span>}
           <CreateInput field="first_name" text="First Name" value={first_name} handleChange={this.handleChange} max="28" />
           <CreateInput field="last_name" text="Last Name" value={last_name} handleChange={this.handleChange} max="28" />
           <div className="check-box">
@@ -69,11 +69,11 @@ export class UserInfo extends Component {
         </form>
         <div className="input-box">
           {
-            mentor &&
+            user === 'Mentor' &&
             <CreateInput field="current_job" text="Current Job" value={current_job} handleChange={this.handleChange} max="28" />
           }
-          <button className="next-btn" onClick={this.submitForm}>Next</button>
-          <span className="pages">1 of {mentor ? '6' : '4'}</span>
+          {!profile && <button className="next-btn" onClick={this.submitForm}>Next</button>}
+          {!profile && <span className="pages">1 of {user === 'Mentor' ? '6' : '4'}</span>}
         </div>
       </div>
     )
