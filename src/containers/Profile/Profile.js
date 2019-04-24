@@ -14,6 +14,9 @@ export class Profile extends Component {
         <Collapsible openedClassName="profile" contentInnerClassName="profile" contentOuterClassName="profile" trigger="User Info  &#9660;" triggerWhenOpen=" &#9650;">
           <UserInfo first_name={first_name} last_name={last_name} identities={identities} cohort={cohort} program={program} current_job={current_job} />
         </Collapsible>
+        <Collapsible openedClassName="profile" contentInnerClassName="profile" contentOuterClassName="profile" trigger="Contact Info  &#9660;" triggerWhenOpen=" &#9650;">
+          <UserBio slack={slack} email={email} phone={phone} />
+        </Collapsible>
       </div>
     )
   }

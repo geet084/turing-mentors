@@ -2,11 +2,15 @@ import React, { Component } from 'react';
 import { CreateInput } from '../CreateInput/CreateInput';
 
 export class UserBio extends Component {
-  state = {
-    slack: '',
-    email: '',
-    phone: '',
-    location: '',
+  constructor({ slack, email, phone, location }) {
+    super({ slack, email, phone, location })
+
+    this.state = {
+      slack: slack || '',
+      email: email || '',
+      phone: phone || '',
+      location: location || '',
+    }
   }
 
   submitForm = (e) => {
