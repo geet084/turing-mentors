@@ -45,11 +45,51 @@ ShallowWrapper {
             value=""
           />
           <CreateInput
+            field="linkedin"
+            handleChange={[Function]}
+            max="28"
+            text="LinkedIn"
+            value=""
+          />
+          <CreateInput
             field="phone"
             handleChange={[Function]}
             max="12"
             text="Phone Number"
             value=""
+          />
+          <p
+            className="pages"
+          >
+            Preferred Method of Contact:
+          </p>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Email"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Slack"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="LinkedIn"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Phone"
+            value={4}
           />
         </form>,
         <button
@@ -101,11 +141,51 @@ ShallowWrapper {
               value=""
             />,
             <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />,
+            <CreateInput
               field="phone"
               handleChange={[Function]}
               max="12"
               text="Phone Number"
               value=""
+            />,
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
             />,
             false,
           ],
@@ -166,11 +246,98 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
+              "field": "linkedin",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "LinkedIn",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
               "field": "phone",
               "handleChange": [Function],
               "max": "12",
               "text": "Phone Number",
               "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Preferred Method of Contact:",
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": "Preferred Method of Contact:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Email",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Slack",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "LinkedIn",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Phone",
+              "value": 4,
             },
             "ref": null,
             "rendered": null,
@@ -258,11 +425,51 @@ ShallowWrapper {
               value=""
             />
             <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />
+            <CreateInput
               field="phone"
               handleChange={[Function]}
               max="12"
               text="Phone Number"
               value=""
+            />
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
             />
           </form>,
           <button
@@ -314,11 +521,51 @@ ShallowWrapper {
                 value=""
               />,
               <CreateInput
+                field="linkedin"
+                handleChange={[Function]}
+                max="28"
+                text="LinkedIn"
+                value=""
+              />,
+              <CreateInput
                 field="phone"
                 handleChange={[Function]}
                 max="12"
                 text="Phone Number"
                 value=""
+              />,
+              <p
+                className="pages"
+              >
+                Preferred Method of Contact:
+              </p>,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Email"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Slack"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="LinkedIn"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Phone"
+                value={4}
               />,
               false,
             ],
@@ -379,11 +626,98 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
+                "field": "linkedin",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "LinkedIn",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
                 "field": "phone",
                 "handleChange": [Function],
                 "max": "12",
                 "text": "Phone Number",
                 "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Preferred Method of Contact:",
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": "Preferred Method of Contact:",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Email",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Slack",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "LinkedIn",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Phone",
+                "value": 4,
               },
               "ref": null,
               "rendered": null,
@@ -515,11 +849,51 @@ ShallowWrapper {
             value=""
           />
           <CreateInput
+            field="linkedin"
+            handleChange={[Function]}
+            max="28"
+            text="LinkedIn"
+            value=""
+          />
+          <CreateInput
             field="phone"
             handleChange={[Function]}
             max="12"
             text="Phone Number"
             value=""
+          />
+          <p
+            className="pages"
+          >
+            Preferred Method of Contact:
+          </p>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Email"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Slack"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="LinkedIn"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Phone"
+            value={4}
           />
           <CreateInput
             field="location"
@@ -579,11 +953,51 @@ ShallowWrapper {
               value=""
             />,
             <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />,
+            <CreateInput
               field="phone"
               handleChange={[Function]}
               max="12"
               text="Phone Number"
               value=""
+            />,
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
             />,
             <CreateInput
               field="location"
@@ -650,11 +1064,98 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
+              "field": "linkedin",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "LinkedIn",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
               "field": "phone",
               "handleChange": [Function],
               "max": "12",
               "text": "Phone Number",
               "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Preferred Method of Contact:",
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": "Preferred Method of Contact:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Email",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Slack",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "LinkedIn",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Phone",
+              "value": 4,
             },
             "ref": null,
             "rendered": null,
@@ -757,11 +1258,51 @@ ShallowWrapper {
               value=""
             />
             <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />
+            <CreateInput
               field="phone"
               handleChange={[Function]}
               max="12"
               text="Phone Number"
               value=""
+            />
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
             />
             <CreateInput
               field="location"
@@ -821,11 +1362,51 @@ ShallowWrapper {
                 value=""
               />,
               <CreateInput
+                field="linkedin"
+                handleChange={[Function]}
+                max="28"
+                text="LinkedIn"
+                value=""
+              />,
+              <CreateInput
                 field="phone"
                 handleChange={[Function]}
                 max="12"
                 text="Phone Number"
                 value=""
+              />,
+              <p
+                className="pages"
+              >
+                Preferred Method of Contact:
+              </p>,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Email"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Slack"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="LinkedIn"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Phone"
+                value={4}
               />,
               <CreateInput
                 field="location"
@@ -892,11 +1473,98 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
+                "field": "linkedin",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "LinkedIn",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
                 "field": "phone",
                 "handleChange": [Function],
                 "max": "12",
                 "text": "Phone Number",
                 "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Preferred Method of Contact:",
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": "Preferred Method of Contact:",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Email",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Slack",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "LinkedIn",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Phone",
+                "value": 4,
               },
               "ref": null,
               "rendered": null,
