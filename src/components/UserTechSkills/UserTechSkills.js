@@ -2,8 +2,13 @@ import React, { Component } from 'react';
 import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
 
 export class UserTechSkills extends Component {
-  state = {
-    tech_skills: [],
+  constructor(props) {
+    super(props)
+    const { tech_skills } = this.props
+
+    this.state = {
+      tech_skills: tech_skills || [],
+    }
   }
 
   submitForm = (e) => {
@@ -27,21 +32,21 @@ export class UserTechSkills extends Component {
   }
 
   render() {
-    const mentor = this.props.user === 'Mentor';
+    const { profile, user } = this.props;
     const tech_skills = ['ruby', 'javascript', 'python', 'java', 'elixer', 'c', 'php', 'swift', 'sql']
     const checkBoxes = tech_skills.map((skill, index) => {
-      return <CreateCheckbox key={skill} field={skill} name={skill} value={index + 1} checkBoxes={this.checkBoxes} />
+      return <CreateCheckbox key={skill} field={skill} name={skill} value={index + 1} checkBoxes={this.checkBoxes} checked={this.state.tech_skills.includes(index.toString()) ? true : false} />
     })
 
     return (
       <div className="form-page">
-        <p className="pages">Mentor Tech skills</p>
+        {!profile && <p className="pages">Mentor Tech skills</p>}
         <form>
           {checkBoxes}
         </form>
-        <button className="next-btn" onClick={this.goBack}>Back</button>
-        <button className="next-btn" onClick={this.submitForm}>Next</button>
-        <span className="pages">5 of {mentor ? '6' : '4'}</span>
+        {!profile && <button className="next-btn" onClick={this.goBack}>Back</button>}
+        {!profile && <button className="next-btn" onClick={this.submitForm}>Next</button>}
+        {!profile && <span className="pages">5 of {user === 'Mentor' ? '6' : '4'}</span>}
       </div>
     )
   }

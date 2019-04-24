@@ -2,15 +2,20 @@ import React, { Component } from 'react';
 import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
 
 export class UserSchedule extends Component {
-  state = {
-    availability: {
-      0: [false, false, false],
-      1: [false, false, false],
-      2: [false, false, false],
-      3: [false, false, false],
-      4: [false, false, false],
-      5: [false, false, false],
-      6: [false, false, false],
+  constructor(props) {
+    super(props)
+    const { availability } = this.props
+
+    this.state = {
+      availability: availability || {
+        0: [false, false, false],
+        1: [false, false, false],
+        2: [false, false, false],
+        3: [false, false, false],
+        4: [false, false, false],
+        5: [false, false, false],
+        6: [false, false, false],
+      }
     }
   }
 
@@ -54,24 +59,24 @@ export class UserSchedule extends Component {
 
             {
               apptTimes.map((time, timeIndex) => {
-                return <CreateCheckbox key={time} field={`time${day}`} name={time} value={'' + dayIndex + timeIndex} checkBoxes={this.checkBoxes} />
+                return <CreateCheckbox key={time} field={`time${day}`} name={time} value={'' + dayIndex + timeIndex} checkBoxes={this.checkBoxes} checked={this.state.availability[dayIndex][timeIndex] ? true : false} />
               })
             }
           </span>
         </div>
       )
     })
-    const mentor = this.props.user === 'Mentor'
+    const { profile, user } = this.props;
 
     return (
       <div className="form-page">
         <form className="schedule-form" onSubmit={this.submitForm} autoComplete='off'>
-          <span className="pages">{this.props.user} Availability info:</span>
+          {!profile && <span className="pages">{user} Availability info:</span>}
           {checkBoxes}
         </form>
-        <button className="next-btn" onClick={this.goBack}>Back</button>
-        <button className="next-btn" onClick={this.submitForm}>{mentor ? 'Next' : 'Submit'}</button>
-        <span className="pages">4 of {mentor ? '6' : '4'}</span>
+        {!profile && <button className="next-btn" onClick={this.goBack}>Back</button>}
+        {!profile && <button className="next-btn" onClick={this.submitForm}>{user === 'Mentor' ? 'Next' : 'Submit'}</button>}
+        {!profile && <span className="pages">4 of {user === 'Mentor' ? '6' : '4'}</span>}
       </div>
     )
   }

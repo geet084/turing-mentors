@@ -19,6 +19,7 @@ export const Nav = () => {
           <NavLink activeStyle={{ color: '#12f1fc' }} to='/about'>About</NavLink>
           <NavLink activeStyle={{ color: '#12f1fc' }} to='/contact'>Contact Us</NavLink>
           <NavLink activeStyle={{ color: '#12f1fc' }} to='/contribute'>Contribute</NavLink>
+          <NavLink activeStyle={{ color: '#12f1fc' }} to='/profile'>Profile</NavLink>
         </Collapsible>
       </div>
       <div className="links">
@@ -26,6 +27,7 @@ export const Nav = () => {
         <NavLink activeStyle={{ color: '#12f1fc' }} to='/about'>About</NavLink>
         <NavLink activeStyle={{ color: '#12f1fc' }} to='/contact'>Contact Us</NavLink>
         <NavLink activeStyle={{ color: '#12f1fc' }} to='/contribute'>Contribute</NavLink>
+        <NavLink activeStyle={{ color: '#12f1fc' }} to='/profile'>Profile</NavLink>
       </div>
     </nav>
   )

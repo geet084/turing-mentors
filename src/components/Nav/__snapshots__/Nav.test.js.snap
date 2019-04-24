@@ -104,6 +104,16 @@ ShallowWrapper {
             >
               Contribute
             </NavLink>
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/profile"
+            >
+              Profile
+            </NavLink>
           </Collapsible>
         </div>,
         <div
@@ -149,6 +159,16 @@ ShallowWrapper {
             to="/contribute"
           >
             Contribute
+          </NavLink>
+          <NavLink
+            activeStyle={
+              Object {
+                "color": "#12f1fc",
+              }
+            }
+            to="/profile"
+          >
+            Profile
           </NavLink>
         </div>,
       ],
@@ -279,6 +299,16 @@ ShallowWrapper {
             >
               Contribute
             </NavLink>
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/profile"
+            >
+              Profile
+            </NavLink>
           </Collapsible>,
         },
         "ref": null,
@@ -328,6 +358,16 @@ ShallowWrapper {
                 to="/contribute"
               >
                 Contribute
+              </NavLink>,
+              <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/profile"
+              >
+                Profile
               </NavLink>,
             ],
             "className": "",
@@ -420,6 +460,21 @@ ShallowWrapper {
               "rendered": "Contribute",
               "type": [Function],
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
+                "children": "Profile",
+                "to": "/profile",
+              },
+              "ref": null,
+              "rendered": "Profile",
+              "type": [Function],
+            },
           ],
           "type": [Function],
         },
@@ -471,6 +526,16 @@ ShallowWrapper {
               to="/contribute"
             >
               Contribute
+            </NavLink>,
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/profile"
+            >
+              Profile
             </NavLink>,
           ],
           "className": "links",
@@ -536,6 +601,21 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "Contribute",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "Profile",
+              "to": "/profile",
+            },
+            "ref": null,
+            "rendered": "Profile",
             "type": [Function],
           },
         ],
@@ -636,6 +716,16 @@ ShallowWrapper {
               >
                 Contribute
               </NavLink>
+              <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/profile"
+              >
+                Profile
+              </NavLink>
             </Collapsible>
           </div>,
           <div
@@ -681,6 +771,16 @@ ShallowWrapper {
               to="/contribute"
             >
               Contribute
+            </NavLink>
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="/profile"
+            >
+              Profile
             </NavLink>
           </div>,
         ],
@@ -811,6 +911,16 @@ ShallowWrapper {
               >
                 Contribute
               </NavLink>
+              <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/profile"
+              >
+                Profile
+              </NavLink>
             </Collapsible>,
           },
           "ref": null,
@@ -860,6 +970,16 @@ ShallowWrapper {
                   to="/contribute"
                 >
                   Contribute
+                </NavLink>,
+                <NavLink
+                  activeStyle={
+                    Object {
+                      "color": "#12f1fc",
+                    }
+                  }
+                  to="/profile"
+                >
+                  Profile
                 </NavLink>,
               ],
               "className": "",
@@ -952,6 +1072,21 @@ ShallowWrapper {
                 "rendered": "Contribute",
                 "type": [Function],
               },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeStyle": Object {
+                    "color": "#12f1fc",
+                  },
+                  "children": "Profile",
+                  "to": "/profile",
+                },
+                "ref": null,
+                "rendered": "Profile",
+                "type": [Function],
+              },
             ],
             "type": [Function],
           },
@@ -1003,6 +1138,16 @@ ShallowWrapper {
                 to="/contribute"
               >
                 Contribute
+              </NavLink>,
+              <NavLink
+                activeStyle={
+                  Object {
+                    "color": "#12f1fc",
+                  }
+                }
+                to="/profile"
+              >
+                Profile
               </NavLink>,
             ],
             "className": "links",
@@ -1068,6 +1213,21 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Contribute",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
+                "children": "Profile",
+                "to": "/profile",
+              },
+              "ref": null,
+              "rendered": "Profile",
               "type": [Function],
             },
           ],

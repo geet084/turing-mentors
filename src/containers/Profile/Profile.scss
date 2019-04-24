@@ -1,0 +1,9 @@
+.profile {
+  .Collapsible__contentInner {
+    display: flex;
+    flex-direction: column;
+    p {
+      margin: 5px;
+    }
+  }
+}

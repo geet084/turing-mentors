@@ -29,36 +29,42 @@ ShallowWrapper {
         <form>
           <CreateCheckbox
             checkBoxes={[Function]}
+            checked={false}
             field="stress_management"
             name="stress_management"
             value={1}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
+            checked={false}
             field="public_speaking"
             name="public_speaking"
             value={2}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
+            checked={false}
             field="resumes"
             name="resumes"
             value={3}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
+            checked={false}
             field="technical_interviews"
             name="technical_interviews"
             value={4}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
+            checked={false}
             field="parenting"
             name="parenting"
             value={5}
           />
           <CreateCheckbox
             checkBoxes={[Function]}
+            checked={false}
             field="wellness"
             name="wellness"
             value={6}
@@ -107,36 +113,42 @@ ShallowWrapper {
           "children": Array [
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="stress_management"
               name="stress_management"
               value={1}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="public_speaking"
               name="public_speaking"
               value={2}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="resumes"
               name="resumes"
               value={3}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="technical_interviews"
               name="technical_interviews"
               value={4}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="parenting"
               name="parenting"
               value={5}
             />,
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="wellness"
               name="wellness"
               value={6}
@@ -151,6 +163,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
+              "checked": false,
               "field": "stress_management",
               "name": "stress_management",
               "value": 1,
@@ -165,6 +178,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
+              "checked": false,
               "field": "public_speaking",
               "name": "public_speaking",
               "value": 2,
@@ -179,6 +193,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
+              "checked": false,
               "field": "resumes",
               "name": "resumes",
               "value": 3,
@@ -193,6 +208,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
+              "checked": false,
               "field": "technical_interviews",
               "name": "technical_interviews",
               "value": 4,
@@ -207,6 +223,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
+              "checked": false,
               "field": "parenting",
               "name": "parenting",
               "value": 5,
@@ -221,6 +238,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "checkBoxes": [Function],
+              "checked": false,
               "field": "wellness",
               "name": "wellness",
               "value": 6,
@@ -294,36 +312,42 @@ ShallowWrapper {
           <form>
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="stress_management"
               name="stress_management"
               value={1}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="public_speaking"
               name="public_speaking"
               value={2}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="resumes"
               name="resumes"
               value={3}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="technical_interviews"
               name="technical_interviews"
               value={4}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="parenting"
               name="parenting"
               value={5}
             />
             <CreateCheckbox
               checkBoxes={[Function]}
+              checked={false}
               field="wellness"
               name="wellness"
               value={6}
@@ -372,36 +396,42 @@ ShallowWrapper {
             "children": Array [
               <CreateCheckbox
                 checkBoxes={[Function]}
+                checked={false}
                 field="stress_management"
                 name="stress_management"
                 value={1}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
+                checked={false}
                 field="public_speaking"
                 name="public_speaking"
                 value={2}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
+                checked={false}
                 field="resumes"
                 name="resumes"
                 value={3}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
+                checked={false}
                 field="technical_interviews"
                 name="technical_interviews"
                 value={4}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
+                checked={false}
                 field="parenting"
                 name="parenting"
                 value={5}
               />,
               <CreateCheckbox
                 checkBoxes={[Function]}
+                checked={false}
                 field="wellness"
                 name="wellness"
                 value={6}
@@ -416,6 +446,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
+                "checked": false,
                 "field": "stress_management",
                 "name": "stress_management",
                 "value": 1,
@@ -430,6 +461,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
+                "checked": false,
                 "field": "public_speaking",
                 "name": "public_speaking",
                 "value": 2,
@@ -444,6 +476,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
+                "checked": false,
                 "field": "resumes",
                 "name": "resumes",
                 "value": 3,
@@ -458,6 +491,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
+                "checked": false,
                 "field": "technical_interviews",
                 "name": "technical_interviews",
                 "value": 4,
@@ -472,6 +506,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
+                "checked": false,
                 "field": "parenting",
                 "name": "parenting",
                 "value": 5,
@@ -486,6 +521,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "checkBoxes": [Function],
+                "checked": false,
                 "field": "wellness",
                 "name": "wellness",
                 "value": 6,
