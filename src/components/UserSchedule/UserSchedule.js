@@ -4,17 +4,17 @@ import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
 export class UserSchedule extends Component {
   constructor(props) {
     super(props)
-    const { day0, day1, day2, day3, day4, day5, day6 } = this.props
-    
+    const { availability } = this.props
+
     this.state = {
-      availability: {
-        0: day0 || [false, false, false],
-        1: day1 || [false, false, false],
-        2: day2 || [false, false, false],
-        3: day3 || [false, false, false],
-        4: day4 || [false, false, false],
-        5: day5 || [false, false, false],
-        6: day6 || [false, false, false],
+      availability: availability || {
+        0: [false, false, false],
+        1: [false, false, false],
+        2: [false, false, false],
+        3: [false, false, false],
+        4: [false, false, false],
+        5: [false, false, false],
+        6: [false, false, false],
       }
     }
   }
