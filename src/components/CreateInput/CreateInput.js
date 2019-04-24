@@ -3,19 +3,19 @@ import React, { Component } from 'react';
 export class CreateInput extends Component {
 
   render() {
-    const classes = this.props.value ? 'input-effect has-content' : 'input-effect';
+    const { handleChange, field, max, text, value } = this.props;
 
     return (
       <div className="input-box">
         <input
-          className={classes}
+          className={value ? 'input-effect has-content' : 'input-effect'}
           type="text"
-          placeholder=""
-          maxLength={this.props.max}
-          name={this.props.field}
-          onChange={this.props.handleChange}
+          value={value}
+          maxLength={max}
+          name={field}
+          onChange={handleChange}
         />
-        <label>{this.props.text}</label>
+        <label>{text}</label>
         <span className="focus-border"></span>
       </div>
     )
