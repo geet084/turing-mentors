@@ -56,7 +56,17 @@ describe('UserInfo', () => {
       wrapper.instance().updateIdentity(mockEvent);
 
       expect(wrapper.state('identities')).toEqual(expected)
+    });
+    
+    it('should update the deselected identity in state', () => {
+      const mockEvent = { target: { name: 'identities', value: 1 } };
+      const expected = [];
 
+      wrapper.instance().updateIdentity(mockEvent);
+      expect(wrapper.state('identities')).toEqual([1]);
+      wrapper.instance().updateIdentity(mockEvent);
+
+      expect(wrapper.state('identities')).toEqual(expected)
     });
   });
 
@@ -84,12 +94,24 @@ describe('UserInfo', () => {
   });
 
   describe('updateProgram', () => {
-    it('should update the program', () => {
+    it('should update the program selected', () => {
       const mockEvent = { target: { name: 'program', value: 'BE' } };
       const expected = 'BE';
 
       expect(wrapper.state('program')).toEqual('');
       wrapper.instance().updateProgram(mockEvent);
+
+      expect(wrapper.state('program')).toEqual(expected);
+    });
+    
+    it('should update the program when selection changes', () => {
+      const mockEventBE = { target: { name: 'program', value: 'BE' } };
+      const mockEventFE = { target: { name: 'program', value: 'FE' } };
+      const expected = 'FE';
+
+      wrapper.instance().updateProgram(mockEventBE);
+      expect(wrapper.state('program')).toEqual('BE');
+      wrapper.instance().updateProgram(mockEventFE);
 
       expect(wrapper.state('program')).toEqual(expected);
     });
