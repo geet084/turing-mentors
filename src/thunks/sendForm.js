@@ -1,4 +1,4 @@
-import { isLoading, hasErrored, postMentorSuccess } from '../actions';
+import { isLoading, hasErrored, postMentorSuccess, resetForm } from '../actions';
 
 export const sendForm = (url, form) => {
   return async (dispatch) => {
@@ -15,6 +15,7 @@ export const sendForm = (url, form) => {
       dispatch(isLoading(false));
       const results = await response.json();
       dispatch(postMentorSuccess(results.data));
+      dispatch(resetForm());
     } catch (error) {
       dispatch(hasErrored(error.message));
       dispatch(isLoading(false));

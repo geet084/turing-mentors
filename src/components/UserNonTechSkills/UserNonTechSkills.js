@@ -35,7 +35,7 @@ export class UserNonTechSkills extends Component {
     const { profile, user } = this.props;
     const non_tech_skills = ['stress_management', 'public_speaking', 'resumes', 'technical_interviews', 'parenting', 'wellness'];
     const checkBoxes = non_tech_skills.map((skill, index) => {
-      return <CreateCheckbox key={skill} field={skill} name={skill} value={index + 1} checkBoxes={this.checkBoxes} checked={this.state.non_tech_skills.includes(index.toString()) ? true : false} />
+      return <CreateCheckbox key={skill} field={skill} name={skill} value={index + 1} checkBoxes={this.checkBoxes} checked={this.state.non_tech_skills.includes((index + 1).toString()) ? true : false} />
     });
 
     return (
