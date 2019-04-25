@@ -18,18 +18,28 @@ describe('Mentors', () => {
     it('should have match the default snapshot', () => {
       expect(wrapper).toMatchSnapshot();
     });
+
+    it('should have match the default snapshot with no mentors', () => {
+      wrapper.setProps({ mentors: [] })
+      expect(wrapper).toMatchSnapshot();
+    });
+
+    it('should have match the default snapshot with mentors', () => {
+      wrapper.setProps({ mentors: [{ id: 1 }, { id: 2 }] })
+      expect(wrapper).toMatchSnapshot();
+    });
   });
 
   describe('getUpdated', () => {
     it('should retrieve the correct list of mentors in denver', () => {
       const mockURL = 'https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=denver';
       const mockEvent = { target: { name: 'denver' } };
-      
+
       wrapper.instance().handleChange(mockEvent);
 
       expect(mockProps.getMentors).toHaveBeenCalledWith(mockURL)
     });
-    
+
     it('should retrieve the correct list of mentors not in denver', () => {
       const mockURL = 'https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=remote';
       const mockEvent = { target: { name: 'remote' } };
@@ -38,7 +48,7 @@ describe('Mentors', () => {
 
       expect(mockProps.getMentors).toHaveBeenCalledWith(mockURL)
     });
-    
+
     it('should retrieve the correct list of mentors with javascript', () => {
       const mockURL = 'https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=all&tech_skills=javascript';
       const mockEvent = { target: { name: 'javascript' } };
@@ -47,7 +57,7 @@ describe('Mentors', () => {
 
       expect(mockProps.getMentors).toHaveBeenCalledWith(mockURL)
     });
-    
+
     it('should retrieve the correct list of mentors with ruby', () => {
       const mockURL = 'https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=all&tech_skills=ruby';
       const mockEvent = { target: { name: 'ruby' } };

@@ -357,3 +357,697 @@ ShallowWrapper {
   Symbol(enzyme.__childContext__): null,
 }
 `;
+
+exports[`Mentors initial should have match the default snapshot with mentors 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Mentors
+    getMentors={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=all",
+          ],
+          Array [
+            "https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=all",
+          ],
+          Array [
+            "https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=all",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    mentors={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <MentorControls
+          c={false}
+          denver={false}
+          elixer={false}
+          handleChange={[Function]}
+          handleSearch={[Function]}
+          java={false}
+          javascript={false}
+          mentorSearch=""
+          php={false}
+          python={false}
+          remote={false}
+          ruby={false}
+          sql={false}
+          swift={false}
+        />,
+        <MasonryComponent
+          breakpointCols={
+            Object {
+              "1100": 3,
+              "500": 1,
+              "700": 2,
+              "default": 4,
+            }
+          }
+          className="mentors-grid"
+          columnClassName="mentors-grid_column"
+          disableImagesLoaded={false}
+          elementType="div"
+          enableResizableChildren={false}
+          imagesLoadedOptions={Object {}}
+          onLayoutComplete={[Function]}
+          onRemoveComplete={[Function]}
+          options={Object {}}
+          updateOnEachImageLoad={false}
+        >
+          <MentorCard
+            id={1}
+          />
+          <MentorCard
+            id={2}
+          />
+        </MasonryComponent>,
+      ],
+      "className": "mentors-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "c": false,
+          "denver": false,
+          "elixer": false,
+          "handleChange": [Function],
+          "handleSearch": [Function],
+          "java": false,
+          "javascript": false,
+          "mentorSearch": "",
+          "php": false,
+          "python": false,
+          "remote": false,
+          "ruby": false,
+          "sql": false,
+          "swift": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "breakpointCols": Object {
+            "1100": 3,
+            "500": 1,
+            "700": 2,
+            "default": 4,
+          },
+          "children": Array [
+            Array [
+              <MentorCard
+                id={1}
+              />,
+              <MentorCard
+                id={2}
+              />,
+            ],
+            false,
+            false,
+          ],
+          "className": "mentors-grid",
+          "columnClassName": "mentors-grid_column",
+          "disableImagesLoaded": false,
+          "elementType": "div",
+          "enableResizableChildren": false,
+          "imagesLoadedOptions": Object {},
+          "onLayoutComplete": [Function],
+          "onRemoveComplete": [Function],
+          "options": Object {},
+          "updateOnEachImageLoad": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "id": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "id": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+          false,
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <MentorControls
+            c={false}
+            denver={false}
+            elixer={false}
+            handleChange={[Function]}
+            handleSearch={[Function]}
+            java={false}
+            javascript={false}
+            mentorSearch=""
+            php={false}
+            python={false}
+            remote={false}
+            ruby={false}
+            sql={false}
+            swift={false}
+          />,
+          <MasonryComponent
+            breakpointCols={
+              Object {
+                "1100": 3,
+                "500": 1,
+                "700": 2,
+                "default": 4,
+              }
+            }
+            className="mentors-grid"
+            columnClassName="mentors-grid_column"
+            disableImagesLoaded={false}
+            elementType="div"
+            enableResizableChildren={false}
+            imagesLoadedOptions={Object {}}
+            onLayoutComplete={[Function]}
+            onRemoveComplete={[Function]}
+            options={Object {}}
+            updateOnEachImageLoad={false}
+          >
+            <MentorCard
+              id={1}
+            />
+            <MentorCard
+              id={2}
+            />
+          </MasonryComponent>,
+        ],
+        "className": "mentors-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "c": false,
+            "denver": false,
+            "elixer": false,
+            "handleChange": [Function],
+            "handleSearch": [Function],
+            "java": false,
+            "javascript": false,
+            "mentorSearch": "",
+            "php": false,
+            "python": false,
+            "remote": false,
+            "ruby": false,
+            "sql": false,
+            "swift": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "breakpointCols": Object {
+              "1100": 3,
+              "500": 1,
+              "700": 2,
+              "default": 4,
+            },
+            "children": Array [
+              Array [
+                <MentorCard
+                  id={1}
+                />,
+                <MentorCard
+                  id={2}
+                />,
+              ],
+              false,
+              false,
+            ],
+            "className": "mentors-grid",
+            "columnClassName": "mentors-grid_column",
+            "disableImagesLoaded": false,
+            "elementType": "div",
+            "enableResizableChildren": false,
+            "imagesLoadedOptions": Object {},
+            "onLayoutComplete": [Function],
+            "onRemoveComplete": [Function],
+            "options": Object {},
+            "updateOnEachImageLoad": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "id": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "id": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+            false,
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Mentors initial should have match the default snapshot with no mentors 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Mentors
+    getMentors={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=all",
+          ],
+          Array [
+            "https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=all",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    mentors={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <MentorControls
+          c={false}
+          denver={false}
+          elixer={false}
+          handleChange={[Function]}
+          handleSearch={[Function]}
+          java={false}
+          javascript={false}
+          mentorSearch=""
+          php={false}
+          python={false}
+          remote={false}
+          ruby={false}
+          sql={false}
+          swift={false}
+        />,
+        <MasonryComponent
+          breakpointCols={
+            Object {
+              "1100": 3,
+              "500": 1,
+              "700": 2,
+              "default": 4,
+            }
+          }
+          className="mentors-grid"
+          columnClassName="mentors-grid_column"
+          disableImagesLoaded={false}
+          elementType="div"
+          enableResizableChildren={false}
+          imagesLoadedOptions={Object {}}
+          onLayoutComplete={[Function]}
+          onRemoveComplete={[Function]}
+          options={Object {}}
+          updateOnEachImageLoad={false}
+        >
+          <h3
+            className="mentors-results"
+          >
+            Loading Mentors...
+          </h3>
+        </MasonryComponent>,
+      ],
+      "className": "mentors-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "c": false,
+          "denver": false,
+          "elixer": false,
+          "handleChange": [Function],
+          "handleSearch": [Function],
+          "java": false,
+          "javascript": false,
+          "mentorSearch": "",
+          "php": false,
+          "python": false,
+          "remote": false,
+          "ruby": false,
+          "sql": false,
+          "swift": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "breakpointCols": Object {
+            "1100": 3,
+            "500": 1,
+            "700": 2,
+            "default": 4,
+          },
+          "children": Array [
+            Array [],
+            <h3
+              className="mentors-results"
+            >
+              Loading Mentors...
+            </h3>,
+            false,
+          ],
+          "className": "mentors-grid",
+          "columnClassName": "mentors-grid_column",
+          "disableImagesLoaded": false,
+          "elementType": "div",
+          "enableResizableChildren": false,
+          "imagesLoadedOptions": Object {},
+          "onLayoutComplete": [Function],
+          "onRemoveComplete": [Function],
+          "options": Object {},
+          "updateOnEachImageLoad": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Loading Mentors...",
+              "className": "mentors-results",
+            },
+            "ref": null,
+            "rendered": "Loading Mentors...",
+            "type": "h3",
+          },
+          false,
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <MentorControls
+            c={false}
+            denver={false}
+            elixer={false}
+            handleChange={[Function]}
+            handleSearch={[Function]}
+            java={false}
+            javascript={false}
+            mentorSearch=""
+            php={false}
+            python={false}
+            remote={false}
+            ruby={false}
+            sql={false}
+            swift={false}
+          />,
+          <MasonryComponent
+            breakpointCols={
+              Object {
+                "1100": 3,
+                "500": 1,
+                "700": 2,
+                "default": 4,
+              }
+            }
+            className="mentors-grid"
+            columnClassName="mentors-grid_column"
+            disableImagesLoaded={false}
+            elementType="div"
+            enableResizableChildren={false}
+            imagesLoadedOptions={Object {}}
+            onLayoutComplete={[Function]}
+            onRemoveComplete={[Function]}
+            options={Object {}}
+            updateOnEachImageLoad={false}
+          >
+            <h3
+              className="mentors-results"
+            >
+              Loading Mentors...
+            </h3>
+          </MasonryComponent>,
+        ],
+        "className": "mentors-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "c": false,
+            "denver": false,
+            "elixer": false,
+            "handleChange": [Function],
+            "handleSearch": [Function],
+            "java": false,
+            "javascript": false,
+            "mentorSearch": "",
+            "php": false,
+            "python": false,
+            "remote": false,
+            "ruby": false,
+            "sql": false,
+            "swift": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "breakpointCols": Object {
+              "1100": 3,
+              "500": 1,
+              "700": 2,
+              "default": 4,
+            },
+            "children": Array [
+              Array [],
+              <h3
+                className="mentors-results"
+              >
+                Loading Mentors...
+              </h3>,
+              false,
+            ],
+            "className": "mentors-grid",
+            "columnClassName": "mentors-grid_column",
+            "disableImagesLoaded": false,
+            "elementType": "div",
+            "enableResizableChildren": false,
+            "imagesLoadedOptions": Object {},
+            "onLayoutComplete": [Function],
+            "onRemoveComplete": [Function],
+            "options": Object {},
+            "updateOnEachImageLoad": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Loading Mentors...",
+                "className": "mentors-results",
+              },
+              "ref": null,
+              "rendered": "Loading Mentors...",
+              "type": "h3",
+            },
+            false,
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
