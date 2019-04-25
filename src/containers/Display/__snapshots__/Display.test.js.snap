@@ -4,6 +4,79 @@ exports[`Display initial should have match the correct snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Display
+    mentors={
+      Array [
+        Object {
+          "attributes": Object {
+            "availability": Object {
+              "0": Array [
+                true,
+                false,
+                false,
+              ],
+              "1": Array [
+                true,
+                false,
+                false,
+              ],
+              "2": Array [
+                true,
+                false,
+                false,
+              ],
+              "3": Array [
+                true,
+                false,
+                false,
+              ],
+              "4": Array [
+                true,
+                false,
+                false,
+              ],
+              "5": Array [
+                false,
+                true,
+                false,
+              ],
+              "6": Array [
+                false,
+                true,
+                false,
+              ],
+            },
+            "background": "Things",
+            "cohort": 1401,
+            "contact_details": Object {
+              "email": "jeff@email.com",
+              "linkedin": "jeff-casimir-839123",
+              "phone": "3037313117",
+              "preferred_method": "1",
+              "slack": "@j3",
+            },
+            "current_job": "Director",
+            "first_name": "Jeff",
+            "identities": Array [
+              1,
+            ],
+            "last_name": "Casimir",
+            "location": "Denver, CO",
+            "non_tech_skills": Array [
+              "1",
+              "3",
+              "5",
+            ],
+            "program": "BE",
+            "tech_skills": Array [
+              "1",
+              "2",
+              "7",
+            ],
+          },
+          "id": "1",
+        },
+      ]
+    }
     sendSlack={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {

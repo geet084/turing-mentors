@@ -4,6 +4,7 @@ exports[`UserBio initial snapshot should match the correct mentee snapshot 1`] =
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <UserBio
+    profile={false}
     updateUserInfo={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -806,6 +807,7 @@ exports[`UserBio initial snapshot should match the correct mentor snapshot 1`] =
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <UserBio
+    profile={false}
     updateUserInfo={[MockFunction]}
     user="Mentor"
   />,
@@ -1632,6 +1634,3857 @@ ShallowWrapper {
           ],
           "type": "span",
         },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`UserBio initial snapshot should match the correct preferred_method "1" snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserBio
+    profile={false}
+    updateUserInfo={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          autoComplete="off"
+          onSubmit={[Function]}
+        >
+          <span
+            className="pages"
+          >
+             Contact info:
+          </span>
+          <CreateInput
+            field="slack"
+            handleChange={[Function]}
+            max="28"
+            text="Slack Handle"
+            value=""
+          />
+          <CreateInput
+            field="email"
+            handleChange={[Function]}
+            max="28"
+            text="Email Address"
+            value=""
+          />
+          <CreateInput
+            field="linkedin"
+            handleChange={[Function]}
+            max="28"
+            text="LinkedIn"
+            value=""
+          />
+          <CreateInput
+            field="phone"
+            handleChange={[Function]}
+            max="12"
+            text="Phone Number"
+            value=""
+          />
+          <p
+            className="pages"
+          >
+            Preferred Method of Contact:
+          </p>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={true}
+            field="preferred_method"
+            name="Email"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Slack"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="LinkedIn"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Phone"
+            value={4}
+          />
+        </form>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Back
+        </button>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Next
+        </button>,
+        <span
+          className="pages"
+        >
+          2 of 
+          4
+        </span>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "autoComplete": "off",
+          "children": Array [
+            <span
+              className="pages"
+            >
+               Contact info:
+            </span>,
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />,
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />,
+            <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />,
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />,
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={true}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
+            />,
+            false,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                " Contact info:",
+              ],
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              " Contact info:",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "slack",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Slack Handle",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "email",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Email Address",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "linkedin",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "LinkedIn",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "phone",
+              "handleChange": [Function],
+              "max": "12",
+              "text": "Phone Number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Preferred Method of Contact:",
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": "Preferred Method of Contact:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": true,
+              "field": "preferred_method",
+              "name": "Email",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Slack",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "LinkedIn",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Phone",
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Back",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Back",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Next",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Next",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2 of ",
+            "4",
+          ],
+          "className": "pages",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2 of ",
+          "4",
+        ],
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            autoComplete="off"
+            onSubmit={[Function]}
+          >
+            <span
+              className="pages"
+            >
+               Contact info:
+            </span>
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />
+            <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={true}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
+            />
+          </form>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Back
+          </button>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Next
+          </button>,
+          <span
+            className="pages"
+          >
+            2 of 
+            4
+          </span>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "autoComplete": "off",
+            "children": Array [
+              <span
+                className="pages"
+              >
+                 Contact info:
+              </span>,
+              <CreateInput
+                field="slack"
+                handleChange={[Function]}
+                max="28"
+                text="Slack Handle"
+                value=""
+              />,
+              <CreateInput
+                field="email"
+                handleChange={[Function]}
+                max="28"
+                text="Email Address"
+                value=""
+              />,
+              <CreateInput
+                field="linkedin"
+                handleChange={[Function]}
+                max="28"
+                text="LinkedIn"
+                value=""
+              />,
+              <CreateInput
+                field="phone"
+                handleChange={[Function]}
+                max="12"
+                text="Phone Number"
+                value=""
+              />,
+              <p
+                className="pages"
+              >
+                Preferred Method of Contact:
+              </p>,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={true}
+                field="preferred_method"
+                name="Email"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Slack"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="LinkedIn"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Phone"
+                value={4}
+              />,
+              false,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  " Contact info:",
+                ],
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                " Contact info:",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "slack",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Slack Handle",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "email",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Email Address",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "linkedin",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "LinkedIn",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "phone",
+                "handleChange": [Function],
+                "max": "12",
+                "text": "Phone Number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Preferred Method of Contact:",
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": "Preferred Method of Contact:",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": true,
+                "field": "preferred_method",
+                "name": "Email",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Slack",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "LinkedIn",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Phone",
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Back",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Back",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Next",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Next",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2 of ",
+              "4",
+            ],
+            "className": "pages",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2 of ",
+            "4",
+          ],
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`UserBio initial snapshot should match the correct preferred_method "2" snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserBio
+    profile={false}
+    updateUserInfo={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          autoComplete="off"
+          onSubmit={[Function]}
+        >
+          <span
+            className="pages"
+          >
+             Contact info:
+          </span>
+          <CreateInput
+            field="slack"
+            handleChange={[Function]}
+            max="28"
+            text="Slack Handle"
+            value=""
+          />
+          <CreateInput
+            field="email"
+            handleChange={[Function]}
+            max="28"
+            text="Email Address"
+            value=""
+          />
+          <CreateInput
+            field="linkedin"
+            handleChange={[Function]}
+            max="28"
+            text="LinkedIn"
+            value=""
+          />
+          <CreateInput
+            field="phone"
+            handleChange={[Function]}
+            max="12"
+            text="Phone Number"
+            value=""
+          />
+          <p
+            className="pages"
+          >
+            Preferred Method of Contact:
+          </p>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Email"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={true}
+            field="preferred_method"
+            name="Slack"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="LinkedIn"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Phone"
+            value={4}
+          />
+        </form>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Back
+        </button>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Next
+        </button>,
+        <span
+          className="pages"
+        >
+          2 of 
+          4
+        </span>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "autoComplete": "off",
+          "children": Array [
+            <span
+              className="pages"
+            >
+               Contact info:
+            </span>,
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />,
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />,
+            <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />,
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />,
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={true}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
+            />,
+            false,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                " Contact info:",
+              ],
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              " Contact info:",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "slack",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Slack Handle",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "email",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Email Address",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "linkedin",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "LinkedIn",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "phone",
+              "handleChange": [Function],
+              "max": "12",
+              "text": "Phone Number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Preferred Method of Contact:",
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": "Preferred Method of Contact:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Email",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": true,
+              "field": "preferred_method",
+              "name": "Slack",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "LinkedIn",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Phone",
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Back",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Back",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Next",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Next",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2 of ",
+            "4",
+          ],
+          "className": "pages",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2 of ",
+          "4",
+        ],
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            autoComplete="off"
+            onSubmit={[Function]}
+          >
+            <span
+              className="pages"
+            >
+               Contact info:
+            </span>
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />
+            <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={true}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
+            />
+          </form>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Back
+          </button>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Next
+          </button>,
+          <span
+            className="pages"
+          >
+            2 of 
+            4
+          </span>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "autoComplete": "off",
+            "children": Array [
+              <span
+                className="pages"
+              >
+                 Contact info:
+              </span>,
+              <CreateInput
+                field="slack"
+                handleChange={[Function]}
+                max="28"
+                text="Slack Handle"
+                value=""
+              />,
+              <CreateInput
+                field="email"
+                handleChange={[Function]}
+                max="28"
+                text="Email Address"
+                value=""
+              />,
+              <CreateInput
+                field="linkedin"
+                handleChange={[Function]}
+                max="28"
+                text="LinkedIn"
+                value=""
+              />,
+              <CreateInput
+                field="phone"
+                handleChange={[Function]}
+                max="12"
+                text="Phone Number"
+                value=""
+              />,
+              <p
+                className="pages"
+              >
+                Preferred Method of Contact:
+              </p>,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Email"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={true}
+                field="preferred_method"
+                name="Slack"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="LinkedIn"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Phone"
+                value={4}
+              />,
+              false,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  " Contact info:",
+                ],
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                " Contact info:",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "slack",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Slack Handle",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "email",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Email Address",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "linkedin",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "LinkedIn",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "phone",
+                "handleChange": [Function],
+                "max": "12",
+                "text": "Phone Number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Preferred Method of Contact:",
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": "Preferred Method of Contact:",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Email",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": true,
+                "field": "preferred_method",
+                "name": "Slack",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "LinkedIn",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Phone",
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Back",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Back",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Next",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Next",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2 of ",
+              "4",
+            ],
+            "className": "pages",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2 of ",
+            "4",
+          ],
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`UserBio initial snapshot should match the correct preferred_method "3" snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserBio
+    profile={false}
+    updateUserInfo={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          autoComplete="off"
+          onSubmit={[Function]}
+        >
+          <span
+            className="pages"
+          >
+             Contact info:
+          </span>
+          <CreateInput
+            field="slack"
+            handleChange={[Function]}
+            max="28"
+            text="Slack Handle"
+            value=""
+          />
+          <CreateInput
+            field="email"
+            handleChange={[Function]}
+            max="28"
+            text="Email Address"
+            value=""
+          />
+          <CreateInput
+            field="linkedin"
+            handleChange={[Function]}
+            max="28"
+            text="LinkedIn"
+            value=""
+          />
+          <CreateInput
+            field="phone"
+            handleChange={[Function]}
+            max="12"
+            text="Phone Number"
+            value=""
+          />
+          <p
+            className="pages"
+          >
+            Preferred Method of Contact:
+          </p>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Email"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Slack"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={true}
+            field="preferred_method"
+            name="LinkedIn"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Phone"
+            value={4}
+          />
+        </form>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Back
+        </button>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Next
+        </button>,
+        <span
+          className="pages"
+        >
+          2 of 
+          4
+        </span>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "autoComplete": "off",
+          "children": Array [
+            <span
+              className="pages"
+            >
+               Contact info:
+            </span>,
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />,
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />,
+            <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />,
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />,
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={true}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
+            />,
+            false,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                " Contact info:",
+              ],
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              " Contact info:",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "slack",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Slack Handle",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "email",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Email Address",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "linkedin",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "LinkedIn",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "phone",
+              "handleChange": [Function],
+              "max": "12",
+              "text": "Phone Number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Preferred Method of Contact:",
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": "Preferred Method of Contact:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Email",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Slack",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": true,
+              "field": "preferred_method",
+              "name": "LinkedIn",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Phone",
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Back",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Back",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Next",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Next",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2 of ",
+            "4",
+          ],
+          "className": "pages",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2 of ",
+          "4",
+        ],
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            autoComplete="off"
+            onSubmit={[Function]}
+          >
+            <span
+              className="pages"
+            >
+               Contact info:
+            </span>
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />
+            <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={true}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
+            />
+          </form>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Back
+          </button>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Next
+          </button>,
+          <span
+            className="pages"
+          >
+            2 of 
+            4
+          </span>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "autoComplete": "off",
+            "children": Array [
+              <span
+                className="pages"
+              >
+                 Contact info:
+              </span>,
+              <CreateInput
+                field="slack"
+                handleChange={[Function]}
+                max="28"
+                text="Slack Handle"
+                value=""
+              />,
+              <CreateInput
+                field="email"
+                handleChange={[Function]}
+                max="28"
+                text="Email Address"
+                value=""
+              />,
+              <CreateInput
+                field="linkedin"
+                handleChange={[Function]}
+                max="28"
+                text="LinkedIn"
+                value=""
+              />,
+              <CreateInput
+                field="phone"
+                handleChange={[Function]}
+                max="12"
+                text="Phone Number"
+                value=""
+              />,
+              <p
+                className="pages"
+              >
+                Preferred Method of Contact:
+              </p>,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Email"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Slack"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={true}
+                field="preferred_method"
+                name="LinkedIn"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Phone"
+                value={4}
+              />,
+              false,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  " Contact info:",
+                ],
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                " Contact info:",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "slack",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Slack Handle",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "email",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Email Address",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "linkedin",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "LinkedIn",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "phone",
+                "handleChange": [Function],
+                "max": "12",
+                "text": "Phone Number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Preferred Method of Contact:",
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": "Preferred Method of Contact:",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Email",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Slack",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": true,
+                "field": "preferred_method",
+                "name": "LinkedIn",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Phone",
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Back",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Back",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Next",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Next",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2 of ",
+              "4",
+            ],
+            "className": "pages",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2 of ",
+            "4",
+          ],
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`UserBio initial snapshot should match the correct preferred_method "4" snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserBio
+    profile={false}
+    updateUserInfo={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          autoComplete="off"
+          onSubmit={[Function]}
+        >
+          <span
+            className="pages"
+          >
+             Contact info:
+          </span>
+          <CreateInput
+            field="slack"
+            handleChange={[Function]}
+            max="28"
+            text="Slack Handle"
+            value=""
+          />
+          <CreateInput
+            field="email"
+            handleChange={[Function]}
+            max="28"
+            text="Email Address"
+            value=""
+          />
+          <CreateInput
+            field="linkedin"
+            handleChange={[Function]}
+            max="28"
+            text="LinkedIn"
+            value=""
+          />
+          <CreateInput
+            field="phone"
+            handleChange={[Function]}
+            max="12"
+            text="Phone Number"
+            value=""
+          />
+          <p
+            className="pages"
+          >
+            Preferred Method of Contact:
+          </p>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Email"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Slack"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="LinkedIn"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={true}
+            field="preferred_method"
+            name="Phone"
+            value={4}
+          />
+        </form>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Back
+        </button>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Next
+        </button>,
+        <span
+          className="pages"
+        >
+          2 of 
+          4
+        </span>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "autoComplete": "off",
+          "children": Array [
+            <span
+              className="pages"
+            >
+               Contact info:
+            </span>,
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />,
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />,
+            <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />,
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />,
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={true}
+              field="preferred_method"
+              name="Phone"
+              value={4}
+            />,
+            false,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                " Contact info:",
+              ],
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              " Contact info:",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "slack",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Slack Handle",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "email",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Email Address",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "linkedin",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "LinkedIn",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "phone",
+              "handleChange": [Function],
+              "max": "12",
+              "text": "Phone Number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Preferred Method of Contact:",
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": "Preferred Method of Contact:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Email",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Slack",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "LinkedIn",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": true,
+              "field": "preferred_method",
+              "name": "Phone",
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Back",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Back",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Next",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Next",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2 of ",
+            "4",
+          ],
+          "className": "pages",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2 of ",
+          "4",
+        ],
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            autoComplete="off"
+            onSubmit={[Function]}
+          >
+            <span
+              className="pages"
+            >
+               Contact info:
+            </span>
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />
+            <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={true}
+              field="preferred_method"
+              name="Phone"
+              value={4}
+            />
+          </form>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Back
+          </button>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Next
+          </button>,
+          <span
+            className="pages"
+          >
+            2 of 
+            4
+          </span>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "autoComplete": "off",
+            "children": Array [
+              <span
+                className="pages"
+              >
+                 Contact info:
+              </span>,
+              <CreateInput
+                field="slack"
+                handleChange={[Function]}
+                max="28"
+                text="Slack Handle"
+                value=""
+              />,
+              <CreateInput
+                field="email"
+                handleChange={[Function]}
+                max="28"
+                text="Email Address"
+                value=""
+              />,
+              <CreateInput
+                field="linkedin"
+                handleChange={[Function]}
+                max="28"
+                text="LinkedIn"
+                value=""
+              />,
+              <CreateInput
+                field="phone"
+                handleChange={[Function]}
+                max="12"
+                text="Phone Number"
+                value=""
+              />,
+              <p
+                className="pages"
+              >
+                Preferred Method of Contact:
+              </p>,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Email"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Slack"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="LinkedIn"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={true}
+                field="preferred_method"
+                name="Phone"
+                value={4}
+              />,
+              false,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  " Contact info:",
+                ],
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                " Contact info:",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "slack",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Slack Handle",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "email",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Email Address",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "linkedin",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "LinkedIn",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "phone",
+                "handleChange": [Function],
+                "max": "12",
+                "text": "Phone Number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Preferred Method of Contact:",
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": "Preferred Method of Contact:",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Email",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Slack",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "LinkedIn",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": true,
+                "field": "preferred_method",
+                "name": "Phone",
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Back",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Back",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Next",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Next",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2 of ",
+              "4",
+            ],
+            "className": "pages",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2 of ",
+            "4",
+          ],
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`UserBio initial snapshot should match the correct profile snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserBio
+    profile={true}
+    updateUserInfo={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          autoComplete="off"
+          onSubmit={[Function]}
+        >
+          <CreateInput
+            field="slack"
+            handleChange={[Function]}
+            max="28"
+            text="Slack Handle"
+            value=""
+          />
+          <CreateInput
+            field="email"
+            handleChange={[Function]}
+            max="28"
+            text="Email Address"
+            value=""
+          />
+          <CreateInput
+            field="linkedin"
+            handleChange={[Function]}
+            max="28"
+            text="LinkedIn"
+            value=""
+          />
+          <CreateInput
+            field="phone"
+            handleChange={[Function]}
+            max="12"
+            text="Phone Number"
+            value=""
+          />
+          <p
+            className="pages"
+          >
+            Preferred Method of Contact:
+          </p>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Email"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Slack"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="LinkedIn"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="preferred_method"
+            name="Phone"
+            value={4}
+          />
+        </form>,
+        false,
+        false,
+        false,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "autoComplete": "off",
+          "children": Array [
+            false,
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />,
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />,
+            <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />,
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />,
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
+            />,
+            false,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "slack",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Slack Handle",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "email",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "Email Address",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "linkedin",
+              "handleChange": [Function],
+              "max": "28",
+              "text": "LinkedIn",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "field": "phone",
+              "handleChange": [Function],
+              "max": "12",
+              "text": "Phone Number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Preferred Method of Contact:",
+              "className": "pages",
+            },
+            "ref": null,
+            "rendered": "Preferred Method of Contact:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Email",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Slack",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "LinkedIn",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "preferred_method",
+              "name": "Phone",
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "form",
+      },
+      false,
+      false,
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            autoComplete="off"
+            onSubmit={[Function]}
+          >
+            <CreateInput
+              field="slack"
+              handleChange={[Function]}
+              max="28"
+              text="Slack Handle"
+              value=""
+            />
+            <CreateInput
+              field="email"
+              handleChange={[Function]}
+              max="28"
+              text="Email Address"
+              value=""
+            />
+            <CreateInput
+              field="linkedin"
+              handleChange={[Function]}
+              max="28"
+              text="LinkedIn"
+              value=""
+            />
+            <CreateInput
+              field="phone"
+              handleChange={[Function]}
+              max="12"
+              text="Phone Number"
+              value=""
+            />
+            <p
+              className="pages"
+            >
+              Preferred Method of Contact:
+            </p>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Email"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Slack"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="LinkedIn"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="preferred_method"
+              name="Phone"
+              value={4}
+            />
+          </form>,
+          false,
+          false,
+          false,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "autoComplete": "off",
+            "children": Array [
+              false,
+              <CreateInput
+                field="slack"
+                handleChange={[Function]}
+                max="28"
+                text="Slack Handle"
+                value=""
+              />,
+              <CreateInput
+                field="email"
+                handleChange={[Function]}
+                max="28"
+                text="Email Address"
+                value=""
+              />,
+              <CreateInput
+                field="linkedin"
+                handleChange={[Function]}
+                max="28"
+                text="LinkedIn"
+                value=""
+              />,
+              <CreateInput
+                field="phone"
+                handleChange={[Function]}
+                max="12"
+                text="Phone Number"
+                value=""
+              />,
+              <p
+                className="pages"
+              >
+                Preferred Method of Contact:
+              </p>,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Email"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Slack"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="LinkedIn"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="preferred_method"
+                name="Phone"
+                value={4}
+              />,
+              false,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "slack",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Slack Handle",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "email",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "Email Address",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "linkedin",
+                "handleChange": [Function],
+                "max": "28",
+                "text": "LinkedIn",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "field": "phone",
+                "handleChange": [Function],
+                "max": "12",
+                "text": "Phone Number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Preferred Method of Contact:",
+                "className": "pages",
+              },
+              "ref": null,
+              "rendered": "Preferred Method of Contact:",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Email",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Slack",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "LinkedIn",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "preferred_method",
+                "name": "Phone",
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "form",
+        },
+        false,
+        false,
+        false,
       ],
       "type": "div",
     },

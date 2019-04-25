@@ -37,6 +37,15 @@ describe('actions', () => {
     });
   });
 
+  describe('resetForm', () => {
+    it('should reset the form to be blank', () => {
+      const expected = { type: 'RESET_FORM' };
+
+      const result = actions.resetForm();
+      expect(result).toEqual(expected);
+    });
+  });
+
   describe('getMentorsSuccess', () => {
     it('should get mentors from the database matching provided params', () => {
       const mentors = [{ id: 1, type: 'user' }, { id: 7, type: 'user' }, { id: 19, type: 'user' }];

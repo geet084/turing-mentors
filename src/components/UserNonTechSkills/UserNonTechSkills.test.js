@@ -5,7 +5,8 @@ import { UserNonTechSkills } from './UserNonTechSkills';
 describe('UserNonTechSkills', () => {
   let wrapper;
   const mockProps = {
-    updateUserInfo: jest.fn()
+    updateUserInfo: jest.fn(),
+    user: 'Mentee',
   };
   const mockState = {
     non_tech_skills: []
@@ -16,7 +17,17 @@ describe('UserNonTechSkills', () => {
   });
 
   describe('initial snapshot', () => {
-    it('should match the correct snapshot', () => {
+    it('should match the correct default snapshot', () => {
+      expect(wrapper).toMatchSnapshot();
+    });
+
+    it('should match the correct populated non_tech_skills snapshot', () => {
+      wrapper.setState({ non_tech_skills: ['1'] });
+      expect(wrapper).toMatchSnapshot();
+    });
+
+    it('should match the correct user snapshot', () => {
+      wrapper.setProps({ user: 'Mentor' });
       expect(wrapper).toMatchSnapshot();
     });
   });
@@ -46,13 +57,28 @@ describe('UserNonTechSkills', () => {
   describe('checkBoxes', () => {
     it('should update the selected input in state', () => {
       const mockEvent = { target: { value: 3 } };
-      const expected = {
-        non_tech_skills: [3]
-      }
+      const initial = { non_tech_skills: [] };
+      const expected = { non_tech_skills: [3] };
+
+      expect(wrapper.state()).toEqual(initial);
 
       wrapper.instance().checkBoxes(mockEvent);
+      expect(wrapper.state()).toEqual(expected);
+    });
+
+    it('should update the deselected input in state', () => {
+      const mockEvent = { target: { value: 3 } };
+      const changed = { non_tech_skills: [3] };
+      const expected = { non_tech_skills: [] };
 
       expect(wrapper.state()).toEqual(expected);
+
+      wrapper.instance().checkBoxes(mockEvent);
+      expect(wrapper.state()).toEqual(changed);
+
+      wrapper.instance().checkBoxes(mockEvent);
+      expect(wrapper.state()).toEqual(expected);
+
     });
   });
 });

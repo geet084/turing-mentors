@@ -16,7 +16,17 @@ describe('UserTechSkills', () => {
   });
 
   describe('initial snapshot', () => {
-    it('should match the correct snapshot', () => {
+    it('should match the correct default snapshot', () => {
+      expect(wrapper).toMatchSnapshot();
+    });
+
+    it('should match the correct populated non_tech_skills snapshot', () => {
+      wrapper.setState({ tech_skills: ['1'] });
+      expect(wrapper).toMatchSnapshot();
+    });
+
+    it('should match the correct user snapshot', () => {
+      wrapper.setProps({ user: 'Mentor' });
       expect(wrapper).toMatchSnapshot();
     });
   });
@@ -51,8 +61,22 @@ describe('UserTechSkills', () => {
       }
 
       wrapper.instance().checkBoxes(mockEvent);
+      expect(wrapper.state()).toEqual(expected);
+    });
+
+    it('should update the deselected input in state', () => {
+      const mockEvent = { target: { value: 3 } };
+      const changed = { tech_skills: [3] };
+      const expected = { tech_skills: [] };
 
       expect(wrapper.state()).toEqual(expected);
+
+      wrapper.instance().checkBoxes(mockEvent);
+      expect(wrapper.state()).toEqual(changed);
+
+      wrapper.instance().checkBoxes(mockEvent);
+      expect(wrapper.state()).toEqual(expected);
+
     });
   });
 });

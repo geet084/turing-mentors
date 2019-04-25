@@ -1,6 +1,1777 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MentorPopup should match the correct snapshot 1`] = `
+exports[`MentorPopup should match the correct default snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MentorPopup
+    availability={
+      Object {
+        "0": Array [
+          false,
+          false,
+          false,
+        ],
+        "1": Array [
+          false,
+          false,
+          false,
+        ],
+        "2": Array [
+          false,
+          false,
+          false,
+        ],
+        "3": Array [
+          false,
+          false,
+          false,
+        ],
+        "4": Array [
+          false,
+          false,
+          false,
+        ],
+        "5": Array [
+          false,
+          false,
+          false,
+        ],
+        "6": Array [
+          false,
+          false,
+          false,
+        ],
+      }
+    }
+    contact_details={
+      Object {
+        "slack": "user",
+      }
+    }
+    id={1}
+    identities={
+      Array [
+        1,
+      ]
+    }
+    name="some name"
+    non_tech_skills={
+      Array [
+        "skill",
+      ]
+    }
+    sendMessage={[MockFunction]}
+    tech_skills={
+      Array [
+        "skill",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="name"
+        >
+          <span>
+             
+             
+             
+          </span>
+          <span>
+             
+             
+          </span>
+          <p>
+            <span>
+               
+              1
+               
+            </span>
+          </p>
+        </div>,
+        <div>
+          <span>
+             
+          </span>
+          <span>
+             
+          </span>
+        </div>,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName="contact-info"
+          contentOuterClassName="contact-info"
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName="contact-info"
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="Contact Info  ▼"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+          triggerWhenOpen="Contact Info  ▲"
+        >
+          <p>
+             
+            slack
+            : 
+            user
+             
+          </p>
+        </Collapsible>,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="Skills  ▼"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+          triggerWhenOpen="Skills  ▲"
+        >
+          <div>
+            <p>
+              Tech Skills:
+            </p>
+            <span>
+               
+              skill
+              , 
+            </span>
+          </div>
+          <div>
+            <p>
+              Non-tech Skills:
+            </p>
+            <span>
+               
+              skill
+              , 
+            </span>
+          </div>
+        </Collapsible>,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName="avail"
+          contentOuterClassName="avail"
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName="avail"
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="Availability  ▼"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+          triggerWhenOpen="Availability  ▲"
+        />,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="Background Info  ▼"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+          triggerWhenOpen="Background Info  ▲"
+        >
+          <p />
+        </Collapsible>,
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName="slack-message"
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          ontentOuterClassName="slack-message"
+          open={false}
+          openedClassName="slack-message"
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger="Send slack message  ▼"
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+          triggerWhenOpen="Send slack message  ▲"
+        >
+          <textarea
+            className="bg-info"
+            name="text"
+            onChange={[Function]}
+            placeholder="send slack message"
+            value=""
+          />
+          <button
+            className="slack-btn"
+            onClick={[Function]}
+          >
+            Submit
+          </button>
+        </Collapsible>,
+        <div
+          className="links"
+        >
+          <Link
+            to="/mentors"
+          >
+            GO BACK
+          </Link>
+        </div>,
+      ],
+      "className": "mentor-popup link-content",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+               
+               
+               
+            </span>,
+            <span>
+               
+               
+            </span>,
+            <p>
+              <span>
+                 
+                1
+                 
+              </span>
+            </p>,
+          ],
+          "className": "name",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                undefined,
+                " ",
+                undefined,
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              undefined,
+              " ",
+              undefined,
+              " ",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                undefined,
+                undefined,
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              undefined,
+              undefined,
+              " ",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span>
+                   
+                  1
+                   
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    1,
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  1,
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+               
+            </span>,
+            <span>
+               
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              " ",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              undefined,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <p>
+               
+              slack
+              : 
+              user
+               
+            </p>,
+          ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "contact-info",
+          "contentOuterClassName": "contact-info",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "contact-info",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "Contact Info  ▼",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+          "triggerWhenOpen": "Contact Info  ▲",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "slack",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                "slack",
+                ": ",
+                "user",
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              "slack",
+              ": ",
+              "user",
+              " ",
+            ],
+            "type": "p",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div>
+              <p>
+                Tech Skills:
+              </p>
+              <span>
+                 
+                skill
+                , 
+              </span>
+            </div>,
+            <div>
+              <p>
+                Non-tech Skills:
+              </p>
+              <span>
+                 
+                skill
+                , 
+              </span>
+            </div>,
+          ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "Skills  ▼",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+          "triggerWhenOpen": "Skills  ▲",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Tech Skills:
+                </p>,
+                Array [
+                  <span>
+                     
+                    skill
+                    , 
+                  </span>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Tech Skills:",
+                },
+                "ref": null,
+                "rendered": "Tech Skills:",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "skill",
+                    ", ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "skill",
+                  ", ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Non-tech Skills:
+                </p>,
+                Array [
+                  <span>
+                     
+                    skill
+                    , 
+                  </span>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Non-tech Skills:",
+                },
+                "ref": null,
+                "rendered": "Non-tech Skills:",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "skill",
+                    ", ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "skill",
+                  ", ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "avail",
+          "contentOuterClassName": "avail",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "avail",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "Availability  ▼",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+          "triggerWhenOpen": "Availability  ▲",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <p />,
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "Background Info  ▼",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+          "triggerWhenOpen": "Background Info  ▲",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "p",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <textarea
+              className="bg-info"
+              name="text"
+              onChange={[Function]}
+              placeholder="send slack message"
+              value=""
+            />,
+            <button
+              className="slack-btn"
+              onClick={[Function]}
+            >
+              Submit
+            </button>,
+          ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "slack-message",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "ontentOuterClassName": "slack-message",
+          "open": false,
+          "openedClassName": "slack-message",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": "Send slack message  ▼",
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+          "triggerWhenOpen": "Send slack message  ▲",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "bg-info",
+              "name": "text",
+              "onChange": [Function],
+              "placeholder": "send slack message",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Submit",
+              "className": "slack-btn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Submit",
+            "type": "button",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            to="/mentors"
+          >
+            GO BACK
+          </Link>,
+          "className": "links",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "GO BACK",
+            "to": "/mentors",
+          },
+          "ref": null,
+          "rendered": "GO BACK",
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="name"
+          >
+            <span>
+               
+               
+               
+            </span>
+            <span>
+               
+               
+            </span>
+            <p>
+              <span>
+                 
+                1
+                 
+              </span>
+            </p>
+          </div>,
+          <div>
+            <span>
+               
+            </span>
+            <span>
+               
+            </span>
+          </div>,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName="contact-info"
+            contentOuterClassName="contact-info"
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName="contact-info"
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="Contact Info  ▼"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+            triggerWhenOpen="Contact Info  ▲"
+          >
+            <p>
+               
+              slack
+              : 
+              user
+               
+            </p>
+          </Collapsible>,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="Skills  ▼"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+            triggerWhenOpen="Skills  ▲"
+          >
+            <div>
+              <p>
+                Tech Skills:
+              </p>
+              <span>
+                 
+                skill
+                , 
+              </span>
+            </div>
+            <div>
+              <p>
+                Non-tech Skills:
+              </p>
+              <span>
+                 
+                skill
+                , 
+              </span>
+            </div>
+          </Collapsible>,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName="avail"
+            contentOuterClassName="avail"
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName="avail"
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="Availability  ▼"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+            triggerWhenOpen="Availability  ▲"
+          />,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="Background Info  ▼"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+            triggerWhenOpen="Background Info  ▲"
+          >
+            <p />
+          </Collapsible>,
+          <Collapsible
+            className=""
+            classParentString="Collapsible"
+            contentContainerTagName="div"
+            contentInnerClassName="slack-message"
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            ontentOuterClassName="slack-message"
+            open={false}
+            openedClassName="slack-message"
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="Send slack message  ▼"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+            triggerWhenOpen="Send slack message  ▲"
+          >
+            <textarea
+              className="bg-info"
+              name="text"
+              onChange={[Function]}
+              placeholder="send slack message"
+              value=""
+            />
+            <button
+              className="slack-btn"
+              onClick={[Function]}
+            >
+              Submit
+            </button>
+          </Collapsible>,
+          <div
+            className="links"
+          >
+            <Link
+              to="/mentors"
+            >
+              GO BACK
+            </Link>
+          </div>,
+        ],
+        "className": "mentor-popup link-content",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                 
+                 
+                 
+              </span>,
+              <span>
+                 
+                 
+              </span>,
+              <p>
+                <span>
+                   
+                  1
+                   
+                </span>
+              </p>,
+            ],
+            "className": "name",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  undefined,
+                  " ",
+                  undefined,
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                undefined,
+                " ",
+                undefined,
+                " ",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  undefined,
+                  undefined,
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                undefined,
+                undefined,
+                " ",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span>
+                     
+                    1
+                     
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      1,
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    1,
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                 
+              </span>,
+              <span>
+                 
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                " ",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                undefined,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <p>
+                 
+                slack
+                : 
+                user
+                 
+              </p>,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "contact-info",
+            "contentOuterClassName": "contact-info",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "contact-info",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "Contact Info  ▼",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+            "triggerWhenOpen": "Contact Info  ▲",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "slack",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  "slack",
+                  ": ",
+                  "user",
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "slack",
+                ": ",
+                "user",
+                " ",
+              ],
+              "type": "p",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div>
+                <p>
+                  Tech Skills:
+                </p>
+                <span>
+                   
+                  skill
+                  , 
+                </span>
+              </div>,
+              <div>
+                <p>
+                  Non-tech Skills:
+                </p>
+                <span>
+                   
+                  skill
+                  , 
+                </span>
+              </div>,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "Skills  ▼",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+            "triggerWhenOpen": "Skills  ▲",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Tech Skills:
+                  </p>,
+                  Array [
+                    <span>
+                       
+                      skill
+                      , 
+                    </span>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Tech Skills:",
+                  },
+                  "ref": null,
+                  "rendered": "Tech Skills:",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "skill",
+                      ", ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "skill",
+                    ", ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Non-tech Skills:
+                  </p>,
+                  Array [
+                    <span>
+                       
+                      skill
+                      , 
+                    </span>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Non-tech Skills:",
+                  },
+                  "ref": null,
+                  "rendered": "Non-tech Skills:",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "skill",
+                      ", ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "skill",
+                    ", ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "avail",
+            "contentOuterClassName": "avail",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "avail",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "Availability  ▼",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+            "triggerWhenOpen": "Availability  ▲",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <p />,
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "Background Info  ▼",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+            "triggerWhenOpen": "Background Info  ▲",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <textarea
+                className="bg-info"
+                name="text"
+                onChange={[Function]}
+                placeholder="send slack message"
+                value=""
+              />,
+              <button
+                className="slack-btn"
+                onClick={[Function]}
+              >
+                Submit
+              </button>,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "slack-message",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "ontentOuterClassName": "slack-message",
+            "open": false,
+            "openedClassName": "slack-message",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 400,
+            "trigger": "Send slack message  ▼",
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
+            "triggerWhenOpen": "Send slack message  ▲",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "bg-info",
+                "name": "text",
+                "onChange": [Function],
+                "placeholder": "send slack message",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Submit",
+                "className": "slack-btn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Submit",
+              "type": "button",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              to="/mentors"
+            >
+              GO BACK
+            </Link>,
+            "className": "links",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "GO BACK",
+              "to": "/mentors",
+            },
+            "ref": null,
+            "rendered": "GO BACK",
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`MentorPopup should match the correct snapshot with availabilities 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <MentorPopup
@@ -49,6 +1820,11 @@ ShallowWrapper {
       }
     }
     id={1}
+    identities={
+      Array [
+        1,
+      ]
+    }
     name="some name"
     non_tech_skills={
       Array [
@@ -89,7 +1865,13 @@ ShallowWrapper {
              
              
           </span>
-          <p />
+          <p>
+            <span>
+               
+              1
+               
+            </span>
+          </p>
         </div>,
         <div>
           <span>
@@ -366,7 +2148,13 @@ ShallowWrapper {
                
                
             </span>,
-            <p />,
+            <p>
+              <span>
+                 
+                1
+                 
+              </span>
+            </p>,
           ],
           "className": "name",
         },
@@ -421,10 +2209,36 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": Array [
+                <span>
+                   
+                  1
+                   
+                </span>,
+              ],
             },
             "ref": null,
-            "rendered": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    1,
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  1,
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
             "type": "p",
           },
         ],
@@ -1264,7 +3078,13 @@ ShallowWrapper {
                
                
             </span>
-            <p />
+            <p>
+              <span>
+                 
+                1
+                 
+              </span>
+            </p>
           </div>,
           <div>
             <span>
@@ -1541,7 +3361,13 @@ ShallowWrapper {
                  
                  
               </span>,
-              <p />,
+              <p>
+                <span>
+                   
+                  1
+                   
+                </span>
+              </p>,
             ],
             "className": "name",
           },
@@ -1596,10 +3422,36 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": Array [
+                  <span>
+                     
+                    1
+                     
+                  </span>,
+                ],
               },
               "ref": null,
-              "rendered": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      1,
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    1,
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
               "type": "p",
             },
           ],
