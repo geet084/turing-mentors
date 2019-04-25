@@ -15,8 +15,46 @@ describe('Mentors', () => {
   });
 
   describe('initial', () => {
-    it('should have match the correct snapshot', () => {
+    it('should have match the default snapshot', () => {
       expect(wrapper).toMatchSnapshot();
+    });
+  });
+
+  describe('getUpdated', () => {
+    it('should retrieve the correct list of mentors in denver', () => {
+      const mockURL = 'https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=denver';
+      const mockEvent = { target: { name: 'denver' } };
+      
+      wrapper.instance().handleChange(mockEvent);
+
+      expect(mockProps.getMentors).toHaveBeenCalledWith(mockURL)
+    });
+    
+    it('should retrieve the correct list of mentors not in denver', () => {
+      const mockURL = 'https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=remote';
+      const mockEvent = { target: { name: 'remote' } };
+
+      wrapper.instance().handleChange(mockEvent);
+
+      expect(mockProps.getMentors).toHaveBeenCalledWith(mockURL)
+    });
+    
+    it('should retrieve the correct list of mentors with javascript', () => {
+      const mockURL = 'https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=all&tech_skills=javascript';
+      const mockEvent = { target: { name: 'javascript' } };
+
+      wrapper.instance().handleChange(mockEvent);
+
+      expect(mockProps.getMentors).toHaveBeenCalledWith(mockURL)
+    });
+    
+    it('should retrieve the correct list of mentors with ruby', () => {
+      const mockURL = 'https://cors-anywhere.herokuapp.com/https://turing-mentors-be.herokuapp.com/api/v1/mentors?location=all&tech_skills=ruby';
+      const mockEvent = { target: { name: 'ruby' } };
+
+      wrapper.instance().handleChange(mockEvent);
+
+      expect(mockProps.getMentors).toHaveBeenCalledWith(mockURL)
     });
   });
 
@@ -30,10 +68,10 @@ describe('Mentors', () => {
       expect(wrapper.state('javascript')).toEqual(expected);
     });
   });
-  
+
   describe('handleSearch', () => {
     it('should update the selected input in state', () => {
-      const mockEvent = { target: { name: 'mentorSearch', value:'search param' } };
+      const mockEvent = { target: { name: 'mentorSearch', value: 'search param' } };
       const expected = 'search param';
       expect(wrapper.state('mentorSearch')).toEqual('')
       wrapper.instance().handleSearch(mockEvent);
