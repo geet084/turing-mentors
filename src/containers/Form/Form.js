@@ -40,7 +40,6 @@ export class Form extends Component {
     const path = `/api/v1/mentors`;
     const url = corsPrefix + root + path;
     this.props.sendForm(url, form)
-    this.props.resetForm()
   }
 
   reset = () => {
