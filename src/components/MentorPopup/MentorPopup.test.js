@@ -7,6 +7,7 @@ describe('MentorPopup', () => {
   let mockProps = {
     id: 1,
     name: 'some name',
+    identities: [1],
     availability: {
       0: [false, true, false],
       1: [false, true, false],

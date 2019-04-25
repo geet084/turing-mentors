@@ -49,6 +49,11 @@ ShallowWrapper {
       }
     }
     id={1}
+    identities={
+      Array [
+        1,
+      ]
+    }
     name="some name"
     non_tech_skills={
       Array [
@@ -89,7 +94,13 @@ ShallowWrapper {
              
              
           </span>
-          <p />
+          <p>
+            <span>
+               
+              1
+               
+            </span>
+          </p>
         </div>,
         <div>
           <span>
@@ -366,7 +377,13 @@ ShallowWrapper {
                
                
             </span>,
-            <p />,
+            <p>
+              <span>
+                 
+                1
+                 
+              </span>
+            </p>,
           ],
           "className": "name",
         },
@@ -421,10 +438,36 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": Array [
+                <span>
+                   
+                  1
+                   
+                </span>,
+              ],
             },
             "ref": null,
-            "rendered": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    1,
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  1,
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
             "type": "p",
           },
         ],
@@ -1264,7 +1307,13 @@ ShallowWrapper {
                
                
             </span>
-            <p />
+            <p>
+              <span>
+                 
+                1
+                 
+              </span>
+            </p>
           </div>,
           <div>
             <span>
@@ -1541,7 +1590,13 @@ ShallowWrapper {
                  
                  
               </span>,
-              <p />,
+              <p>
+                <span>
+                   
+                  1
+                   
+                </span>
+              </p>,
             ],
             "className": "name",
           },
@@ -1596,10 +1651,36 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": Array [
+                  <span>
+                     
+                    1
+                     
+                  </span>,
+                ],
               },
               "ref": null,
-              "rendered": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      1,
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    1,
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
               "type": "p",
             },
           ],
