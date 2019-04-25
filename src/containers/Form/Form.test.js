@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Form, mapStateToProps, mapDispatchToProps } from './Form';
-import { updateForm } from '../../actions';
+import { resetForm, updateForm } from '../../actions';
 import { sendForm } from '../../thunks/sendForm';
 
 describe('Form', () => {
@@ -103,6 +103,46 @@ describe('Form', () => {
 
       expect(wrapper.state()).toEqual(expected);
     });
+
+    it('should submit the form when completed', () => {
+      const initialState = {
+        userInfo: {
+          first_name: 'first name',
+          last_name: 'last name',
+          identities: [1],
+          cohort: 1810,
+          program: 'FE',
+          current_job: 'student',
+        },
+        userBio: { slack: 'slack' },
+        userBackground: { background: 'bg' },
+        userSchedule: {},
+        userTechSkills: ['1'],
+        userNonTechSkills: ['4'],
+        currentSection: 'userNonTechSkills',
+      };
+      const expected = {
+        userInfo: {
+          first_name: 'first name',
+          last_name: 'last name',
+          identities: [1],
+          cohort: 1810,
+          program: 'FE',
+          current_job: 'student',
+        },
+        userBio: { slack: 'slack' },
+        userBackground: { background: 'bg' },
+        userSchedule: {},
+        userTechSkills: ['1'],
+        userNonTechSkills: ['4'],
+        currentSection: 'complete',
+      };
+      const mockInfo = [expected.userNonTechSkills, 'complete'];
+      wrapper.setState(initialState)
+      wrapper.instance().updateUserInfo(mockInfo);
+
+      expect(wrapper.state()).toEqual(expected);
+    });
   });
 
   describe('submitForm', () => {
@@ -165,7 +205,7 @@ describe('Form', () => {
       mappedProps.updateForm(mockForm)
 
       expect(mockDispatch).toHaveBeenCalledWith(actionToDispatch)
-    })
+    });
 
     it('should call sendForm dispatch', () => {
       const mockDispatch = jest.fn();
@@ -180,6 +220,17 @@ describe('Form', () => {
       expect(mockDispatch).toHaveBeenCalled();
       // TODO: NEED TO FIX THIS
       // expect(mockDispatch).toHaveBeenCalledWith(actionToDispatch)
-    })
+    });
+
+    it('should call resetForm dispatch', () => {
+      const mockDispatch = jest.fn()
+      
+      const actionToDispatch = resetForm()
+
+      const mappedProps = mapDispatchToProps(mockDispatch)
+      mappedProps.resetForm()
+
+      expect(mockDispatch).toHaveBeenCalledWith(actionToDispatch)
+    });
   })
 });
