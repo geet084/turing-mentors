@@ -9,13 +9,13 @@ describe('MentorPopup', () => {
     name: 'some name',
     identities: [1],
     availability: {
-      0: [false, true, false],
-      1: [false, true, false],
-      2: [false, true, false],
-      3: [false, true, false],
-      4: [false, true, false],
-      5: [false, true, false],
-      6: [false, true, false]
+      0: [false, false, false],
+      1: [false, false, false],
+      2: [false, false, false],
+      3: [false, false, false],
+      4: [false, false, false],
+      5: [false, false, false],
+      6: [false, false, false]
     },
     tech_skills: ['skill'],
     non_tech_skills: ['skill'],
@@ -27,7 +27,22 @@ describe('MentorPopup', () => {
     wrapper = shallow(<MentorPopup {...mockProps} />);
   });
 
-  it('should match the correct snapshot', () => {
+  it('should match the correct default snapshot', () => {
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('should match the correct snapshot with availabilities', () => {
+    wrapper.setProps({
+      availability: {
+        0: [false, true, false],
+        1: [false, true, false],
+        2: [false, true, false],
+        3: [false, true, false],
+        4: [false, true, false],
+        5: [false, true, false],
+        6: [false, true, false]
+      },
+    })
     expect(wrapper).toMatchSnapshot();
   });
 
