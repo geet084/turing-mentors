@@ -60,6 +60,7 @@ export class Form extends Component {
     const mentor = this.props.location.pathname === '/mentor';
     const user = mentor ? 'Mentor' : 'Mentee';
 
+    
     return (
       <div>
         {currentSection === 'userInfo' &&
