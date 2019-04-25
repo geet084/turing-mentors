@@ -1,10 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserNonTechSkills initial snapshot should match the correct snapshot 1`] = `
+exports[`UserNonTechSkills initial snapshot should match the correct default snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <UserNonTechSkills
     updateUserInfo={[MockFunction]}
+    user="Mentee"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -574,6 +575,1224 @@ ShallowWrapper {
           "rendered": Array [
             "6 of ",
             "4",
+          ],
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`UserNonTechSkills initial snapshot should match the correct populated non_tech_skills snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserNonTechSkills
+    updateUserInfo={[MockFunction]}
+    user="Mentee"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="pages"
+        >
+          Mentor NON Tech skills
+        </p>,
+        <form>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={true}
+            field="stress_management"
+            name="stress_management"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="public_speaking"
+            name="public_speaking"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="resumes"
+            name="resumes"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="technical_interviews"
+            name="technical_interviews"
+            value={4}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="parenting"
+            name="parenting"
+            value={5}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="wellness"
+            name="wellness"
+            value={6}
+          />
+        </form>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Back
+        </button>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Submit
+        </button>,
+        <span
+          className="pages"
+        >
+          6 of 
+          4
+        </span>,
+      ],
+      "className": "form-page",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Mentor NON Tech skills",
+          "className": "pages",
+        },
+        "ref": null,
+        "rendered": "Mentor NON Tech skills",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={true}
+              field="stress_management"
+              name="stress_management"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="public_speaking"
+              name="public_speaking"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="resumes"
+              name="resumes"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="technical_interviews"
+              name="technical_interviews"
+              value={4}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="parenting"
+              name="parenting"
+              value={5}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="wellness"
+              name="wellness"
+              value={6}
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "stress_management",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": true,
+              "field": "stress_management",
+              "name": "stress_management",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "public_speaking",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "public_speaking",
+              "name": "public_speaking",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "resumes",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "resumes",
+              "name": "resumes",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "technical_interviews",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "technical_interviews",
+              "name": "technical_interviews",
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "parenting",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "parenting",
+              "name": "parenting",
+              "value": 5,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "wellness",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "wellness",
+              "name": "wellness",
+              "value": 6,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Back",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Back",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Submit",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Submit",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "6 of ",
+            "4",
+          ],
+          "className": "pages",
+        },
+        "ref": null,
+        "rendered": Array [
+          "6 of ",
+          "4",
+        ],
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="pages"
+          >
+            Mentor NON Tech skills
+          </p>,
+          <form>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={true}
+              field="stress_management"
+              name="stress_management"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="public_speaking"
+              name="public_speaking"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="resumes"
+              name="resumes"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="technical_interviews"
+              name="technical_interviews"
+              value={4}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="parenting"
+              name="parenting"
+              value={5}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="wellness"
+              name="wellness"
+              value={6}
+            />
+          </form>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Back
+          </button>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Submit
+          </button>,
+          <span
+            className="pages"
+          >
+            6 of 
+            4
+          </span>,
+        ],
+        "className": "form-page",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Mentor NON Tech skills",
+            "className": "pages",
+          },
+          "ref": null,
+          "rendered": "Mentor NON Tech skills",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={true}
+                field="stress_management"
+                name="stress_management"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="public_speaking"
+                name="public_speaking"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="resumes"
+                name="resumes"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="technical_interviews"
+                name="technical_interviews"
+                value={4}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="parenting"
+                name="parenting"
+                value={5}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="wellness"
+                name="wellness"
+                value={6}
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "stress_management",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": true,
+                "field": "stress_management",
+                "name": "stress_management",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "public_speaking",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "public_speaking",
+                "name": "public_speaking",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "resumes",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "resumes",
+                "name": "resumes",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "technical_interviews",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "technical_interviews",
+                "name": "technical_interviews",
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "parenting",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "parenting",
+                "name": "parenting",
+                "value": 5,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "wellness",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "wellness",
+                "name": "wellness",
+                "value": 6,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Back",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Back",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Submit",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Submit",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "6 of ",
+              "4",
+            ],
+            "className": "pages",
+          },
+          "ref": null,
+          "rendered": Array [
+            "6 of ",
+            "4",
+          ],
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`UserNonTechSkills initial snapshot should match the correct user snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserNonTechSkills
+    updateUserInfo={[MockFunction]}
+    user="Mentor"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="pages"
+        >
+          Mentor NON Tech skills
+        </p>,
+        <form>
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="stress_management"
+            name="stress_management"
+            value={1}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="public_speaking"
+            name="public_speaking"
+            value={2}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="resumes"
+            name="resumes"
+            value={3}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="technical_interviews"
+            name="technical_interviews"
+            value={4}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="parenting"
+            name="parenting"
+            value={5}
+          />
+          <CreateCheckbox
+            checkBoxes={[Function]}
+            checked={false}
+            field="wellness"
+            name="wellness"
+            value={6}
+          />
+        </form>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Back
+        </button>,
+        <button
+          className="next-btn"
+          onClick={[Function]}
+        >
+          Submit
+        </button>,
+        <span
+          className="pages"
+        >
+          6 of 
+          6
+        </span>,
+      ],
+      "className": "form-page",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Mentor NON Tech skills",
+          "className": "pages",
+        },
+        "ref": null,
+        "rendered": "Mentor NON Tech skills",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="stress_management"
+              name="stress_management"
+              value={1}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="public_speaking"
+              name="public_speaking"
+              value={2}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="resumes"
+              name="resumes"
+              value={3}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="technical_interviews"
+              name="technical_interviews"
+              value={4}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="parenting"
+              name="parenting"
+              value={5}
+            />,
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="wellness"
+              name="wellness"
+              value={6}
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "stress_management",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "stress_management",
+              "name": "stress_management",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "public_speaking",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "public_speaking",
+              "name": "public_speaking",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "resumes",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "resumes",
+              "name": "resumes",
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "technical_interviews",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "technical_interviews",
+              "name": "technical_interviews",
+              "value": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "parenting",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "parenting",
+              "name": "parenting",
+              "value": 5,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "wellness",
+            "nodeType": "class",
+            "props": Object {
+              "checkBoxes": [Function],
+              "checked": false,
+              "field": "wellness",
+              "name": "wellness",
+              "value": 6,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Back",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Back",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Submit",
+          "className": "next-btn",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Submit",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "6 of ",
+            "6",
+          ],
+          "className": "pages",
+        },
+        "ref": null,
+        "rendered": Array [
+          "6 of ",
+          "6",
+        ],
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="pages"
+          >
+            Mentor NON Tech skills
+          </p>,
+          <form>
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="stress_management"
+              name="stress_management"
+              value={1}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="public_speaking"
+              name="public_speaking"
+              value={2}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="resumes"
+              name="resumes"
+              value={3}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="technical_interviews"
+              name="technical_interviews"
+              value={4}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="parenting"
+              name="parenting"
+              value={5}
+            />
+            <CreateCheckbox
+              checkBoxes={[Function]}
+              checked={false}
+              field="wellness"
+              name="wellness"
+              value={6}
+            />
+          </form>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Back
+          </button>,
+          <button
+            className="next-btn"
+            onClick={[Function]}
+          >
+            Submit
+          </button>,
+          <span
+            className="pages"
+          >
+            6 of 
+            6
+          </span>,
+        ],
+        "className": "form-page",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Mentor NON Tech skills",
+            "className": "pages",
+          },
+          "ref": null,
+          "rendered": "Mentor NON Tech skills",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="stress_management"
+                name="stress_management"
+                value={1}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="public_speaking"
+                name="public_speaking"
+                value={2}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="resumes"
+                name="resumes"
+                value={3}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="technical_interviews"
+                name="technical_interviews"
+                value={4}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="parenting"
+                name="parenting"
+                value={5}
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                checked={false}
+                field="wellness"
+                name="wellness"
+                value={6}
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "stress_management",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "stress_management",
+                "name": "stress_management",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "public_speaking",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "public_speaking",
+                "name": "public_speaking",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "resumes",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "resumes",
+                "name": "resumes",
+                "value": 3,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "technical_interviews",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "technical_interviews",
+                "name": "technical_interviews",
+                "value": 4,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "parenting",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "parenting",
+                "name": "parenting",
+                "value": 5,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "wellness",
+              "nodeType": "class",
+              "props": Object {
+                "checkBoxes": [Function],
+                "checked": false,
+                "field": "wellness",
+                "name": "wellness",
+                "value": 6,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Back",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Back",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Submit",
+            "className": "next-btn",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Submit",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "6 of ",
+              "6",
+            ],
+            "className": "pages",
+          },
+          "ref": null,
+          "rendered": Array [
+            "6 of ",
+            "6",
           ],
           "type": "span",
         },
