@@ -1,13 +1,17 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { CreateInput } from './CreateInput';
+import { CreateTextInput } from './CreateTextInput';
 
-describe('CreateInput', () => {
+describe('CreateTextInput', () => {
   let wrapper;
-  let mockProps;
+  let mockProps = {
+    text: '',
+    value: '',
+    handleChange: jest.fn()
+  };
 
   beforeEach(() => {
-    wrapper = shallow(<CreateInput {...mockProps} />);
+    wrapper = shallow(<CreateTextInput {...mockProps} />);
   });
 
   it('should match the snapshot', () => {
@@ -16,22 +20,18 @@ describe('CreateInput', () => {
 
   it('should add a class if the input is not empty', () => {
     mockProps = {
-      field: 'field',
       text: 'someText',
       value: 'not empty',
-      max: '99',
       handleChange: jest.fn()
     };
-    
+
     expect(wrapper).toMatchSnapshot();
   });
 
   it('should remove a class if the input is empty', () => {
     mockProps = {
-      field: 'field',
       text: 'someText',
       value: '',
-      max: '99',
       handleChange: jest.fn()
     };
 
