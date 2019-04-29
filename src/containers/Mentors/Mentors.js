@@ -100,9 +100,9 @@ export class Mentors extends Component {
     return (
       <div className="mentors-container">
         <MentorControls {...this.state} handleSearch={this.handleSearch} handleChange={this.handleChange} />
-        <Masonry breakpointCols={breakpointColumnsObj}
+        <Masonry breakpointcols={breakpointColumnsObj}
           className="mentors-grid"
-          columnClassName="mentors-grid_column">
+          columnclassname="mentors-grid_column">
           {mentorSearch.length <= 1 && mentorList}
           {mentors.length === 0 && <h3 className="mentors-results">Loading Mentors...</h3> }
           {mentors.length > 0 && mentorList.length === 0 && <h3 className="mentors-results">No Results found!</h3> }
