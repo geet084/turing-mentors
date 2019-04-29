@@ -215,7 +215,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "slack",
               "handleChange": [Function],
@@ -230,7 +230,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "email",
               "handleChange": [Function],
@@ -245,7 +245,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "linkedin",
               "handleChange": [Function],
@@ -260,7 +260,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "phone",
               "handleChange": [Function],
@@ -595,7 +595,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "slack",
                 "handleChange": [Function],
@@ -610,7 +610,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "email",
                 "handleChange": [Function],
@@ -625,7 +625,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "linkedin",
                 "handleChange": [Function],
@@ -640,7 +640,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "phone",
                 "handleChange": [Function],
@@ -1034,7 +1034,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "slack",
               "handleChange": [Function],
@@ -1049,7 +1049,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "email",
               "handleChange": [Function],
@@ -1064,7 +1064,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "linkedin",
               "handleChange": [Function],
@@ -1079,7 +1079,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "phone",
               "handleChange": [Function],
@@ -1166,7 +1166,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "location",
               "handleChange": [Function],
@@ -1443,7 +1443,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "slack",
                 "handleChange": [Function],
@@ -1458,7 +1458,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "email",
                 "handleChange": [Function],
@@ -1473,7 +1473,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "linkedin",
                 "handleChange": [Function],
@@ -1488,7 +1488,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "phone",
                 "handleChange": [Function],
@@ -1575,7 +1575,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "location",
                 "handleChange": [Function],
@@ -1880,7 +1880,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "slack",
               "handleChange": [Function],
@@ -1895,7 +1895,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "email",
               "handleChange": [Function],
@@ -1910,7 +1910,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "linkedin",
               "handleChange": [Function],
@@ -1925,7 +1925,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "phone",
               "handleChange": [Function],
@@ -2260,7 +2260,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "slack",
                 "handleChange": [Function],
@@ -2275,7 +2275,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "email",
                 "handleChange": [Function],
@@ -2290,7 +2290,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "linkedin",
                 "handleChange": [Function],
@@ -2305,7 +2305,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "phone",
                 "handleChange": [Function],
@@ -2683,7 +2683,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "slack",
               "handleChange": [Function],
@@ -2698,7 +2698,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "email",
               "handleChange": [Function],
@@ -2713,7 +2713,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "linkedin",
               "handleChange": [Function],
@@ -2728,7 +2728,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "phone",
               "handleChange": [Function],
@@ -3063,7 +3063,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "slack",
                 "handleChange": [Function],
@@ -3078,7 +3078,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "email",
                 "handleChange": [Function],
@@ -3093,7 +3093,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "linkedin",
                 "handleChange": [Function],
@@ -3108,7 +3108,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "phone",
                 "handleChange": [Function],
@@ -3486,7 +3486,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "slack",
               "handleChange": [Function],
@@ -3501,7 +3501,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "email",
               "handleChange": [Function],
@@ -3516,7 +3516,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "linkedin",
               "handleChange": [Function],
@@ -3531,7 +3531,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "phone",
               "handleChange": [Function],
@@ -3866,7 +3866,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "slack",
                 "handleChange": [Function],
@@ -3881,7 +3881,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "email",
                 "handleChange": [Function],
@@ -3896,7 +3896,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "linkedin",
                 "handleChange": [Function],
@@ -3911,7 +3911,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "phone",
                 "handleChange": [Function],
@@ -4289,7 +4289,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "slack",
               "handleChange": [Function],
@@ -4304,7 +4304,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "email",
               "handleChange": [Function],
@@ -4319,7 +4319,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "linkedin",
               "handleChange": [Function],
@@ -4334,7 +4334,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "phone",
               "handleChange": [Function],
@@ -4669,7 +4669,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "slack",
                 "handleChange": [Function],
@@ -4684,7 +4684,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "email",
                 "handleChange": [Function],
@@ -4699,7 +4699,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "linkedin",
                 "handleChange": [Function],
@@ -4714,7 +4714,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "phone",
                 "handleChange": [Function],
@@ -5051,7 +5051,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "slack",
               "handleChange": [Function],
@@ -5066,7 +5066,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "email",
               "handleChange": [Function],
@@ -5081,7 +5081,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "linkedin",
               "handleChange": [Function],
@@ -5096,7 +5096,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "phone",
               "handleChange": [Function],
@@ -5349,7 +5349,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "slack",
                 "handleChange": [Function],
@@ -5364,7 +5364,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "email",
                 "handleChange": [Function],
@@ -5379,7 +5379,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "linkedin",
                 "handleChange": [Function],
@@ -5394,7 +5394,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "phone",
                 "handleChange": [Function],

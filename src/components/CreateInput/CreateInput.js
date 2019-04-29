@@ -1,25 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export class CreateInput extends Component {
+export const CreateInput = (props) => {
+  const { field, handleChange, max, text, value } = props;
 
-  render() {
-    const { handleChange, field, max, text, value } = this.props;
-
-    return (
-      <div className="input-box">
-        <input
-          className={value ? 'input-effect has-content' : 'input-effect'}
-          type="text"
-          value={value}
-          maxLength={max}
-          name={field}
-          onChange={handleChange}
-        />
-        <label>{text}</label>
-        <span className="focus-border"></span>
-      </div>
-    )
-  }
+  return (
+    <div className="input-box">
+      <input
+        className={value ? 'input-effect has-content' : 'input-effect'}
+        maxLength={max}
+        name={field}
+        onChange={handleChange}
+        type="text"
+        value={value}
+      />
+      <label>{text}</label>
+      <span className="focus-border"></span>
+    </div>
+  )
 }
 
 export default CreateInput;

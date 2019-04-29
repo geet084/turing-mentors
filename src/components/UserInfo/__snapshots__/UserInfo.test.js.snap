@@ -215,7 +215,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "first_name",
               "handleChange": [Function],
@@ -230,7 +230,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "last_name",
               "handleChange": [Function],
@@ -357,7 +357,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "field": "cohort",
                   "handleChange": [Function],
@@ -669,7 +669,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "first_name",
                 "handleChange": [Function],
@@ -684,7 +684,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "last_name",
                 "handleChange": [Function],
@@ -811,7 +811,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "field": "cohort",
                     "handleChange": [Function],
@@ -1175,7 +1175,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "first_name",
               "handleChange": [Function],
@@ -1190,7 +1190,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "last_name",
               "handleChange": [Function],
@@ -1317,7 +1317,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "field": "cohort",
                   "handleChange": [Function],
@@ -1399,7 +1399,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "field": "current_job",
               "handleChange": [Function],
@@ -1658,7 +1658,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "first_name",
                 "handleChange": [Function],
@@ -1673,7 +1673,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "last_name",
                 "handleChange": [Function],
@@ -1800,7 +1800,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "field": "cohort",
                     "handleChange": [Function],
@@ -1882,7 +1882,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "field": "current_job",
                 "handleChange": [Function],
