@@ -277,7 +277,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "0",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -292,7 +292,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "1",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -307,7 +307,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "2",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -372,7 +372,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -388,7 +388,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -731,7 +731,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "0",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -746,7 +746,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "1",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -761,7 +761,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "2",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -826,7 +826,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -842,7 +842,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -1237,7 +1237,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "0",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -1252,7 +1252,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "1",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -1267,7 +1267,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "2",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -1332,7 +1332,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -1348,7 +1348,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -1720,7 +1720,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "0",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -1735,7 +1735,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "1",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -1750,7 +1750,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "2",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -1815,7 +1815,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -1831,7 +1831,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,

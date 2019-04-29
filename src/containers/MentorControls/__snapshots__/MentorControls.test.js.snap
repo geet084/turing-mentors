@@ -254,7 +254,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "javascript",
@@ -268,7 +268,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "ruby",
@@ -282,7 +282,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "denver",
@@ -296,7 +296,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "remote",
@@ -387,7 +387,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "python",
@@ -401,7 +401,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "java",
@@ -415,7 +415,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "elixer",
@@ -429,7 +429,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "c",
@@ -443,7 +443,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "php",
@@ -457,7 +457,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "swift",
@@ -471,7 +471,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "sql",
@@ -748,7 +748,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "javascript",
@@ -762,7 +762,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "ruby",
@@ -776,7 +776,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "denver",
@@ -790,7 +790,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "remote",
@@ -881,7 +881,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "python",
@@ -895,7 +895,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "java",
@@ -909,7 +909,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "elixer",
@@ -923,7 +923,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "c",
@@ -937,7 +937,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "php",
@@ -951,7 +951,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "swift",
@@ -965,7 +965,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "sql",
@@ -1296,7 +1296,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "javascript",
@@ -1310,7 +1310,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "ruby",
@@ -1324,7 +1324,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "denver",
@@ -1338,7 +1338,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "remote",
@@ -1429,7 +1429,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "python",
@@ -1443,7 +1443,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "java",
@@ -1457,7 +1457,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "elixer",
@@ -1471,7 +1471,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "c",
@@ -1485,7 +1485,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "php",
@@ -1499,7 +1499,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "swift",
@@ -1513,7 +1513,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "sql",
@@ -1810,7 +1810,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "javascript",
@@ -1824,7 +1824,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "ruby",
@@ -1838,7 +1838,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "denver",
@@ -1852,7 +1852,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "remote",
@@ -1943,7 +1943,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "python",
@@ -1957,7 +1957,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "java",
@@ -1971,7 +1971,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "elixer",
@@ -1985,7 +1985,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "c",
@@ -1999,7 +1999,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "php",
@@ -2013,7 +2013,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "swift",
@@ -2027,7 +2027,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "sql",
@@ -2370,7 +2370,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "javascript",
@@ -2384,7 +2384,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "ruby",
@@ -2398,7 +2398,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "denver",
@@ -2412,7 +2412,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "remote",
@@ -2503,7 +2503,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "python",
@@ -2517,7 +2517,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "java",
@@ -2531,7 +2531,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "elixer",
@@ -2545,7 +2545,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "c",
@@ -2559,7 +2559,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "php",
@@ -2573,7 +2573,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "swift",
@@ -2587,7 +2587,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "sql",
@@ -2884,7 +2884,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "javascript",
@@ -2898,7 +2898,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "ruby",
@@ -2912,7 +2912,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "denver",
@@ -2926,7 +2926,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "remote",
@@ -3017,7 +3017,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "python",
@@ -3031,7 +3031,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "java",
@@ -3045,7 +3045,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "elixer",
@@ -3059,7 +3059,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "c",
@@ -3073,7 +3073,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "php",
@@ -3087,7 +3087,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "swift",
@@ -3101,7 +3101,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "sql",
@@ -3444,7 +3444,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "javascript",
@@ -3458,7 +3458,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "ruby",
@@ -3472,7 +3472,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "denver",
@@ -3486,7 +3486,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "remote",
@@ -3577,7 +3577,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "python",
@@ -3591,7 +3591,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "java",
@@ -3605,7 +3605,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "elixer",
@@ -3619,7 +3619,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "c",
@@ -3633,7 +3633,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "php",
@@ -3647,7 +3647,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "swift",
@@ -3661,7 +3661,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "sql",
@@ -3958,7 +3958,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "javascript",
@@ -3972,7 +3972,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "ruby",
@@ -3986,7 +3986,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "denver",
@@ -4000,7 +4000,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "remote",
@@ -4091,7 +4091,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "python",
@@ -4105,7 +4105,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "java",
@@ -4119,7 +4119,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "elixer",
@@ -4133,7 +4133,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "c",
@@ -4147,7 +4147,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "php",
@@ -4161,7 +4161,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "swift",
@@ -4175,7 +4175,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "sql",
@@ -4518,7 +4518,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "javascript",
@@ -4532,7 +4532,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "ruby",
@@ -4546,7 +4546,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "denver",
@@ -4560,7 +4560,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "remote",
@@ -4651,7 +4651,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "python",
@@ -4665,7 +4665,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "java",
@@ -4679,7 +4679,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "elixer",
@@ -4693,7 +4693,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "c",
@@ -4707,7 +4707,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "php",
@@ -4721,7 +4721,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "swift",
@@ -4735,7 +4735,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "field": "sql",
@@ -5032,7 +5032,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "javascript",
@@ -5046,7 +5046,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "ruby",
@@ -5060,7 +5060,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "denver",
@@ -5074,7 +5074,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "remote",
@@ -5165,7 +5165,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "python",
@@ -5179,7 +5179,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "java",
@@ -5193,7 +5193,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "elixer",
@@ -5207,7 +5207,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "c",
@@ -5221,7 +5221,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "php",
@@ -5235,7 +5235,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "swift",
@@ -5249,7 +5249,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "field": "sql",
