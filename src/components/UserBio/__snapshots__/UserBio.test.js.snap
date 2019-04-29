@@ -31,24 +31,18 @@ ShallowWrapper {
           >
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
@@ -127,24 +121,18 @@ ShallowWrapper {
             >
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
@@ -217,9 +205,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -232,9 +218,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -247,9 +231,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -411,24 +393,18 @@ ShallowWrapper {
             >
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
@@ -507,24 +483,18 @@ ShallowWrapper {
               >
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
@@ -597,9 +567,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -612,9 +580,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -627,9 +593,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -836,24 +800,18 @@ ShallowWrapper {
             Mentor
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
@@ -897,10 +855,8 @@ ShallowWrapper {
             name="Phone"
             value={4}
           />
-          <CreateInput
-            field="location"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Location"
             value=""
           />
@@ -940,24 +896,18 @@ ShallowWrapper {
               Mentor
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
@@ -1001,10 +951,8 @@ ShallowWrapper {
               name="Phone"
               value={4}
             />,
-            <CreateInput
-              field="location"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Location"
               value=""
             />,
@@ -1036,9 +984,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -1051,9 +997,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -1066,9 +1010,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -1168,9 +1110,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "location",
               "handleChange": [Function],
-              "max": "28",
               "text": "Location",
               "value": "",
             },
@@ -1245,24 +1185,18 @@ ShallowWrapper {
               Mentor
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
@@ -1306,10 +1240,8 @@ ShallowWrapper {
               name="Phone"
               value={4}
             />
-            <CreateInput
-              field="location"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Location"
               value=""
             />
@@ -1349,24 +1281,18 @@ ShallowWrapper {
                 Mentor
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
@@ -1410,10 +1336,8 @@ ShallowWrapper {
                 name="Phone"
                 value={4}
               />,
-              <CreateInput
-                field="location"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Location"
                 value=""
               />,
@@ -1445,9 +1369,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -1460,9 +1382,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -1475,9 +1395,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -1577,9 +1495,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "location",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Location",
                 "value": "",
               },
@@ -1696,24 +1612,18 @@ ShallowWrapper {
           >
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
@@ -1792,24 +1702,18 @@ ShallowWrapper {
             >
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
@@ -1882,9 +1786,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -1897,9 +1799,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -1912,9 +1812,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -2076,24 +1974,18 @@ ShallowWrapper {
             >
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
@@ -2172,24 +2064,18 @@ ShallowWrapper {
               >
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
@@ -2262,9 +2148,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -2277,9 +2161,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -2292,9 +2174,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -2499,24 +2379,18 @@ ShallowWrapper {
           >
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
@@ -2595,24 +2469,18 @@ ShallowWrapper {
             >
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
@@ -2685,9 +2553,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -2700,9 +2566,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -2715,9 +2579,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -2879,24 +2741,18 @@ ShallowWrapper {
             >
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
@@ -2975,24 +2831,18 @@ ShallowWrapper {
               >
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
@@ -3065,9 +2915,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -3080,9 +2928,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -3095,9 +2941,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -3302,24 +3146,18 @@ ShallowWrapper {
           >
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
@@ -3398,24 +3236,18 @@ ShallowWrapper {
             >
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
@@ -3488,9 +3320,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -3503,9 +3333,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -3518,9 +3346,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -3682,24 +3508,18 @@ ShallowWrapper {
             >
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
@@ -3778,24 +3598,18 @@ ShallowWrapper {
               >
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
@@ -3868,9 +3682,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -3883,9 +3695,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -3898,9 +3708,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -4105,24 +3913,18 @@ ShallowWrapper {
           >
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
@@ -4201,24 +4003,18 @@ ShallowWrapper {
             >
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
@@ -4291,9 +4087,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -4306,9 +4100,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -4321,9 +4113,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -4485,24 +4275,18 @@ ShallowWrapper {
             >
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
@@ -4581,24 +4365,18 @@ ShallowWrapper {
               >
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
@@ -4671,9 +4449,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -4686,9 +4462,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -4701,9 +4475,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -4903,24 +4675,18 @@ ShallowWrapper {
           autoComplete="off"
           onSubmit={[Function]}
         >
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
@@ -4980,24 +4746,18 @@ ShallowWrapper {
           "autoComplete": "off",
           "children": Array [
             false,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
@@ -5053,9 +4813,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -5068,9 +4826,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -5083,9 +4839,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -5201,24 +4955,18 @@ ShallowWrapper {
             autoComplete="off"
             onSubmit={[Function]}
           >
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
@@ -5278,24 +5026,18 @@ ShallowWrapper {
             "autoComplete": "off",
             "children": Array [
               false,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
@@ -5351,9 +5093,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -5366,9 +5106,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -5381,9 +5119,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
