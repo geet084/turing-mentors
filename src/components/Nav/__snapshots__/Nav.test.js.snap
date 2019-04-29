@@ -32,90 +32,88 @@ ShallowWrapper {
             />
           </Link>
         </div>,
-        <div>
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName=""
-            contentOuterClassName=""
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName=""
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={150}
-            trigger={
-              <i
-                className="fas fa-bars"
-              />
+        <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentContainerTagName="div"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={150}
+          trigger={
+            <i
+              className="fas fa-bars"
+            />
+          }
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={null}
+          triggerTagName="span"
+        >
+          <NavLink
+            activeStyle={
+              Object {
+                "color": "#12f1fc",
+              }
             }
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
+            exact={true}
+            to="/"
           >
-            <NavLink
-              activeStyle={
-                Object {
-                  "color": "#12f1fc",
-                }
+            Home
+          </NavLink>
+          <NavLink
+            activeStyle={
+              Object {
+                "color": "#12f1fc",
               }
-              exact={true}
-              to="/"
-            >
-              Home
-            </NavLink>
-            <NavLink
-              activeStyle={
-                Object {
-                  "color": "#12f1fc",
-                }
+            }
+            to="about"
+          >
+            About
+          </NavLink>
+          <NavLink
+            activeStyle={
+              Object {
+                "color": "#12f1fc",
               }
-              to="/about"
-            >
-              About
-            </NavLink>
-            <NavLink
-              activeStyle={
-                Object {
-                  "color": "#12f1fc",
-                }
+            }
+            to="contact"
+          >
+            Contact Us
+          </NavLink>
+          <NavLink
+            activeStyle={
+              Object {
+                "color": "#12f1fc",
               }
-              to="/contact"
-            >
-              Contact Us
-            </NavLink>
-            <NavLink
-              activeStyle={
-                Object {
-                  "color": "#12f1fc",
-                }
+            }
+            to="contribute"
+          >
+            Contribute
+          </NavLink>
+          <NavLink
+            activeStyle={
+              Object {
+                "color": "#12f1fc",
               }
-              to="/contribute"
-            >
-              Contribute
-            </NavLink>
-            <NavLink
-              activeStyle={
-                Object {
-                  "color": "#12f1fc",
-                }
-              }
-              to="/profile"
-            >
-              Profile
-            </NavLink>
-          </Collapsible>
-        </div>,
+            }
+            to="profile"
+          >
+            Profile
+          </NavLink>
+        </Collapsible>,
         <div
           className="links"
         >
@@ -136,7 +134,7 @@ ShallowWrapper {
                 "color": "#12f1fc",
               }
             }
-            to="/about"
+            to="about"
           >
             About
           </NavLink>
@@ -146,7 +144,7 @@ ShallowWrapper {
                 "color": "#12f1fc",
               }
             }
-            to="/contact"
+            to="contact"
           >
             Contact Us
           </NavLink>
@@ -156,7 +154,7 @@ ShallowWrapper {
                 "color": "#12f1fc",
               }
             }
-            to="/contribute"
+            to="contribute"
           >
             Contribute
           </NavLink>
@@ -166,7 +164,7 @@ ShallowWrapper {
                 "color": "#12f1fc",
               }
             }
-            to="/profile"
+            to="profile"
           >
             Profile
           </NavLink>
@@ -226,9 +224,334 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              exact={true}
+              to="/"
+            >
+              Home
+            </NavLink>,
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="about"
+            >
+              About
+            </NavLink>,
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="contact"
+            >
+              Contact Us
+            </NavLink>,
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="contribute"
+            >
+              Contribute
+            </NavLink>,
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="profile"
+            >
+              Profile
+            </NavLink>,
+          ],
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentContainerTagName": "div",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 150,
+          "trigger": <i
+            className="fas fa-bars"
+          />,
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": null,
+          "triggerTagName": "span",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Home",
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "Home",
+              "exact": true,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Home",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "About",
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "About",
+              "to": "about",
+            },
+            "ref": null,
+            "rendered": "About",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Contact Us",
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "Contact Us",
+              "to": "contact",
+            },
+            "ref": null,
+            "rendered": "Contact Us",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Contribute",
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "Contribute",
+              "to": "contribute",
+            },
+            "ref": null,
+            "rendered": "Contribute",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Profile",
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "Profile",
+              "to": "profile",
+            },
+            "ref": null,
+            "rendered": "Profile",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Collapsible
+          "children": Array [
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              exact={true}
+              to="/"
+            >
+              Home
+            </NavLink>,
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="about"
+            >
+              About
+            </NavLink>,
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="contact"
+            >
+              Contact Us
+            </NavLink>,
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="contribute"
+            >
+              Contribute
+            </NavLink>,
+            <NavLink
+              activeStyle={
+                Object {
+                  "color": "#12f1fc",
+                }
+              }
+              to="profile"
+            >
+              Profile
+            </NavLink>,
+          ],
+          "className": "links",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Home",
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "Home",
+              "exact": true,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Home",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "About",
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "About",
+              "to": "about",
+            },
+            "ref": null,
+            "rendered": "About",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Contact Us",
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "Contact Us",
+              "to": "contact",
+            },
+            "ref": null,
+            "rendered": "Contact Us",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Contribute",
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "Contribute",
+              "to": "contribute",
+            },
+            "ref": null,
+            "rendered": "Contribute",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Profile",
+            "nodeType": "function",
+            "props": Object {
+              "activeStyle": Object {
+                "color": "#12f1fc",
+              },
+              "children": "Profile",
+              "to": "profile",
+            },
+            "ref": null,
+            "rendered": "Profile",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="logo-container"
+          >
+            <Link
+              to="/"
+            >
+              <img
+                alt="turing logo"
+                className="logo"
+                src="t-logo.png"
+              />
+            </Link>
+          </div>,
+          <Collapsible
             className=""
             classParentString="Collapsible"
             contentContainerTagName="div"
@@ -275,7 +598,7 @@ ShallowWrapper {
                   "color": "#12f1fc",
                 }
               }
-              to="/about"
+              to="about"
             >
               About
             </NavLink>
@@ -285,7 +608,7 @@ ShallowWrapper {
                   "color": "#12f1fc",
                 }
               }
-              to="/contact"
+              to="contact"
             >
               Contact Us
             </NavLink>
@@ -295,7 +618,7 @@ ShallowWrapper {
                   "color": "#12f1fc",
                 }
               }
-              to="/contribute"
+              to="contribute"
             >
               Contribute
             </NavLink>
@@ -305,429 +628,11 @@ ShallowWrapper {
                   "color": "#12f1fc",
                 }
               }
-              to="/profile"
+              to="profile"
             >
               Profile
             </NavLink>
           </Collapsible>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <NavLink
-                activeStyle={
-                  Object {
-                    "color": "#12f1fc",
-                  }
-                }
-                exact={true}
-                to="/"
-              >
-                Home
-              </NavLink>,
-              <NavLink
-                activeStyle={
-                  Object {
-                    "color": "#12f1fc",
-                  }
-                }
-                to="/about"
-              >
-                About
-              </NavLink>,
-              <NavLink
-                activeStyle={
-                  Object {
-                    "color": "#12f1fc",
-                  }
-                }
-                to="/contact"
-              >
-                Contact Us
-              </NavLink>,
-              <NavLink
-                activeStyle={
-                  Object {
-                    "color": "#12f1fc",
-                  }
-                }
-                to="/contribute"
-              >
-                Contribute
-              </NavLink>,
-              <NavLink
-                activeStyle={
-                  Object {
-                    "color": "#12f1fc",
-                  }
-                }
-                to="/profile"
-              >
-                Profile
-              </NavLink>,
-            ],
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "",
-            "contentOuterClassName": "",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 150,
-            "trigger": <i
-              className="fas fa-bars"
-            />,
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "activeStyle": Object {
-                  "color": "#12f1fc",
-                },
-                "children": "Home",
-                "exact": true,
-                "to": "/",
-              },
-              "ref": null,
-              "rendered": "Home",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "activeStyle": Object {
-                  "color": "#12f1fc",
-                },
-                "children": "About",
-                "to": "/about",
-              },
-              "ref": null,
-              "rendered": "About",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "activeStyle": Object {
-                  "color": "#12f1fc",
-                },
-                "children": "Contact Us",
-                "to": "/contact",
-              },
-              "ref": null,
-              "rendered": "Contact Us",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "activeStyle": Object {
-                  "color": "#12f1fc",
-                },
-                "children": "Contribute",
-                "to": "/contribute",
-              },
-              "ref": null,
-              "rendered": "Contribute",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "activeStyle": Object {
-                  "color": "#12f1fc",
-                },
-                "children": "Profile",
-                "to": "/profile",
-              },
-              "ref": null,
-              "rendered": "Profile",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <NavLink
-              activeStyle={
-                Object {
-                  "color": "#12f1fc",
-                }
-              }
-              exact={true}
-              to="/"
-            >
-              Home
-            </NavLink>,
-            <NavLink
-              activeStyle={
-                Object {
-                  "color": "#12f1fc",
-                }
-              }
-              to="/about"
-            >
-              About
-            </NavLink>,
-            <NavLink
-              activeStyle={
-                Object {
-                  "color": "#12f1fc",
-                }
-              }
-              to="/contact"
-            >
-              Contact Us
-            </NavLink>,
-            <NavLink
-              activeStyle={
-                Object {
-                  "color": "#12f1fc",
-                }
-              }
-              to="/contribute"
-            >
-              Contribute
-            </NavLink>,
-            <NavLink
-              activeStyle={
-                Object {
-                  "color": "#12f1fc",
-                }
-              }
-              to="/profile"
-            >
-              Profile
-            </NavLink>,
-          ],
-          "className": "links",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "activeStyle": Object {
-                "color": "#12f1fc",
-              },
-              "children": "Home",
-              "exact": true,
-              "to": "/",
-            },
-            "ref": null,
-            "rendered": "Home",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "activeStyle": Object {
-                "color": "#12f1fc",
-              },
-              "children": "About",
-              "to": "/about",
-            },
-            "ref": null,
-            "rendered": "About",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "activeStyle": Object {
-                "color": "#12f1fc",
-              },
-              "children": "Contact Us",
-              "to": "/contact",
-            },
-            "ref": null,
-            "rendered": "Contact Us",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "activeStyle": Object {
-                "color": "#12f1fc",
-              },
-              "children": "Contribute",
-              "to": "/contribute",
-            },
-            "ref": null,
-            "rendered": "Contribute",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "activeStyle": Object {
-                "color": "#12f1fc",
-              },
-              "children": "Profile",
-              "to": "/profile",
-            },
-            "ref": null,
-            "rendered": "Profile",
-            "type": [Function],
-          },
-        ],
-        "type": "div",
-      },
-    ],
-    "type": "nav",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="logo-container"
-          >
-            <Link
-              to="/"
-            >
-              <img
-                alt="turing logo"
-                className="logo"
-                src="t-logo.png"
-              />
-            </Link>
-          </div>,
-          <div>
-            <Collapsible
-              className=""
-              classParentString="Collapsible"
-              contentContainerTagName="div"
-              contentInnerClassName=""
-              contentOuterClassName=""
-              easing="linear"
-              lazyRender={false}
-              onClose={[Function]}
-              onClosing={[Function]}
-              onOpen={[Function]}
-              onOpening={[Function]}
-              open={false}
-              openedClassName=""
-              overflowWhenOpen="hidden"
-              tabIndex={null}
-              transitionCloseTime={null}
-              transitionTime={150}
-              trigger={
-                <i
-                  className="fas fa-bars"
-                />
-              }
-              triggerClassName=""
-              triggerDisabled={false}
-              triggerOpenedClassName=""
-              triggerSibling={null}
-              triggerStyle={null}
-              triggerTagName="span"
-            >
-              <NavLink
-                activeStyle={
-                  Object {
-                    "color": "#12f1fc",
-                  }
-                }
-                exact={true}
-                to="/"
-              >
-                Home
-              </NavLink>
-              <NavLink
-                activeStyle={
-                  Object {
-                    "color": "#12f1fc",
-                  }
-                }
-                to="/about"
-              >
-                About
-              </NavLink>
-              <NavLink
-                activeStyle={
-                  Object {
-                    "color": "#12f1fc",
-                  }
-                }
-                to="/contact"
-              >
-                Contact Us
-              </NavLink>
-              <NavLink
-                activeStyle={
-                  Object {
-                    "color": "#12f1fc",
-                  }
-                }
-                to="/contribute"
-              >
-                Contribute
-              </NavLink>
-              <NavLink
-                activeStyle={
-                  Object {
-                    "color": "#12f1fc",
-                  }
-                }
-                to="/profile"
-              >
-                Profile
-              </NavLink>
-            </Collapsible>
-          </div>,
           <div
             className="links"
           >
@@ -748,7 +653,7 @@ ShallowWrapper {
                   "color": "#12f1fc",
                 }
               }
-              to="/about"
+              to="about"
             >
               About
             </NavLink>
@@ -758,7 +663,7 @@ ShallowWrapper {
                   "color": "#12f1fc",
                 }
               }
-              to="/contact"
+              to="contact"
             >
               Contact Us
             </NavLink>
@@ -768,7 +673,7 @@ ShallowWrapper {
                   "color": "#12f1fc",
                 }
               }
-              to="/contribute"
+              to="contribute"
             >
               Contribute
             </NavLink>
@@ -778,7 +683,7 @@ ShallowWrapper {
                   "color": "#12f1fc",
                 }
               }
-              to="/profile"
+              to="profile"
             >
               Profile
             </NavLink>
@@ -838,38 +743,9 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "children": <Collapsible
-              className=""
-              classParentString="Collapsible"
-              contentContainerTagName="div"
-              contentInnerClassName=""
-              contentOuterClassName=""
-              easing="linear"
-              lazyRender={false}
-              onClose={[Function]}
-              onClosing={[Function]}
-              onOpen={[Function]}
-              onOpening={[Function]}
-              open={false}
-              openedClassName=""
-              overflowWhenOpen="hidden"
-              tabIndex={null}
-              transitionCloseTime={null}
-              transitionTime={150}
-              trigger={
-                <i
-                  className="fas fa-bars"
-                />
-              }
-              triggerClassName=""
-              triggerDisabled={false}
-              triggerOpenedClassName=""
-              triggerSibling={null}
-              triggerStyle={null}
-              triggerTagName="span"
-            >
+            "children": Array [
               <NavLink
                 activeStyle={
                   Object {
@@ -880,217 +756,155 @@ ShallowWrapper {
                 to="/"
               >
                 Home
-              </NavLink>
+              </NavLink>,
               <NavLink
                 activeStyle={
                   Object {
                     "color": "#12f1fc",
                   }
                 }
-                to="/about"
+                to="about"
               >
                 About
-              </NavLink>
+              </NavLink>,
               <NavLink
                 activeStyle={
                   Object {
                     "color": "#12f1fc",
                   }
                 }
-                to="/contact"
+                to="contact"
               >
                 Contact Us
-              </NavLink>
+              </NavLink>,
               <NavLink
                 activeStyle={
                   Object {
                     "color": "#12f1fc",
                   }
                 }
-                to="/contribute"
+                to="contribute"
               >
                 Contribute
-              </NavLink>
+              </NavLink>,
               <NavLink
                 activeStyle={
                   Object {
                     "color": "#12f1fc",
                   }
                 }
-                to="/profile"
+                to="profile"
               >
                 Profile
-              </NavLink>
-            </Collapsible>,
+              </NavLink>,
+            ],
+            "className": "",
+            "classParentString": "Collapsible",
+            "contentContainerTagName": "div",
+            "contentInnerClassName": "",
+            "contentOuterClassName": "",
+            "easing": "linear",
+            "lazyRender": false,
+            "onClose": [Function],
+            "onClosing": [Function],
+            "onOpen": [Function],
+            "onOpening": [Function],
+            "open": false,
+            "openedClassName": "",
+            "overflowWhenOpen": "hidden",
+            "tabIndex": null,
+            "transitionCloseTime": null,
+            "transitionTime": 150,
+            "trigger": <i
+              className="fas fa-bars"
+            />,
+            "triggerClassName": "",
+            "triggerDisabled": false,
+            "triggerOpenedClassName": "",
+            "triggerSibling": null,
+            "triggerStyle": null,
+            "triggerTagName": "span",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
-                <NavLink
-                  activeStyle={
-                    Object {
-                      "color": "#12f1fc",
-                    }
-                  }
-                  exact={true}
-                  to="/"
-                >
-                  Home
-                </NavLink>,
-                <NavLink
-                  activeStyle={
-                    Object {
-                      "color": "#12f1fc",
-                    }
-                  }
-                  to="/about"
-                >
-                  About
-                </NavLink>,
-                <NavLink
-                  activeStyle={
-                    Object {
-                      "color": "#12f1fc",
-                    }
-                  }
-                  to="/contact"
-                >
-                  Contact Us
-                </NavLink>,
-                <NavLink
-                  activeStyle={
-                    Object {
-                      "color": "#12f1fc",
-                    }
-                  }
-                  to="/contribute"
-                >
-                  Contribute
-                </NavLink>,
-                <NavLink
-                  activeStyle={
-                    Object {
-                      "color": "#12f1fc",
-                    }
-                  }
-                  to="/profile"
-                >
-                  Profile
-                </NavLink>,
-              ],
-              "className": "",
-              "classParentString": "Collapsible",
-              "contentContainerTagName": "div",
-              "contentInnerClassName": "",
-              "contentOuterClassName": "",
-              "easing": "linear",
-              "lazyRender": false,
-              "onClose": [Function],
-              "onClosing": [Function],
-              "onOpen": [Function],
-              "onOpening": [Function],
-              "open": false,
-              "openedClassName": "",
-              "overflowWhenOpen": "hidden",
-              "tabIndex": null,
-              "transitionCloseTime": null,
-              "transitionTime": 150,
-              "trigger": <i
-                className="fas fa-bars"
-              />,
-              "triggerClassName": "",
-              "triggerDisabled": false,
-              "triggerOpenedClassName": "",
-              "triggerSibling": null,
-              "triggerStyle": null,
-              "triggerTagName": "span",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Home",
+              "nodeType": "function",
+              "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
+                },
+                "children": "Home",
+                "exact": true,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": "Home",
+              "type": [Function],
             },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "activeStyle": Object {
-                    "color": "#12f1fc",
-                  },
-                  "children": "Home",
-                  "exact": true,
-                  "to": "/",
+            Object {
+              "instance": null,
+              "key": "About",
+              "nodeType": "function",
+              "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
                 },
-                "ref": null,
-                "rendered": "Home",
-                "type": [Function],
+                "children": "About",
+                "to": "about",
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "activeStyle": Object {
-                    "color": "#12f1fc",
-                  },
-                  "children": "About",
-                  "to": "/about",
+              "ref": null,
+              "rendered": "About",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Contact Us",
+              "nodeType": "function",
+              "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
                 },
-                "ref": null,
-                "rendered": "About",
-                "type": [Function],
+                "children": "Contact Us",
+                "to": "contact",
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "activeStyle": Object {
-                    "color": "#12f1fc",
-                  },
-                  "children": "Contact Us",
-                  "to": "/contact",
+              "ref": null,
+              "rendered": "Contact Us",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Contribute",
+              "nodeType": "function",
+              "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
                 },
-                "ref": null,
-                "rendered": "Contact Us",
-                "type": [Function],
+                "children": "Contribute",
+                "to": "contribute",
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "activeStyle": Object {
-                    "color": "#12f1fc",
-                  },
-                  "children": "Contribute",
-                  "to": "/contribute",
+              "ref": null,
+              "rendered": "Contribute",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Profile",
+              "nodeType": "function",
+              "props": Object {
+                "activeStyle": Object {
+                  "color": "#12f1fc",
                 },
-                "ref": null,
-                "rendered": "Contribute",
-                "type": [Function],
+                "children": "Profile",
+                "to": "profile",
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "activeStyle": Object {
-                    "color": "#12f1fc",
-                  },
-                  "children": "Profile",
-                  "to": "/profile",
-                },
-                "ref": null,
-                "rendered": "Profile",
-                "type": [Function],
-              },
-            ],
-            "type": [Function],
-          },
-          "type": "div",
+              "ref": null,
+              "rendered": "Profile",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -1115,7 +929,7 @@ ShallowWrapper {
                     "color": "#12f1fc",
                   }
                 }
-                to="/about"
+                to="about"
               >
                 About
               </NavLink>,
@@ -1125,7 +939,7 @@ ShallowWrapper {
                     "color": "#12f1fc",
                   }
                 }
-                to="/contact"
+                to="contact"
               >
                 Contact Us
               </NavLink>,
@@ -1135,7 +949,7 @@ ShallowWrapper {
                     "color": "#12f1fc",
                   }
                 }
-                to="/contribute"
+                to="contribute"
               >
                 Contribute
               </NavLink>,
@@ -1145,7 +959,7 @@ ShallowWrapper {
                     "color": "#12f1fc",
                   }
                 }
-                to="/profile"
+                to="profile"
               >
                 Profile
               </NavLink>,
@@ -1156,7 +970,7 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Home",
               "nodeType": "function",
               "props": Object {
                 "activeStyle": Object {
@@ -1172,14 +986,14 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "About",
               "nodeType": "function",
               "props": Object {
                 "activeStyle": Object {
                   "color": "#12f1fc",
                 },
                 "children": "About",
-                "to": "/about",
+                "to": "about",
               },
               "ref": null,
               "rendered": "About",
@@ -1187,14 +1001,14 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Contact Us",
               "nodeType": "function",
               "props": Object {
                 "activeStyle": Object {
                   "color": "#12f1fc",
                 },
                 "children": "Contact Us",
-                "to": "/contact",
+                "to": "contact",
               },
               "ref": null,
               "rendered": "Contact Us",
@@ -1202,14 +1016,14 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Contribute",
               "nodeType": "function",
               "props": Object {
                 "activeStyle": Object {
                   "color": "#12f1fc",
                 },
                 "children": "Contribute",
-                "to": "/contribute",
+                "to": "contribute",
               },
               "ref": null,
               "rendered": "Contribute",
@@ -1217,14 +1031,14 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Profile",
               "nodeType": "function",
               "props": Object {
                 "activeStyle": Object {
                   "color": "#12f1fc",
                 },
                 "children": "Profile",
-                "to": "/profile",
+                "to": "profile",
               },
               "ref": null,
               "rendered": "Profile",
