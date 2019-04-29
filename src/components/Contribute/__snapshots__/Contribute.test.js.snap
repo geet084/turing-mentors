@@ -46,7 +46,7 @@ ShallowWrapper {
           </a>
         </h4>,
       ],
-      "className": "link-content pages",
+      "className": "link-content",
     },
     "ref": null,
     "rendered": Array [
@@ -175,7 +175,7 @@ ShallowWrapper {
             </a>
           </h4>,
         ],
-        "className": "link-content pages",
+        "className": "link-content",
       },
       "ref": null,
       "rendered": Array [
@@ -294,6 +294,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
