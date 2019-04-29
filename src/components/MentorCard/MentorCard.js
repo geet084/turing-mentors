@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 export class MentorCard extends Component {
+  getDisplaySkills(tech_skills) {
+    let skills = tech_skills.includes('javascript') ? 'JS' : '';
+    skills += tech_skills.includes('ruby') ? 'Ruby' : '';
+    if (skills === 'JSRuby') skills = 'JS & Ruby';
+
+    return skills;
+  }
+
   render() {
     const { id, first_name, last_name, location, tech_skills } = this.props;
-    let skills = tech_skills.includes('javascript') ? 'JS' : ''
-    skills += tech_skills.includes('ruby') ? 'Ruby' : '';
-    if (skills === 'JSRuby') skills = 'JS & Ruby'
+    let skills = this.getDisplaySkills(tech_skills);
 
     return (
       <Link to={`/mentors/${id}`} className="mentor-card-link">

@@ -29,7 +29,7 @@ ShallowWrapper {
           Turing Mentors offers a way to connect those on both sides of the Turing program to the betterment of all.
         </h5>,
       ],
-      "className": "link-content pages",
+      "className": "link-content",
     },
     "ref": null,
     "rendered": Array [
@@ -86,7 +86,7 @@ ShallowWrapper {
             Turing Mentors offers a way to connect those on both sides of the Turing program to the betterment of all.
           </h5>,
         ],
-        "className": "link-content pages",
+        "className": "link-content",
       },
       "ref": null,
       "rendered": Array [
@@ -150,6 +150,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;

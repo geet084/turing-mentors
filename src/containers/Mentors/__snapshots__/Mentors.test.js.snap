@@ -48,23 +48,11 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <MentorControls
-          c={false}
-          denver={false}
-          elixer={false}
           handleChange={[Function]}
           handleSearch={[Function]}
-          java={false}
-          javascript={false}
-          mentorSearch=""
-          php={false}
-          python={false}
-          remote={false}
-          ruby={false}
-          sql={false}
-          swift={false}
         />,
         <MasonryComponent
-          breakpointCols={
+          breakpointcols={
             Object {
               "1100": 3,
               "500": 1,
@@ -73,7 +61,7 @@ ShallowWrapper {
             }
           }
           className="mentors-grid"
-          columnClassName="mentors-grid_column"
+          columnclassname="mentors-grid_column"
           disableImagesLoaded={false}
           elementType="div"
           enableResizableChildren={false}
@@ -100,20 +88,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "c": false,
-          "denver": false,
-          "elixer": false,
           "handleChange": [Function],
           "handleSearch": [Function],
-          "java": false,
-          "javascript": false,
-          "mentorSearch": "",
-          "php": false,
-          "python": false,
-          "remote": false,
-          "ruby": false,
-          "sql": false,
-          "swift": false,
         },
         "ref": null,
         "rendered": null,
@@ -124,7 +100,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "breakpointCols": Object {
+          "breakpointcols": Object {
             "1100": 3,
             "500": 1,
             "700": 2,
@@ -143,7 +119,7 @@ ShallowWrapper {
             false,
           ],
           "className": "mentors-grid",
-          "columnClassName": "mentors-grid_column",
+          "columnclassname": "mentors-grid_column",
           "disableImagesLoaded": false,
           "elementType": "div",
           "enableResizableChildren": false,
@@ -193,23 +169,11 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <MentorControls
-            c={false}
-            denver={false}
-            elixer={false}
             handleChange={[Function]}
             handleSearch={[Function]}
-            java={false}
-            javascript={false}
-            mentorSearch=""
-            php={false}
-            python={false}
-            remote={false}
-            ruby={false}
-            sql={false}
-            swift={false}
           />,
           <MasonryComponent
-            breakpointCols={
+            breakpointcols={
               Object {
                 "1100": 3,
                 "500": 1,
@@ -218,7 +182,7 @@ ShallowWrapper {
               }
             }
             className="mentors-grid"
-            columnClassName="mentors-grid_column"
+            columnclassname="mentors-grid_column"
             disableImagesLoaded={false}
             elementType="div"
             enableResizableChildren={false}
@@ -245,20 +209,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "c": false,
-            "denver": false,
-            "elixer": false,
             "handleChange": [Function],
             "handleSearch": [Function],
-            "java": false,
-            "javascript": false,
-            "mentorSearch": "",
-            "php": false,
-            "python": false,
-            "remote": false,
-            "ruby": false,
-            "sql": false,
-            "swift": false,
           },
           "ref": null,
           "rendered": null,
@@ -269,7 +221,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "breakpointCols": Object {
+            "breakpointcols": Object {
               "1100": 3,
               "500": 1,
               "700": 2,
@@ -288,7 +240,7 @@ ShallowWrapper {
               false,
             ],
             "className": "mentors-grid",
-            "columnClassName": "mentors-grid_column",
+            "columnclassname": "mentors-grid_column",
             "disableImagesLoaded": false,
             "elementType": "div",
             "enableResizableChildren": false,
@@ -418,23 +370,11 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <MentorControls
-          c={false}
-          denver={false}
-          elixer={false}
           handleChange={[Function]}
           handleSearch={[Function]}
-          java={false}
-          javascript={false}
-          mentorSearch=""
-          php={false}
-          python={false}
-          remote={false}
-          ruby={false}
-          sql={false}
-          swift={false}
         />,
         <MasonryComponent
-          breakpointCols={
+          breakpointcols={
             Object {
               "1100": 3,
               "500": 1,
@@ -443,7 +383,7 @@ ShallowWrapper {
             }
           }
           className="mentors-grid"
-          columnClassName="mentors-grid_column"
+          columnclassname="mentors-grid_column"
           disableImagesLoaded={false}
           elementType="div"
           enableResizableChildren={false}
@@ -470,20 +410,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "c": false,
-          "denver": false,
-          "elixer": false,
           "handleChange": [Function],
           "handleSearch": [Function],
-          "java": false,
-          "javascript": false,
-          "mentorSearch": "",
-          "php": false,
-          "python": false,
-          "remote": false,
-          "ruby": false,
-          "sql": false,
-          "swift": false,
         },
         "ref": null,
         "rendered": null,
@@ -494,7 +422,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "breakpointCols": Object {
+          "breakpointcols": Object {
             "1100": 3,
             "500": 1,
             "700": 2,
@@ -513,7 +441,7 @@ ShallowWrapper {
             false,
           ],
           "className": "mentors-grid",
-          "columnClassName": "mentors-grid_column",
+          "columnclassname": "mentors-grid_column",
           "disableImagesLoaded": false,
           "elementType": "div",
           "enableResizableChildren": false,
@@ -563,23 +491,11 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <MentorControls
-            c={false}
-            denver={false}
-            elixer={false}
             handleChange={[Function]}
             handleSearch={[Function]}
-            java={false}
-            javascript={false}
-            mentorSearch=""
-            php={false}
-            python={false}
-            remote={false}
-            ruby={false}
-            sql={false}
-            swift={false}
           />,
           <MasonryComponent
-            breakpointCols={
+            breakpointcols={
               Object {
                 "1100": 3,
                 "500": 1,
@@ -588,7 +504,7 @@ ShallowWrapper {
               }
             }
             className="mentors-grid"
-            columnClassName="mentors-grid_column"
+            columnclassname="mentors-grid_column"
             disableImagesLoaded={false}
             elementType="div"
             enableResizableChildren={false}
@@ -615,20 +531,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "c": false,
-            "denver": false,
-            "elixer": false,
             "handleChange": [Function],
             "handleSearch": [Function],
-            "java": false,
-            "javascript": false,
-            "mentorSearch": "",
-            "php": false,
-            "python": false,
-            "remote": false,
-            "ruby": false,
-            "sql": false,
-            "swift": false,
           },
           "ref": null,
           "rendered": null,
@@ -639,7 +543,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "breakpointCols": Object {
+            "breakpointcols": Object {
               "1100": 3,
               "500": 1,
               "700": 2,
@@ -658,7 +562,7 @@ ShallowWrapper {
               false,
             ],
             "className": "mentors-grid",
-            "columnClassName": "mentors-grid_column",
+            "columnclassname": "mentors-grid_column",
             "disableImagesLoaded": false,
             "elementType": "div",
             "enableResizableChildren": false,
@@ -772,23 +676,11 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <MentorControls
-          c={false}
-          denver={false}
-          elixer={false}
           handleChange={[Function]}
           handleSearch={[Function]}
-          java={false}
-          javascript={false}
-          mentorSearch=""
-          php={false}
-          python={false}
-          remote={false}
-          ruby={false}
-          sql={false}
-          swift={false}
         />,
         <MasonryComponent
-          breakpointCols={
+          breakpointcols={
             Object {
               "1100": 3,
               "500": 1,
@@ -797,7 +689,7 @@ ShallowWrapper {
             }
           }
           className="mentors-grid"
-          columnClassName="mentors-grid_column"
+          columnclassname="mentors-grid_column"
           disableImagesLoaded={false}
           elementType="div"
           enableResizableChildren={false}
@@ -823,20 +715,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "c": false,
-          "denver": false,
-          "elixer": false,
           "handleChange": [Function],
           "handleSearch": [Function],
-          "java": false,
-          "javascript": false,
-          "mentorSearch": "",
-          "php": false,
-          "python": false,
-          "remote": false,
-          "ruby": false,
-          "sql": false,
-          "swift": false,
         },
         "ref": null,
         "rendered": null,
@@ -847,7 +727,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "breakpointCols": Object {
+          "breakpointcols": Object {
             "1100": 3,
             "500": 1,
             "700": 2,
@@ -863,7 +743,7 @@ ShallowWrapper {
             false,
           ],
           "className": "mentors-grid",
-          "columnClassName": "mentors-grid_column",
+          "columnclassname": "mentors-grid_column",
           "disableImagesLoaded": false,
           "elementType": "div",
           "enableResizableChildren": false,
@@ -902,23 +782,11 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <MentorControls
-            c={false}
-            denver={false}
-            elixer={false}
             handleChange={[Function]}
             handleSearch={[Function]}
-            java={false}
-            javascript={false}
-            mentorSearch=""
-            php={false}
-            python={false}
-            remote={false}
-            ruby={false}
-            sql={false}
-            swift={false}
           />,
           <MasonryComponent
-            breakpointCols={
+            breakpointcols={
               Object {
                 "1100": 3,
                 "500": 1,
@@ -927,7 +795,7 @@ ShallowWrapper {
               }
             }
             className="mentors-grid"
-            columnClassName="mentors-grid_column"
+            columnclassname="mentors-grid_column"
             disableImagesLoaded={false}
             elementType="div"
             enableResizableChildren={false}
@@ -953,20 +821,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "c": false,
-            "denver": false,
-            "elixer": false,
             "handleChange": [Function],
             "handleSearch": [Function],
-            "java": false,
-            "javascript": false,
-            "mentorSearch": "",
-            "php": false,
-            "python": false,
-            "remote": false,
-            "ruby": false,
-            "sql": false,
-            "swift": false,
           },
           "ref": null,
           "rendered": null,
@@ -977,7 +833,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "breakpointCols": Object {
+            "breakpointcols": Object {
               "1100": 3,
               "500": 1,
               "700": 2,
@@ -993,7 +849,7 @@ ShallowWrapper {
               false,
             ],
             "className": "mentors-grid",
-            "columnClassName": "mentors-grid_column",
+            "columnclassname": "mentors-grid_column",
             "disableImagesLoaded": false,
             "elementType": "div",
             "enableResizableChildren": false,

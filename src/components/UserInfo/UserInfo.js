@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { CreateInput } from '../CreateInput/CreateInput';
+import { CreateNumberInput } from '../CreateNumberInput/CreateNumberInput';
+import { CreateTextInput } from '../CreateTextInput/CreateTextInput';
 import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
 
 export class UserInfo extends Component {
@@ -11,7 +12,7 @@ export class UserInfo extends Component {
       first_name: first_name || '',
       last_name: last_name || '',
       identities: identities || [],
-      cohort: cohort || 0,
+      cohort: cohort || '',
       program: program || '',
       current_job: current_job || '',
     }
@@ -38,7 +39,11 @@ export class UserInfo extends Component {
   }
 
   updateCohort = ({ target }) => {
-    this.setState({ [target.name]: parseInt(target.value) })
+    let userInput;
+    if (!isNaN(parseInt(target.value))) userInput = parseInt(target.value)
+    else userInput = ''
+
+    this.setState({ [target.name]: userInput })
   }
 
   handleChange = ({ target }) => {
@@ -50,19 +55,19 @@ export class UserInfo extends Component {
     const { profile, user } = this.props;
     const identityBoxes = ['Male', 'Female', 'Non-Binary'].map((identity, i) => (
       <CreateCheckbox key={i} field="identities" name={identity} value={i + 1} checkBoxes={this.updateIdentity} checked={identities.includes(i + 1) ? true : false} />
-    ))
+    ));
 
     return (
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
           {!profile && <span className="pages">{this.props.user} User info:</span>}
-          <CreateInput field="first_name" text="First Name" value={first_name} handleChange={this.handleChange} max="28" />
-          <CreateInput field="last_name" text="Last Name" value={last_name} handleChange={this.handleChange} max="28" />
+          <CreateTextInput text="First Name" value={first_name} handleChange={this.handleChange} />
+          <CreateTextInput text="Last Name" value={last_name} handleChange={this.handleChange} />
           <div className="check-box">
             {identityBoxes}
           </div>
           <div>
-            <CreateInput field="cohort" text="Cohort (ex: 1406)" value={cohort !== 0 ? cohort : ''} handleChange={this.updateCohort} max='4' />
+            <CreateNumberInput text="Cohort (ex: 1406)" value={cohort} handleChange={this.updateCohort} max='4' />
             <CreateCheckbox className="aa" field="program" name={'BE'} value={'BE'} checkBoxes={this.updateProgram} checked={program === 'BE' ? true : false} />
             <CreateCheckbox field="program" name={'FE'} value={'FE'} checkBoxes={this.updateProgram} checked={program === 'FE' ? true : false} />
           </div>
@@ -70,7 +75,7 @@ export class UserInfo extends Component {
         <div className="input-box">
           {
             user === 'Mentor' &&
-            <CreateInput field="current_job" text="Current Job" value={current_job} handleChange={this.handleChange} max="28" />
+            <CreateTextInput text="Current Job" value={current_job} handleChange={this.handleChange} />
           }
           {!profile && <button className="next-btn" onClick={this.submitForm}>Next</button>}
           {!profile && <span className="pages">1 of {user === 'Mentor' ? '6' : '4'}</span>}

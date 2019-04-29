@@ -1,9 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CreateInput should add a class if the input is not empty 1`] = `
+exports[`CreateNumberInput should add a class if the input is not empty 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <CreateInput />,
+  Symbol(enzyme.__unrendered__): <CreateNumberInput
+    handleChange={[MockFunction]}
+    text=""
+    value=""
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -21,9 +25,14 @@ ShallowWrapper {
       "children": Array [
         <input
           className="input-effect"
+          name=""
+          onChange={[MockFunction]}
           type="text"
+          value=""
         />,
-        <label />,
+        <label>
+          
+        </label>,
         <span
           className="focus-border"
         />,
@@ -39,10 +48,10 @@ ShallowWrapper {
         "props": Object {
           "className": "input-effect",
           "maxLength": undefined,
-          "name": undefined,
-          "onChange": undefined,
+          "name": "",
+          "onChange": [MockFunction],
           "type": "text",
-          "value": undefined,
+          "value": "",
         },
         "ref": null,
         "rendered": null,
@@ -53,10 +62,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": "",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "",
         "type": "label",
       },
       Object {
@@ -82,9 +91,14 @@ ShallowWrapper {
         "children": Array [
           <input
             className="input-effect"
+            name=""
+            onChange={[MockFunction]}
             type="text"
+            value=""
           />,
-          <label />,
+          <label>
+            
+          </label>,
           <span
             className="focus-border"
           />,
@@ -100,10 +114,10 @@ ShallowWrapper {
           "props": Object {
             "className": "input-effect",
             "maxLength": undefined,
-            "name": undefined,
-            "onChange": undefined,
+            "name": "",
+            "onChange": [MockFunction],
             "type": "text",
-            "value": undefined,
+            "value": "",
           },
           "ref": null,
           "rendered": null,
@@ -114,10 +128,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": "",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "",
           "type": "label",
         },
         Object {
@@ -158,14 +172,17 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
 
-exports[`CreateInput should match the snapshot 1`] = `
+exports[`CreateNumberInput should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <CreateInput />,
+  Symbol(enzyme.__unrendered__): <CreateNumberInput
+    handleChange={[MockFunction]}
+    text=""
+    value=""
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -183,9 +200,14 @@ ShallowWrapper {
       "children": Array [
         <input
           className="input-effect"
+          name=""
+          onChange={[MockFunction]}
           type="text"
+          value=""
         />,
-        <label />,
+        <label>
+          
+        </label>,
         <span
           className="focus-border"
         />,
@@ -201,10 +223,10 @@ ShallowWrapper {
         "props": Object {
           "className": "input-effect",
           "maxLength": undefined,
-          "name": undefined,
-          "onChange": undefined,
+          "name": "",
+          "onChange": [MockFunction],
           "type": "text",
-          "value": undefined,
+          "value": "",
         },
         "ref": null,
         "rendered": null,
@@ -215,10 +237,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": "",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "",
         "type": "label",
       },
       Object {
@@ -244,9 +266,14 @@ ShallowWrapper {
         "children": Array [
           <input
             className="input-effect"
+            name=""
+            onChange={[MockFunction]}
             type="text"
+            value=""
           />,
-          <label />,
+          <label>
+            
+          </label>,
           <span
             className="focus-border"
           />,
@@ -262,10 +289,10 @@ ShallowWrapper {
           "props": Object {
             "className": "input-effect",
             "maxLength": undefined,
-            "name": undefined,
-            "onChange": undefined,
+            "name": "",
+            "onChange": [MockFunction],
             "type": "text",
-            "value": undefined,
+            "value": "",
           },
           "ref": null,
           "rendered": null,
@@ -276,10 +303,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": "",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "",
           "type": "label",
         },
         Object {
@@ -320,15 +347,13 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
 
-exports[`CreateInput should remove a class if the input is empty 1`] = `
+exports[`CreateNumberInput should remove a class if the input is empty 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <CreateInput
-    field="field"
+  Symbol(enzyme.__unrendered__): <CreateNumberInput
     handleChange={[MockFunction]}
     max="99"
     text="someText"
@@ -352,7 +377,7 @@ ShallowWrapper {
         <input
           className="input-effect has-content"
           maxLength="99"
-          name="field"
+          name="sometext"
           onChange={[MockFunction]}
           type="text"
           value="not empty"
@@ -375,7 +400,7 @@ ShallowWrapper {
         "props": Object {
           "className": "input-effect has-content",
           "maxLength": "99",
-          "name": "field",
+          "name": "sometext",
           "onChange": [MockFunction],
           "type": "text",
           "value": "not empty",
@@ -419,7 +444,7 @@ ShallowWrapper {
           <input
             className="input-effect has-content"
             maxLength="99"
-            name="field"
+            name="sometext"
             onChange={[MockFunction]}
             type="text"
             value="not empty"
@@ -442,7 +467,7 @@ ShallowWrapper {
           "props": Object {
             "className": "input-effect has-content",
             "maxLength": "99",
-            "name": "field",
+            "name": "sometext",
             "onChange": [MockFunction],
             "type": "text",
             "value": "not empty",
@@ -500,6 +525,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;

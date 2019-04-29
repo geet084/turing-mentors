@@ -26,27 +26,27 @@ ShallowWrapper {
           Please send questions to:
         </p>,
         <h4
-          className="dev-links"
+          className="link-style"
         >
           BE: 
           <a
-            href="#"
+            href="https://github.com/stoic-plus"
           >
             Ricardo Ledesma
           </a>
         </h4>,
         <h4
-          className="dev-links"
+          className="link-style"
         >
           FE: 
           <a
-            href="#"
+            href="https://github.com/geet084"
           >
             Travis Gee
           </a>
         </h4>,
       ],
-      "className": "link-content pages",
+      "className": "link-content",
     },
     "ref": null,
     "rendered": Array [
@@ -80,12 +80,12 @@ ShallowWrapper {
           "children": Array [
             "BE: ",
             <a
-              href="#"
+              href="https://github.com/stoic-plus"
             >
               Ricardo Ledesma
             </a>,
           ],
-          "className": "dev-links",
+          "className": "link-style",
         },
         "ref": null,
         "rendered": Array [
@@ -96,7 +96,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Ricardo Ledesma",
-              "href": "#",
+              "href": "https://github.com/stoic-plus",
             },
             "ref": null,
             "rendered": "Ricardo Ledesma",
@@ -113,12 +113,12 @@ ShallowWrapper {
           "children": Array [
             "FE: ",
             <a
-              href="#"
+              href="https://github.com/geet084"
             >
               Travis Gee
             </a>,
           ],
-          "className": "dev-links",
+          "className": "link-style",
         },
         "ref": null,
         "rendered": Array [
@@ -129,7 +129,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Travis Gee",
-              "href": "#",
+              "href": "https://github.com/geet084",
             },
             "ref": null,
             "rendered": "Travis Gee",
@@ -155,27 +155,27 @@ ShallowWrapper {
             Please send questions to:
           </p>,
           <h4
-            className="dev-links"
+            className="link-style"
           >
             BE: 
             <a
-              href="#"
+              href="https://github.com/stoic-plus"
             >
               Ricardo Ledesma
             </a>
           </h4>,
           <h4
-            className="dev-links"
+            className="link-style"
           >
             FE: 
             <a
-              href="#"
+              href="https://github.com/geet084"
             >
               Travis Gee
             </a>
           </h4>,
         ],
-        "className": "link-content pages",
+        "className": "link-content",
       },
       "ref": null,
       "rendered": Array [
@@ -209,12 +209,12 @@ ShallowWrapper {
             "children": Array [
               "BE: ",
               <a
-                href="#"
+                href="https://github.com/stoic-plus"
               >
                 Ricardo Ledesma
               </a>,
             ],
-            "className": "dev-links",
+            "className": "link-style",
           },
           "ref": null,
           "rendered": Array [
@@ -225,7 +225,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Ricardo Ledesma",
-                "href": "#",
+                "href": "https://github.com/stoic-plus",
               },
               "ref": null,
               "rendered": "Ricardo Ledesma",
@@ -242,12 +242,12 @@ ShallowWrapper {
             "children": Array [
               "FE: ",
               <a
-                href="#"
+                href="https://github.com/geet084"
               >
                 Travis Gee
               </a>,
             ],
-            "className": "dev-links",
+            "className": "link-style",
           },
           "ref": null,
           "rendered": Array [
@@ -258,7 +258,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Travis Gee",
-                "href": "#",
+                "href": "https://github.com/geet084",
               },
               "ref": null,
               "rendered": "Travis Gee",
@@ -294,6 +294,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
