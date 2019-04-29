@@ -66,8 +66,7 @@ ShallowWrapper {
             />
           </div>
           <div>
-            <CreateInput
-              field="cohort"
+            <CreateNumberInput
               handleChange={[Function]}
               max="4"
               text="Cohort (ex: 1406)"
@@ -158,8 +157,7 @@ ShallowWrapper {
               />
             </div>,
             <div>
-              <CreateInput
-                field="cohort"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="4"
                 text="Cohort (ex: 1406)"
@@ -316,8 +314,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <CreateInput
-                  field="cohort"
+                <CreateNumberInput
                   handleChange={[Function]}
                   max="4"
                   text="Cohort (ex: 1406)"
@@ -347,7 +344,6 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
-                  "field": "cohort",
                   "handleChange": [Function],
                   "max": "4",
                   "text": "Cohort (ex: 1406)",
@@ -508,8 +504,7 @@ ShallowWrapper {
               />
             </div>
             <div>
-              <CreateInput
-                field="cohort"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="4"
                 text="Cohort (ex: 1406)"
@@ -600,8 +595,7 @@ ShallowWrapper {
                 />
               </div>,
               <div>
-                <CreateInput
-                  field="cohort"
+                <CreateNumberInput
                   handleChange={[Function]}
                   max="4"
                   text="Cohort (ex: 1406)"
@@ -758,8 +752,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <CreateInput
-                    field="cohort"
+                  <CreateNumberInput
                     handleChange={[Function]}
                     max="4"
                     text="Cohort (ex: 1406)"
@@ -789,7 +782,6 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "function",
                   "props": Object {
-                    "field": "cohort",
                     "handleChange": [Function],
                     "max": "4",
                     "text": "Cohort (ex: 1406)",
@@ -994,8 +986,7 @@ ShallowWrapper {
             />
           </div>
           <div>
-            <CreateInput
-              field="cohort"
+            <CreateNumberInput
               handleChange={[Function]}
               max="4"
               text="Cohort (ex: 1406)"
@@ -1092,8 +1083,7 @@ ShallowWrapper {
               />
             </div>,
             <div>
-              <CreateInput
-                field="cohort"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="4"
                 text="Cohort (ex: 1406)"
@@ -1250,8 +1240,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <CreateInput
-                  field="cohort"
+                <CreateNumberInput
                   handleChange={[Function]}
                   max="4"
                   text="Cohort (ex: 1406)"
@@ -1281,7 +1270,6 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
-                  "field": "cohort",
                   "handleChange": [Function],
                   "max": "4",
                   "text": "Cohort (ex: 1406)",
@@ -1459,8 +1447,7 @@ ShallowWrapper {
               />
             </div>
             <div>
-              <CreateInput
-                field="cohort"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="4"
                 text="Cohort (ex: 1406)"
@@ -1557,8 +1544,7 @@ ShallowWrapper {
                 />
               </div>,
               <div>
-                <CreateInput
-                  field="cohort"
+                <CreateNumberInput
                   handleChange={[Function]}
                   max="4"
                   text="Cohort (ex: 1406)"
@@ -1715,8 +1701,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <CreateInput
-                    field="cohort"
+                  <CreateNumberInput
                     handleChange={[Function]}
                     max="4"
                     text="Cohort (ex: 1406)"
@@ -1746,7 +1731,6 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "function",
                   "props": Object {
-                    "field": "cohort",
                     "handleChange": [Function],
                     "max": "4",
                     "text": "Cohort (ex: 1406)",

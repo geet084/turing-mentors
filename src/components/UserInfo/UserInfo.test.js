@@ -11,7 +11,7 @@ describe('UserInfo', () => {
     first_name: '',
     last_name: '',
     identities: [],
-    cohort: 0,
+    cohort: '',
     program: '',
     current_job: '',
   };
@@ -86,7 +86,7 @@ describe('UserInfo', () => {
     it('should update the selected input in state', () => {
       const mockEvent = { target: { name: 'cohort', value: '1810' } };
       const expected = 1810;
-      expect(wrapper.state('cohort')).toEqual(0);
+      expect(wrapper.state('cohort')).toEqual('');
       wrapper.instance().updateCohort(mockEvent);
 
       expect(wrapper.state('cohort')).toEqual(expected);

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { CreateInput } from '../CreateInput/CreateInput';
+import { CreateNumberInput } from '../CreateNumberInput/CreateNumberInput';
 import { CreateTextInput } from '../CreateTextInput/CreateTextInput';
 import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
 
@@ -52,7 +52,7 @@ export class UserBio extends Component {
           <CreateTextInput text="Slack Handle" value={slack} handleChange={this.handleChange} />
           <CreateTextInput text="Email Address" value={email} handleChange={this.handleChange} />
           <CreateTextInput text="LinkedIn" value={linkedin} handleChange={this.handleChange} />
-          <CreateInput field="phone" text="Phone Number" value={phone} handleChange={this.handleChange} max="12" />
+          <CreateNumberInput text="Phone Number" value={phone} handleChange={this.handleChange} max="12" />
           <p className="pages">Preferred Method of Contact:</p>
           <CreateCheckbox field="preferred_method" name="Email" value={1} checkBoxes={this.updatePreferred} checked={preferred_method === "1" ? true : false} />
           <CreateCheckbox field="preferred_method" name="Slack" value={2} checkBoxes={this.updatePreferred} checked={preferred_method === "2" ? true : false} />
