@@ -36,13 +36,13 @@ ShallowWrapper {
           <CreateCheckbox
             checkBoxes={[Function]}
             field="javascript"
-            name="JS"
+            name="JavaScript"
             value="javascript"
           />
           <CreateCheckbox
             checkBoxes={[Function]}
             field="ruby"
-            name="RUBY"
+            name="Ruby"
             value="ruby"
           />
           <CreateCheckbox
@@ -127,7 +127,6 @@ ShallowWrapper {
               value="sql"
             />
           </Collapsible>
-          <div />
         </div>,
       ],
     },
@@ -151,30 +150,32 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="javascript"
-              name="JS"
-              value="javascript"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="ruby"
-              name="RUBY"
-              value="ruby"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="denver"
-              name="Denver"
-              value="denver"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="remote"
-              name="Remote"
-              value="remote"
-            />,
+            Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="javascript"
+                name="JavaScript"
+                value="javascript"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="ruby"
+                name="Ruby"
+                value="ruby"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="denver"
+                name="Denver"
+                value="denver"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="remote"
+                name="Remote"
+                value="remote"
+              />,
+            ],
             <Collapsible
               className=""
               classParentString="Collapsible"
@@ -245,7 +246,6 @@ ShallowWrapper {
                 value="sql"
               />
             </Collapsible>,
-            <div />,
           ],
           "className": "mentor-controls",
         },
@@ -253,12 +253,12 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "JavaScript",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "javascript",
-              "name": "JS",
+              "name": "JavaScript",
               "value": "javascript",
             },
             "ref": null,
@@ -267,12 +267,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Ruby",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "ruby",
-              "name": "RUBY",
+              "name": "Ruby",
               "value": "ruby",
             },
             "ref": null,
@@ -281,7 +281,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Denver",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
@@ -295,7 +295,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Remote",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
@@ -386,7 +386,7 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Python",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -400,7 +400,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Java",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -414,7 +414,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Elixer",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -428,7 +428,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "C",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -442,7 +442,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "PHP",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -456,7 +456,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Swift",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -470,7 +470,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "SQL",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -484,27 +484,6 @@ ShallowWrapper {
               },
             ],
             "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                false,
-                false,
-                false,
-                false,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              false,
-              false,
-              false,
-              false,
-            ],
-            "type": "div",
           },
         ],
         "type": "div",
@@ -530,13 +509,13 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="javascript"
-              name="JS"
+              name="JavaScript"
               value="javascript"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="ruby"
-              name="RUBY"
+              name="Ruby"
               value="ruby"
             />
             <CreateCheckbox
@@ -621,7 +600,6 @@ ShallowWrapper {
                 value="sql"
               />
             </Collapsible>
-            <div />
           </div>,
         ],
       },
@@ -645,30 +623,32 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="javascript"
-                name="JS"
-                value="javascript"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="ruby"
-                name="RUBY"
-                value="ruby"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="denver"
-                name="Denver"
-                value="denver"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="remote"
-                name="Remote"
-                value="remote"
-              />,
+              Array [
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="javascript"
+                  name="JavaScript"
+                  value="javascript"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="ruby"
+                  name="Ruby"
+                  value="ruby"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="denver"
+                  name="Denver"
+                  value="denver"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="remote"
+                  name="Remote"
+                  value="remote"
+                />,
+              ],
               <Collapsible
                 className=""
                 classParentString="Collapsible"
@@ -739,7 +719,6 @@ ShallowWrapper {
                   value="sql"
                 />
               </Collapsible>,
-              <div />,
             ],
             "className": "mentor-controls",
           },
@@ -747,12 +726,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "JavaScript",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "javascript",
-                "name": "JS",
+                "name": "JavaScript",
                 "value": "javascript",
               },
               "ref": null,
@@ -761,12 +740,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Ruby",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "ruby",
-                "name": "RUBY",
+                "name": "Ruby",
                 "value": "ruby",
               },
               "ref": null,
@@ -775,7 +754,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Denver",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
@@ -789,7 +768,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Remote",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
@@ -880,7 +859,7 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Python",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -894,7 +873,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Java",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -908,7 +887,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Elixer",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -922,7 +901,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "C",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -936,7 +915,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "PHP",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -950,7 +929,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Swift",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -964,7 +943,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "SQL",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -978,27 +957,6 @@ ShallowWrapper {
                 },
               ],
               "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  false,
-                  false,
-                  false,
-                  false,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                false,
-                false,
-                false,
-                false,
-              ],
-              "type": "div",
             },
           ],
           "type": "div",
@@ -1070,13 +1028,13 @@ ShallowWrapper {
           <CreateCheckbox
             checkBoxes={[Function]}
             field="javascript"
-            name="JS"
+            name="JavaScript"
             value="javascript"
           />
           <CreateCheckbox
             checkBoxes={[Function]}
             field="ruby"
-            name="RUBY"
+            name="Ruby"
             value="ruby"
           />
           <CreateCheckbox
@@ -1161,11 +1119,6 @@ ShallowWrapper {
               value="sql"
             />
           </Collapsible>
-          <div>
-            <span>
-              true
-            </span>
-          </div>
         </div>,
       ],
     },
@@ -1189,30 +1142,32 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="javascript"
-              name="JS"
-              value="javascript"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="ruby"
-              name="RUBY"
-              value="ruby"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="denver"
-              name="Denver"
-              value="denver"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="remote"
-              name="Remote"
-              value="remote"
-            />,
+            Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="javascript"
+                name="JavaScript"
+                value="javascript"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="ruby"
+                name="Ruby"
+                value="ruby"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="denver"
+                name="Denver"
+                value="denver"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="remote"
+                name="Remote"
+                value="remote"
+              />,
+            ],
             <Collapsible
               className=""
               classParentString="Collapsible"
@@ -1283,11 +1238,6 @@ ShallowWrapper {
                 value="sql"
               />
             </Collapsible>,
-            <div>
-              <span>
-                true
-              </span>
-            </div>,
           ],
           "className": "mentor-controls",
         },
@@ -1295,12 +1245,12 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "JavaScript",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "javascript",
-              "name": "JS",
+              "name": "JavaScript",
               "value": "javascript",
             },
             "ref": null,
@@ -1309,12 +1259,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Ruby",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "ruby",
-              "name": "RUBY",
+              "name": "Ruby",
               "value": "ruby",
             },
             "ref": null,
@@ -1323,7 +1273,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Denver",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
@@ -1337,7 +1287,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Remote",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
@@ -1428,7 +1378,7 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Python",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -1442,7 +1392,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Java",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -1456,7 +1406,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Elixer",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -1470,7 +1420,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "C",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -1484,7 +1434,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "PHP",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -1498,7 +1448,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Swift",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -1512,7 +1462,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "SQL",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -1526,39 +1476,6 @@ ShallowWrapper {
               },
             ],
             "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                false,
-                false,
-                <span>
-                  true
-                </span>,
-                false,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              false,
-              false,
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": true,
-                },
-                "ref": null,
-                "rendered": true,
-                "type": "span",
-              },
-              false,
-            ],
-            "type": "div",
           },
         ],
         "type": "div",
@@ -1584,13 +1501,13 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="javascript"
-              name="JS"
+              name="JavaScript"
               value="javascript"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="ruby"
-              name="RUBY"
+              name="Ruby"
               value="ruby"
             />
             <CreateCheckbox
@@ -1675,11 +1592,6 @@ ShallowWrapper {
                 value="sql"
               />
             </Collapsible>
-            <div>
-              <span>
-                true
-              </span>
-            </div>
           </div>,
         ],
       },
@@ -1703,30 +1615,32 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="javascript"
-                name="JS"
-                value="javascript"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="ruby"
-                name="RUBY"
-                value="ruby"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="denver"
-                name="Denver"
-                value="denver"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="remote"
-                name="Remote"
-                value="remote"
-              />,
+              Array [
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="javascript"
+                  name="JavaScript"
+                  value="javascript"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="ruby"
+                  name="Ruby"
+                  value="ruby"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="denver"
+                  name="Denver"
+                  value="denver"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="remote"
+                  name="Remote"
+                  value="remote"
+                />,
+              ],
               <Collapsible
                 className=""
                 classParentString="Collapsible"
@@ -1797,11 +1711,6 @@ ShallowWrapper {
                   value="sql"
                 />
               </Collapsible>,
-              <div>
-                <span>
-                  true
-                </span>
-              </div>,
             ],
             "className": "mentor-controls",
           },
@@ -1809,12 +1718,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "JavaScript",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "javascript",
-                "name": "JS",
+                "name": "JavaScript",
                 "value": "javascript",
               },
               "ref": null,
@@ -1823,12 +1732,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Ruby",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "ruby",
-                "name": "RUBY",
+                "name": "Ruby",
                 "value": "ruby",
               },
               "ref": null,
@@ -1837,7 +1746,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Denver",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
@@ -1851,7 +1760,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Remote",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
@@ -1942,7 +1851,7 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Python",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -1956,7 +1865,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Java",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -1970,7 +1879,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Elixer",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -1984,7 +1893,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "C",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -1998,7 +1907,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "PHP",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -2012,7 +1921,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Swift",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -2026,7 +1935,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "SQL",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -2040,39 +1949,6 @@ ShallowWrapper {
                 },
               ],
               "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  false,
-                  false,
-                  <span>
-                    true
-                  </span>,
-                  false,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                false,
-                false,
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": true,
-                  },
-                  "ref": null,
-                  "rendered": true,
-                  "type": "span",
-                },
-                false,
-              ],
-              "type": "div",
             },
           ],
           "type": "div",
@@ -2144,13 +2020,13 @@ ShallowWrapper {
           <CreateCheckbox
             checkBoxes={[Function]}
             field="javascript"
-            name="JS"
+            name="JavaScript"
             value="javascript"
           />
           <CreateCheckbox
             checkBoxes={[Function]}
             field="ruby"
-            name="RUBY"
+            name="Ruby"
             value="ruby"
           />
           <CreateCheckbox
@@ -2235,11 +2111,6 @@ ShallowWrapper {
               value="sql"
             />
           </Collapsible>
-          <div>
-            <span>
-              true
-            </span>
-          </div>
         </div>,
       ],
     },
@@ -2263,30 +2134,32 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="javascript"
-              name="JS"
-              value="javascript"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="ruby"
-              name="RUBY"
-              value="ruby"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="denver"
-              name="Denver"
-              value="denver"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="remote"
-              name="Remote"
-              value="remote"
-            />,
+            Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="javascript"
+                name="JavaScript"
+                value="javascript"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="ruby"
+                name="Ruby"
+                value="ruby"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="denver"
+                name="Denver"
+                value="denver"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="remote"
+                name="Remote"
+                value="remote"
+              />,
+            ],
             <Collapsible
               className=""
               classParentString="Collapsible"
@@ -2357,11 +2230,6 @@ ShallowWrapper {
                 value="sql"
               />
             </Collapsible>,
-            <div>
-              <span>
-                true
-              </span>
-            </div>,
           ],
           "className": "mentor-controls",
         },
@@ -2369,12 +2237,12 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "JavaScript",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "javascript",
-              "name": "JS",
+              "name": "JavaScript",
               "value": "javascript",
             },
             "ref": null,
@@ -2383,12 +2251,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Ruby",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "ruby",
-              "name": "RUBY",
+              "name": "Ruby",
               "value": "ruby",
             },
             "ref": null,
@@ -2397,7 +2265,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Denver",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
@@ -2411,7 +2279,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Remote",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
@@ -2502,7 +2370,7 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Python",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -2516,7 +2384,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Java",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -2530,7 +2398,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Elixer",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -2544,7 +2412,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "C",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -2558,7 +2426,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "PHP",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -2572,7 +2440,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Swift",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -2586,7 +2454,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "SQL",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -2600,39 +2468,6 @@ ShallowWrapper {
               },
             ],
             "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <span>
-                  true
-                </span>,
-                false,
-                false,
-                false,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": true,
-                },
-                "ref": null,
-                "rendered": true,
-                "type": "span",
-              },
-              false,
-              false,
-              false,
-            ],
-            "type": "div",
           },
         ],
         "type": "div",
@@ -2658,13 +2493,13 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="javascript"
-              name="JS"
+              name="JavaScript"
               value="javascript"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="ruby"
-              name="RUBY"
+              name="Ruby"
               value="ruby"
             />
             <CreateCheckbox
@@ -2749,11 +2584,6 @@ ShallowWrapper {
                 value="sql"
               />
             </Collapsible>
-            <div>
-              <span>
-                true
-              </span>
-            </div>
           </div>,
         ],
       },
@@ -2777,30 +2607,32 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="javascript"
-                name="JS"
-                value="javascript"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="ruby"
-                name="RUBY"
-                value="ruby"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="denver"
-                name="Denver"
-                value="denver"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="remote"
-                name="Remote"
-                value="remote"
-              />,
+              Array [
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="javascript"
+                  name="JavaScript"
+                  value="javascript"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="ruby"
+                  name="Ruby"
+                  value="ruby"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="denver"
+                  name="Denver"
+                  value="denver"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="remote"
+                  name="Remote"
+                  value="remote"
+                />,
+              ],
               <Collapsible
                 className=""
                 classParentString="Collapsible"
@@ -2871,11 +2703,6 @@ ShallowWrapper {
                   value="sql"
                 />
               </Collapsible>,
-              <div>
-                <span>
-                  true
-                </span>
-              </div>,
             ],
             "className": "mentor-controls",
           },
@@ -2883,12 +2710,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "JavaScript",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "javascript",
-                "name": "JS",
+                "name": "JavaScript",
                 "value": "javascript",
               },
               "ref": null,
@@ -2897,12 +2724,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Ruby",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "ruby",
-                "name": "RUBY",
+                "name": "Ruby",
                 "value": "ruby",
               },
               "ref": null,
@@ -2911,7 +2738,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Denver",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
@@ -2925,7 +2752,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Remote",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
@@ -3016,7 +2843,7 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Python",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -3030,7 +2857,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Java",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -3044,7 +2871,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Elixer",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -3058,7 +2885,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "C",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -3072,7 +2899,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "PHP",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -3086,7 +2913,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Swift",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -3100,7 +2927,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "SQL",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -3114,39 +2941,6 @@ ShallowWrapper {
                 },
               ],
               "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <span>
-                    true
-                  </span>,
-                  false,
-                  false,
-                  false,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": true,
-                  },
-                  "ref": null,
-                  "rendered": true,
-                  "type": "span",
-                },
-                false,
-                false,
-                false,
-              ],
-              "type": "div",
             },
           ],
           "type": "div",
@@ -3218,13 +3012,13 @@ ShallowWrapper {
           <CreateCheckbox
             checkBoxes={[Function]}
             field="javascript"
-            name="JS"
+            name="JavaScript"
             value="javascript"
           />
           <CreateCheckbox
             checkBoxes={[Function]}
             field="ruby"
-            name="RUBY"
+            name="Ruby"
             value="ruby"
           />
           <CreateCheckbox
@@ -3309,11 +3103,6 @@ ShallowWrapper {
               value="sql"
             />
           </Collapsible>
-          <div>
-            <span>
-              true
-            </span>
-          </div>
         </div>,
       ],
     },
@@ -3337,30 +3126,32 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="javascript"
-              name="JS"
-              value="javascript"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="ruby"
-              name="RUBY"
-              value="ruby"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="denver"
-              name="Denver"
-              value="denver"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="remote"
-              name="Remote"
-              value="remote"
-            />,
+            Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="javascript"
+                name="JavaScript"
+                value="javascript"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="ruby"
+                name="Ruby"
+                value="ruby"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="denver"
+                name="Denver"
+                value="denver"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="remote"
+                name="Remote"
+                value="remote"
+              />,
+            ],
             <Collapsible
               className=""
               classParentString="Collapsible"
@@ -3431,11 +3222,6 @@ ShallowWrapper {
                 value="sql"
               />
             </Collapsible>,
-            <div>
-              <span>
-                true
-              </span>
-            </div>,
           ],
           "className": "mentor-controls",
         },
@@ -3443,12 +3229,12 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "JavaScript",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "javascript",
-              "name": "JS",
+              "name": "JavaScript",
               "value": "javascript",
             },
             "ref": null,
@@ -3457,12 +3243,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Ruby",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "ruby",
-              "name": "RUBY",
+              "name": "Ruby",
               "value": "ruby",
             },
             "ref": null,
@@ -3471,7 +3257,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Denver",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
@@ -3485,7 +3271,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Remote",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
@@ -3576,7 +3362,7 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Python",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -3590,7 +3376,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Java",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -3604,7 +3390,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Elixer",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -3618,7 +3404,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "C",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -3632,7 +3418,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "PHP",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -3646,7 +3432,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Swift",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -3660,7 +3446,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "SQL",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -3674,39 +3460,6 @@ ShallowWrapper {
               },
             ],
             "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                false,
-                false,
-                false,
-                <span>
-                  true
-                </span>,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              false,
-              false,
-              false,
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": true,
-                },
-                "ref": null,
-                "rendered": true,
-                "type": "span",
-              },
-            ],
-            "type": "div",
           },
         ],
         "type": "div",
@@ -3732,13 +3485,13 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="javascript"
-              name="JS"
+              name="JavaScript"
               value="javascript"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="ruby"
-              name="RUBY"
+              name="Ruby"
               value="ruby"
             />
             <CreateCheckbox
@@ -3823,11 +3576,6 @@ ShallowWrapper {
                 value="sql"
               />
             </Collapsible>
-            <div>
-              <span>
-                true
-              </span>
-            </div>
           </div>,
         ],
       },
@@ -3851,30 +3599,32 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="javascript"
-                name="JS"
-                value="javascript"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="ruby"
-                name="RUBY"
-                value="ruby"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="denver"
-                name="Denver"
-                value="denver"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="remote"
-                name="Remote"
-                value="remote"
-              />,
+              Array [
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="javascript"
+                  name="JavaScript"
+                  value="javascript"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="ruby"
+                  name="Ruby"
+                  value="ruby"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="denver"
+                  name="Denver"
+                  value="denver"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="remote"
+                  name="Remote"
+                  value="remote"
+                />,
+              ],
               <Collapsible
                 className=""
                 classParentString="Collapsible"
@@ -3945,11 +3695,6 @@ ShallowWrapper {
                   value="sql"
                 />
               </Collapsible>,
-              <div>
-                <span>
-                  true
-                </span>
-              </div>,
             ],
             "className": "mentor-controls",
           },
@@ -3957,12 +3702,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "JavaScript",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "javascript",
-                "name": "JS",
+                "name": "JavaScript",
                 "value": "javascript",
               },
               "ref": null,
@@ -3971,12 +3716,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Ruby",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "ruby",
-                "name": "RUBY",
+                "name": "Ruby",
                 "value": "ruby",
               },
               "ref": null,
@@ -3985,7 +3730,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Denver",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
@@ -3999,7 +3744,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Remote",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
@@ -4090,7 +3835,7 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Python",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -4104,7 +3849,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Java",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -4118,7 +3863,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Elixer",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -4132,7 +3877,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "C",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -4146,7 +3891,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "PHP",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -4160,7 +3905,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Swift",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -4174,7 +3919,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "SQL",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -4188,39 +3933,6 @@ ShallowWrapper {
                 },
               ],
               "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  false,
-                  false,
-                  false,
-                  <span>
-                    true
-                  </span>,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                false,
-                false,
-                false,
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": true,
-                  },
-                  "ref": null,
-                  "rendered": true,
-                  "type": "span",
-                },
-              ],
-              "type": "div",
             },
           ],
           "type": "div",
@@ -4292,13 +4004,13 @@ ShallowWrapper {
           <CreateCheckbox
             checkBoxes={[Function]}
             field="javascript"
-            name="JS"
+            name="JavaScript"
             value="javascript"
           />
           <CreateCheckbox
             checkBoxes={[Function]}
             field="ruby"
-            name="RUBY"
+            name="Ruby"
             value="ruby"
           />
           <CreateCheckbox
@@ -4383,11 +4095,6 @@ ShallowWrapper {
               value="sql"
             />
           </Collapsible>
-          <div>
-            <span>
-              true
-            </span>
-          </div>
         </div>,
       ],
     },
@@ -4411,30 +4118,32 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="javascript"
-              name="JS"
-              value="javascript"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="ruby"
-              name="RUBY"
-              value="ruby"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="denver"
-              name="Denver"
-              value="denver"
-            />,
-            <CreateCheckbox
-              checkBoxes={[Function]}
-              field="remote"
-              name="Remote"
-              value="remote"
-            />,
+            Array [
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="javascript"
+                name="JavaScript"
+                value="javascript"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="ruby"
+                name="Ruby"
+                value="ruby"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="denver"
+                name="Denver"
+                value="denver"
+              />,
+              <CreateCheckbox
+                checkBoxes={[Function]}
+                field="remote"
+                name="Remote"
+                value="remote"
+              />,
+            ],
             <Collapsible
               className=""
               classParentString="Collapsible"
@@ -4505,11 +4214,6 @@ ShallowWrapper {
                 value="sql"
               />
             </Collapsible>,
-            <div>
-              <span>
-                true
-              </span>
-            </div>,
           ],
           "className": "mentor-controls",
         },
@@ -4517,12 +4221,12 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "JavaScript",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "javascript",
-              "name": "JS",
+              "name": "JavaScript",
               "value": "javascript",
             },
             "ref": null,
@@ -4531,12 +4235,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Ruby",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "field": "ruby",
-              "name": "RUBY",
+              "name": "Ruby",
               "value": "ruby",
             },
             "ref": null,
@@ -4545,7 +4249,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Denver",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
@@ -4559,7 +4263,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "Remote",
             "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
@@ -4650,7 +4354,7 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Python",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -4664,7 +4368,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Java",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -4678,7 +4382,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Elixer",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -4692,7 +4396,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "C",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -4706,7 +4410,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "PHP",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -4720,7 +4424,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Swift",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -4734,7 +4438,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "SQL",
                 "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
@@ -4748,39 +4452,6 @@ ShallowWrapper {
               },
             ],
             "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                false,
-                <span>
-                  true
-                </span>,
-                false,
-                false,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              false,
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": true,
-                },
-                "ref": null,
-                "rendered": true,
-                "type": "span",
-              },
-              false,
-              false,
-            ],
-            "type": "div",
           },
         ],
         "type": "div",
@@ -4806,13 +4477,13 @@ ShallowWrapper {
             <CreateCheckbox
               checkBoxes={[Function]}
               field="javascript"
-              name="JS"
+              name="JavaScript"
               value="javascript"
             />
             <CreateCheckbox
               checkBoxes={[Function]}
               field="ruby"
-              name="RUBY"
+              name="Ruby"
               value="ruby"
             />
             <CreateCheckbox
@@ -4897,11 +4568,6 @@ ShallowWrapper {
                 value="sql"
               />
             </Collapsible>
-            <div>
-              <span>
-                true
-              </span>
-            </div>
           </div>,
         ],
       },
@@ -4925,30 +4591,32 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="javascript"
-                name="JS"
-                value="javascript"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="ruby"
-                name="RUBY"
-                value="ruby"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="denver"
-                name="Denver"
-                value="denver"
-              />,
-              <CreateCheckbox
-                checkBoxes={[Function]}
-                field="remote"
-                name="Remote"
-                value="remote"
-              />,
+              Array [
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="javascript"
+                  name="JavaScript"
+                  value="javascript"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="ruby"
+                  name="Ruby"
+                  value="ruby"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="denver"
+                  name="Denver"
+                  value="denver"
+                />,
+                <CreateCheckbox
+                  checkBoxes={[Function]}
+                  field="remote"
+                  name="Remote"
+                  value="remote"
+                />,
+              ],
               <Collapsible
                 className=""
                 classParentString="Collapsible"
@@ -5019,11 +4687,6 @@ ShallowWrapper {
                   value="sql"
                 />
               </Collapsible>,
-              <div>
-                <span>
-                  true
-                </span>
-              </div>,
             ],
             "className": "mentor-controls",
           },
@@ -5031,12 +4694,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "JavaScript",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "javascript",
-                "name": "JS",
+                "name": "JavaScript",
                 "value": "javascript",
               },
               "ref": null,
@@ -5045,12 +4708,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Ruby",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "field": "ruby",
-                "name": "RUBY",
+                "name": "Ruby",
                 "value": "ruby",
               },
               "ref": null,
@@ -5059,7 +4722,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Denver",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
@@ -5073,7 +4736,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "Remote",
               "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
@@ -5164,7 +4827,7 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Python",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -5178,7 +4841,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Java",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -5192,7 +4855,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Elixer",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -5206,7 +4869,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "C",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -5220,7 +4883,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "PHP",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -5234,7 +4897,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Swift",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -5248,7 +4911,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "SQL",
                   "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
@@ -5262,39 +4925,6 @@ ShallowWrapper {
                 },
               ],
               "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  false,
-                  <span>
-                    true
-                  </span>,
-                  false,
-                  false,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                false,
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": true,
-                  },
-                  "ref": null,
-                  "rendered": true,
-                  "type": "span",
-                },
-                false,
-                false,
-              ],
-              "type": "div",
             },
           ],
           "type": "div",

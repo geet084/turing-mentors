@@ -99,7 +99,7 @@ export class Mentors extends Component {
 
     return (
       <div className="mentors-container">
-        <MentorControls {...this.state} handleSearch={this.handleSearch} handleChange={this.handleChange} />
+        <MentorControls handleSearch={this.handleSearch} handleChange={this.handleChange} />
         <Masonry breakpointcols={breakpointColumnsObj}
           className="mentors-grid"
           columnclassname="mentors-grid_column">
