@@ -161,7 +161,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "stress_management",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -176,7 +176,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "public_speaking",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -191,7 +191,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "resumes",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -206,7 +206,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "technical_interviews",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -221,7 +221,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "parenting",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -236,7 +236,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "wellness",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -444,7 +444,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "stress_management",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -459,7 +459,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "public_speaking",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -474,7 +474,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "resumes",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -489,7 +489,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "technical_interviews",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -504,7 +504,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "parenting",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -519,7 +519,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "wellness",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -770,7 +770,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "stress_management",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": true,
@@ -785,7 +785,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "public_speaking",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -800,7 +800,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "resumes",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -815,7 +815,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "technical_interviews",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -830,7 +830,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "parenting",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -845,7 +845,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "wellness",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1053,7 +1053,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "stress_management",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": true,
@@ -1068,7 +1068,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "public_speaking",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1083,7 +1083,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "resumes",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1098,7 +1098,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "technical_interviews",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1113,7 +1113,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "parenting",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1128,7 +1128,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "wellness",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1379,7 +1379,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "stress_management",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1394,7 +1394,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "public_speaking",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1409,7 +1409,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "resumes",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1424,7 +1424,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "technical_interviews",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1439,7 +1439,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "parenting",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1454,7 +1454,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "wellness",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1662,7 +1662,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "stress_management",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1677,7 +1677,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "public_speaking",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1692,7 +1692,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "resumes",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1707,7 +1707,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "technical_interviews",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1722,7 +1722,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "parenting",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1737,7 +1737,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "wellness",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,

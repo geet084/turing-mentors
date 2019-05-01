@@ -31,29 +31,22 @@ ShallowWrapper {
           >
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
-          <CreateInput
-            field="phone"
+          <CreateNumberInput
             handleChange={[Function]}
             max="12"
             text="Phone Number"
@@ -127,29 +120,22 @@ ShallowWrapper {
             >
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -215,11 +201,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -230,11 +214,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -245,11 +227,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -260,9 +240,8 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "phone",
               "handleChange": [Function],
               "max": "12",
               "text": "Phone Number",
@@ -287,7 +266,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -302,7 +281,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -317,7 +296,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -332,7 +311,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -411,29 +390,22 @@ ShallowWrapper {
             >
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -507,29 +479,22 @@ ShallowWrapper {
               >
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
-              <CreateInput
-                field="phone"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="12"
                 text="Phone Number"
@@ -595,11 +560,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -610,11 +573,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -625,11 +586,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -640,9 +599,8 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "phone",
                 "handleChange": [Function],
                 "max": "12",
                 "text": "Phone Number",
@@ -667,7 +625,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -682,7 +640,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -697,7 +655,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -712,7 +670,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -836,29 +794,22 @@ ShallowWrapper {
             Mentor
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
-          <CreateInput
-            field="phone"
+          <CreateNumberInput
             handleChange={[Function]}
             max="12"
             text="Phone Number"
@@ -897,10 +848,8 @@ ShallowWrapper {
             name="Phone"
             value={4}
           />
-          <CreateInput
-            field="location"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Location"
             value=""
           />
@@ -940,29 +889,22 @@ ShallowWrapper {
               Mentor
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -1001,10 +943,8 @@ ShallowWrapper {
               name="Phone"
               value={4}
             />,
-            <CreateInput
-              field="location"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Location"
               value=""
             />,
@@ -1034,11 +974,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -1049,11 +987,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -1064,11 +1000,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -1079,9 +1013,8 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "phone",
               "handleChange": [Function],
               "max": "12",
               "text": "Phone Number",
@@ -1106,7 +1039,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1121,7 +1054,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1136,7 +1069,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1151,7 +1084,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1166,11 +1099,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "location",
               "handleChange": [Function],
-              "max": "28",
               "text": "Location",
               "value": "",
             },
@@ -1245,29 +1176,22 @@ ShallowWrapper {
               Mentor
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -1306,10 +1230,8 @@ ShallowWrapper {
               name="Phone"
               value={4}
             />
-            <CreateInput
-              field="location"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Location"
               value=""
             />
@@ -1349,29 +1271,22 @@ ShallowWrapper {
                 Mentor
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
-              <CreateInput
-                field="phone"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="12"
                 text="Phone Number"
@@ -1410,10 +1325,8 @@ ShallowWrapper {
                 name="Phone"
                 value={4}
               />,
-              <CreateInput
-                field="location"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Location"
                 value=""
               />,
@@ -1443,11 +1356,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -1458,11 +1369,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -1473,11 +1382,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -1488,9 +1395,8 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "phone",
                 "handleChange": [Function],
                 "max": "12",
                 "text": "Phone Number",
@@ -1515,7 +1421,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1530,7 +1436,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1545,7 +1451,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1560,7 +1466,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -1575,11 +1481,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "location",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Location",
                 "value": "",
               },
@@ -1696,29 +1600,22 @@ ShallowWrapper {
           >
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
-          <CreateInput
-            field="phone"
+          <CreateNumberInput
             handleChange={[Function]}
             max="12"
             text="Phone Number"
@@ -1792,29 +1689,22 @@ ShallowWrapper {
             >
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -1880,11 +1770,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -1895,11 +1783,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -1910,11 +1796,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -1925,9 +1809,8 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "phone",
               "handleChange": [Function],
               "max": "12",
               "text": "Phone Number",
@@ -1952,7 +1835,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": true,
@@ -1967,7 +1850,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1982,7 +1865,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -1997,7 +1880,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -2076,29 +1959,22 @@ ShallowWrapper {
             >
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -2172,29 +2048,22 @@ ShallowWrapper {
               >
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
-              <CreateInput
-                field="phone"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="12"
                 text="Phone Number"
@@ -2260,11 +2129,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -2275,11 +2142,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -2290,11 +2155,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -2305,9 +2168,8 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "phone",
                 "handleChange": [Function],
                 "max": "12",
                 "text": "Phone Number",
@@ -2332,7 +2194,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": true,
@@ -2347,7 +2209,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -2362,7 +2224,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -2377,7 +2239,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -2499,29 +2361,22 @@ ShallowWrapper {
           >
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
-          <CreateInput
-            field="phone"
+          <CreateNumberInput
             handleChange={[Function]}
             max="12"
             text="Phone Number"
@@ -2595,29 +2450,22 @@ ShallowWrapper {
             >
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -2683,11 +2531,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -2698,11 +2544,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -2713,11 +2557,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -2728,9 +2570,8 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "phone",
               "handleChange": [Function],
               "max": "12",
               "text": "Phone Number",
@@ -2755,7 +2596,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -2770,7 +2611,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": true,
@@ -2785,7 +2626,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -2800,7 +2641,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -2879,29 +2720,22 @@ ShallowWrapper {
             >
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -2975,29 +2809,22 @@ ShallowWrapper {
               >
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
-              <CreateInput
-                field="phone"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="12"
                 text="Phone Number"
@@ -3063,11 +2890,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -3078,11 +2903,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -3093,11 +2916,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -3108,9 +2929,8 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "phone",
                 "handleChange": [Function],
                 "max": "12",
                 "text": "Phone Number",
@@ -3135,7 +2955,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -3150,7 +2970,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": true,
@@ -3165,7 +2985,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -3180,7 +3000,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -3302,29 +3122,22 @@ ShallowWrapper {
           >
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
-          <CreateInput
-            field="phone"
+          <CreateNumberInput
             handleChange={[Function]}
             max="12"
             text="Phone Number"
@@ -3398,29 +3211,22 @@ ShallowWrapper {
             >
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -3486,11 +3292,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -3501,11 +3305,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -3516,11 +3318,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -3531,9 +3331,8 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "phone",
               "handleChange": [Function],
               "max": "12",
               "text": "Phone Number",
@@ -3558,7 +3357,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -3573,7 +3372,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -3588,7 +3387,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": true,
@@ -3603,7 +3402,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -3682,29 +3481,22 @@ ShallowWrapper {
             >
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -3778,29 +3570,22 @@ ShallowWrapper {
               >
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
-              <CreateInput
-                field="phone"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="12"
                 text="Phone Number"
@@ -3866,11 +3651,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -3881,11 +3664,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -3896,11 +3677,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -3911,9 +3690,8 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "phone",
                 "handleChange": [Function],
                 "max": "12",
                 "text": "Phone Number",
@@ -3938,7 +3716,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -3953,7 +3731,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -3968,7 +3746,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": true,
@@ -3983,7 +3761,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -4105,29 +3883,22 @@ ShallowWrapper {
           >
              Contact info:
           </span>
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
-          <CreateInput
-            field="phone"
+          <CreateNumberInput
             handleChange={[Function]}
             max="12"
             text="Phone Number"
@@ -4201,29 +3972,22 @@ ShallowWrapper {
             >
                Contact info:
             </span>,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -4289,11 +4053,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -4304,11 +4066,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -4319,11 +4079,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -4334,9 +4092,8 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "phone",
               "handleChange": [Function],
               "max": "12",
               "text": "Phone Number",
@@ -4361,7 +4118,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -4376,7 +4133,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -4391,7 +4148,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -4406,7 +4163,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": true,
@@ -4485,29 +4242,22 @@ ShallowWrapper {
             >
                Contact info:
             </span>
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -4581,29 +4331,22 @@ ShallowWrapper {
               >
                  Contact info:
               </span>,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
-              <CreateInput
-                field="phone"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="12"
                 text="Phone Number"
@@ -4669,11 +4412,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -4684,11 +4425,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -4699,11 +4438,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -4714,9 +4451,8 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "phone",
                 "handleChange": [Function],
                 "max": "12",
                 "text": "Phone Number",
@@ -4741,7 +4477,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -4756,7 +4492,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -4771,7 +4507,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -4786,7 +4522,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": true,
@@ -4903,29 +4639,22 @@ ShallowWrapper {
           autoComplete="off"
           onSubmit={[Function]}
         >
-          <CreateInput
-            field="slack"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Slack Handle"
             value=""
           />
-          <CreateInput
-            field="email"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Email Address"
             value=""
           />
-          <CreateInput
-            field="linkedin"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="LinkedIn"
             value=""
           />
-          <CreateInput
-            field="phone"
+          <CreateNumberInput
             handleChange={[Function]}
             max="12"
             text="Phone Number"
@@ -4980,29 +4709,22 @@ ShallowWrapper {
           "autoComplete": "off",
           "children": Array [
             false,
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />,
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />,
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />,
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -5051,11 +4773,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "slack",
               "handleChange": [Function],
-              "max": "28",
               "text": "Slack Handle",
               "value": "",
             },
@@ -5066,11 +4786,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "email",
               "handleChange": [Function],
-              "max": "28",
               "text": "Email Address",
               "value": "",
             },
@@ -5081,11 +4799,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "linkedin",
               "handleChange": [Function],
-              "max": "28",
               "text": "LinkedIn",
               "value": "",
             },
@@ -5096,9 +4812,8 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "phone",
               "handleChange": [Function],
               "max": "12",
               "text": "Phone Number",
@@ -5123,7 +4838,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -5138,7 +4853,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -5153,7 +4868,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -5168,7 +4883,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checkBoxes": [Function],
               "checked": false,
@@ -5201,29 +4916,22 @@ ShallowWrapper {
             autoComplete="off"
             onSubmit={[Function]}
           >
-            <CreateInput
-              field="slack"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Slack Handle"
               value=""
             />
-            <CreateInput
-              field="email"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Email Address"
               value=""
             />
-            <CreateInput
-              field="linkedin"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="LinkedIn"
               value=""
             />
-            <CreateInput
-              field="phone"
+            <CreateNumberInput
               handleChange={[Function]}
               max="12"
               text="Phone Number"
@@ -5278,29 +4986,22 @@ ShallowWrapper {
             "autoComplete": "off",
             "children": Array [
               false,
-              <CreateInput
-                field="slack"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Slack Handle"
                 value=""
               />,
-              <CreateInput
-                field="email"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Email Address"
                 value=""
               />,
-              <CreateInput
-                field="linkedin"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="LinkedIn"
                 value=""
               />,
-              <CreateInput
-                field="phone"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="12"
                 text="Phone Number"
@@ -5349,11 +5050,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "slack",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Slack Handle",
                 "value": "",
               },
@@ -5364,11 +5063,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "email",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Email Address",
                 "value": "",
               },
@@ -5379,11 +5076,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "linkedin",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "LinkedIn",
                 "value": "",
               },
@@ -5394,9 +5089,8 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "phone",
                 "handleChange": [Function],
                 "max": "12",
                 "text": "Phone Number",
@@ -5421,7 +5115,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -5436,7 +5130,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -5451,7 +5145,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,
@@ -5466,7 +5160,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checkBoxes": [Function],
                 "checked": false,

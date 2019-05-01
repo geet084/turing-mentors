@@ -30,17 +30,13 @@ ShallowWrapper {
           >
              User info:
           </span>
-          <CreateInput
-            field="first_name"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="First Name"
             value=""
           />
-          <CreateInput
-            field="last_name"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Last Name"
             value=""
           />
@@ -70,8 +66,7 @@ ShallowWrapper {
             />
           </div>
           <div>
-            <CreateInput
-              field="cohort"
+            <CreateNumberInput
               handleChange={[Function]}
               max="4"
               text="Cohort (ex: 1406)"
@@ -126,17 +121,13 @@ ShallowWrapper {
             >
                User info:
             </span>,
-            <CreateInput
-              field="first_name"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="First Name"
               value=""
             />,
-            <CreateInput
-              field="last_name"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Last Name"
               value=""
             />,
@@ -166,8 +157,7 @@ ShallowWrapper {
               />
             </div>,
             <div>
-              <CreateInput
-                field="cohort"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="4"
                 text="Cohort (ex: 1406)"
@@ -215,11 +205,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "first_name",
               "handleChange": [Function],
-              "max": "28",
               "text": "First Name",
               "value": "",
             },
@@ -230,11 +218,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "last_name",
               "handleChange": [Function],
-              "max": "28",
               "text": "Last Name",
               "value": "",
             },
@@ -277,7 +263,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "0",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -292,7 +278,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "1",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -307,7 +293,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "2",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -328,8 +314,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <CreateInput
-                  field="cohort"
+                <CreateNumberInput
                   handleChange={[Function]}
                   max="4"
                   text="Cohort (ex: 1406)"
@@ -357,9 +342,8 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
-                  "field": "cohort",
                   "handleChange": [Function],
                   "max": "4",
                   "text": "Cohort (ex: 1406)",
@@ -372,7 +356,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -388,7 +372,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -484,17 +468,13 @@ ShallowWrapper {
             >
                User info:
             </span>
-            <CreateInput
-              field="first_name"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="First Name"
               value=""
             />
-            <CreateInput
-              field="last_name"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Last Name"
               value=""
             />
@@ -524,8 +504,7 @@ ShallowWrapper {
               />
             </div>
             <div>
-              <CreateInput
-                field="cohort"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="4"
                 text="Cohort (ex: 1406)"
@@ -580,17 +559,13 @@ ShallowWrapper {
               >
                  User info:
               </span>,
-              <CreateInput
-                field="first_name"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="First Name"
                 value=""
               />,
-              <CreateInput
-                field="last_name"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Last Name"
                 value=""
               />,
@@ -620,8 +595,7 @@ ShallowWrapper {
                 />
               </div>,
               <div>
-                <CreateInput
-                  field="cohort"
+                <CreateNumberInput
                   handleChange={[Function]}
                   max="4"
                   text="Cohort (ex: 1406)"
@@ -669,11 +643,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "first_name",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "First Name",
                 "value": "",
               },
@@ -684,11 +656,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "last_name",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Last Name",
                 "value": "",
               },
@@ -731,7 +701,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "0",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -746,7 +716,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "1",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -761,7 +731,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "2",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -782,8 +752,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <CreateInput
-                    field="cohort"
+                  <CreateNumberInput
                     handleChange={[Function]}
                     max="4"
                     text="Cohort (ex: 1406)"
@@ -811,9 +780,8 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
-                    "field": "cohort",
                     "handleChange": [Function],
                     "max": "4",
                     "text": "Cohort (ex: 1406)",
@@ -826,7 +794,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -842,7 +810,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -982,17 +950,13 @@ ShallowWrapper {
             Mentor
              User info:
           </span>
-          <CreateInput
-            field="first_name"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="First Name"
             value=""
           />
-          <CreateInput
-            field="last_name"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Last Name"
             value=""
           />
@@ -1022,8 +986,7 @@ ShallowWrapper {
             />
           </div>
           <div>
-            <CreateInput
-              field="cohort"
+            <CreateNumberInput
               handleChange={[Function]}
               max="4"
               text="Cohort (ex: 1406)"
@@ -1049,10 +1012,8 @@ ShallowWrapper {
         <div
           className="input-box"
         >
-          <CreateInput
-            field="current_job"
+          <CreateTextInput
             handleChange={[Function]}
-            max="28"
             text="Current Job"
             value=""
           />
@@ -1086,17 +1047,13 @@ ShallowWrapper {
               Mentor
                User info:
             </span>,
-            <CreateInput
-              field="first_name"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="First Name"
               value=""
             />,
-            <CreateInput
-              field="last_name"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Last Name"
               value=""
             />,
@@ -1126,8 +1083,7 @@ ShallowWrapper {
               />
             </div>,
             <div>
-              <CreateInput
-                field="cohort"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="4"
                 text="Cohort (ex: 1406)"
@@ -1175,11 +1131,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "first_name",
               "handleChange": [Function],
-              "max": "28",
               "text": "First Name",
               "value": "",
             },
@@ -1190,11 +1144,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "last_name",
               "handleChange": [Function],
-              "max": "28",
               "text": "Last Name",
               "value": "",
             },
@@ -1237,7 +1189,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "0",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -1252,7 +1204,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "1",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -1267,7 +1219,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "2",
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -1288,8 +1240,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <CreateInput
-                  field="cohort"
+                <CreateNumberInput
                   handleChange={[Function]}
                   max="4"
                   text="Cohort (ex: 1406)"
@@ -1317,9 +1268,8 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
-                  "field": "cohort",
                   "handleChange": [Function],
                   "max": "4",
                   "text": "Cohort (ex: 1406)",
@@ -1332,7 +1282,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -1348,7 +1298,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "checkBoxes": [Function],
                   "checked": false,
@@ -1372,10 +1322,8 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <CreateInput
-              field="current_job"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Current Job"
               value=""
             />,
@@ -1399,11 +1347,9 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "field": "current_job",
               "handleChange": [Function],
-              "max": "28",
               "text": "Current Job",
               "value": "",
             },
@@ -1465,17 +1411,13 @@ ShallowWrapper {
               Mentor
                User info:
             </span>
-            <CreateInput
-              field="first_name"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="First Name"
               value=""
             />
-            <CreateInput
-              field="last_name"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Last Name"
               value=""
             />
@@ -1505,8 +1447,7 @@ ShallowWrapper {
               />
             </div>
             <div>
-              <CreateInput
-                field="cohort"
+              <CreateNumberInput
                 handleChange={[Function]}
                 max="4"
                 text="Cohort (ex: 1406)"
@@ -1532,10 +1473,8 @@ ShallowWrapper {
           <div
             className="input-box"
           >
-            <CreateInput
-              field="current_job"
+            <CreateTextInput
               handleChange={[Function]}
-              max="28"
               text="Current Job"
               value=""
             />
@@ -1569,17 +1508,13 @@ ShallowWrapper {
                 Mentor
                  User info:
               </span>,
-              <CreateInput
-                field="first_name"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="First Name"
                 value=""
               />,
-              <CreateInput
-                field="last_name"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Last Name"
                 value=""
               />,
@@ -1609,8 +1544,7 @@ ShallowWrapper {
                 />
               </div>,
               <div>
-                <CreateInput
-                  field="cohort"
+                <CreateNumberInput
                   handleChange={[Function]}
                   max="4"
                   text="Cohort (ex: 1406)"
@@ -1658,11 +1592,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "first_name",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "First Name",
                 "value": "",
               },
@@ -1673,11 +1605,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "last_name",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Last Name",
                 "value": "",
               },
@@ -1720,7 +1650,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "0",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -1735,7 +1665,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "1",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -1750,7 +1680,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "2",
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -1771,8 +1701,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <CreateInput
-                    field="cohort"
+                  <CreateNumberInput
                     handleChange={[Function]}
                     max="4"
                     text="Cohort (ex: 1406)"
@@ -1800,9 +1729,8 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
-                    "field": "cohort",
                     "handleChange": [Function],
                     "max": "4",
                     "text": "Cohort (ex: 1406)",
@@ -1815,7 +1743,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -1831,7 +1759,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "checkBoxes": [Function],
                     "checked": false,
@@ -1855,10 +1783,8 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <CreateInput
-                field="current_job"
+              <CreateTextInput
                 handleChange={[Function]}
-                max="28"
                 text="Current Job"
                 value=""
               />,
@@ -1882,11 +1808,9 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "field": "current_job",
                 "handleChange": [Function],
-                "max": "28",
                 "text": "Current Job",
                 "value": "",
               },
