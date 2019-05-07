@@ -49,17 +49,17 @@ describe('MentorPopup', () => {
   it('should handle change of the slack message input', () => {
     const mockEvent = { target: { value: 'new message' } };
 
-    wrapper.find('.bg-info').simulate('change', mockEvent);
+    wrapper.instance().handleChange(mockEvent)
 
     expect(wrapper.state()).toEqual({ text: 'new message' });
   });
 
   it('should handle submitting the new slack message', () => {
-    const mockEvent = { target: { value: 'new message' } };
     const mockMessage = 'user: new message';
-
-    wrapper.find('.bg-info').simulate('change', mockEvent);
-    wrapper.find('button').simulate('click');
+    wrapper.setState({ text: 'new message' }
+    )
+    wrapper.instance().handleSubmit();
+    
     expect(wrapper.state()).toEqual({ text: '' });
     expect(mockProps.sendMessage).toHaveBeenCalledWith(mockMessage);
   });

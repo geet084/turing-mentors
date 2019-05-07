@@ -277,11 +277,9 @@ ShallowWrapper {
           triggerTagName="span"
           triggerWhenOpen="Send slack message  ▲"
         >
-          <textarea
-            className="bg-info"
-            name="text"
-            onChange={[Function]}
-            placeholder="send slack message"
+          <CreateTextArea
+            handleChange={[Function]}
+            placeholder="Send a slack message"
             value=""
           />
           <button
@@ -805,11 +803,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <textarea
-              className="bg-info"
-              name="text"
-              onChange={[Function]}
-              placeholder="send slack message"
+            <CreateTextArea
+              handleChange={[Function]}
+              placeholder="Send a slack message"
               value=""
             />,
             <button
@@ -851,17 +847,15 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
-              "className": "bg-info",
-              "name": "text",
-              "onChange": [Function],
-              "placeholder": "send slack message",
+              "handleChange": [Function],
+              "placeholder": "Send a slack message",
               "value": "",
             },
             "ref": null,
             "rendered": null,
-            "type": "textarea",
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -1111,11 +1105,9 @@ ShallowWrapper {
             triggerTagName="span"
             triggerWhenOpen="Send slack message  ▲"
           >
-            <textarea
-              className="bg-info"
-              name="text"
-              onChange={[Function]}
-              placeholder="send slack message"
+            <CreateTextArea
+              handleChange={[Function]}
+              placeholder="Send a slack message"
               value=""
             />
             <button
@@ -1639,11 +1631,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <textarea
-                className="bg-info"
-                name="text"
-                onChange={[Function]}
-                placeholder="send slack message"
+              <CreateTextArea
+                handleChange={[Function]}
+                placeholder="Send a slack message"
                 value=""
               />,
               <button
@@ -1685,17 +1675,15 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "className": "bg-info",
-                "name": "text",
-                "onChange": [Function],
-                "placeholder": "send slack message",
+                "handleChange": [Function],
+                "placeholder": "Send a slack message",
                 "value": "",
               },
               "ref": null,
               "rendered": null,
-              "type": "textarea",
+              "type": [Function],
             },
             Object {
               "instance": null,
@@ -2105,11 +2093,9 @@ ShallowWrapper {
           triggerTagName="span"
           triggerWhenOpen="Send slack message  ▲"
         >
-          <textarea
-            className="bg-info"
-            name="text"
-            onChange={[Function]}
-            placeholder="send slack message"
+          <CreateTextArea
+            handleChange={[Function]}
+            placeholder="Send a slack message"
             value=""
           />
           <button
@@ -2955,11 +2941,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <textarea
-              className="bg-info"
-              name="text"
-              onChange={[Function]}
-              placeholder="send slack message"
+            <CreateTextArea
+              handleChange={[Function]}
+              placeholder="Send a slack message"
               value=""
             />,
             <button
@@ -3001,17 +2985,15 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
-              "className": "bg-info",
-              "name": "text",
-              "onChange": [Function],
-              "placeholder": "send slack message",
+              "handleChange": [Function],
+              "placeholder": "Send a slack message",
               "value": "",
             },
             "ref": null,
             "rendered": null,
-            "type": "textarea",
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -3318,11 +3300,9 @@ ShallowWrapper {
             triggerTagName="span"
             triggerWhenOpen="Send slack message  ▲"
           >
-            <textarea
-              className="bg-info"
-              name="text"
-              onChange={[Function]}
-              placeholder="send slack message"
+            <CreateTextArea
+              handleChange={[Function]}
+              placeholder="Send a slack message"
               value=""
             />
             <button
@@ -4168,11 +4148,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <textarea
-                className="bg-info"
-                name="text"
-                onChange={[Function]}
-                placeholder="send slack message"
+              <CreateTextArea
+                handleChange={[Function]}
+                placeholder="Send a slack message"
                 value=""
               />,
               <button
@@ -4214,17 +4192,15 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "className": "bg-info",
-                "name": "text",
-                "onChange": [Function],
-                "placeholder": "send slack message",
+                "handleChange": [Function],
+                "placeholder": "Send a slack message",
                 "value": "",
               },
               "ref": null,
               "rendered": null,
-              "type": "textarea",
+              "type": [Function],
             },
             Object {
               "instance": null,
