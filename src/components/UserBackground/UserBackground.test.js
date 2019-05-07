@@ -28,7 +28,7 @@ describe('UserBackground', () => {
       background: 'new info'
     };
 
-    wrapper.find('.bg-info').simulate('change', mockEvent);
+    wrapper.instance().handleChange(mockEvent)
     expect(wrapper.state()).toEqual(expected);
   });
 

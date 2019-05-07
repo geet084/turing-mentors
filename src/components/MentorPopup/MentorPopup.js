@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { CreateTextArea } from '../CreateTextArea/CreateTextArea';
 import Collapsible from 'react-collapsible';
 
 export class MentorPopup extends Component {
@@ -77,13 +78,7 @@ export class MentorPopup extends Component {
           <p>{background}</p>
         </Collapsible>
         <Collapsible openedClassName="slack-message" contentInnerClassName="slack-message" ontentOuterClassName="slack-message" trigger="Send slack message  &#9660;" triggerWhenOpen="Send slack message  &#9650;">
-          <textarea
-            className="bg-info"
-            name="text"
-            placeholder="send slack message"
-            value={this.state.text}
-            onChange={this.handleChange}>
-          </textarea>
+          <CreateTextArea placeholder="Send a slack message" value={this.state.text} handleChange={this.handleChange} />
           <button className="slack-btn" onClick={this.handleSubmit}>Submit</button>
         </Collapsible>
         <div className="links">
