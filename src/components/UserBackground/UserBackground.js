@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { CreateTextArea } from '../CreateTextArea/CreateTextArea';
 
 export class UserBackground extends Component {
   constructor(props) {
@@ -32,15 +33,7 @@ export class UserBackground extends Component {
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
           {!profile && <span className="pages">{user} Background info:</span>}
-          <textarea
-            className="bg-info"
-            type="text"
-            placeholder="Tell us a bit about yourself"
-            name='background'
-            rows="18"
-            cols="40"
-            value={background}
-            onChange={this.handleChange} />
+          <CreateTextArea placeholder="Tell us a bit about yourself" value={background} handleChange={this.handleChange} />
         </form>
         {!profile && <button className="prev-btn" onClick={this.goBack}>Back</button>}
         {!profile && <button className="next-btn" onClick={this.submitForm}>Next</button>}

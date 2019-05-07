@@ -30,14 +30,9 @@ ShallowWrapper {
           >
              Background info:
           </span>
-          <textarea
-            className="bg-info"
-            cols="40"
-            name="background"
-            onChange={[Function]}
+          <CreateTextArea
+            handleChange={[Function]}
             placeholder="Tell us a bit about yourself"
-            rows="18"
-            type="text"
             value=""
           />
         </form>,
@@ -75,14 +70,9 @@ ShallowWrapper {
             >
                Background info:
             </span>,
-            <textarea
-              className="bg-info"
-              cols="40"
-              name="background"
-              onChange={[Function]}
+            <CreateTextArea
+              handleChange={[Function]}
               placeholder="Tell us a bit about yourself"
-              rows="18"
-              type="text"
               value=""
             />,
           ],
@@ -111,20 +101,15 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
-              "className": "bg-info",
-              "cols": "40",
-              "name": "background",
-              "onChange": [Function],
+              "handleChange": [Function],
               "placeholder": "Tell us a bit about yourself",
-              "rows": "18",
-              "type": "text",
               "value": "",
             },
             "ref": null,
             "rendered": null,
-            "type": "textarea",
+            "type": [Function],
           },
         ],
         "type": "form",
@@ -192,14 +177,9 @@ ShallowWrapper {
             >
                Background info:
             </span>
-            <textarea
-              className="bg-info"
-              cols="40"
-              name="background"
-              onChange={[Function]}
+            <CreateTextArea
+              handleChange={[Function]}
               placeholder="Tell us a bit about yourself"
-              rows="18"
-              type="text"
               value=""
             />
           </form>,
@@ -237,14 +217,9 @@ ShallowWrapper {
               >
                  Background info:
               </span>,
-              <textarea
-                className="bg-info"
-                cols="40"
-                name="background"
-                onChange={[Function]}
+              <CreateTextArea
+                handleChange={[Function]}
                 placeholder="Tell us a bit about yourself"
-                rows="18"
-                type="text"
                 value=""
               />,
             ],
@@ -273,20 +248,15 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "className": "bg-info",
-                "cols": "40",
-                "name": "background",
-                "onChange": [Function],
+                "handleChange": [Function],
                 "placeholder": "Tell us a bit about yourself",
-                "rows": "18",
-                "type": "text",
                 "value": "",
               },
               "ref": null,
               "rendered": null,
-              "type": "textarea",
+              "type": [Function],
             },
           ],
           "type": "form",
@@ -398,14 +368,9 @@ ShallowWrapper {
             Mentor
              Background info:
           </span>
-          <textarea
-            className="bg-info"
-            cols="40"
-            name="background"
-            onChange={[Function]}
+          <CreateTextArea
+            handleChange={[Function]}
             placeholder="Tell us a bit about yourself"
-            rows="18"
-            type="text"
             value=""
           />
         </form>,
@@ -444,14 +409,9 @@ ShallowWrapper {
               Mentor
                Background info:
             </span>,
-            <textarea
-              className="bg-info"
-              cols="40"
-              name="background"
-              onChange={[Function]}
+            <CreateTextArea
+              handleChange={[Function]}
               placeholder="Tell us a bit about yourself"
-              rows="18"
-              type="text"
               value=""
             />,
           ],
@@ -480,20 +440,15 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
-              "className": "bg-info",
-              "cols": "40",
-              "name": "background",
-              "onChange": [Function],
+              "handleChange": [Function],
               "placeholder": "Tell us a bit about yourself",
-              "rows": "18",
-              "type": "text",
               "value": "",
             },
             "ref": null,
             "rendered": null,
-            "type": "textarea",
+            "type": [Function],
           },
         ],
         "type": "form",
@@ -562,14 +517,9 @@ ShallowWrapper {
               Mentor
                Background info:
             </span>
-            <textarea
-              className="bg-info"
-              cols="40"
-              name="background"
-              onChange={[Function]}
+            <CreateTextArea
+              handleChange={[Function]}
               placeholder="Tell us a bit about yourself"
-              rows="18"
-              type="text"
               value=""
             />
           </form>,
@@ -608,14 +558,9 @@ ShallowWrapper {
                 Mentor
                  Background info:
               </span>,
-              <textarea
-                className="bg-info"
-                cols="40"
-                name="background"
-                onChange={[Function]}
+              <CreateTextArea
+                handleChange={[Function]}
                 placeholder="Tell us a bit about yourself"
-                rows="18"
-                type="text"
                 value=""
               />,
             ],
@@ -644,20 +589,15 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "className": "bg-info",
-                "cols": "40",
-                "name": "background",
-                "onChange": [Function],
+                "handleChange": [Function],
                 "placeholder": "Tell us a bit about yourself",
-                "rows": "18",
-                "type": "text",
                 "value": "",
               },
               "ref": null,
               "rendered": null,
-              "type": "textarea",
+              "type": [Function],
             },
           ],
           "type": "form",
