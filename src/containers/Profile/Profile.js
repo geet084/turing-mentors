@@ -18,9 +18,9 @@ export class Profile extends Component {
     const userSchedule = <UserSchedule profile={true} availability={availability} />;
     const userTechSkills = <UserTechSkills profile={true} tech_skills={tech_skills} />;
     const userNonTechSkills = <UserNonTechSkills profile={true} non_tech_skills={non_tech_skills} />;
-
+    
     return (
-      <div>
+      <div className="link-content">
         <ProfileSection name="User Info" content={userInfo} />
         <ProfileSection name="Contact Info" content={userBio} />
         <ProfileSection name="Background Info" content={userBackground} />
