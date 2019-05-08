@@ -28,12 +28,13 @@ export class UserBackground extends Component {
   render() {
     const { background } = this.state;
     const { profile, user } = this.props;
-
+    const placeholder = background ? background : "Tell us a bit about yourself";
+    
     return (
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
           {!profile && <span className="pages">{user} Background info:</span>}
-          <CreateTextArea placeholder="Tell us a bit about yourself" value={background} handleChange={this.handleChange} />
+          <CreateTextArea placeholder={placeholder} value={background} handleChange={this.handleChange} />
         </form>
         {!profile && <button className="prev-btn" onClick={this.goBack}>Back</button>}
         {!profile && <button className="next-btn" onClick={this.submitForm}>Next</button>}
