@@ -8,16 +8,8 @@ describe('UserSchedule', () => {
     updateUserInfo: jest.fn()
   };
   const mockState = {
-    availability: {
-      0: [false, false, false],
-      1: [false, false, false],
-      2: [false, false, false],
-      3: [false, false, false],
-      4: [false, false, false],
-      5: [false, false, false],
-      6: [false, false, false],
-    }
-  }
+    availability: {}
+  };
 
   beforeEach(() => {
     wrapper = shallow(<UserSchedule {...mockProps} />);
@@ -37,7 +29,7 @@ describe('UserSchedule', () => {
   });
 
   describe('submitForm', () => {
-    it('should handle the form submission for a mentor', () => {
+    it('should handle the form submission for a mentor with no availability', () => {
       const mockEvent = { preventDefault: () => { } };
       const expected = [mockState, 'userTechSkills'];
 
@@ -46,14 +38,66 @@ describe('UserSchedule', () => {
       expect(mockProps.updateUserInfo).toHaveBeenCalledWith(expected);
     });
 
-    it('should handle the form submission for a mentee', () => {
+    it('should handle the form submission for a mentor with some availability', () => {
       const mockEvent = { preventDefault: () => { } };
-      const expected = [mockState, 'complete'];
+      const expected = [mockState, 'userTechSkills'];
+
+      wrapper.instance().submitForm(mockEvent);
+
+      expect(mockProps.updateUserInfo).toHaveBeenCalledWith(expected);
+    });
+
+    it('should handle the form submission for a mentee with no availability', () => {
+      const mockEvent = { preventDefault: () => { } };
+      const expected = [{ availability: {} }, 'userTechSkills'];
       wrapper.setProps({ user: 'Mentee' })
 
       wrapper.instance().submitForm(mockEvent);
 
       expect(mockProps.updateUserInfo).toHaveBeenCalledWith(expected);
+    });
+  });
+
+  describe('getUserSelections', () => {
+    it('should filter user schedule down to zero days selected', () => {
+      const initialState = {
+        availability: {
+          0: [false, false, false],
+          1: [false, false, false],
+          2: [false, false, false],
+          3: [false, false, false],
+          4: [false, false, false],
+          5: [false, false, false],
+          6: [false, false, false],
+        }
+      };
+      const expected = {};
+      wrapper.setState(initialState);
+      let result = wrapper.instance().getUserSelections();
+      expect(result).toEqual(expected);
+    });
+
+    it('should filter user schedule down to 4 days selected', () => {
+      const initialState = {
+        availability: {
+          0: [false, true, false],
+          1: [false, false, false],
+          2: [false, true, false],
+          3: [false, false, false],
+          4: [false, true, false],
+          5: [false, false, false],
+          6: [false, true, false],
+        }
+      };
+      const expected = {
+        0: [false, true, false],
+        2: [false, true, false],
+        4: [false, true, false],
+        6: [false, true, false],
+      };
+      wrapper.setState(initialState);
+      let result = wrapper.instance().getUserSelections();
+      expect(result).toEqual(expected);
     });
   });
 
