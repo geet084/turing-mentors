@@ -21,16 +21,26 @@ export class UserSchedule extends Component {
 
   submitForm = (e) => {
     e.preventDefault();
+
     if (this.props.user === 'Mentee') {
-      this.props.updateUserInfo([this.state, 'complete']);
+      this.props.updateUserInfo([{ availability: this.getUserSelections() }, 'complete']);
     } else {
-      this.props.updateUserInfo([this.state, 'userTechSkills']);
+      this.props.updateUserInfo([{ availability: this.getUserSelections() }, 'userTechSkills']);
     }
   }
 
   goBack = (e) => {
     e.preventDefault();
-    this.props.updateUserInfo([this.state, 'userBackground']);
+    this.props.updateUserInfo([{ availability: this.getUserSelections() }, 'userBackground']);
+  }
+
+  getUserSelections() {
+    const availability = { ...this.state.availability };
+    for (let i = 0; i < 7; i++) {
+      if (!availability[i].includes(true))
+        delete availability[i];
+    }
+    return availability;
   }
 
   checkBoxes = ({ target }) => {

@@ -29,14 +29,14 @@ export class MentorPopup extends Component {
   generateAvailability = () => {
     const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
     const timeSlots = ['Morning', 'Afternoon', 'Evening'];
+
     return days.map((day, i) => {
+      const dayOfWeek = this.props.availability[i];
       let availTimes = [];
-      this.props.availability[i].forEach((times, j) => {
+      dayOfWeek && dayOfWeek.forEach((times, j) => {
         if (times) availTimes.push(<span key={day + j}>{timeSlots[j]} </span>)
       })
-      if (availTimes.length) {
-        return (<p key={day + i}>{day}: {availTimes}</p>)
-      }
+      if (availTimes.length) return (<p key={day + i}>{day}: {availTimes}</p>)
     })
   }
 
@@ -46,7 +46,6 @@ export class MentorPopup extends Component {
     const techSkills = this.generateSkills(tech_skills)
     const nonTechSkills = this.generateSkills(non_tech_skills)
     const avail = this.generateAvailability()
-
     return (
       <div className="mentor-popup link-content">
         <div className="name">
