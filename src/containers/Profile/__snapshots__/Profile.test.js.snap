@@ -40,208 +40,70 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="User Info  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="User Info  ▲"
-        >
-          <UserInfo
-            cohort=""
-            current_job=""
-            first_name=""
-            identities={Array []}
-            last_name=""
-            profile={true}
-            program=""
-          />
-        </Collapsible>,
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="Contact Info  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="Contact Info  ▲"
-        >
-          <UserBio
-            email=""
-            linkedin=""
-            location=""
-            phone=""
-            preferred_method=""
-            profile={true}
-            slack=""
-          />
-        </Collapsible>,
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="Background Info  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="Background Info  ▲"
-        >
-          <UserBackground
-            background=""
-            profile={true}
-          />
-        </Collapsible>,
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="Availability Info  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="Availability Info  ▲"
-        >
-          <UserSchedule
-            availability={Object {}}
-            profile={true}
-          />
-        </Collapsible>,
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="Tech Skills  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="Tech Skills  ▲"
-        >
-          <UserTechSkills
-            profile={true}
-            tech_skills={Array []}
-          />
-        </Collapsible>,
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="Non-Tech Skills  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="Non-Tech Skills  ▲"
-        >
-          <UserNonTechSkills
-            non_tech_skills={Array []}
-            profile={true}
-          />
-        </Collapsible>,
+        <ProfileSection
+          content={
+            <UserInfo
+              cohort=""
+              current_job=""
+              first_name=""
+              identities={Array []}
+              last_name=""
+              profile={true}
+              program=""
+            />
+          }
+          name="User Info"
+        />,
+        <ProfileSection
+          content={
+            <UserBio
+              email=""
+              linkedin=""
+              location=""
+              phone=""
+              preferred_method=""
+              profile={true}
+              slack=""
+            />
+          }
+          name="Contact Info"
+        />,
+        <ProfileSection
+          content={
+            <UserBackground
+              background=""
+              profile={true}
+            />
+          }
+          name="Background Info"
+        />,
+        <ProfileSection
+          content={
+            <UserSchedule
+              availability={Object {}}
+              profile={true}
+            />
+          }
+          name="Availability Info"
+        />,
+        <ProfileSection
+          content={
+            <UserTechSkills
+              profile={true}
+              tech_skills={Array []}
+            />
+          }
+          name="TechSkills"
+        />,
+        <ProfileSection
+          content={
+            <UserNonTechSkills
+              non_tech_skills={Array []}
+              profile={true}
+            />
+          }
+          name="Non-TechSkills"
+        />,
       ],
     },
     "ref": null,
@@ -249,9 +111,9 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <UserInfo
+          "content": <UserInfo
             cohort=""
             current_job=""
             first_name=""
@@ -260,58 +122,18 @@ ShallowWrapper {
             profile={true}
             program=""
           />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "User Info  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "User Info  ▲",
+          "name": "User Info",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "cohort": "",
-            "current_job": "",
-            "first_name": "",
-            "identities": Array [],
-            "last_name": "",
-            "profile": true,
-            "program": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": null,
         "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <UserBio
+          "content": <UserBio
             email=""
             linkedin=""
             location=""
@@ -320,250 +142,70 @@ ShallowWrapper {
             profile={true}
             slack=""
           />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "Contact Info  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "Contact Info  ▲",
+          "name": "Contact Info",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "email": "",
-            "linkedin": "",
-            "location": "",
-            "phone": "",
-            "preferred_method": "",
-            "profile": true,
-            "slack": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": null,
         "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <UserBackground
+          "content": <UserBackground
             background=""
             profile={true}
           />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "Background Info  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "Background Info  ▲",
+          "name": "Background Info",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "background": "",
-            "profile": true,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": null,
         "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <UserSchedule
+          "content": <UserSchedule
             availability={Object {}}
             profile={true}
           />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "Availability Info  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "Availability Info  ▲",
+          "name": "Availability Info",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "availability": Object {},
-            "profile": true,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": null,
         "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <UserTechSkills
+          "content": <UserTechSkills
             profile={true}
             tech_skills={Array []}
           />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "Tech Skills  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "Tech Skills  ▲",
+          "name": "TechSkills",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "profile": true,
-            "tech_skills": Array [],
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": null,
         "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <UserNonTechSkills
+          "content": <UserNonTechSkills
             non_tech_skills={Array []}
             profile={true}
           />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "Non-Tech Skills  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "Non-Tech Skills  ▲",
+          "name": "Non-TechSkills",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "non_tech_skills": Array [],
-            "profile": true,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": null,
         "type": [Function],
       },
     ],
@@ -576,208 +218,70 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="User Info  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="User Info  ▲"
-          >
-            <UserInfo
-              cohort=""
-              current_job=""
-              first_name=""
-              identities={Array []}
-              last_name=""
-              profile={true}
-              program=""
-            />
-          </Collapsible>,
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="Contact Info  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="Contact Info  ▲"
-          >
-            <UserBio
-              email=""
-              linkedin=""
-              location=""
-              phone=""
-              preferred_method=""
-              profile={true}
-              slack=""
-            />
-          </Collapsible>,
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="Background Info  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="Background Info  ▲"
-          >
-            <UserBackground
-              background=""
-              profile={true}
-            />
-          </Collapsible>,
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="Availability Info  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="Availability Info  ▲"
-          >
-            <UserSchedule
-              availability={Object {}}
-              profile={true}
-            />
-          </Collapsible>,
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="Tech Skills  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="Tech Skills  ▲"
-          >
-            <UserTechSkills
-              profile={true}
-              tech_skills={Array []}
-            />
-          </Collapsible>,
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="Non-Tech Skills  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="Non-Tech Skills  ▲"
-          >
-            <UserNonTechSkills
-              non_tech_skills={Array []}
-              profile={true}
-            />
-          </Collapsible>,
+          <ProfileSection
+            content={
+              <UserInfo
+                cohort=""
+                current_job=""
+                first_name=""
+                identities={Array []}
+                last_name=""
+                profile={true}
+                program=""
+              />
+            }
+            name="User Info"
+          />,
+          <ProfileSection
+            content={
+              <UserBio
+                email=""
+                linkedin=""
+                location=""
+                phone=""
+                preferred_method=""
+                profile={true}
+                slack=""
+              />
+            }
+            name="Contact Info"
+          />,
+          <ProfileSection
+            content={
+              <UserBackground
+                background=""
+                profile={true}
+              />
+            }
+            name="Background Info"
+          />,
+          <ProfileSection
+            content={
+              <UserSchedule
+                availability={Object {}}
+                profile={true}
+              />
+            }
+            name="Availability Info"
+          />,
+          <ProfileSection
+            content={
+              <UserTechSkills
+                profile={true}
+                tech_skills={Array []}
+              />
+            }
+            name="TechSkills"
+          />,
+          <ProfileSection
+            content={
+              <UserNonTechSkills
+                non_tech_skills={Array []}
+                profile={true}
+              />
+            }
+            name="Non-TechSkills"
+          />,
         ],
       },
       "ref": null,
@@ -785,9 +289,9 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserInfo
+            "content": <UserInfo
               cohort=""
               current_job=""
               first_name=""
@@ -796,58 +300,18 @@ ShallowWrapper {
               profile={true}
               program=""
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "User Info  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "User Info  ▲",
+            "name": "User Info",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "cohort": "",
-              "current_job": "",
-              "first_name": "",
-              "identities": Array [],
-              "last_name": "",
-              "profile": true,
-              "program": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserBio
+            "content": <UserBio
               email=""
               linkedin=""
               location=""
@@ -856,250 +320,70 @@ ShallowWrapper {
               profile={true}
               slack=""
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "Contact Info  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "Contact Info  ▲",
+            "name": "Contact Info",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "email": "",
-              "linkedin": "",
-              "location": "",
-              "phone": "",
-              "preferred_method": "",
-              "profile": true,
-              "slack": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserBackground
+            "content": <UserBackground
               background=""
               profile={true}
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "Background Info  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "Background Info  ▲",
+            "name": "Background Info",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "background": "",
-              "profile": true,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserSchedule
+            "content": <UserSchedule
               availability={Object {}}
               profile={true}
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "Availability Info  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "Availability Info  ▲",
+            "name": "Availability Info",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "availability": Object {},
-              "profile": true,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserTechSkills
+            "content": <UserTechSkills
               profile={true}
               tech_skills={Array []}
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "Tech Skills  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "Tech Skills  ▲",
+            "name": "TechSkills",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "profile": true,
-              "tech_skills": Array [],
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserNonTechSkills
+            "content": <UserNonTechSkills
               non_tech_skills={Array []}
               profile={true}
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "Non-Tech Skills  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "Non-Tech Skills  ▲",
+            "name": "Non-TechSkills",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "non_tech_skills": Array [],
-              "profile": true,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
       ],
@@ -1217,717 +501,8 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="User Info  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="User Info  ▲"
-        >
-          <UserInfo
-            cohort="1810"
-            current_job="Person"
-            first_name="first"
-            identities={
-              Array [
-                1,
-              ]
-            }
-            last_name="last"
-            profile={true}
-            program="FE"
-          />
-        </Collapsible>,
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="Contact Info  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="Contact Info  ▲"
-        >
-          <UserBio
-            email="email"
-            linkedin="linkedin"
-            location="Denver"
-            phone="1910201231"
-            preferred_method="1"
-            profile={true}
-            slack="slack"
-          />
-        </Collapsible>,
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="Background Info  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="Background Info  ▲"
-        >
-          <UserBackground
-            background="things and stuff"
-            profile={true}
-          />
-        </Collapsible>,
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="Availability Info  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="Availability Info  ▲"
-        >
-          <UserSchedule
-            availability={
-              Object {
-                "0": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "1": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "2": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "3": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "4": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "5": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "6": Array [
-                  false,
-                  false,
-                  true,
-                ],
-              }
-            }
-            profile={true}
-          />
-        </Collapsible>,
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="Tech Skills  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="Tech Skills  ▲"
-        >
-          <UserTechSkills
-            profile={true}
-            tech_skills={
-              Array [
-                "1",
-                "3",
-              ]
-            }
-          />
-        </Collapsible>,
-        <Collapsible
-          className=""
-          classParentString="Collapsible"
-          contentContainerTagName="div"
-          contentInnerClassName="profile"
-          contentOuterClassName="profile"
-          easing="linear"
-          lazyRender={false}
-          onClose={[Function]}
-          onClosing={[Function]}
-          onOpen={[Function]}
-          onOpening={[Function]}
-          open={false}
-          openedClassName="profile"
-          overflowWhenOpen="hidden"
-          tabIndex={null}
-          transitionCloseTime={null}
-          transitionTime={400}
-          trigger="Non-Tech Skills  ▼"
-          triggerClassName=""
-          triggerDisabled={false}
-          triggerOpenedClassName=""
-          triggerSibling={null}
-          triggerStyle={null}
-          triggerTagName="span"
-          triggerWhenOpen="Non-Tech Skills  ▲"
-        >
-          <UserNonTechSkills
-            non_tech_skills={
-              Array [
-                "2",
-                "4",
-              ]
-            }
-            profile={true}
-          />
-        </Collapsible>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <UserInfo
-            cohort="1810"
-            current_job="Person"
-            first_name="first"
-            identities={
-              Array [
-                1,
-              ]
-            }
-            last_name="last"
-            profile={true}
-            program="FE"
-          />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "User Info  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "User Info  ▲",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "cohort": "1810",
-            "current_job": "Person",
-            "first_name": "first",
-            "identities": Array [
-              1,
-            ],
-            "last_name": "last",
-            "profile": true,
-            "program": "FE",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <UserBio
-            email="email"
-            linkedin="linkedin"
-            location="Denver"
-            phone="1910201231"
-            preferred_method="1"
-            profile={true}
-            slack="slack"
-          />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "Contact Info  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "Contact Info  ▲",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "email": "email",
-            "linkedin": "linkedin",
-            "location": "Denver",
-            "phone": "1910201231",
-            "preferred_method": "1",
-            "profile": true,
-            "slack": "slack",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <UserBackground
-            background="things and stuff"
-            profile={true}
-          />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "Background Info  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "Background Info  ▲",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "background": "things and stuff",
-            "profile": true,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <UserSchedule
-            availability={
-              Object {
-                "0": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "1": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "2": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "3": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "4": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "5": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "6": Array [
-                  false,
-                  false,
-                  true,
-                ],
-              }
-            }
-            profile={true}
-          />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "Availability Info  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "Availability Info  ▲",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "availability": Object {
-              "0": Array [
-                false,
-                false,
-                true,
-              ],
-              "1": Array [
-                false,
-                false,
-                true,
-              ],
-              "2": Array [
-                false,
-                false,
-                true,
-              ],
-              "3": Array [
-                false,
-                false,
-                true,
-              ],
-              "4": Array [
-                false,
-                false,
-                true,
-              ],
-              "5": Array [
-                false,
-                false,
-                true,
-              ],
-              "6": Array [
-                false,
-                false,
-                true,
-              ],
-            },
-            "profile": true,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <UserTechSkills
-            profile={true}
-            tech_skills={
-              Array [
-                "1",
-                "3",
-              ]
-            }
-          />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "Tech Skills  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "Tech Skills  ▲",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "profile": true,
-            "tech_skills": Array [
-              "1",
-              "3",
-            ],
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <UserNonTechSkills
-            non_tech_skills={
-              Array [
-                "2",
-                "4",
-              ]
-            }
-            profile={true}
-          />,
-          "className": "",
-          "classParentString": "Collapsible",
-          "contentContainerTagName": "div",
-          "contentInnerClassName": "profile",
-          "contentOuterClassName": "profile",
-          "easing": "linear",
-          "lazyRender": false,
-          "onClose": [Function],
-          "onClosing": [Function],
-          "onOpen": [Function],
-          "onOpening": [Function],
-          "open": false,
-          "openedClassName": "profile",
-          "overflowWhenOpen": "hidden",
-          "tabIndex": null,
-          "transitionCloseTime": null,
-          "transitionTime": 400,
-          "trigger": "Non-Tech Skills  ▼",
-          "triggerClassName": "",
-          "triggerDisabled": false,
-          "triggerOpenedClassName": "",
-          "triggerSibling": null,
-          "triggerStyle": null,
-          "triggerTagName": "span",
-          "triggerWhenOpen": "Non-Tech Skills  ▲",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "non_tech_skills": Array [
-              "2",
-              "4",
-            ],
-            "profile": true,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="User Info  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="User Info  ▲"
-          >
+        <ProfileSection
+          content={
             <UserInfo
               cohort="1810"
               current_job="Person"
@@ -1941,34 +516,11 @@ ShallowWrapper {
               profile={true}
               program="FE"
             />
-          </Collapsible>,
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="Contact Info  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="Contact Info  ▲"
-          >
+          }
+          name="User Info"
+        />,
+        <ProfileSection
+          content={
             <UserBio
               email="email"
               linkedin="linkedin"
@@ -1978,66 +530,20 @@ ShallowWrapper {
               profile={true}
               slack="slack"
             />
-          </Collapsible>,
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="Background Info  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="Background Info  ▲"
-          >
+          }
+          name="Contact Info"
+        />,
+        <ProfileSection
+          content={
             <UserBackground
               background="things and stuff"
               profile={true}
             />
-          </Collapsible>,
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="Availability Info  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="Availability Info  ▲"
-          >
+          }
+          name="Background Info"
+        />,
+        <ProfileSection
+          content={
             <UserSchedule
               availability={
                 Object {
@@ -2080,34 +586,11 @@ ShallowWrapper {
               }
               profile={true}
             />
-          </Collapsible>,
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="Tech Skills  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="Tech Skills  ▲"
-          >
+          }
+          name="Availability Info"
+        />,
+        <ProfileSection
+          content={
             <UserTechSkills
               profile={true}
               tech_skills={
@@ -2117,34 +600,11 @@ ShallowWrapper {
                 ]
               }
             />
-          </Collapsible>,
-          <Collapsible
-            className=""
-            classParentString="Collapsible"
-            contentContainerTagName="div"
-            contentInnerClassName="profile"
-            contentOuterClassName="profile"
-            easing="linear"
-            lazyRender={false}
-            onClose={[Function]}
-            onClosing={[Function]}
-            onOpen={[Function]}
-            onOpening={[Function]}
-            open={false}
-            openedClassName="profile"
-            overflowWhenOpen="hidden"
-            tabIndex={null}
-            transitionCloseTime={null}
-            transitionTime={400}
-            trigger="Non-Tech Skills  ▼"
-            triggerClassName=""
-            triggerDisabled={false}
-            triggerOpenedClassName=""
-            triggerSibling={null}
-            triggerStyle={null}
-            triggerTagName="span"
-            triggerWhenOpen="Non-Tech Skills  ▲"
-          >
+          }
+          name="TechSkills"
+        />,
+        <ProfileSection
+          content={
             <UserNonTechSkills
               non_tech_skills={
                 Array [
@@ -2154,7 +614,291 @@ ShallowWrapper {
               }
               profile={true}
             />
-          </Collapsible>,
+          }
+          name="Non-TechSkills"
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "content": <UserInfo
+            cohort="1810"
+            current_job="Person"
+            first_name="first"
+            identities={
+              Array [
+                1,
+              ]
+            }
+            last_name="last"
+            profile={true}
+            program="FE"
+          />,
+          "name": "User Info",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "content": <UserBio
+            email="email"
+            linkedin="linkedin"
+            location="Denver"
+            phone="1910201231"
+            preferred_method="1"
+            profile={true}
+            slack="slack"
+          />,
+          "name": "Contact Info",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "content": <UserBackground
+            background="things and stuff"
+            profile={true}
+          />,
+          "name": "Background Info",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "content": <UserSchedule
+            availability={
+              Object {
+                "0": Array [
+                  false,
+                  false,
+                  true,
+                ],
+                "1": Array [
+                  false,
+                  false,
+                  true,
+                ],
+                "2": Array [
+                  false,
+                  false,
+                  true,
+                ],
+                "3": Array [
+                  false,
+                  false,
+                  true,
+                ],
+                "4": Array [
+                  false,
+                  false,
+                  true,
+                ],
+                "5": Array [
+                  false,
+                  false,
+                  true,
+                ],
+                "6": Array [
+                  false,
+                  false,
+                  true,
+                ],
+              }
+            }
+            profile={true}
+          />,
+          "name": "Availability Info",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "content": <UserTechSkills
+            profile={true}
+            tech_skills={
+              Array [
+                "1",
+                "3",
+              ]
+            }
+          />,
+          "name": "TechSkills",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "content": <UserNonTechSkills
+            non_tech_skills={
+              Array [
+                "2",
+                "4",
+              ]
+            }
+            profile={true}
+          />,
+          "name": "Non-TechSkills",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ProfileSection
+            content={
+              <UserInfo
+                cohort="1810"
+                current_job="Person"
+                first_name="first"
+                identities={
+                  Array [
+                    1,
+                  ]
+                }
+                last_name="last"
+                profile={true}
+                program="FE"
+              />
+            }
+            name="User Info"
+          />,
+          <ProfileSection
+            content={
+              <UserBio
+                email="email"
+                linkedin="linkedin"
+                location="Denver"
+                phone="1910201231"
+                preferred_method="1"
+                profile={true}
+                slack="slack"
+              />
+            }
+            name="Contact Info"
+          />,
+          <ProfileSection
+            content={
+              <UserBackground
+                background="things and stuff"
+                profile={true}
+              />
+            }
+            name="Background Info"
+          />,
+          <ProfileSection
+            content={
+              <UserSchedule
+                availability={
+                  Object {
+                    "0": Array [
+                      false,
+                      false,
+                      true,
+                    ],
+                    "1": Array [
+                      false,
+                      false,
+                      true,
+                    ],
+                    "2": Array [
+                      false,
+                      false,
+                      true,
+                    ],
+                    "3": Array [
+                      false,
+                      false,
+                      true,
+                    ],
+                    "4": Array [
+                      false,
+                      false,
+                      true,
+                    ],
+                    "5": Array [
+                      false,
+                      false,
+                      true,
+                    ],
+                    "6": Array [
+                      false,
+                      false,
+                      true,
+                    ],
+                  }
+                }
+                profile={true}
+              />
+            }
+            name="Availability Info"
+          />,
+          <ProfileSection
+            content={
+              <UserTechSkills
+                profile={true}
+                tech_skills={
+                  Array [
+                    "1",
+                    "3",
+                  ]
+                }
+              />
+            }
+            name="TechSkills"
+          />,
+          <ProfileSection
+            content={
+              <UserNonTechSkills
+                non_tech_skills={
+                  Array [
+                    "2",
+                    "4",
+                  ]
+                }
+                profile={true}
+              />
+            }
+            name="Non-TechSkills"
+          />,
         ],
       },
       "ref": null,
@@ -2162,9 +906,9 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserInfo
+            "content": <UserInfo
               cohort="1810"
               current_job="Person"
               first_name="first"
@@ -2177,60 +921,18 @@ ShallowWrapper {
               profile={true}
               program="FE"
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "User Info  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "User Info  ▲",
+            "name": "User Info",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "cohort": "1810",
-              "current_job": "Person",
-              "first_name": "first",
-              "identities": Array [
-                1,
-              ],
-              "last_name": "last",
-              "profile": true,
-              "program": "FE",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserBio
+            "content": <UserBio
               email="email"
               linkedin="linkedin"
               location="Denver"
@@ -2239,108 +941,33 @@ ShallowWrapper {
               profile={true}
               slack="slack"
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "Contact Info  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "Contact Info  ▲",
+            "name": "Contact Info",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "email": "email",
-              "linkedin": "linkedin",
-              "location": "Denver",
-              "phone": "1910201231",
-              "preferred_method": "1",
-              "profile": true,
-              "slack": "slack",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserBackground
+            "content": <UserBackground
               background="things and stuff"
               profile={true}
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "Background Info  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "Background Info  ▲",
+            "name": "Background Info",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "background": "things and stuff",
-              "profile": true,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserSchedule
+            "content": <UserSchedule
               availability={
                 Object {
                   "0": Array [
@@ -2382,89 +1009,18 @@ ShallowWrapper {
               }
               profile={true}
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "Availability Info  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "Availability Info  ▲",
+            "name": "Availability Info",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "availability": Object {
-                "0": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "1": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "2": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "3": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "4": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "5": Array [
-                  false,
-                  false,
-                  true,
-                ],
-                "6": Array [
-                  false,
-                  false,
-                  true,
-                ],
-              },
-              "profile": true,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserTechSkills
+            "content": <UserTechSkills
               profile={true}
               tech_skills={
                 Array [
@@ -2473,56 +1029,18 @@ ShallowWrapper {
                 ]
               }
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "Tech Skills  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "Tech Skills  ▲",
+            "name": "TechSkills",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "profile": true,
-              "tech_skills": Array [
-                "1",
-                "3",
-              ],
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <UserNonTechSkills
+            "content": <UserNonTechSkills
               non_tech_skills={
                 Array [
                   "2",
@@ -2531,48 +1049,10 @@ ShallowWrapper {
               }
               profile={true}
             />,
-            "className": "",
-            "classParentString": "Collapsible",
-            "contentContainerTagName": "div",
-            "contentInnerClassName": "profile",
-            "contentOuterClassName": "profile",
-            "easing": "linear",
-            "lazyRender": false,
-            "onClose": [Function],
-            "onClosing": [Function],
-            "onOpen": [Function],
-            "onOpening": [Function],
-            "open": false,
-            "openedClassName": "profile",
-            "overflowWhenOpen": "hidden",
-            "tabIndex": null,
-            "transitionCloseTime": null,
-            "transitionTime": 400,
-            "trigger": "Non-Tech Skills  ▼",
-            "triggerClassName": "",
-            "triggerDisabled": false,
-            "triggerOpenedClassName": "",
-            "triggerSibling": null,
-            "triggerStyle": null,
-            "triggerTagName": "span",
-            "triggerWhenOpen": "Non-Tech Skills  ▲",
+            "name": "Non-TechSkills",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "non_tech_skills": Array [
-                "2",
-                "4",
-              ],
-              "profile": true,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
       ],
