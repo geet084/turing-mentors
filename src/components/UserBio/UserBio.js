@@ -49,8 +49,8 @@ export class UserBio extends Component {
       <div>
         <form onSubmit={this.submitForm} autoComplete='off'>
           {!profile && <span className="pages">{user} Contact info:</span>}
-          <CreateTextInput text="Slack Handle" value={slack} handleChange={this.handleChange} />
-          <CreateTextInput text="Email Address" value={email} handleChange={this.handleChange} />
+          <CreateTextInput text="Slack" value={slack} handleChange={this.handleChange} />
+          <CreateTextInput text="Email" value={email} handleChange={this.handleChange} />
           <CreateTextInput text="LinkedIn" value={linkedin} handleChange={this.handleChange} />
           <CreateNumberInput text="Phone Number" value={phone} handleChange={this.handleChange} max="12" />
           <p className="pages">Preferred Method of Contact:</p>
