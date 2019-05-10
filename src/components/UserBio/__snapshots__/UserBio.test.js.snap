@@ -33,12 +33,12 @@ ShallowWrapper {
           </span>
           <CreateTextInput
             handleChange={[Function]}
-            text="Slack Handle"
+            text="Slack"
             value=""
           />
           <CreateTextInput
             handleChange={[Function]}
-            text="Email Address"
+            text="Email"
             value=""
           />
           <CreateTextInput
@@ -122,12 +122,12 @@ ShallowWrapper {
             </span>,
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />,
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />,
             <CreateTextInput
@@ -204,7 +204,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Slack Handle",
+              "text": "Slack",
               "value": "",
             },
             "ref": null,
@@ -217,7 +217,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Email Address",
+              "text": "Email",
               "value": "",
             },
             "ref": null,
@@ -392,12 +392,12 @@ ShallowWrapper {
             </span>
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />
             <CreateTextInput
@@ -481,12 +481,12 @@ ShallowWrapper {
               </span>,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Slack Handle"
+                text="Slack"
                 value=""
               />,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Email Address"
+                text="Email"
                 value=""
               />,
               <CreateTextInput
@@ -563,7 +563,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Slack Handle",
+                "text": "Slack",
                 "value": "",
               },
               "ref": null,
@@ -576,7 +576,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Email Address",
+                "text": "Email",
                 "value": "",
               },
               "ref": null,
@@ -796,12 +796,12 @@ ShallowWrapper {
           </span>
           <CreateTextInput
             handleChange={[Function]}
-            text="Slack Handle"
+            text="Slack"
             value=""
           />
           <CreateTextInput
             handleChange={[Function]}
-            text="Email Address"
+            text="Email"
             value=""
           />
           <CreateTextInput
@@ -891,12 +891,12 @@ ShallowWrapper {
             </span>,
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />,
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />,
             <CreateTextInput
@@ -977,7 +977,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Slack Handle",
+              "text": "Slack",
               "value": "",
             },
             "ref": null,
@@ -990,7 +990,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Email Address",
+              "text": "Email",
               "value": "",
             },
             "ref": null,
@@ -1178,12 +1178,12 @@ ShallowWrapper {
             </span>
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />
             <CreateTextInput
@@ -1273,12 +1273,12 @@ ShallowWrapper {
               </span>,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Slack Handle"
+                text="Slack"
                 value=""
               />,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Email Address"
+                text="Email"
                 value=""
               />,
               <CreateTextInput
@@ -1359,7 +1359,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Slack Handle",
+                "text": "Slack",
                 "value": "",
               },
               "ref": null,
@@ -1372,7 +1372,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Email Address",
+                "text": "Email",
                 "value": "",
               },
               "ref": null,
@@ -1602,12 +1602,12 @@ ShallowWrapper {
           </span>
           <CreateTextInput
             handleChange={[Function]}
-            text="Slack Handle"
+            text="Slack"
             value=""
           />
           <CreateTextInput
             handleChange={[Function]}
-            text="Email Address"
+            text="Email"
             value=""
           />
           <CreateTextInput
@@ -1691,12 +1691,12 @@ ShallowWrapper {
             </span>,
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />,
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />,
             <CreateTextInput
@@ -1773,7 +1773,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Slack Handle",
+              "text": "Slack",
               "value": "",
             },
             "ref": null,
@@ -1786,7 +1786,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Email Address",
+              "text": "Email",
               "value": "",
             },
             "ref": null,
@@ -1961,12 +1961,12 @@ ShallowWrapper {
             </span>
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />
             <CreateTextInput
@@ -2050,12 +2050,12 @@ ShallowWrapper {
               </span>,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Slack Handle"
+                text="Slack"
                 value=""
               />,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Email Address"
+                text="Email"
                 value=""
               />,
               <CreateTextInput
@@ -2132,7 +2132,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Slack Handle",
+                "text": "Slack",
                 "value": "",
               },
               "ref": null,
@@ -2145,7 +2145,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Email Address",
+                "text": "Email",
                 "value": "",
               },
               "ref": null,
@@ -2363,12 +2363,12 @@ ShallowWrapper {
           </span>
           <CreateTextInput
             handleChange={[Function]}
-            text="Slack Handle"
+            text="Slack"
             value=""
           />
           <CreateTextInput
             handleChange={[Function]}
-            text="Email Address"
+            text="Email"
             value=""
           />
           <CreateTextInput
@@ -2452,12 +2452,12 @@ ShallowWrapper {
             </span>,
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />,
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />,
             <CreateTextInput
@@ -2534,7 +2534,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Slack Handle",
+              "text": "Slack",
               "value": "",
             },
             "ref": null,
@@ -2547,7 +2547,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Email Address",
+              "text": "Email",
               "value": "",
             },
             "ref": null,
@@ -2722,12 +2722,12 @@ ShallowWrapper {
             </span>
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />
             <CreateTextInput
@@ -2811,12 +2811,12 @@ ShallowWrapper {
               </span>,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Slack Handle"
+                text="Slack"
                 value=""
               />,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Email Address"
+                text="Email"
                 value=""
               />,
               <CreateTextInput
@@ -2893,7 +2893,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Slack Handle",
+                "text": "Slack",
                 "value": "",
               },
               "ref": null,
@@ -2906,7 +2906,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Email Address",
+                "text": "Email",
                 "value": "",
               },
               "ref": null,
@@ -3124,12 +3124,12 @@ ShallowWrapper {
           </span>
           <CreateTextInput
             handleChange={[Function]}
-            text="Slack Handle"
+            text="Slack"
             value=""
           />
           <CreateTextInput
             handleChange={[Function]}
-            text="Email Address"
+            text="Email"
             value=""
           />
           <CreateTextInput
@@ -3213,12 +3213,12 @@ ShallowWrapper {
             </span>,
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />,
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />,
             <CreateTextInput
@@ -3295,7 +3295,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Slack Handle",
+              "text": "Slack",
               "value": "",
             },
             "ref": null,
@@ -3308,7 +3308,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Email Address",
+              "text": "Email",
               "value": "",
             },
             "ref": null,
@@ -3483,12 +3483,12 @@ ShallowWrapper {
             </span>
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />
             <CreateTextInput
@@ -3572,12 +3572,12 @@ ShallowWrapper {
               </span>,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Slack Handle"
+                text="Slack"
                 value=""
               />,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Email Address"
+                text="Email"
                 value=""
               />,
               <CreateTextInput
@@ -3654,7 +3654,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Slack Handle",
+                "text": "Slack",
                 "value": "",
               },
               "ref": null,
@@ -3667,7 +3667,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Email Address",
+                "text": "Email",
                 "value": "",
               },
               "ref": null,
@@ -3885,12 +3885,12 @@ ShallowWrapper {
           </span>
           <CreateTextInput
             handleChange={[Function]}
-            text="Slack Handle"
+            text="Slack"
             value=""
           />
           <CreateTextInput
             handleChange={[Function]}
-            text="Email Address"
+            text="Email"
             value=""
           />
           <CreateTextInput
@@ -3974,12 +3974,12 @@ ShallowWrapper {
             </span>,
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />,
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />,
             <CreateTextInput
@@ -4056,7 +4056,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Slack Handle",
+              "text": "Slack",
               "value": "",
             },
             "ref": null,
@@ -4069,7 +4069,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Email Address",
+              "text": "Email",
               "value": "",
             },
             "ref": null,
@@ -4244,12 +4244,12 @@ ShallowWrapper {
             </span>
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />
             <CreateTextInput
@@ -4333,12 +4333,12 @@ ShallowWrapper {
               </span>,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Slack Handle"
+                text="Slack"
                 value=""
               />,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Email Address"
+                text="Email"
                 value=""
               />,
               <CreateTextInput
@@ -4415,7 +4415,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Slack Handle",
+                "text": "Slack",
                 "value": "",
               },
               "ref": null,
@@ -4428,7 +4428,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Email Address",
+                "text": "Email",
                 "value": "",
               },
               "ref": null,
@@ -4641,12 +4641,12 @@ ShallowWrapper {
         >
           <CreateTextInput
             handleChange={[Function]}
-            text="Slack Handle"
+            text="Slack"
             value=""
           />
           <CreateTextInput
             handleChange={[Function]}
-            text="Email Address"
+            text="Email"
             value=""
           />
           <CreateTextInput
@@ -4711,12 +4711,12 @@ ShallowWrapper {
             false,
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />,
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />,
             <CreateTextInput
@@ -4776,7 +4776,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Slack Handle",
+              "text": "Slack",
               "value": "",
             },
             "ref": null,
@@ -4789,7 +4789,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "handleChange": [Function],
-              "text": "Email Address",
+              "text": "Email",
               "value": "",
             },
             "ref": null,
@@ -4918,12 +4918,12 @@ ShallowWrapper {
           >
             <CreateTextInput
               handleChange={[Function]}
-              text="Slack Handle"
+              text="Slack"
               value=""
             />
             <CreateTextInput
               handleChange={[Function]}
-              text="Email Address"
+              text="Email"
               value=""
             />
             <CreateTextInput
@@ -4988,12 +4988,12 @@ ShallowWrapper {
               false,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Slack Handle"
+                text="Slack"
                 value=""
               />,
               <CreateTextInput
                 handleChange={[Function]}
-                text="Email Address"
+                text="Email"
                 value=""
               />,
               <CreateTextInput
@@ -5053,7 +5053,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Slack Handle",
+                "text": "Slack",
                 "value": "",
               },
               "ref": null,
@@ -5066,7 +5066,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "handleChange": [Function],
-                "text": "Email Address",
+                "text": "Email",
                 "value": "",
               },
               "ref": null,
