@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { CreateTextArea } from '../CreateTextArea/CreateTextArea';
-import Collapsible from 'react-collapsible';
+import { ProfileSection } from '../ProfileSection/ProfileSection';
 
 export class MentorPopup extends Component {
   state = {
@@ -18,12 +18,23 @@ export class MentorPopup extends Component {
     this.props.sendMessage(message)
   }
 
-  generateContactInfo = (details) => {
-    return Object.keys(details).map(detail => <p key={detail}> {detail}: {details[detail]} </p>);
+  generateContactInfo = () => {
+    const { contact_details } = this.props;
+    return Object.keys(contact_details).map(detail => <p key={detail}> {detail}: {contact_details[detail]} </p>);
   }
 
-  generateSkills = (skills) => {
-    return Object.keys(skills).map(skill => <span key={skill}> {skills[skill]}, </span>);
+  generateSkillBlock() {
+    const { tech_skills, non_tech_skills } = this.props;
+    return (<>
+      <div>
+        <p>Tech Skills:</p>
+        {Object.keys(tech_skills).map(skill => <span key={skill}> {tech_skills[skill]}, </span>)}
+      </div>
+      <div>
+        <p>Non-tech Skills:</p>
+        {Object.keys(non_tech_skills).map(skill => <span key={skill}> {non_tech_skills[skill]}, </span>)}
+      </div>
+    </>);
   }
 
   generateAvailability = () => {
@@ -40,12 +51,17 @@ export class MentorPopup extends Component {
     })
   }
 
+  generateSlackBlock() {
+    return <CreateTextArea placeholder="Send a slack message" value={this.state.text} handleChange={this.handleChange} />;
+  }
+
   render() {
-    const { first_name, last_name, identities, location, cohort, program, current_job, contact_details, background, tech_skills, non_tech_skills, availability } = this.props;
-    const contactInfo = this.generateContactInfo(contact_details)
-    const techSkills = this.generateSkills(tech_skills)
-    const nonTechSkills = this.generateSkills(non_tech_skills)
-    const avail = this.generateAvailability()
+    const { first_name, last_name, identities, location, cohort, program, current_job, background } = this.props;
+    const contactInfo = this.generateContactInfo()
+    const availability = this.generateAvailability()
+    const slackMsg = this.generateSlackBlock();
+    const skillBlock = this.generateSkillBlock()
+
     return (
       <div className="mentor-popup link-content">
         <div className="name">
@@ -57,29 +73,11 @@ export class MentorPopup extends Component {
           <span>{location} </span>
           <span> {current_job}</span>
         </div>
-        <Collapsible openedClassName="contact-info" contentInnerClassName="contact-info" contentOuterClassName="contact-info" trigger="Contact Info  &#9660;" triggerWhenOpen="Contact Info  &#9650;">
-          {contact_details && contactInfo}
-        </Collapsible>
-        <Collapsible trigger="Skills  &#9660;" triggerWhenOpen="Skills  &#9650;">
-          <div>
-            <p>Tech Skills:</p>
-            {tech_skills && techSkills}
-          </div>
-          <div>
-            <p>Non-tech Skills:</p>
-            {non_tech_skills && nonTechSkills}
-          </div>
-        </Collapsible>
-        <Collapsible openedClassName="avail" contentInnerClassName="avail" contentOuterClassName="avail" trigger="Availability  &#9660;" triggerWhenOpen="Availability  &#9650;">
-          {availability && avail}
-        </Collapsible>
-        <Collapsible trigger="Background Info  &#9660;" triggerWhenOpen="Background Info  &#9650;">
-          <p>{background}</p>
-        </Collapsible>
-        <Collapsible openedClassName="slack-message" contentInnerClassName="slack-message" ontentOuterClassName="slack-message" trigger="Send slack message  &#9660;" triggerWhenOpen="Send slack message  &#9650;">
-          <CreateTextArea placeholder="Send a slack message" value={this.state.text} handleChange={this.handleChange} />
-          <button className="slack-btn" onClick={this.handleSubmit}>Submit</button>
-        </Collapsible>
+        <ProfileSection name="Contact Info" content={contactInfo} classes="contact-info" />
+        <ProfileSection name="Skills" content={skillBlock} />
+        <ProfileSection name="Availability" content={availability} classes="avail" />
+        <ProfileSection name="Background Info" content={background} />
+        <ProfileSection name="Send a slack message" content={slackMsg} classes="slack-message" />
         <div className="links">
           <Link to='/mentors'>GO BACK</Link>
         </div>
