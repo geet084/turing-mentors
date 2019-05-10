@@ -2,13 +2,13 @@ import React from 'react';
 import Collapsible from 'react-collapsible';
 
 export const ProfileSection = (props) => {
-  const { content, name } = props;
+  const { classes, content, name } = props;
 
   return (
     <Collapsible
-      openedClassName="profile"
-      contentInnerClassName="profile"
-      contentOuterClassName="profile"
+      openedClassName={classes ? classes : 'profile'}
+      contentInnerClassName={classes ? classes : 'profile'}
+      contentOuterClassName={classes ? classes : 'profile'}
       trigger={`${name}  ▼`}
       triggerWhenOpen={`${name}  ▲`}
     >
