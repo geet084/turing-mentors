@@ -60,7 +60,7 @@ describe('UserBio', () => {
   describe('submitForm', () => {
     it('should handle the form submission', () => {
       const mockEvent = { preventDefault: () => { } };
-      const expected = [mockState, 'userBackground'];
+      const expected = [mockState, 'userInterests'];
 
       wrapper.instance().submitForm(mockEvent);
 

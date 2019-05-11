@@ -70,6 +70,14 @@ ShallowWrapper {
         />,
         <ProfileSection
           content={
+            <UserInterests
+              profile={true}
+            />
+          }
+          name="Interests"
+        />,
+        <ProfileSection
+          content={
             <UserBackground
               background=""
               profile={true}
@@ -144,6 +152,20 @@ ShallowWrapper {
             slack=""
           />,
           "name": "Contact Info",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "content": <UserInterests
+            profile={true}
+          />,
+          "name": "Interests",
         },
         "ref": null,
         "rendered": null,
@@ -249,6 +271,14 @@ ShallowWrapper {
           />,
           <ProfileSection
             content={
+              <UserInterests
+                profile={true}
+              />
+            }
+            name="Interests"
+          />,
+          <ProfileSection
+            content={
               <UserBackground
                 background=""
                 profile={true}
@@ -323,6 +353,20 @@ ShallowWrapper {
               slack=""
             />,
             "name": "Contact Info",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "content": <UserInterests
+              profile={true}
+            />,
+            "name": "Interests",
           },
           "ref": null,
           "rendered": null,
@@ -537,6 +581,14 @@ ShallowWrapper {
         />,
         <ProfileSection
           content={
+            <UserInterests
+              profile={true}
+            />
+          }
+          name="Interests"
+        />,
+        <ProfileSection
+          content={
             <UserBackground
               background="things and stuff"
               profile={true}
@@ -663,6 +715,20 @@ ShallowWrapper {
             slack="slack"
           />,
           "name": "Contact Info",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "content": <UserInterests
+            profile={true}
+          />,
+          "name": "Interests",
         },
         "ref": null,
         "rendered": null,
@@ -820,6 +886,14 @@ ShallowWrapper {
           />,
           <ProfileSection
             content={
+              <UserInterests
+                profile={true}
+              />
+            }
+            name="Interests"
+          />,
+          <ProfileSection
+            content={
               <UserBackground
                 background="things and stuff"
                 profile={true}
@@ -946,6 +1020,20 @@ ShallowWrapper {
               slack="slack"
             />,
             "name": "Contact Info",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "content": <UserInterests
+              profile={true}
+            />,
+            "name": "Interests",
           },
           "ref": null,
           "rendered": null,

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import UserInfo from '../../components/UserInfo/UserInfo';
 import UserBio from '../../components/UserBio/UserBio';
 import UserBackground from '../../components/UserBackground/UserBackground';
+import UserInterests from '../../components/UserInterests/UserInterests';
 import UserSchedule from '../../components/UserSchedule/UserSchedule';
 import UserTechSkills from '../../components/UserTechSkills/UserTechSkills';
 import UserNonTechSkills from '../../components/UserNonTechSkills/UserNonTechSkills';
@@ -15,6 +16,7 @@ export class Form extends Component {
     userInfo: {},
     userBio: {},
     userBackground: {},
+    userInterests: [],
     userSchedule: {},
     userTechSkills: [],
     userNonTechSkills: [],
@@ -47,6 +49,7 @@ export class Form extends Component {
       userInfo: {},
       userBio: {},
       userBackground: {},
+      userInterests: [],
       userSchedule: {},
       userTechSkills: [],
       userNonTechSkills: [],
@@ -55,17 +58,19 @@ export class Form extends Component {
   }
 
   render() {
-    const { currentSection, userInfo, userBio, userBackground, userSchedule, userTechSkills, userNonTechSkills } = this.state;
+    const { currentSection, userInfo, userBio, userBackground, userInterests, userSchedule, userTechSkills, userNonTechSkills } = this.state;
     const mentor = this.props.location.pathname === '/mentor';
     const user = mentor ? 'Mentor' : 'Mentee';
 
-    
+
     return (
       <div>
         {currentSection === 'userInfo' &&
           <UserInfo updateUserInfo={this.updateUserInfo} user={user} {...userInfo} />}
         {currentSection === 'userBio' &&
           <UserBio updateUserInfo={this.updateUserInfo} user={user} {...userBio} />}
+        {currentSection === 'userInterests' &&
+          <UserInterests updateUserInfo={this.updateUserInfo} user={user} {...userInterests} />}
         {currentSection === 'userBackground' &&
           <UserBackground updateUserInfo={this.updateUserInfo} user={user} {...userBackground} />}
         {currentSection === 'userSchedule' &&

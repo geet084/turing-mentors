@@ -18,7 +18,7 @@ export class UserBackground extends Component {
 
   goBack = (e) => {
     e.preventDefault();
-    this.props.updateUserInfo([this.state, 'userBio']);
+    this.props.updateUserInfo([this.state, 'userInterests']);
   }
 
   handleChange = ({ target }) => {
@@ -38,7 +38,7 @@ export class UserBackground extends Component {
         </form>
         {!profile && <button className="prev-btn" onClick={this.goBack}>Back</button>}
         {!profile && <button className="next-btn" onClick={this.submitForm}>Next</button>}
-        {!profile && <span className="pages">3 of {user === 'Mentor' ? '6' : '4'}</span>}
+        {!profile && <span className="pages">4 of {user === 'Mentor' ? '7' : '5'}</span>}
       </div>
     )
   }

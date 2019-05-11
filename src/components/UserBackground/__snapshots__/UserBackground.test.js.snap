@@ -51,8 +51,8 @@ ShallowWrapper {
         <span
           className="pages"
         >
-          3 of 
-          4
+          4 of 
+          5
         </span>,
       ],
     },
@@ -146,15 +146,15 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "3 of ",
-            "4",
+            "4 of ",
+            "5",
           ],
           "className": "pages",
         },
         "ref": null,
         "rendered": Array [
-          "3 of ",
-          "4",
+          "4 of ",
+          "5",
         ],
         "type": "span",
       },
@@ -198,8 +198,8 @@ ShallowWrapper {
           <span
             className="pages"
           >
-            3 of 
-            4
+            4 of 
+            5
           </span>,
         ],
       },
@@ -293,15 +293,15 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "3 of ",
-              "4",
+              "4 of ",
+              "5",
             ],
             "className": "pages",
           },
           "ref": null,
           "rendered": Array [
-            "3 of ",
-            "4",
+            "4 of ",
+            "5",
           ],
           "type": "span",
         },
@@ -389,8 +389,8 @@ ShallowWrapper {
         <span
           className="pages"
         >
-          3 of 
-          6
+          4 of 
+          7
         </span>,
       ],
     },
@@ -485,15 +485,15 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "3 of ",
-            "6",
+            "4 of ",
+            "7",
           ],
           "className": "pages",
         },
         "ref": null,
         "rendered": Array [
-          "3 of ",
-          "6",
+          "4 of ",
+          "7",
         ],
         "type": "span",
       },
@@ -538,8 +538,8 @@ ShallowWrapper {
           <span
             className="pages"
           >
-            3 of 
-            6
+            4 of 
+            7
           </span>,
         ],
       },
@@ -634,15 +634,15 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "3 of ",
-              "6",
+              "4 of ",
+              "7",
             ],
             "className": "pages",
           },
           "ref": null,
           "rendered": Array [
-            "3 of ",
-            "6",
+            "4 of ",
+            "7",
           ],
           "type": "span",
         },

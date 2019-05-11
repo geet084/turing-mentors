@@ -46,7 +46,7 @@ export class UserNonTechSkills extends Component {
         </form>
         {!profile && <button className="next-btn" onClick={this.goBack}>Back</button>}
         {!profile && <button className="next-btn" onClick={this.submitForm}>Submit</button>}
-        {!profile && <span className="pages">6 of {user === 'Mentor' ? '6' : '4'}</span>}
+        {!profile && <span className="pages">7 of {user === 'Mentor' ? '7' : '7'}</span>}
       </div>
     )
   }
