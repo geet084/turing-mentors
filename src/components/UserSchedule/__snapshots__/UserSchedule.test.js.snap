@@ -271,8 +271,8 @@ ShallowWrapper {
         <span
           className="pages"
         >
-          4 of 
-          4
+          5 of 
+          5
         </span>,
       ],
       "className": "form-page",
@@ -1507,15 +1507,15 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "4 of ",
-            "4",
+            "5 of ",
+            "5",
           ],
           "className": "pages",
         },
         "ref": null,
         "rendered": Array [
-          "4 of ",
-          "4",
+          "5 of ",
+          "5",
         ],
         "type": "span",
       },
@@ -1779,8 +1779,8 @@ ShallowWrapper {
           <span
             className="pages"
           >
-            4 of 
-            4
+            5 of 
+            5
           </span>,
         ],
         "className": "form-page",
@@ -3015,15 +3015,15 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "4 of ",
-              "4",
+              "5 of ",
+              "5",
             ],
             "className": "pages",
           },
           "ref": null,
           "rendered": Array [
-            "4 of ",
-            "4",
+            "5 of ",
+            "5",
           ],
           "type": "span",
         },
@@ -3331,8 +3331,8 @@ ShallowWrapper {
         <span
           className="pages"
         >
-          4 of 
-          6
+          5 of 
+          7
         </span>,
       ],
       "className": "form-page",
@@ -4568,15 +4568,15 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "4 of ",
-            "6",
+            "5 of ",
+            "7",
           ],
           "className": "pages",
         },
         "ref": null,
         "rendered": Array [
-          "4 of ",
-          "6",
+          "5 of ",
+          "7",
         ],
         "type": "span",
       },
@@ -4841,8 +4841,8 @@ ShallowWrapper {
           <span
             className="pages"
           >
-            4 of 
-            6
+            5 of 
+            7
           </span>,
         ],
         "className": "form-page",
@@ -6078,15 +6078,15 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "4 of ",
-              "6",
+              "5 of ",
+              "7",
             ],
             "className": "pages",
           },
           "ref": null,
           "rendered": Array [
-            "4 of ",
-            "6",
+            "5 of ",
+            "7",
           ],
           "type": "span",
         },

@@ -7,16 +7,26 @@ export class UserSchedule extends Component {
     const { availability } = this.props
 
     this.state = {
-      availability: availability || {
-        0: [false, false, false],
-        1: [false, false, false],
-        2: [false, false, false],
-        3: [false, false, false],
-        4: [false, false, false],
-        5: [false, false, false],
-        6: [false, false, false],
-      }
+      availability: availability ? this.updatedState(availability) : this.initialState()
     }
+  }
+
+  initialState = () => {
+    return {
+      0: [false, false, false],
+      1: [false, false, false],
+      2: [false, false, false],
+      3: [false, false, false],
+      4: [false, false, false],
+      5: [false, false, false],
+      6: [false, false, false],
+    }
+  }
+
+  updatedState = (selectedAvailability) => {
+    const incompleteSchedule = Object.keys(selectedAvailability).length !== 7
+    if (incompleteSchedule) return { ...this.initialState(), ...selectedAvailability }
+    else return selectedAvailability
   }
 
   submitForm = (e) => {
@@ -66,7 +76,6 @@ export class UserSchedule extends Component {
         <div className="schedule" key={day}>
           <span className="pages">{`${day}`}</span>
           <span>
-
             {
               apptTimes.map((time, timeIndex) => {
                 return <CreateCheckbox key={time} field={`time${day}`} name={time} value={'' + dayIndex + timeIndex} checkBoxes={this.checkBoxes} checked={this.state.availability[dayIndex][timeIndex] ? true : false} />
@@ -86,7 +95,7 @@ export class UserSchedule extends Component {
         </form>
         {!profile && <button className="next-btn" onClick={this.goBack}>Back</button>}
         {!profile && <button className="next-btn" onClick={this.submitForm}>{user === 'Mentor' ? 'Next' : 'Submit'}</button>}
-        {!profile && <span className="pages">4 of {user === 'Mentor' ? '6' : '4'}</span>}
+        {!profile && <span className="pages">5 of {user === 'Mentor' ? '7' : '5'}</span>}
       </div>
     )
   }
