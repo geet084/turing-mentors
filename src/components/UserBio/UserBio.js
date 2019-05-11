@@ -20,7 +20,7 @@ export class UserBio extends Component {
 
   submitForm = (e) => {
     e.preventDefault();
-    this.props.updateUserInfo([this.state, 'userBackground']);
+    this.props.updateUserInfo([this.state, 'userInterests']);
   }
 
   goBack = (e) => {
