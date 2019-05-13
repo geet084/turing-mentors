@@ -2,18 +2,20 @@ import React, { Component } from 'react';
 import { CreateNumberInput } from '../CreateNumberInput/CreateNumberInput';
 import { CreateTextInput } from '../CreateTextInput/CreateTextInput';
 import { CreateCheckbox } from '../CreateCheckbox/CreateCheckbox';
+import { SelectState } from '../SelectState/SelectState';
 
 export class UserBio extends Component {
   constructor(props) {
     super(props)
-    const { slack, email, phone, location, linkedin, preferred_method } = this.props
+    const { slack, email, phone, city, state, linkedin, preferred_method } = this.props
 
     this.state = {
       email: email || '',
       slack: slack || '',
       linkedin: linkedin || '',
       phone: phone || '',
-      location: location || '',
+      city: city || '',
+      state: state || '',
       preferred_method: preferred_method || '0',
     }
   }
@@ -42,7 +44,7 @@ export class UserBio extends Component {
   }
 
   render() {
-    const { slack, email, phone, location, linkedin, preferred_method } = this.state;
+    const { slack, email, phone, city, state, linkedin, preferred_method } = this.state;
     const { profile, user } = this.props;
 
     return (
@@ -58,10 +60,16 @@ export class UserBio extends Component {
           <CreateCheckbox field="preferred_method" name="Slack" value={2} checkBoxes={this.updatePreferred} checked={preferred_method === "2" ? true : false} />
           <CreateCheckbox field="preferred_method" name="LinkedIn" value={3} checkBoxes={this.updatePreferred} checked={preferred_method === "3" ? true : false} />
           <CreateCheckbox field="preferred_method" name="Phone" value={4} checkBoxes={this.updatePreferred} checked={preferred_method === "4" ? true : false} />
-          {
-            user === 'Mentor' &&
-            <CreateTextInput text="Location" value={location} handleChange={this.handleChange} />
-          }
+          <div className="location-block">
+            {
+              user === 'Mentor' &&
+              <CreateTextInput text="City" value={city} handleChange={this.handleChange} />
+            }
+            {
+              user === 'Mentor' &&
+              <SelectState value={state} handleChange={this.handleChange} />
+            }
+          </div>
         </form>
         {!profile && <button className="next-btn" onClick={this.goBack}>Back</button>}
         {!profile && <button className="next-btn" onClick={this.submitForm}>Next</button>}

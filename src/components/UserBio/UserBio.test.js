@@ -14,7 +14,8 @@ describe('UserBio', () => {
     linkedin: '',
     preferred_method: '0',
     phone: '',
-    location: '',
+    city: '',
+    state: '',
   };
 
   beforeEach(() => {
